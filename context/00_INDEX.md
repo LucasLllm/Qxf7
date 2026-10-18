@@ -47,3 +47,8 @@ Files 01–11 are historical syntheses for a fresh engineer or agent. Files in `
 |---|---|
 | `data/stork-geometry-bundle/` | The verified CAD extraction bundle (197 files): airfoil `.dat`s, `geometry_table.csv`, wing/tail/fuselage sections, reports. Start with its `EXTRACTION_REPORT.md` |
 | `data/hardware/` | Released slicing masses and historical standard-size hardware/installed-mass evidence now imported; final hardware remains unfrozen. Read `12_fumes_handoff.md` and `../docs/CONTEXT_CONFLICTS.md` |
+
+## Phase A outputs (2026-10-18)
+- `../reports/phaseA_diagnostic_baseline.md`: standard-Stork diagnostic baseline and reconciliation with the retained model and published claims.
+- `../docs/UNCERTAINTY_REGISTER.md`, `../docs/DECISIONS.md`, `../docs/ENVIRONMENT.md`.
+- Retained Fumes evidence (read-only copy with hashes): `../data/historical/fumes-retained/MANIFEST.json`.

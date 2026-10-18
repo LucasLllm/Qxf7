@@ -1,0 +1,9 @@
+name,CdA_m2,D_N,note
+fuselage,0.0023551632579710564,0.3245741864353295,convex envelope Swet x Cf x Raymer FF x Q
+booms,0.00032253327636049797,0.044449562219824865,2 x 10x10x500 square tubes
+main skids,0.00171644,0.23654925605667015,extracted isolated frontal 1560 mm2; strut-like bluff body
+lift-motor + boom mounts (16 printed parts),0.00159936,0.22041400699517372,isolated frontals 4x(323+217+182+111) mm2 = 3332 mm2; overlap with booms/motors/wing
+lift motors (4 x F90),0.0032064,0.44188642458816335,can 33.4 mm dia x 25-34.7 mm exposed; short cylinder in crossflow
+pusher motor,0.00040679999999999997,0.05606268635306414,"33.9 mm dia can, mostly in fuselage wake"
+stopped lift props,0.0007680959999999999,0.10585428991406871,aligned
+control horns/pushrods/antennas/pitot/vents,0.00047999999999999996,0.06615066236349751,unmodelled excrescences: equivalent frontal allowance (assumption)

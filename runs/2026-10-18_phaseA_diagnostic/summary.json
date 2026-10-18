@@ -1,0 +1,81 @@
+{
+ "air": {
+  "T_C": 15.0,
+  "p_Pa": 101325.0,
+  "rho": 1.2250122659906946,
+  "mu": 1.789380278077583e-05,
+  "nu": 1.4607039682418785e-05
+ },
+ "mesh": [
+  6,
+  12
+ ],
+ "cg_cases_m": {
+  "A_centreline_LE_plus_47": 0.047,
+  "B_physical_root_LE_plus_47": 0.0514433
+ },
+ "geometry_meta": {
+  "tail_chord_scale": 1.0650487309092236,
+  "frame": "m, x aft, y right, z up, origin common STEP zero (not a physical datum)",
+  "center_section": true,
+  "wing_tip_last_station_y_mm": 809.0,
+  "tail_note": "tail twist = bundle local incidence; equals the surface-normal pitch angle to +x (n_x=-0.0143 -> -0.82 deg). Aircraft x-z projection +2.88 deg is NOT used."
+ },
+ "nominal_Wh": 216.0,
+ "masses": {
+  "flightony_explorer_2.7": [
+   2.7,
+   "third-party published AUW (payload inclusion unresolved)"
+  ],
+  "flightony_operator_2.9": [
+   2.9,
+   "third-party published AUW (payload inclusion unresolved)"
+  ],
+  "all_bambu_central_2.984": [
+   2.9837,
+   "model ledger: dry central 2056.7 g + 927 g pack target, no cargo"
+  ],
+  "all_bambu_growth_3.084": [
+   3.0837,
+   "model ledger + 100 g UNUSED growth (planning stress case)"
+  ]
+ },
+ "accounting": [
+  {
+   "name": "all_nominal_to_cruise",
+   "usable_fraction": 1.0,
+   "reserve_fraction": 0.0,
+   "vtol_Wh": 0.0,
+   "aging_factor": 1.0,
+   "note": "upper reference only; not achievable"
+  },
+  {
+   "name": "flightony_like",
+   "usable_fraction": 0.9,
+   "reserve_fraction": 0.0,
+   "vtol_Wh": 0.0,
+   "aging_factor": 1.0,
+   "note": "Flightony: 90% of nominal ('10% reserve') / Wh/km with VTOL folded into Wh/km"
+  },
+  {
+   "name": "prior_fumes",
+   "usable_fraction": 0.9,
+   "reserve_fraction": 0.2,
+   "vtol_Wh": 30.0,
+   "aging_factor": 1.0,
+   "note": "prior model: 90% usable, 20% nominal reserve, 30 Wh VTOL (all assumptions)"
+  }
+ ],
+ "propulsion": {
+  "prop": "APC 10x6E manufacturer-computed map",
+  "motor": {
+   "kv": 910.0,
+   "R": 0.072,
+   "I0": 1.17,
+   "I0_ref_V": 10.0
+  },
+  "eta_esc": 0.97,
+  "aux_W": 15.0,
+  "thrust_line": "along flight path (assumption)"
+ }
+}
