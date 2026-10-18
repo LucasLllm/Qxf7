@@ -13,7 +13,7 @@ Project goal sentence (from the report): *"Our goal is to move medical supplies 
 ## Status (2026-10-17)
 - **Nothing is built.** Planning and design only.
 - Files bought: Flightory **Stork** (US$29.99) + **Stork VTOL Pack** (US$12.99): all STL, STEP for key parts.
-- Per Lucas: slicer weight estimates exist for the printed parts (Bambu CLI), filaments are chosen per part, and a battery and motors are chosen. **These specifics are not in Claude's records** and must be obtained from Lucas or the Mac (see `09_open_questions_risks.md`).
+- Released slicer masses (58 definitions / 82 pieces, 965.6 g predicted, not weighed), filaments per part, the historical standard-size 4S hardware reference and installed-mass ledgers are in `data/hardware/` (see `12_fumes_handoff.md`). Final scaled-aircraft hardware is not chosen.
 - A verified geometry extraction of the standard Stork VTOL exists (`data/stork-geometry-bundle/`, summarized in `05_cad_geometry_extraction.md`).
 
 ## Fixed requirements (details in `02_requirements.md`)
@@ -31,12 +31,12 @@ Project goal sentence (from the report): *"Our goal is to move medical supplies 
 1. **Layout:** 4+1 quadplane with V-tail (nothing tilts; two independent propulsion systems; ArduPilot QuadPlane support).
 2. **Base airframe:** Flightory Stork VTOL, chosen over Stallion, Super Stingray, Moose.
 3. **Scale it up:** firm decision, but **scale factor, span and mass are not chosen**. They are to be derived from the 95 km / 750 g requirement plus mass and energy budgets. The report deliberately states no size or mass.
-4. **Materials:** winter focus; LW-ASA instead of LW-PLA for light parts was discussed, PC for high-load parts; separate lift ESCs (instead of a 4-in-1) were recommended.
+4. **Materials:** winter focus; LW-ASA instead of LW-PLA for light parts was discussed, PC for high-load parts; separate lift ESCs were recommended historically. **Superseded for Phase A:** Lucas confirmed ONE 4-in-1 lift ESC for the standard-Stork baseline. Separate ESCs for the modified QxF7 remain an undecided future option.
 5. **Range over speed:** "maximum winter range at a safe minimum cruise speed" (≥70 km/h) replaced the original "as fast as possible".
 6. **Performance-estimation approach (2026-10-17):** first estimate the **standard Stork VTOL** via simulation and calibrate against Flightory's published numbers and real builder data; only then scale to QxF7. Tools: **Flow5/XFLR5 + OpenVSP + eCalc + a Python mission model** (see `06_performance_method.md`).
 
 ## The immediate task
-Get a simulation-based performance estimate (drag polar, power-required curve, stall/best-endurance/best-range/max speed, hover power, endurance and range for mission profiles, at +20 °C and −30 °C) of the **standard Stork VTOL**, calibrated against known data. The exact brief is `prompts/02_performance_simulation.md`.
+First milestone (Lucas, 2026-10-18): a reproducible standard-Stork **diagnostic baseline** in mild, still air. It should include a component-level explanation of its disagreement with the retained Fumes model and with published claims, plus an uncertainty register (`reports/`, `docs/UNCERTAINTY_REGISTER.md`). It must not be tuned to reproduce advertised range. Severe-cold mission capability remains unestablished and is not a blocker. `prompts/02_performance_simulation.md` is the historical brief; where they differ, these later instructions take precedence.
 
 ## Role model and context
 - **Aviant** (Norway, student-founded, electric fixed-wing VTOL, hospital blood samples 120 km in 2021) is the model the team wants to follow; it later drifted to consumer food delivery for revenue.

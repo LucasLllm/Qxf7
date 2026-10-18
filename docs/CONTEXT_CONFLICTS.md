@@ -36,3 +36,13 @@ Second review confirmed the tail4.9dm² pitch-equivalent-area estimate is legiti
 Run `python3 scripts/verify_fumes_context.py` from the project root. It checks import hashes,58evidence hashes,CSV quantities/masses,empty CG cells,original protected files and unchanged geometry,relative entry-point links, and distinguishes modified documentation from original inputs. A passing import check validates transfer/integrity only, not simulation accuracy or flightworthiness. This is an IMPORT-TIME baseline check, not a permanent prohibition on Lucas-approved future changes: an intentional later hardware/input change will require a new documented audit baseline, not suppressing the failed check. The five regression tests in `tests/test_context_transfer.py` separately exercise valid import and tampered mass/quantity/CG/membership rejection.
 
 `docs/fumes-context-before.json` records original project file hashes before the import. Source workspace files were read only. No git initialization, commit, upload, publication, purchase, supplier contact or physical operation occurred.
+
+## 2026-10-18 superseded statements in preserved historical sources (files left unchanged)
+
+| Source (unchanged) | Superseded statement | Current instruction |
+|---|---|---|
+| `data/hardware/fumes-import/NO_PAYLOAD_RANGE_SPEC.md` | "four existing 50A lift-controller mass references. Do not silently substitute a lighter 4-in-1" | Phase A uses ONE Velox V50A 4-in-1 (18.5 g), as in `MASS_RECONCILIATION.json`. Modified QxF7 ESC architecture undecided. |
+| `context/reference/qxf7-stork-baseline-geometry.md` | "exact linear trapezoid", "length gate failure is a convention difference", "saved pose ≈ neutral", "+2.88° projection artifact; do not use", "CG x = 47 mm" as the datum, convex envelope as an upper bound | See corrected `context/05`: piecewise twist, failed gate preserved, neutral not certified, 3D-vector convention, CG cases A/B, envelope neither exact nor a bound. |
+| `data/historical/fumes-retained/prior-model/*` | stock range 21–39 km one way, drag 5.5 N at 54 km/h | Historical model output. Its no-centre-section VLM, singular fin geometry and bounding-box hardware areas are diagnosed in `reports/phaseA_diagnostic_baseline.md`. |
+| `context/reference/preliminary-design-report-2026-10.md` | "Cost: parts under about CA$3,500" | Budget deferred (D1). |
+| `prompts/02_performance_simulation.md` | "calibration targets" wording | Comparison points, classified in `context/06`. |

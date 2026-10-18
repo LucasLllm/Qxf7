@@ -32,7 +32,7 @@ Three tiers of evidence, never mix them up:
 | Lift booms | **2 × 10×10×500 mm square carbon tubes** (one per side, front + rear motor on each); boom-mount guide positions the tube at **150 mm from one end** (VTOL manual p.34–35); exact fore/aft installed position not yet resolved in CAD |
 | Pusher | 28XX class; e.g. **BrotherHobby Avenger 2812 V5 910 KV** |
 | Pusher props / power | 6S with 9453 (tri or two-blade): up to ~3.8 kg thrust, ~1280 W, ~50 A (60 A ESC). **4S with 10×6 two-blade**: ~2 kg thrust, 35–40 A ESC |
-| Prototype test | **Cruise throttle below 50% on 4S with 10×6 prop** (manual p.13); this is a calibration point |
+| Prototype test | **Cruise throttle below 50% on 4S with 10×6 prop** (manual p.13). This is a documentary comparison point; without the throttle mapping it does not give power, RPM or duty. |
 | ESCs | 4-in-1 lift ESC (e.g. Velox V50A) + separate pusher ESC (e.g. Lumenier 51A BLHeli32) |
 | Battery | 4S–6S Li-ion or LiPo |
 | FC | SpeedyBee F405 Wing (or any MAVLink FC); ArduPilot QuadPlane 4+1 param file in Flightory Discord #free-files |
@@ -49,7 +49,7 @@ Three tiers of evidence, never mix them up:
 
 Also claimed: cruise 54–60 km/h; **2.0–2.5 Wh/km**; 80–110 W cruise; cruise current target 5–7 A on 4S; "about 300 W hover" (flagged earlier as physically implausible for a ~2.9 kg quadplane on 7" props: momentum theory gives well above that); APC 10×6E pusher; Velox V50A + Lumenier 51A. Implied dry weight (airframe + electronics, no battery/payload) ≈ **1.3–1.5 kg**. Internal contradictions: "100 km delivery radius" vs 100 km total range; "100 km one-way" on another page.
 
-## 3. Independent builder flight data (closest thing to calibration data)
+## 3. Independent builder flight data (unlike-aircraft plausibility evidence, not accuracy targets)
 | Build | Config | AUW | Battery | Measured |
 |---|---|---|---|---|
 | Vince Hogg "Kite" | Printed 4+1 | not published | Li-ion | 2.0 Wh/km early; **2.5 Wh/km on a 100 km flight at 17 m/s**; **1.9 Wh/km at 18 m/s** after lift-prop alignment |

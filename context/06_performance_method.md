@@ -1,7 +1,7 @@
 # 06 Performance-estimation method (agreed 2026-10-17)
 
 ## Principle
-No single program turns STL/STEP + a parts list into flight specs. Performance comes from a short chain, and each tool supplies one link. **Calibrate the chain on the standard Stork VTOL first** (Flightory publishes real numbers for it), then scale to QxF7.
+No single program turns STL/STEP + a parts list into flight specs. Performance comes from a short chain, and each tool supplies one link. **Establish a defensible standard-Stork baseline first.** Explain its disagreements with the retained model and with published claims, then scale to QxF7. Published figures are documentary or third-party comparison points, not matched measurements; true calibration needs measured flight or bench data.
 
 ## The chain
 1. **Mass and weight W**: use released per-part predicted mass × installed quantity, add the itemized installed hardware ledger once, then W=m*g in newtons. Mass entries alone do not supply positions/CG. Keep unknown installations, sensitivity and UNUSED growth separate; do not add a blanket5–15% on top of already-accounted allowances. See context/12 for58released masses and separately framed print centroids.
@@ -45,18 +45,20 @@ Sweep V to get the **power-required curve** and read off:
 - Wing polars Re ≈ 50k–400k; tail 40k–250k. Ncrit 9 (smooth) **plus Ncrit 5 sensitivity** (printed LW-PLA/ASA is not a smooth surface; seams).
 - Low-Re laminar separation bubbles dominate wing drag at ~150k; XFoil handles this better than general RANS.
 
-## Calibration targets for the standard Stork VTOL
-| Check | Target | Source |
-|---|---|---|
-| Trim at cruise with CG x = 47 mm | Cm ≈ 0 near **α ≈ 0°** | Manual p.5 ("virtually no pitching moment at 0° AoA") |
-| Best L/D | between **0° and 3° AoA** | Manual p.5 |
-| Best-range / optimal speed | **50–70 km/h** at plausible AUW (1.8–3.1 kg) | Manual, product page |
-| Cruise power on 4S, 10×6 pusher | **< 50% throttle** | Manual p.13 (prototype test) |
-| Energy per km, clean cruise | ~1.5–1.8 Wh/km at ~2.9 kg (estimate from builder L/D·η ≈ 5–6); Flightony 2.0–2.5 Wh/km (calculated, third-party); Vince 4+1 1.9–2.5 Wh/km at 17–18 m/s | `04` |
-| Effective L/D × η | ~5–6 for real 4+1 builds; Stork v1 fixed-wing loiter 3.6 (v1 is an earlier, smaller-wing airframe: loose check only) | `04` |
-| Static stability | Neutral point aft of CG; positive margin. Rough hand estimate puts NP well aft of 47 mm; Flow5 gives the real value | `05` |
+## Comparison points for the standard Stork VTOL (NOT matched calibration measurements)
+None of these is a matched measurement of this build. Classify each one and do not force-fit to it (Lucas, 2026-10-18).
 
-If a model misses these, find out why before scaling (incidence/decalage, CG, missing drag items, prop efficiency).
+| Comparison point | Value | Class | Caveat |
+|---|---|---|---|
+| Pitching moment at 0° AoA with CG set | "virtually no pitching moment" | documentary (manual p.5) | A moment statement about undefined CFD conditions is not proof of trimmed flight at α = 0°. |
+| Peak efficiency AoA | 0–3° | documentary (manual p.5) | Reference axis and conditions undefined. |
+| Optimal cruise speed | 50–70 km/h | documentary (manual, product page) | A band, not a measured optimum. |
+| Prototype cruise | "< 50% throttle", 4S, 10×6 | documentary (manual p.13) | Transmitter throttle % does not give power, RPM or PWM duty without the control mapping. |
+| Cruise power / energy | 80–110 W; 2.0–2.5 Wh/km (incl. VTOL) | third-party vendor claim (Flightony) | Appears calculated; AUW/payload inclusion unresolved. |
+| Effective L/D × η | ~5–6 (real 4+1 builds); Stork v1 3.6 | unlike-aircraft plausibility band | Different aircraft, props, mass; not an accuracy target. |
+| Static stability | NP aft of CG | physical requirement | The VLM does not validate a safe CG. |
+
+If a model falls outside these bands, explain why component by component; do not tune uncertain inputs to close the gap.
 
 ## Sensitivities to always report
 - Stopped lift-prop alignment (aligned vs random vs crosswise): 10–35% cruise power effect in builder data.

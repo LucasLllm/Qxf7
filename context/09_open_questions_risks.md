@@ -2,15 +2,15 @@
 
 > **Evidence update:** Read `12_fumes_handoff.md` and `../docs/CONTEXT_CONFLICTS.md` first.58released print masses/82pieces and historical4S/installed accounting are now present. Whole-aircraft CG and final scaled hardware remain unknown. Questions below predate that import; do not ask Lucas to re-enter available evidence.
 
-## Missing inputs for the simulation (get these first)
-1. **Chosen hardware list.** Lucas has chosen battery, motors and filaments, but the exact models are not in Claude's records. Look on the Mac (e.g. under `/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/`) or ask Lucas. Fill `data/hardware/hardware.yaml`.
-2. **Slicer weights per part** (Bambu CLI estimates with the chosen filament per part). Fill `data/hardware/slicer_weights.csv`.
-3. If (1)/(2) are unavailable, model the standard Stork VTOL with **Flightory's recommended hardware** and an **AUW sweep 1.8–3.1 kg**, and state that clearly.
-4. Propeller performance data at forward speed for the pusher (APC 10×6E is the documented 4S choice) and hover data for T-Motor F90 1300 KV + 7".
-5. Installed boom/lift-motor position (CAD unresolved; manual p.34–37).
+## Inputs status (updated 2026-10-18)
+1. Hardware reference (historical standard-size 4S): `data/hardware/standard_stork_reference.json`. Final scaled hardware is not chosen; `hardware.yaml` is intentionally unfrozen.
+2. Slicer masses: populated (`data/hardware/slicer_weights.csv`; predicted, not weighed).
+3. Pusher prop: APC 10×6E manufacturer-computed map imported (`data/historical/fumes-retained/prior-model/propulsion/data/`). Not measured.
+4. **Still missing:** F90 1300KV + 7-inch performance at 4S (only T-Motor 6S bench data exist; T-Motor rates the motor 5–6S while the Stork manual says the lift system was primarily tested on 4S), the exact lift-prop SKU, whole-aircraft CG, measured component drag, and a qualified pack discharge model.
+5. Installed boom/lift-motor position: approximate placement exists (`data/historical/fumes-retained/hardware-placement/`); not verified.
 
 ## Technical unknowns
-- Real Stork VTOL Wh/km: Flightony's 2.0–2.5 is third-party and likely calculated; builder data implies ~1.5–1.8 in clean cruise. Which is right?
+- Real Stork VTOL Wh/km: Flightony's 2.0–2.5 is third-party and likely calculated; unlike-builder data suggest ~1.5–1.8 in clean cruise; the retained Fumes model gave 3.1. The Phase A diagnostic explains these component by component (`reports/`). Only flight measurement can settle it.
 - Stopped lift-prop drag (10–35% of cruise power in builder data).
 - Printed-surface roughness and seams (Ncrit, transition).
 - Cold battery behaviour of the chosen cells; heating/insulation mass and power.

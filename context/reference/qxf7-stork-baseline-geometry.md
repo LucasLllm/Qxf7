@@ -1,6 +1,6 @@
 # Stork VTOL baseline geometry, verified for Flow5/XFLR5 (2026-10-17)
 
-> **Qualification correction:** See [../12_fumes_handoff.md](../12_fumes_handoff.md), especially “Geometry qualifications”. STEP zero is not a verified physical wing-root LE/CG datum; neutral is not independently certified; the convex lateral envelope is not a proven wetted-area upper bound; the original length gate remains failed. Values/solver substitutions below retain their distinct definitions and must not be promoted to validated inputs.
+> **Qualification correction:** See [../12_fumes_handoff.md](../12_fumes_handoff.md), especially “Geometry qualifications”. STEP zero is not a verified physical wing-root LE/CG datum; neutral is not independently certified; the convex lateral envelope is not a proven wetted-area upper bound; the original length gate remains failed. Values/solver substitutions below retain their distinct definitions and must not be promoted to validated inputs. **2026-10-18:** this is a historical snapshot. Its "exact linear trapezoid" twist claim is wrong (twist is piecewise by panel; see corrected `../05_cad_geometry_extraction.md`). The superseded statements are listed in `../../docs/CONTEXT_CONFLICTS.md`.
 
 Source: CAD extraction bundle `stork-aero-extraction-review.zip` (feature-registered assembly of the original Flightory STEP/STL files), checked against the Stork user manual v2 spec table.
 

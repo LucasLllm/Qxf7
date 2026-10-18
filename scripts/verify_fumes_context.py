@@ -61,6 +61,8 @@ def check(root: Path) -> dict:
         'context/reference/qxf7-stork-baseline-geometry.md',
         'data/hardware/slicer_weights.csv', 'prompts/01_onboarding.md',
         'prompts/02_performance_simulation.md',
+        # 2026-10-18 Lucas-authorized local git setup: build/scratch/credential excludes appended.
+        '.gitignore',
     }
     changed = []
     geometry_count = 0

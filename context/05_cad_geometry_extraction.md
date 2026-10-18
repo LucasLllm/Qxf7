@@ -25,27 +25,27 @@ Start inside the bundle with `EXTRACTION_REPORT.md`, then `EXTRACTION_LIMITATION
 | Nose → pusher-mount face | 1000.0 mm | "Length 1000 mm" | ✓ |
 | Nose → V-tail tip | 1044.0 mm | — | — |
 
-**The "length gate failure" (+4.4%) is a convention difference and was accepted:** Flightory's 1000 mm is nose-to-pusher; the V-tail tips extend 44 mm further aft. Tail placement came from mating features, so the tail arm is trustworthy. Do not rescale anything.
+**Length gate: FAILED (+4.402%) and preserved as failed.** Nose → pusher-mount face measures 1000.0 mm and nose → rearmost fixed tail 1044.02 mm. Lucas authorized continued extraction with these two distinct references; that authorization does not turn the gate into a pass, and the vendor's length convention is not independently proven. Tail placement came from mating features, not from fitting a target. Do not rescale anything.
 
 ## Coordinate frame
 - Millimetres. **x aft, y right, z up.** Native mapping: aircraft (x,y,z) = native STEP (Z,X,Y).
-- Origin = common STEP zero. A linear fit of the clean wing stations gives LE x = 0.00 and z = 0.00 at y = 0, so **the origin is effectively the wing-root leading edge on the centreline**. Nose at x = −336.25 mm.
-- Therefore the manual CG (47 mm aft of root LE) is **CG x = +47 mm**. MAC LE ≈ x 20 mm, so CG ≈ **13.7% MAC**.
+- Origin = common STEP zero, **not a verified physical datum**. A linear fit of the clean wing stations extrapolates the LE to x = 0.00, z ≈ 0 at y = 0, but the physical wing root (y ≈ 92 mm) has its LE at x = 4.44 mm. Nose at x = −336.25 mm.
+- The manual CG ("47 mm behind the leading edge at the wing root") therefore has two model readings: **case A x = 47.0 mm** (centreline-extrapolated LE; 13.7% MAC) and **case B x = 51.4 mm** (physical root LE; the retained prior model). Both are provisional model cases, not a weighed or safe CG (docs/DECISIONS.md D-06).
 
 ## Wing (per side)
-From y = 0 to 730 mm the wing is an exact linear trapezoid (fit residuals < 0.1 mm, < 0.07°):
+From y = 0 to 730 mm chord and LE are linear to < 0.11 mm. **Twist is NOT linear:** it is piecewise-linear by printed panel (about −0.0020°/mm inboard and −0.0037°/mm on panel 2), with a real +0.13° step at the y = 318 mm joint. A single straight-line fit misses some stations by up to 0.17°. The table below is a qualified two-section simplification. Solver models should use the measured stations (`src/qxf7perf/geometry.py`, D-02). Incidence(0) is 2.49–2.52° depending on which stations are fitted; the measured incidence at y = 730 mm is 0.62°.
 
 | Quantity | y = 0 (centreline, extrapolated) | y = 730 mm |
 |---|---|---|
 | Chord | 230.2 mm | 166.9 mm |
 | LE x | 0.0 | 36.1 mm |
 | LE z | 0 | 0 |
-| Incidence (LE up vs body x) | 2.52° | 0.69° |
+| Incidence (LE up vs body x), 2-point fit through inner_clean/outer_clean | 2.52° | 0.69° (measured 0.62°) |
 
-- LE sweep 2.83°; main-panel dihedral 0°; washout ~1.8°, linear.
+- LE sweep 2.83°; main-panel dihedral 0°; washout ~1.6–1.9° (piecewise, see above).
 - Upturned curved tip 730 → ~810 mm: at y 800, chord 119.6, LE x 84.1, z 18.7 (~15° effective dihedral over that panel); at y 809, chord 84.7, LE x 120.1, z 24.7. Sections beyond 730 mm are **oblique diagnostic cuts, not certified airfoils**.
 - Profiles are S3021-like everywhere: t/c 9.73–9.82%, camber 2.91–2.95%, TE thickness ≈ 1.0 mm (printed).
-- Ailerons in the saved pose are in line with the airfoil (shape deviation < 0.1% c), so **saved pose ≈ neutral**.
+- Ailerons in the saved pose are in line with the airfoil (shape deviation < 0.1% c). This is geometric alignment, **not certified aerodynamic or commanded neutral**.
 - **Do not use** these truncated mechanical-clearance cuts as airfoils: `aileron_start_in`, `aileron_end_out`, `tip_root_in` (t/c ≈ 12.6–12.9% and odd incidences are artifacts).
 - Per-station data: `wing-extraction/sections.csv`; profiles: `wing-extraction/dat/*.dat` (Selig format, 140 cosine-spaced points).
 - Gross vs exposed areas: gross 31.245 dm² (MAC 195.74) includes a declared rectangular centreline carry-through; exposed 27.16 dm² (MAC 191.78). Use **gross** as Sref (matches manual).
@@ -54,9 +54,9 @@ From y = 0 to 730 mm the wing is an exact linear trapezoid (fit residuals < 0.1 
 ## V-tail (per panel)
 - Cant (dihedral) **35.1°**; span-axis aft sweep 6.2°.
 - Root LE at x = 492.1, y = ±44.0, z = +9.1 mm (root sits on the fuselage mount plane, not the centreline).
-- **Local incidence −0.82° (LE down)**, constant along span. **Trap:** the bundle also lists "incidence_aircraft_LE_up_deg = +2.88°". That is a projection artifact (measured in the aircraft x–z plane on a canted surface whose chord has a y-component). **Do not use +2.88°.** Pitch-equivalent incidence ≈ −0.82/cos35.1° ≈ −1.0°.
+- **Local incidence −0.82°**, constant along span. The bundle also lists "incidence_aircraft_LE_up_deg = +2.88°". That is a different, legitimate definition: the x–z projection of a chord that is swept 6.2° inside the canted panel plane. It is not the surface's angle to the freestream. Explicit 3D check (2026-10-18): the surface normal built from the bundle chord and LE vectors has n_x = −0.0143, i.e. the surface is pitched −0.82° to +x. AeroSandbox `twist = −0.82°` about the dihedral span axis reproduces this. Use explicit 3D vectors and the solver's convention; do not substitute one number for the other (D-04).
 - Section is symmetric, ~10.4% thick (closest UIUC: N12, NACA 0010); camber ≈ 0, so ruddervators in saved pose are aligned with the fixed tail.
-- Projected area 3.67 dm² per panel, **7.34 dm² total**; pitch-equivalent horizontal area ≈ 7.34·cos²Γ ≈ 4.9 dm².
+- Panel-plane area 3.67 dm² per panel, **7.34 dm² total** (horizontal projection 6.01 dm²; first-order pitch-equivalent 7.34·cos²Γ ≈ 4.92 dm²). State the plane, and don't project again inside a 3D solver that already models the cant.
 
 | Panel span s (mm, normal to root plane) | Chord (mm) | LE x offset from root LE (mm) | Note |
 |---|---|---|---|
@@ -72,7 +72,7 @@ From y = 0 to 730 mm the wing is an exact linear trapezoid (fit residuals < 0.1 
 ## Fuselage
 - 41 stations every 50 mm in `fuselage-with-hatches/cross_sections_50mm.csv` (columns: aircraft_x_mm, x_from_nose_mm, width_mm, height_mm, convex_envelope_perimeter_mm, convex_envelope_area_mm2, …). Hatches included.
 - Rough shape: nose point at x −336; ~100×94 mm by x −250; ~130×130 mm at x −36; widest ~176 mm across the wing-root region (x 50–200, includes root fairings); tapering to ~90×85 mm by x 500; tail-mount region at x ~560 is taller (fin/tail mount); ~58×51 mm at x 650.
-- Convex lateral envelope area ≈ **0.383 m²** (hatch-inclusive). This is an **upper-bound approximation, not exact wetted area**. Hatchless baseline 0.365 m².
+- Convex lateral envelope area ≈ **0.3825 m²** (hatch-inclusive, 419-station calculation in results.json). It is **neither exact wetted area nor a proven upper bound** (convexification does not bound a corrugated/concave skin). Hatchless baseline 0.365 m². A trapezoid over the shipped 50 mm table gives 0.364 m² and does not reproduce 0.3825 m²; this is unresolved pending the dense evidence (`data/historical/fumes-retained/fuselage-dense/`).
 - Hardware silhouettes (isolated parts, not installed drag areas) in `hardware_dimensions.csv`: main skids (240 mm wide, 80 mm tall; frontal 1560 mm²), motor mounts, boom mounts, pusher mount 19×19.
 
 ## Unresolved (none blocks a first performance estimate)
@@ -81,9 +81,9 @@ From y = 0 to 730 mm the wing is an exact linear trapezoid (fit residuals < 0.1 
 - Rear FUS 4 hatch-tongue seating.
 - Motors, props, electronics, fasteners not modelled.
 
-## Flow5 / XFLR5 input summary (ready to type in)
-- Wing: two sections. y 0: chord 230.2, offset 0, twist 2.52°, S3021. y 730: chord 166.9, offset 36.1, twist 0.69°, S3021. Add a tip panel to ~y 800 projected (≈ 802.5 developed), chord 119.6, offset 84.1, dihedral ~15°, twist ~0.7°. Tilt 0 (twist carries incidence).
+## Flow5 / XFLR5 input summary (simplified; the scripted Phase A model uses measured stations)
+- Wing: two-section simplification. y 0: chord 230.2, offset 0, twist 2.52°, S3021. y 730: chord 166.9, offset 36.1, twist 0.69°, S3021. Add a tip panel to ~y 800 projected (≈ 802.5 developed), chord 119.6, offset 84.1, dihedral ~15°, twist ~0.7°. Tilt 0 (twist carries incidence).
 - V-tail: elevator object with 35.1° dihedral, twist −0.82° at all sections, root LE at x 492, z 9; sections from the table above (span measured along the panel). Starting the panels at the centreline instead of y = ±44 is an acceptable simplification (area and arm preserved); state it.
 - Foils: S3021 (UIUC) for the wing; NACA 0010 for the tail.
-- Point mass at AUW with **CG x = 47 mm**.
+- Point mass at AUW with **CG case A x = 47 mm** (and case B 51.4 mm as a sensitivity).
 - First-pass fuselage: leave out of the panel model; add its drag (from OpenVSP or a build-up) as extra drag. Add it as a body later for stability.
