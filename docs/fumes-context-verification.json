@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "Context-transfer integrity only; not physics/process/flight validation",
+  "source_copies_hash_checked": 73,
+  "parent_release_evidence_hashes_checked": 58,
+  "definitions": 58,
+  "installed_pieces": 82,
+  "predicted_installed_g": 965.642456,
+  "geometry_bundle_original_files_unchanged": 197,
+  "hardware_yaml_unchanged": true,
+  "unregistered_CG_cells_blank": true,
+  "changed_original_files": [
+    "CLAUDE.md",
+    "README.md",
+    "context/00_INDEX.md",
+    "context/01_project_overview.md",
+    "context/02_requirements.md",
+    "context/04_stork_baseline_aircraft.md",
+    "context/05_cad_geometry_extraction.md",
+    "context/06_performance_method.md",
+    "context/09_open_questions_risks.md",
+    "context/11_history_log.md",
+    "context/reference/qxf7-stork-baseline-geometry.md",
+    "data/hardware/slicer_weights.csv",
+    "prompts/01_onboarding.md",
+    "prompts/02_performance_simulation.md"
+  ],
+  "reference_mass_cases_match_retained_ledger": true,
+  "user_clarifications": {
+    "budget": "deferred",
+    "modified_qxf7_cruise_min_km_h": 70,
+    "standard_stork_lift_ESC": "4-in-1"
+  },
+  "future_work_not_blocking_stock_baseline": [
+    "final QxF7 ESC trade",
+    "validated final weather envelope",
+    "loaded-case packaging membership"
+  ],
+  "simulation_executed": false
+}

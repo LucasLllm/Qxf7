@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "refined_real_stations": [
+    {
+      "aircraft_x_mm": -271.248886456396,
+      "default_convex_area_mm2": 6499.404922933744,
+      "refined_convex_area_mm2": 6499.5077134052135,
+      "absolute_area_change_mm2": 0.10279047146923403,
+      "relative_area_change": 1.5815366589455593e-05,
+      "width_change_mm": 0.0006371202731827452,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": -160,
+      "default_convex_area_mm2": 11891.28123672044,
+      "refined_convex_area_mm2": 11891.391252112904,
+      "absolute_area_change_mm2": 0.11001539246353786,
+      "relative_area_change": 9.251769449658553e-06,
+      "width_change_mm": 0.0001385851363124857,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": -111,
+      "default_convex_area_mm2": 13119.970381929355,
+      "refined_convex_area_mm2": 13120.089357711977,
+      "absolute_area_change_mm2": 0.11897578262141906,
+      "relative_area_change": 9.068296585867941e-06,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": -80,
+      "default_convex_area_mm2": 12959.459396573862,
+      "refined_convex_area_mm2": 12959.537876726752,
+      "absolute_area_change_mm2": 0.07848015288982424,
+      "relative_area_change": 6.0558199603821805e-06,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": 0,
+      "default_convex_area_mm2": 13873.467857823302,
+      "refined_convex_area_mm2": 13873.617103545777,
+      "absolute_area_change_mm2": 0.14924572247582546,
+      "relative_area_change": 1.0757636375036128e-05,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": 110,
+      "default_convex_area_mm2": 15994.61893770234,
+      "refined_convex_area_mm2": 15994.667503971812,
+      "absolute_area_change_mm2": 0.0485662694718485,
+      "relative_area_change": 3.0364130374493925e-06,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": 149,
+      "default_convex_area_mm2": 15365.897134009392,
+      "refined_convex_area_mm2": 15365.933711766713,
+      "absolute_area_change_mm2": 0.036577757320628734,
+      "relative_area_change": 2.3804504873936594e-06,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": 250,
+      "default_convex_area_mm2": 11791.018065697332,
+      "refined_convex_area_mm2": 11791.036739503572,
+      "absolute_area_change_mm2": 0.018673806240258273,
+      "relative_area_change": 1.5837314586431006e-06,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    },
+    {
+      "aircraft_x_mm": 270,
+      "default_convex_area_mm2": 11105.9616834777,
+      "refined_convex_area_mm2": 11105.970502346736,
+      "absolute_area_change_mm2": 0.008818869035167154,
+      "relative_area_change": 7.940662218874905e-07,
+      "width_change_mm": 0.0,
+      "height_change_mm": 0.0
+    }
+  ],
+  "refined_tolerance_mm": 0.0025,
+  "refined_max_chord_mm": 0.35,
+  "missing_nose_gap_rejected": true,
+  "periodic_circle_sampler_passed": true,
+  "max_refined_relative_area_change": 1.5815366589455593e-05,
+  "max_refined_dimension_change_mm": 0.0006371202731827452
+}

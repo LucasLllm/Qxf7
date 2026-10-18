@@ -1,0 +1,62 @@
+{
+  "certified_neutral": false,
+  "conclusion": "Geometric saved-pose/design-loft agreement quantified, not mechanical rigging or flight-neutral certification. Section-plane angle fit ignores <0.36deg hinge skew; no rotation applied to extraction.",
+  "samples": [
+    {
+      "station_y_mm": 470,
+      "best_correction_TE_up_deg": -0.005729516524508915,
+      "saved_pose_vs_design_rms_mm": 0.0034803190949853303,
+      "best_fit_rms_mm": 0.0015337624233839407,
+      "saved_pose_vs_design_max_mm": 0.00379823268710755,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 500,
+      "best_correction_TE_up_deg": -0.012678586602774489,
+      "saved_pose_vs_design_rms_mm": 0.007555847920979587,
+      "best_fit_rms_mm": 0.003332141569680348,
+      "saved_pose_vs_design_max_mm": 0.008141809076552597,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 550,
+      "best_correction_TE_up_deg": -0.020521824007446943,
+      "saved_pose_vs_design_rms_mm": 0.011838031707766612,
+      "best_fit_rms_mm": 0.005227682639948713,
+      "saved_pose_vs_design_max_mm": 0.012723230585063305,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 600,
+      "best_correction_TE_up_deg": -0.023145641689634476,
+      "saved_pose_vs_design_rms_mm": 0.012908156103102532,
+      "best_fit_rms_mm": 0.005705253057855362,
+      "saved_pose_vs_design_max_mm": 0.013887768390720812,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 650,
+      "best_correction_TE_up_deg": -0.019826196128645703,
+      "saved_pose_vs_design_rms_mm": 0.010675420582354378,
+      "best_fit_rms_mm": 0.004718954174871189,
+      "saved_pose_vs_design_max_mm": 0.011514250391325476,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 700,
+      "best_correction_TE_up_deg": -0.009716533280812607,
+      "saved_pose_vs_design_rms_mm": 0.005042709781538836,
+      "best_fit_rms_mm": 0.0022249132688166467,
+      "saved_pose_vs_design_max_mm": 0.005469910164046965,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    },
+    {
+      "station_y_mm": 720,
+      "best_correction_TE_up_deg": -0.003554667471369433,
+      "saved_pose_vs_design_rms_mm": 0.001814925189647056,
+      "best_fit_rms_mm": 0.0007960484884938275,
+      "saved_pose_vs_design_max_mm": 0.0019867904550485704,
+      "method": "2D section rotation about analytically intersected STEP hinge; aft skins 8mm behind hinge through TE-0.5mm; +/-5deg search; untrimmed original wing BSpline design loft target"
+    }
+  ]
+}

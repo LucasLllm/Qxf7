@@ -1,0 +1,140 @@
+{
+  "datum": "Untranslated common STEP origin: aircraft x=native Z aft, y=transformed native X right, z=native Y up. Right mirrored to left; left not independently measured.",
+  "exposed_root_y_mm": 92.0,
+  "right_outer_y_mm": 810.2703247070312,
+  "span_mm": 1620.5406494140625,
+  "integrated_y_limits_mm": [
+    92.0001,
+    810.2702247070313
+  ],
+  "exposed": {
+    "both_sides_projected_area_dm2": 27.159434012743027,
+    "projected_MAC_mm": 191.77834554472614,
+    "MAC_LE_aft_mm": 22.441863063559175,
+    "quarterchord_aft_mm": 70.38644944974071,
+    "right_MAC_area_weighted_y_mm": 428.00049150433176,
+    "area_weighted_quarterchord_up_mm": -0.6827880757922846
+  },
+  "gross_with_declared_centerline_continuation": {
+    "both_sides_projected_area_dm2": 31.245148243400955,
+    "projected_MAC_mm": 195.73669009246885,
+    "MAC_LE_aft_mm": 20.101370172035573,
+    "quarterchord_aft_mm": 69.03554269515278,
+    "right_MAC_area_weighted_y_mm": 378.0489077315937,
+    "area_weighted_quarterchord_up_mm": -0.884217093730933
+  },
+  "gross_convention": "Artificial rectangular continuation of first inboard design-support envelope at y=92.0001 to centerline y=0; exposed root nominal y=92. No hidden-wing evidence. No plates added. Bilateral symmetry assumed.",
+  "planform_convention": "Reference envelope only: original untrimmed STEP BSpline support at y<=318; physical closed-loop union extrema at y>318. x-extreme projected chord, not chord-line norm. Includes empty chordwise gaps inside extrema by explicit envelope convention, NOT evidence of skin. MAC=int(c^2 dy)/int(c dy), x_qc=int((xmin+c/4)c dy)/int(c dy); MAC_LE=x_qc-MAC/4. y is area centroid, not unique location where local chord equals MAC. z_qc uses extrema midpoint proxy, not skin-area centroid.",
+  "physical_outer_envelope_exposed": {
+    "both_sides_projected_area_dm2": 27.126748122528614,
+    "projected_MAC_mm": 191.52813565798326,
+    "MAC_LE_aft_mm": 22.451556433836863,
+    "quarterchord_aft_mm": 70.33359034833268,
+    "right_MAC_area_weighted_y_mm": 428.2024919988856,
+    "area_weighted_quarterchord_up_mm": -0.6986748013547329
+  },
+  "physical_occupied_projection_both_sides_dm2": 27.120783876136585,
+  "physical_projection_convention": "Every nonnested exterior union; chordwise projection intervals retain gaps. Nested holes ignored because projection of exterior shell is requested. Occupied projection is not skin wetted area. No aerodynamic MAC assigned to disjoint occupied intervals.",
+  "convergence": [
+    {
+      "nominal_step_mm": 3.0,
+      "stations": 266,
+      "exposed": {
+        "both_sides_projected_area_dm2": 27.15312036788397,
+        "projected_MAC_mm": 191.80368125387258,
+        "MAC_LE_aft_mm": 22.41971530631507,
+        "quarterchord_aft_mm": 70.37063561978322,
+        "right_MAC_area_weighted_y_mm": 427.90880363423446,
+        "area_weighted_quarterchord_up_mm": -0.6883486622733915
+      },
+      "gross": {
+        "both_sides_projected_area_dm2": 31.2388345985419,
+        "projected_MAC_mm": 195.75951217117077,
+        "MAC_LE_aft_mm": 20.08164607646163,
+        "quarterchord_aft_mm": 69.02152411925432,
+        "right_MAC_area_weighted_y_mm": 377.9591160229989,
+        "area_weighted_quarterchord_up_mm": -0.8890911239973569
+      },
+      "physical_outer_envelope_exposed": {
+        "both_sides_projected_area_dm2": 27.125200710422227,
+        "projected_MAC_mm": 191.5898473748992,
+        "MAC_LE_aft_mm": 22.427117507020697,
+        "quarterchord_aft_mm": 70.3245793507455,
+        "right_MAC_area_weighted_y_mm": 428.08164590607186,
+        "area_weighted_quarterchord_up_mm": -0.7157810415769226
+      },
+      "physical_occupied_projection_both_sides_dm2": 27.120986780422403
+    },
+    {
+      "nominal_step_mm": 1.5,
+      "stations": 505,
+      "exposed": {
+        "both_sides_projected_area_dm2": 27.15400870348497,
+        "projected_MAC_mm": 191.8029241034614,
+        "MAC_LE_aft_mm": 22.420063699475207,
+        "quarterchord_aft_mm": 70.37079472534056,
+        "right_MAC_area_weighted_y_mm": 427.92208368967306,
+        "area_weighted_quarterchord_up_mm": -0.6879056228136532
+      },
+      "gross": {
+        "both_sides_projected_area_dm2": 31.239722934142897,
+        "projected_MAC_mm": 195.75874155696457,
+        "MAC_LE_aft_mm": 20.08201539026961,
+        "quarterchord_aft_mm": 69.02170077951075,
+        "right_MAC_area_weighted_y_mm": 377.97207960873817,
+        "area_weighted_quarterchord_up_mm": -0.8887003195063299
+      },
+      "physical_outer_envelope_exposed": {
+        "both_sides_projected_area_dm2": 27.121320793051954,
+        "projected_MAC_mm": 191.5525995486094,
+        "MAC_LE_aft_mm": 22.42955622949667,
+        "quarterchord_aft_mm": 70.31770611664902,
+        "right_MAC_area_weighted_y_mm": 428.1244982051141,
+        "area_weighted_quarterchord_up_mm": -0.7069677931040951
+      },
+      "physical_occupied_projection_both_sides_dm2": 27.115288415363604
+    },
+    {
+      "nominal_step_mm": 0.75,
+      "stations": 984,
+      "exposed": {
+        "both_sides_projected_area_dm2": 27.159434012743027,
+        "projected_MAC_mm": 191.77834554472614,
+        "MAC_LE_aft_mm": 22.441863063559175,
+        "quarterchord_aft_mm": 70.38644944974071,
+        "right_MAC_area_weighted_y_mm": 428.00049150433176,
+        "area_weighted_quarterchord_up_mm": -0.6827880757922846
+      },
+      "gross": {
+        "both_sides_projected_area_dm2": 31.245148243400955,
+        "projected_MAC_mm": 195.73669009246885,
+        "MAC_LE_aft_mm": 20.101370172035573,
+        "quarterchord_aft_mm": 69.03554269515278,
+        "right_MAC_area_weighted_y_mm": 378.0489077315937,
+        "area_weighted_quarterchord_up_mm": -0.884217093730933
+      },
+      "physical_outer_envelope_exposed": {
+        "both_sides_projected_area_dm2": 27.126748122528614,
+        "projected_MAC_mm": 191.52813565798326,
+        "MAC_LE_aft_mm": 22.451556433836863,
+        "quarterchord_aft_mm": 70.33359034833268,
+        "right_MAC_area_weighted_y_mm": 428.2024919988856,
+        "area_weighted_quarterchord_up_mm": -0.6986748013547329
+      },
+      "physical_occupied_projection_both_sides_dm2": 27.120783876136585
+    }
+  ],
+  "last_refinement_absolute_deltas": {
+    "both_sides_projected_area_dm2": 0.005425309258058064,
+    "projected_MAC_mm": 0.024578558735271372,
+    "quarterchord_aft_mm": 0.015654724400150144
+  },
+  "convergence_passed": true,
+  "end_slivers_omitted_each_mm": 0.0001,
+  "end_sliver_area_conservative_bound_both_sides_dm2": 8.881977803628312e-06,
+  "true_tip_airfoil": null,
+  "true_tip_reason": "Curved upturned cap, constant-y sections oblique diagnostics; no conventional span-normal tip foil certified.",
+  "physical_winglet_camber_incidence": null,
+  "neutral_certified": false,
+  "station_diagnostics_file": "station_diagnostics.json"
+}

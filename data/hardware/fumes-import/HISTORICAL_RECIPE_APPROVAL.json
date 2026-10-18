@@ -1,0 +1,35 @@
+{
+  "approved": true,
+  "approval_scope": "Lucas authorized final checks, offline slicing and hardware/performance scenario calculations, conditional on checks; no printing, uploads, purchases or hardware operation",
+  "slicing_run": false,
+  "printing_authorized": false,
+  "purpose": "Per-piece approval proposal for an offline standard-size reference mass estimate, not final scale or manufacturing release",
+  "reference_printer": "Bambu P2S, standard-flow 0.4 mm nozzle, enclosed; needs Lucas confirmation",
+  "reference_scale_percent": 100,
+  "bed_reference": "ASA Aero: manufacturer-listed Engineering/High Temperature plate with glue; exact P2S-compatible plate unconfirmed. Reference 90 C. PC compatible manufacturer-listed plate/glue at 100 C. No physical setup authorized",
+  "selected_definitions": 58,
+  "installed_pieces": 82,
+  "source_definitions": 70,
+  "release_gates": [
+    "Lucas approves this reference recipe and printer/nozzle/scale assumptions",
+    "Resolve material and process profile inheritance to exact installed printer and nozzle branch",
+    "Verify numeric orientations from original manufacturing geometry against manual pictures",
+    "Separate physical bodies from STEP modifiers and verify regional overlap, including right-wing counterpart registration",
+    "Verify lateral-lattice availability in installed Bambu Studio; do not silently substitute grid or gyroid",
+    "Verify supports/brims and all slicing errors in preview; propose any construction changes for approval"
+  ],
+  "mass_limits": [
+    "Future results must be labeled uncalibrated sliced estimates until print-and-weigh validation",
+    "Raw filament density and deposition flow are used exactly once; do not apply foamed density reduction again",
+    "Part mass must exclude detachable supports/brims/purge and be separate from manufacturing consumption",
+    "One approved printer profile does not prove harsh-temperature service or payload capability"
+  ],
+  "recipe_amendments": {
+    "grid100_to99": {
+      "approved": true,
+      "permanent": true,
+      "user_statement": "I approved permanantly 99% grid",
+      "scope": "Replace previously100%-grid Stork recipes with99% grid; all other patterns/densities unchanged; not physical-print authorization"
+    }
+  }
+}

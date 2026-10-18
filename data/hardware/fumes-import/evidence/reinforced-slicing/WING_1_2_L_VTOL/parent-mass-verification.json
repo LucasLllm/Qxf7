@@ -1,0 +1,181 @@
+{
+  "parent_independent_audit_passed": true,
+  "finished_filament_mass_g": 18.189256605504653,
+  "quantity": 1,
+  "source_pose": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/geometry/remaining-poses/all58-pose-manifest.json",
+  "independent_deposition": {
+    "finished_filament_length_mm": 7638.600140000428,
+    "finished_raw_filament_volume_mm3": 18372.98647020672,
+    "finished_raw_filament_volume_cm3": 18.37298647020672,
+    "finished_filament_mass_g": 18.189256605504653,
+    "raw_density_g_cm3": 0.99,
+    "filament_diameter_mm": 1.75,
+    "sparse_deposition_moves": 23354,
+    "deposition_moves_by_feature": {
+      "Outer wall": 17579,
+      "Gap infill": 2762,
+      "Bottom surface": 874,
+      "Internal solid infill": 8513,
+      "Bridge": 4819,
+      "Sparse infill": 23354,
+      "Floating vertical shell": 1647,
+      "Top surface": 2017,
+      "Overhang wall": 28,
+      "Inner wall": 7443
+    },
+    "deposition_filament_mm_by_feature": {
+      "Outer wall": 2480.832270000106,
+      "Gap infill": 11.43386999999998,
+      "Bottom surface": 101.47577000000017,
+      "Internal solid infill": 614.9263600000032,
+      "Bridge": 484.28457999999756,
+      "Sparse infill": 2652.1112899999403,
+      "Floating vertical shell": 79.31478,
+      "Top surface": 264.16038000000003,
+      "Overhang wall": 0.14420000000000002,
+      "Inner wall": 949.9166400000115
+    },
+    "foam_reduction_applied_again": false
+  },
+  "delegate_result": {
+    "finished_filament_length_mm": 7638.600140000428,
+    "finished_raw_filament_volume_mm3": 18372.98647020672,
+    "finished_raw_filament_volume_cm3": 18.37298647020672,
+    "finished_filament_mass_g": 18.189256605504653,
+    "raw_density_g_cm3": 0.99,
+    "filament_diameter_mm": 1.75,
+    "sparse_deposition_moves": 23354,
+    "deposition_moves_by_feature": {
+      "Outer wall": 17579,
+      "Gap infill": 2762,
+      "Bottom surface": 874,
+      "Internal solid infill": 8513,
+      "Bridge": 4819,
+      "Sparse infill": 23354,
+      "Floating vertical shell": 1647,
+      "Top surface": 2017,
+      "Overhang wall": 28,
+      "Inner wall": 7443
+    },
+    "deposition_filament_mm_by_feature": {
+      "Outer wall": 2480.832270000106,
+      "Gap infill": 11.43386999999998,
+      "Bottom surface": 101.47577000000017,
+      "Internal solid infill": 614.9263600000032,
+      "Bridge": 484.28457999999756,
+      "Sparse infill": 2652.1112899999403,
+      "Floating vertical shell": 79.31478,
+      "Top surface": 264.16038000000003,
+      "Overhang wall": 0.14420000000000002,
+      "Inner wall": 949.9166400000115
+    },
+    "foam_reduction_applied_again": false,
+    "header_reported": {
+      "length": 7638.6,
+      "volume": 18372.99,
+      "weight": 18.19
+    },
+    "header_volume_actual_units": "mm3 despite cm^3 label",
+    "mass_header_difference_g": -0.0007433944953483262,
+    "length_header_difference_mm": 0.00014000042756379116,
+    "header_raw_density_mass_g": 18.189260100000002,
+    "part_definition_id": "vtol/WING 1.2 L VTOL.STL",
+    "installed_quantity": 1,
+    "manufacturing_quantity": 1,
+    "valid_finished_filament_estimate": true,
+    "global_recipe_checks": {
+      "wall_loops": true,
+      "sparse_infill_pattern": true,
+      "sparse_infill_density": true,
+      "layer_height": true,
+      "top_shell_layers": true,
+      "bottom_shell_layers": true,
+      "top_shell_thickness": true,
+      "bottom_shell_thickness": true,
+      "brim_type": true,
+      "brim_width": true,
+      "skirt_loops": true,
+      "raft_layers": true,
+      "enable_support": true,
+      "enable_prime_tower": true,
+      "filament_flow_ratio": true,
+      "filament_density": true,
+      "nozzle_temperature": true,
+      "nozzle_temperature_initial_layer": true,
+      "nozzle_diameter": true
+    },
+    "local_modifier_checks": [
+      {
+        "subtype": "modifier_part",
+        "settings": {
+          "name": "WING_1.2_L_VTOL__original_STEP_body_02.stl",
+          "matrix": "0 0 -1 121.94754332304001 0 1 0 32.843952432274818 1 0 0 48.619318008422852 0 0 0 1",
+          "sparse_infill_density": "10%",
+          "wall_loops": "3"
+        },
+        "local_override_retained": true
+      }
+    ],
+    "physical_mesh_not_modifier_as_printable": true,
+    "finished_mass_g": 18.189256605504653,
+    "finished_raw_volume_mm3": 18372.98647020672,
+    "native_lattice_sparse_toolpath_generated": true,
+    "hardware_validated": false,
+    "waste_feature_violations": [],
+    "source_stl_sha256": "ec127d3f82908a05c095ed525cafb776222045fd00e9b9e78d38aa042e358e09",
+    "modifier_source_hashes": {
+      "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/geometry/modifiers/WING_1.2_L_VTOL__original_STEP_body_02.stl": "08818444f5e3841948584dead6e9b0ec577bc3f55a28825eb1742c013cc677fd"
+    },
+    "profile_hashes": {
+      "machine": "c06806c1567100f9caf0630b48bb1e0373818178cbd2780a9cfa65e12cb9f97a",
+      "process": "4eda9b0c235e35b38d67a9fdf17c9da02891e552f72aae25bf526e7868064de9",
+      "filament": "5dbb68bd1d82e17cb5aca155271b1eac1f0c8b6fe9480b66e541358c85f21877"
+    },
+    "artifact_hashes": {
+      "sliced.3mf": "634d5c5741c5011d53da400bfb9efbf021942d7448f39b57600338128ba4fd8b",
+      "plate_1.gcode": "ec4e6de28d0c89874c5af396619b919f486f56627a70ccc6442c210e44c94a92"
+    },
+    "whole_airframe_claim": false,
+    "local_overrides_effective_differential": {
+      "control_has_identical_geometry_pose_global_recipe": true,
+      "control_only_removes_local_wall_and_density_overrides": true,
+      "control_finished_mass_g": 15.47355782957741,
+      "reinforced_minus_control_mass_g": 2.715698775927242,
+      "positive_toolpath_material_change_verified": true,
+      "per_setting_isolated_effect_not_tested": true
+    },
+    "local_overrides_ignored_or_unsupported": false,
+    "warnings_and_errors": [
+      "[2026-10-07 12:40:12.287236] [0x00000001fc152180] [warning] cli mode, Current BambuStudio Version 02.05.03.61",
+      "[2026-10-07 12:40:12.307365] [0x00000001fc152180] [warning] run:2723, can not find system preset file: /Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/cli-alternative/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab P2S 0.4 nozzle.json ",
+      "[2026-10-07 12:40:12.307373] [0x00000001fc152180] [warning] run:2745, can not find system preset file: /Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/cli-alternative/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/0.20mm Standard @BBL P2S.json ",
+      "[2026-10-07 12:40:12.307492] [0x00000001fc152180] [warning] no filament colors found in projects",
+      "[2026-10-07 12:40:12.307935] [0x00000001fc152180] [warning] 3949: disable_wipe_tower_after_mapping: disable prime tower for only one filament!",
+      "[2026-10-07 12:40:12.578366] [0x00000001fc152180] [warning] tree support default to organic support",
+      "[2026-10-07 12:40:12.845135] [0x00000001fc152180] [error]   Invalid T command (T65535)."
+    ],
+    "invocation_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/command.json",
+    "exit_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/exit.json",
+    "log_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/run.log",
+    "output_3mf_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/sliced.3mf",
+    "output_gcode_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/plate_1.gcode",
+    "all_gcode_features": [
+      "Bottom surface",
+      "Bridge",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Overhang wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "waste_exclusion_verified": true,
+    "custom_machine_start_end_extrusion_excluded": true,
+    "physical_print_release": "HOLD: offline mass estimate only; warnings, adhesion, material calibration and hardware require independent review",
+    "native_lattice_evidence": "Exported native 2dlattice + nonzero sparse deposition + official source enum/factory Fill2DLattice dispatch, not an instrumented function trace"
+  },
+  "qualification": "Uncalibrated offline estimate; warnings retained; no physical print approval."
+}

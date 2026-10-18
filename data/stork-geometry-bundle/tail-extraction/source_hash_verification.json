@@ -1,0 +1,50 @@
+{
+  "all_original_inputs_unchanged": true,
+  "sources": {
+    "V TAIL 1 R.STL": {
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/TAIL/V TAIL 1 R.STL",
+      "sha256": "51655a54c1919bde2033dfe9a567220065ef286677d6540a0f61015219db3218",
+      "before_sha256": "51655a54c1919bde2033dfe9a567220065ef286677d6540a0f61015219db3218",
+      "after_sha256": "51655a54c1919bde2033dfe9a567220065ef286677d6540a0f61015219db3218",
+      "unchanged": true
+    },
+    "V TAIL 2 R.STL": {
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/TAIL/V TAIL 2 R.STL",
+      "sha256": "4a6a3c8d21fb662f830c7be316258c43eb58e92503e6bf91e8e3c041bcba60ee",
+      "before_sha256": "4a6a3c8d21fb662f830c7be316258c43eb58e92503e6bf91e8e3c041bcba60ee",
+      "after_sha256": "4a6a3c8d21fb662f830c7be316258c43eb58e92503e6bf91e8e3c041bcba60ee",
+      "unchanged": true
+    },
+    "V TAIL 3 R.STL": {
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/TAIL/V TAIL 3 R.STL",
+      "sha256": "dad21ae6b96a938db800e30a00b83e035af7f1efc99864563ee02bc0ed45d3b0",
+      "before_sha256": "dad21ae6b96a938db800e30a00b83e035af7f1efc99864563ee02bc0ed45d3b0",
+      "after_sha256": "dad21ae6b96a938db800e30a00b83e035af7f1efc99864563ee02bc0ed45d3b0",
+      "unchanged": true
+    },
+    "RUDDER L.STEP": {
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/RUDDER L.STEP",
+      "sha256": "2905ca8e375d5f4fdb828959989e78779c5effcdb837f98bf554783e14fe1e6d",
+      "before_sha256": "2905ca8e375d5f4fdb828959989e78779c5effcdb837f98bf554783e14fe1e6d",
+      "after_sha256": "2905ca8e375d5f4fdb828959989e78779c5effcdb837f98bf554783e14fe1e6d",
+      "unchanged": true
+    },
+    "FUS 6 VTOL MODIFIER.STEP": {
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/FUS 6 VTOL MODIFIER.STEP",
+      "sha256": "eda75fdadd513d54ac0f0851dfcacf386a3dff5e7e2e4876fe7f8c3833f6ea8b",
+      "before_sha256": "eda75fdadd513d54ac0f0851dfcacf386a3dff5e7e2e4876fe7f8c3833f6ea8b",
+      "after_sha256": "eda75fdadd513d54ac0f0851dfcacf386a3dff5e7e2e4876fe7f8c3833f6ea8b",
+      "unchanged": true
+    }
+  },
+  "read_only_reference_and_script_sha256": {
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/tail-feature-work/placements.json": "b6a63faec0be8f900654d04565b2dc5dc9a8271cd62e0c5eb0256f9bcfc85402",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/tail-feature-work/raw_features.json": "15b638118f6ba89b1f50c5df3f896844b8a8f4a929032ac107ce74d8a8c041a6",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/extraction_authorization.json": "48b4752792e6da855ed4909bbcd8d10a7649a79b11a19215a3022e349aca5520",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/airfoil_tools.py": "1ac22db9442c5d6597c6f783b4f323b02f7677fd701215e02af77f90d15877d6",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/tail-extraction/airfoil_tools_local.py": "1ac22db9442c5d6597c6f783b4f323b02f7677fd701215e02af77f90d15877d6",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/tail-extraction/normalize_tail.py": "e2632dd1caaa3aca9c46fdcee4c764bb228696ef150fcf29e7a0512bfcb2fad8",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/tail-extraction/extract_tail.py": "6c767c3e03ce0e46bfe5472a4ba2c33b776b47d86713735d96ccd86a34d64f39"
+  },
+  "shared_helper_verified_identical_to_own_copy": true
+}

@@ -1,0 +1,59 @@
+filename,filament,installed_quantity,mass_per_piece_g,installed_mass_g,status,evidence
+FRONT REINFORCEMENT.STL,Bambu PETG Basic,1,8.858456,8.858456,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__FRONT_REINFORCEMENT.STL/parent-mass-verification.json
+FUS 3.STL,Bambu ASA Aero,1,68.751884,68.751884,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__FUS_3.STL/parent-mass-verification.json
+FUS 4.STL,Bambu ASA Aero,1,36.042295,36.042295,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__FUS_4.STL/parent-mass-verification.json
+FUS ROOT L.STL,Bambu PC,1,6.340490,6.340490,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__FUS_ROOT_L.STL/parent-mass-verification.json
+FUS ROOT R.STL,Bambu PC,1,6.339411,6.339411,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__FUS_ROOT_R.STL/parent-mass-verification.json
+HATCH FRONT 1.STL,Bambu ASA Aero,1,11.013620,11.013620,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__HATCH_FRONT_1.STL/parent-mass-verification.json
+HATCH FRONT 2.STL,Bambu ASA Aero,1,12.314232,12.314232,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__HATCH_FRONT_2.STL/parent-mass-verification.json
+HATCH MIDDLE 1.STL,Bambu ASA Aero,1,7.917169,7.917169,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__HATCH_MIDDLE_1.STL/parent-mass-verification.json
+HATCH MIDDLE 2.STL,Bambu ASA Aero,1,7.644495,7.644495,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__HATCH_MIDDLE_2.STL/parent-mass-verification.json
+LOCK 2.STL,Bambu PETG Basic,2,2.033838,4.067675,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__LOCK_2.STL/parent-mass-verification.json
+LOCK 3.STL,Bambu PETG Basic,2,0.261598,0.523196,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__LOCK_3.STL/parent-mass-verification.json
+LOCK1.STL,Bambu PETG Basic,2,2.589131,5.178263,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__LOCK1.STL/parent-mass-verification.json
+MOTOR MOUNT 19x19.STL,Bambu PC,1,22.439573,22.439573,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__MOTOR_MOUNT_19x19.STL/parent-mass-verification.json
+NOSE.STL,Bambu ASA Aero,1,29.951605,29.951605,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__NOSE.STL/parent-mass-verification.json
+WING BOLT WASHER.STL,Bambu PC,4,0.25,1.0,uncalibrated_verified_slicer_estimate,approved-washer/mass-verification.json
+RUDDER 2 L.STL,Bambu ASA Aero,1,4.190947,4.190947,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__RUDDER_2_L.STL/parent-mass-verification.json
+RUDDER 2 R.STL,Bambu ASA Aero,1,4.199351,4.199351,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__RUDDER_2_R.STL/parent-mass-verification.json
+RUDEER 1 L.STL,Bambu ASA Aero,1,4.194652,4.194652,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__RUDEER_1_L.STL/parent-mass-verification.json
+RUDEER 1 R.STL,Bambu ASA Aero,1,4.197447,4.197447,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__RUDEER_1_R.STL/parent-mass-verification.json
+V TAIL 1 L.STL,Bambu ASA Aero,1,13.976749,13.976749,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_1_L.STL/parent-mass-verification.json
+V TAIL 1 R.STL,Bambu ASA Aero,1,13.969093,13.969093,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_1_R.STL/parent-mass-verification.json
+V TAIL 2 L.STL,Bambu ASA Aero,1,10.624930,10.624930,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_2_L.STL/parent-mass-verification.json
+V TAIL 2 R.STL,Bambu ASA Aero,1,10.598227,10.598227,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_2_R.STL/parent-mass-verification.json
+V TAIL 3 L.STL,Bambu ASA Aero,1,2.758040,2.758040,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_3_L.STL/parent-mass-verification.json
+V TAIL 3 R.STL,Bambu ASA Aero,1,2.754432,2.754432,uncalibrated_verified_slicer_estimate,verified-final-11-batch/base__V_TAIL_3_R.STL/parent-mass-verification.json
+AIILERON 1 L.STL,Bambu ASA Aero,1,5.822351,5.822351,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__AIILERON_1_L.STL/parent-mass-verification.json
+AIILERON 1 R.STL,Bambu ASA Aero,1,5.820211,5.820211,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__AIILERON_1_R.STL/parent-mass-verification.json
+AILERON 2 L.STL,Bambu ASA Aero,1,5.192490,5.192490,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__AILERON_2_L.STL/parent-mass-verification.json
+AILERON 2 R.STL,Bambu ASA Aero,1,5.196546,5.196546,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__AILERON_2_R.STL/parent-mass-verification.json
+SERVO COVER L.STL,Bambu PETG Basic,1,9.280424,9.280424,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__SERVO_COVER_L.STL/parent-mass-verification.json
+SERVO COVER R.STL,Bambu PETG Basic,1,9.281008,9.281008,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__SERVO_COVER_R.STL/parent-mass-verification.json
+WING 2 L.STL,Bambu ASA Aero,1,33.507049,33.507049,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_2_L.STL/parent-mass-verification.json
+WING 2 R.STL,Bambu ASA Aero,1,33.893343,33.893343,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_2_R.STL/parent-mass-verification.json
+WING 3 L.STL,Bambu ASA Aero,1,22.892728,22.892728,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_3_L.STL/parent-mass-verification.json
+WING 3 R.STL,Bambu ASA Aero,1,22.943855,22.943855,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_3_R.STL/parent-mass-verification.json
+WING BAY PLATE L.STL,Bambu PETG Basic,1,7.951712,7.951712,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_BAY_PLATE_L.STL/parent-mass-verification.json
+WING BAY PLATE R.STL,Bambu PETG Basic,1,7.951608,7.951608,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_BAY_PLATE_R.STL/parent-mass-verification.json
+WING BOLT.STL,Bambu PC,4,1.402951,5.611803,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_BOLT.STL/parent-mass-verification.json
+WING KNOB.STL,Bambu PETG Basic,4,1.451582,5.806326,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_KNOB.STL/parent-mass-verification.json
+WING ROOT L.STL,Bambu PC,1,6.404027,6.404027,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_ROOT_L.STL/parent-mass-verification.json
+WING ROOT R.STL,Bambu PC,1,6.403110,6.403110,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WING_ROOT_R.STL/parent-mass-verification.json
+WINGTIP 3 L.STL,Bambu ASA Aero,1,9.021639,9.021639,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WINGTIP_3_L.STL/parent-mass-verification.json
+WINGTIP 3 R.STL,Bambu ASA Aero,1,9.126683,9.126683,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/base__WINGTIP_3_R.STL/parent-mass-verification.json
+BATTERY PAD VTOL.STL,Bambu PC,1,49.256633,49.256633,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__BATTERY_PAD_VTOL.STL/parent-mass-verification.json
+BOOM MOUNT 1 VTOL.STL,Bambu PC,4,1.667358,6.669432,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__BOOM_MOUNT_1_VTOL.STL/parent-mass-verification.json
+BOOM MOUNT 2 VTOL.STL,Bambu PC,4,1.026388,4.105552,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__BOOM_MOUNT_2_VTOL.STL/parent-mass-verification.json
+FIN TIP VTOL.STL,Bambu PETG Basic,1,3.527091,3.527091,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__FIN_TIP_VTOL.STL/parent-mass-verification.json
+FUS 1 VTOL.STL,Bambu ASA Aero,1,23.817371,23.817371,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__FUS_1_VTOL.STL/parent-mass-verification.json
+FUS 2 VTOL.STL,Bambu ASA Aero,1,77.272855,77.272855,uncalibrated_verified_slicer_estimate,reinforced-slicing/FUS_2_VTOL/parent-mass-verification.json
+FUS 5 VTOL.STL,Bambu ASA Aero,1,27.988823,27.988823,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__FUS_5_VTOL.STL/parent-mass-verification.json
+FUS 6 VTOL.STL,Bambu ASA Aero,1,38.549841,38.549841,uncalibrated_verified_slicer_estimate,reinforced-slicing/FUS_6_VTOL/parent-mass-verification.json
+MAIN SKIDS VTOL.STL,Bambu PC,1,38.295543,38.295543,uncalibrated_verified_slicer_estimate,verified-final-11-batch/vtol__MAIN_SKIDS_VTOL.STL/parent-mass-verification.json
+MOTOR MOUNT 1 VTOL.STL,Bambu PC,4,9.969618,39.878473,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__MOTOR_MOUNT_1_VTOL.STL/parent-mass-verification.json
+MOTOR MOUNT 2 VTOL.STL,Bambu PC,4,3.701692,14.806768,uncalibrated_verified_slicer_estimate,verified-nonreinforced-batch/vtol__MOTOR_MOUNT_2_VTOL.STL/parent-mass-verification.json
+WING 1.1 L VTOL.STL,Bambu ASA Aero,1,46.538325,46.538325,uncalibrated_verified_slicer_estimate,reinforced-slicing/WING_1_1_L_VTOL/parent-mass-verification.json
+WING 1.1 R VTOL.STL,Bambu ASA Aero,1,46.951252,46.951252,uncalibrated_verified_slicer_estimate,reinforced-slicing/WING_1_1_R_VTOL/parent-mass-verification.json
+WING 1.2 L VTOL.STL,Bambu ASA Aero,1,18.189257,18.189257,uncalibrated_verified_slicer_estimate,reinforced-slicing/WING_1_2_L_VTOL/parent-mass-verification.json
+WING 1.2 R VTOL.STL,Bambu ASA Aero,1,17.842095,17.842095,uncalibrated_verified_slicer_estimate,reinforced-slicing/WING_1_2_R_VTOL/parent-mass-verification.json

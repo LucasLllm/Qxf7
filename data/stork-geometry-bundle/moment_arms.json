@@ -1,0 +1,41 @@
+{
+  "exposed": {
+    "wing_QC_aircraft_mm": [
+      70.38644944974071,
+      0.0,
+      -0.6827880757922846
+    ],
+    "tail_bilateral_QC_aircraft_mm": [
+      574.548349035254,
+      0.0,
+      76.65091656222806
+    ],
+    "QC_difference_aircraft_mm": [
+      504.16189958551325,
+      0.0,
+      77.33370463802035
+    ],
+    "longitudinal_arm_mm": 504.16189958551325,
+    "xz_distance_mm": 510.0585484694024
+  },
+  "gross_with_declared_centerline_continuation": {
+    "wing_QC_aircraft_mm": [
+      69.03554269515278,
+      0.0,
+      -0.884217093730933
+    ],
+    "tail_bilateral_QC_aircraft_mm": [
+      574.548349035254,
+      0.0,
+      76.65091656222806
+    ],
+    "QC_difference_aircraft_mm": [
+      505.5128063401012,
+      0.0,
+      77.535133655959
+    ],
+    "longitudinal_arm_mm": 505.5128063401012,
+    "xz_distance_mm": 511.42437791416637
+  },
+  "definition": "Area-weighted geometric quarter-chords; bilateral y=0. Not aerodynamic centres or CG arms. Tail includes real fin. Gross wing uses declared artificial carry-through."
+}

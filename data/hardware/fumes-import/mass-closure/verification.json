@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "checks": 647,
+  "limitation": "Independent read-back/source checks are not physical corroboration. G3 OPEN; predicted print subset only."
+}

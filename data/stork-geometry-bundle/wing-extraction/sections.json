@@ -1,0 +1,1167 @@
+[
+  {
+    "chord_mm": 222.67749206401763,
+    "LE_aft_mm": 4.347305830759366,
+    "LE_up_mm": -0.002466660540014071,
+    "TE_aft_mm": 226.85558138069,
+    "TE_up_mm": -8.681912709497166,
+    "incidence_LE_up_deg": 2.233820889058859,
+    "max_t_c": 0.09732731848066395,
+    "max_t_x_c": 0.303951852771876,
+    "max_camber_c": 0.029181199691828107,
+    "max_camber_x_c": 0.3870993665654482,
+    "TE_thickness_mm": 1.0054686109183766,
+    "TE_thickness_c": 0.00451535807053779,
+    "quarterchord_aft_mm": 59.97437471824203,
+    "quarterchord_up_mm": -2.172328172779302,
+    "station_y_mm": 88.02,
+    "section_id": "fuselage_junction",
+    "source_audit": [
+      {
+        "component": "right_fuselage_root_plate",
+        "format": "STEP",
+        "outer_area_mm2": 3253.8410982475643,
+        "outer_points": 11323,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original trimmed STEP exterior; nested holes ignored",
+      "replaced_sample_fraction": 0.0
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": 0.014202128395196745,
+    "shape_vs_root_rms_c": 0.00020806680426395293,
+    "shape_vs_root_max_c": 0.0005353044940116652,
+    "shape_vs_root_rms_mm_at_local_chord": 0.04633179415527189
+  },
+  {
+    "chord_mm": 222.39133047687054,
+    "LE_aft_mm": 4.443826638840889,
+    "LE_up_mm": -0.01952870288745874,
+    "TE_aft_mm": 226.66741890071899,
+    "TE_up_mm": -8.655437080076485,
+    "incidence_LE_up_deg": 2.2254713781789293,
+    "max_t_c": 0.09744209424834824,
+    "max_t_x_c": 0.30539783137491383,
+    "max_camber_c": 0.02928563509294582,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.0028798872449616,
+    "TE_thickness_c": 0.004509527799912437,
+    "quarterchord_aft_mm": 59.99972470431041,
+    "quarterchord_up_mm": -2.178505797184715,
+    "station_y_mm": 89.98,
+    "section_id": "root_plate_in",
+    "source_audit": [
+      {
+        "component": "right_fuselage_root_plate",
+        "format": "STEP",
+        "outer_area_mm2": 3258.9992050074106,
+        "outer_points": 11309,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original trimmed STEP exterior; nested holes ignored",
+      "replaced_sample_fraction": 0.0
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": 0.005852617515266889,
+    "shape_vs_root_rms_c": 2.1367195686996637e-05,
+    "shape_vs_root_max_c": 8.448521441883818e-05,
+    "shape_vs_root_rms_mm_at_local_chord": 0.004751879077390832
+  },
+  {
+    "chord_mm": 222.38679895238582,
+    "LE_aft_mm": 4.445954943007775,
+    "LE_up_mm": -0.04082713186919515,
+    "TE_aft_mm": 226.66592704377146,
+    "TE_up_mm": -8.653164086765585,
+    "incidence_LE_up_deg": 2.2194392313085545,
+    "max_t_c": 0.09744312507012316,
+    "max_t_x_c": 0.30539783137491383,
+    "max_camber_c": 0.029341385149775155,
+    "max_camber_x_c": 0.38824734987936743,
+    "TE_thickness_mm": 1.0056168908726248,
+    "TE_thickness_c": 0.004521927091040745,
+    "quarterchord_aft_mm": 60.0009479681987,
+    "quarterchord_up_mm": -2.193911370593293,
+    "station_y_mm": 90.02,
+    "section_id": "root_plate_out",
+    "source_audit": [
+      {
+        "component": "right_wing_root_plate",
+        "format": "STEP",
+        "outer_area_mm2": 3259.0261779198845,
+        "outer_points": 11309,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original trimmed STEP exterior; nested holes ignored",
+      "replaced_sample_fraction": 0.0
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.00017952935510789914,
+    "shape_vs_root_rms_c": 3.6487012947971225e-05,
+    "shape_vs_root_max_c": 8.500614579264192e-05,
+    "shape_vs_root_rms_mm_at_local_chord": 0.008114230012833575
+  },
+  {
+    "chord_mm": 222.2134108471839,
+    "LE_aft_mm": 4.545165891824554,
+    "LE_up_mm": -0.027049607580381784,
+    "TE_aft_mm": 226.59185299135967,
+    "TE_up_mm": -8.633367546193277,
+    "incidence_LE_up_deg": 2.2196187606636624,
+    "max_t_c": 0.09744505193025163,
+    "max_t_x_c": 0.30539783137491383,
+    "max_camber_c": 0.029306007253174247,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.0038077966317989,
+    "TE_thickness_c": 0.004517314201716282,
+    "quarterchord_aft_mm": 60.05683766670833,
+    "quarterchord_up_mm": -2.1786290922336056,
+    "station_y_mm": 92.02,
+    "section_id": "wing_root",
+    "source_audit": [
+      {
+        "component": "right_wing_1p1",
+        "format": "STEP",
+        "outer_area_mm2": 3254.0559331033764,
+        "outer_points": 11300,
+        "internal_loops_ignored": 7,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original physical-body outer BSpline supporting surface section, trims removed only to recover design skin across machining cuts; exact source surface, not a fitted profile",
+      "replaced_sample_fraction": null
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": 0.0,
+    "shape_vs_root_rms_c": 0.0,
+    "shape_vs_root_max_c": 0.0,
+    "shape_vs_root_rms_mm_at_local_chord": 0.0
+  },
+  {
+    "chord_mm": 222.2168266593774,
+    "LE_aft_mm": 4.543371305991351,
+    "LE_up_mm": -0.02231131060463227,
+    "TE_aft_mm": 226.59333447240917,
+    "TE_up_mm": -8.632300181460366,
+    "incidence_LE_up_deg": 2.220531838757936,
+    "max_t_c": 0.09744507173801302,
+    "max_t_x_c": 0.30539783137491383,
+    "max_camber_c": 0.029290339249158595,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.005618873196588,
+    "TE_thickness_c": 0.004525394806118979,
+    "quarterchord_aft_mm": 60.055862097595806,
+    "quarterchord_up_mm": -2.174808528318566,
+    "station_y_mm": 91.98,
+    "section_id": "root_plate_end",
+    "source_audit": [
+      {
+        "component": "right_wing_root_plate",
+        "format": "STEP",
+        "outer_area_mm2": 3254.1552981194836,
+        "outer_points": 11300,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original trimmed STEP exterior; nested holes ignored",
+      "replaced_sample_fraction": 0.0
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": 0.000913078094273434,
+    "shape_vs_root_rms_c": 1.4916299094065559e-05,
+    "shape_vs_root_max_c": 5.968262028979441e-05,
+    "shape_vs_root_rms_mm_at_local_chord": 0.0033146526501853946
+  },
+  {
+    "chord_mm": 212.84570194223744,
+    "LE_aft_mm": 9.87792381807905,
+    "LE_up_mm": -0.016733257680208297,
+    "TE_aft_mm": 222.5925946968596,
+    "TE_up_mm": -7.4841041615422395,
+    "incidence_LE_up_deg": 2.010548727688487,
+    "max_t_c": 0.097548313303165,
+    "max_t_x_c": 0.305759626684317,
+    "max_camber_c": 0.0292791616033522,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.0039815885673538,
+    "TE_thickness_c": 0.0047169455591817245,
+    "quarterchord_aft_mm": 63.056591537774196,
+    "quarterchord_up_mm": -1.8835759836457162,
+    "station_y_mm": 200,
+    "section_id": "inner_clean",
+    "source_audit": [
+      {
+        "component": "right_wing_1p1",
+        "format": "STEP",
+        "outer_area_mm2": 2991.3894626841548,
+        "outer_points": 10825,
+        "internal_loops_ignored": 3,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original physical-body outer BSpline supporting surface section, trims removed only to recover design skin across machining cuts; exact source surface, not a fitted profile",
+      "replaced_sample_fraction": null
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.20907003297517557,
+    "shape_vs_root_rms_c": 7.386171805162044e-05,
+    "shape_vs_root_max_c": 0.00010593172600158575,
+    "shape_vs_root_rms_mm_at_local_chord": 0.015721149225356786
+  },
+  {
+    "chord_mm": 207.6299344877879,
+    "LE_aft_mm": 12.847461928825853,
+    "LE_up_mm": -0.022290680747125938,
+    "TE_aft_mm": 220.36530042511754,
+    "TE_up_mm": -6.84405007478105,
+    "incidence_LE_up_deg": 1.8828131770370304,
+    "max_t_c": 0.09760948968773937,
+    "max_t_x_c": 0.305759626684317,
+    "max_camber_c": 0.029297097521469175,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.004080426547729,
+    "TE_thickness_c": 0.004835913612479542,
+    "quarterchord_aft_mm": 64.72692155289877,
+    "quarterchord_up_mm": -1.7277305292556069,
+    "station_y_mm": 260.13695513675856,
+    "section_id": "joint_1p1_in",
+    "source_audit": [
+      {
+        "component": "right_wing_1p1",
+        "format": "STEP",
+        "outer_area_mm2": 1927.580254586973,
+        "outer_points": 10829,
+        "internal_loops_ignored": 4,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original physical-body outer BSpline supporting surface section, trims removed only to recover design skin across machining cuts; exact source surface, not a fitted profile",
+      "replaced_sample_fraction": null
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.33680558362663193,
+    "shape_vs_root_rms_c": 0.00011242302739187066,
+    "shape_vs_root_max_c": 0.00016915938571893455,
+    "shape_vs_root_rms_mm_at_local_chord": 0.02334238581229289
+  },
+  {
+    "chord_mm": 207.626465568684,
+    "LE_aft_mm": 12.84943729178094,
+    "LE_up_mm": -0.022289316328198937,
+    "TE_aft_mm": 220.36381894383592,
+    "TE_up_mm": -6.843624384274271,
+    "incidence_LE_up_deg": 1.8827274868641586,
+    "max_t_c": 0.09760953137475142,
+    "max_t_x_c": 0.305759626684317,
+    "max_camber_c": 0.02929709501843626,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.0040804142850006,
+    "TE_thickness_c": 0.004835994349443111,
+    "quarterchord_aft_mm": 64.72803270479469,
+    "quarterchord_up_mm": -1.727623083314717,
+    "station_y_mm": 260.1769551367585,
+    "section_id": "joint_1p1_out",
+    "source_audit": [
+      {
+        "component": "right_wing_1p2",
+        "format": "STEP",
+        "outer_area_mm2": 1927.5430649303871,
+        "outer_points": 10829,
+        "internal_loops_ignored": 4,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original physical-body outer BSpline supporting surface section, trims removed only to recover design skin across machining cuts; exact source surface, not a fitted profile",
+      "replaced_sample_fraction": null
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.3368912737995038,
+    "shape_vs_root_rms_c": 0.00011245175681138111,
+    "shape_vs_root_max_c": 0.00016920267320662177,
+    "shape_vs_root_rms_mm_at_local_chord": 0.02334796081373625
+  },
+  {
+    "chord_mm": 202.61409990407685,
+    "LE_aft_mm": 15.703811823568236,
+    "LE_up_mm": -0.02633070454152791,
+    "TE_aft_mm": 218.2229656615946,
+    "TE_up_mm": -6.228411699581912,
+    "incidence_LE_up_deg": 1.7541157430798577,
+    "max_t_c": 0.09767106355562338,
+    "max_t_x_c": 0.30612154181094164,
+    "max_camber_c": 0.029311662531273083,
+    "max_camber_x_c": 0.3886301491680749,
+    "TE_thickness_mm": 1.0041751111515214,
+    "TE_thickness_c": 0.00495609689368571,
+    "quarterchord_aft_mm": 66.33360028307483,
+    "quarterchord_up_mm": -1.576850953301624,
+    "station_y_mm": 317.98,
+    "section_id": "joint_1p2_in",
+    "source_audit": [
+      {
+        "component": "right_wing_1p2",
+        "format": "STEP",
+        "outer_area_mm2": 2717.1329036803677,
+        "outer_points": 10306,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original physical-body outer BSpline supporting surface section, trims removed only to recover design skin across machining cuts; exact source surface, not a fitted profile",
+      "replaced_sample_fraction": null
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.46550301758380463,
+    "shape_vs_root_rms_c": 0.000155393747056946,
+    "shape_vs_root_max_c": 0.00023353858865755167,
+    "shape_vs_root_rms_mm_at_local_chord": 0.031484964190664905
+  },
+  {
+    "chord_mm": 202.62625238939128,
+    "LE_aft_mm": 15.704497956951844,
+    "LE_up_mm": -0.07692240137833173,
+    "TE_aft_mm": 218.22148826187328,
+    "TE_up_mm": -6.730252034401635,
+    "incidence_LE_up_deg": 1.8816724756463856,
+    "max_t_c": 0.09765737579461244,
+    "max_t_x_c": 0.30431316658139884,
+    "max_camber_c": 0.03043009192140459,
+    "max_camber_x_c": 0.40168465269229,
+    "TE_thickness_mm": 0.0,
+    "TE_thickness_c": 0.0,
+    "quarterchord_aft_mm": 66.3337455331822,
+    "quarterchord_up_mm": -1.7402548096341577,
+    "station_y_mm": 318.02,
+    "section_id": "joint_1p2_out",
+    "source_audit": [
+      {
+        "component": "right_wing_2",
+        "format": "STL",
+        "outer_area_mm2": 2716.6149867988847,
+        "outer_points": 237,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.029993012091217408
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.33794628501727675,
+    "shape_vs_root_rms_c": 0.0015712580921476284,
+    "shape_vs_root_max_c": 0.0026877186334794897,
+    "shape_vs_root_rms_mm_at_local_chord": 0.3183781387483788
+  },
+  {
+    "chord_mm": 145.46123141215185,
+    "LE_aft_mm": 22.211537721133926,
+    "LE_up_mm": -0.06955654520767743,
+    "TE_aft_mm": 167.67130035520626,
+    "TE_up_mm": -0.7232371850669268,
+    "incidence_LE_up_deg": 0.25747938134343257,
+    "max_t_c": 0.12851902053560466,
+    "max_t_x_c": 0.41016962570340376,
+    "max_camber_c": 0.029313418187056867,
+    "max_camber_x_c": 0.41055596269886124,
+    "TE_thickness_mm": 9.166481889763467,
+    "TE_thickness_c": 0.06301666637064987,
+    "quarterchord_aft_mm": 58.576478379652,
+    "quarterchord_up_mm": -0.23297670517248978,
+    "station_y_mm": 449.78,
+    "section_id": "aileron_start_in",
+    "source_audit": [
+      {
+        "component": "right_wing_2",
+        "format": "STL",
+        "outer_area_mm2": 2179.295054644372,
+        "outer_points": 269,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.02419516096780644,
+      "lower_replaced_fraction": 0.02979404119176165,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 4.951386008536226
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.9621393793202297,
+    "shape_vs_root_rms_c": 0.02050919868570674,
+    "shape_vs_root_max_c": 0.029410056607330853,
+    "shape_vs_root_rms_mm_at_local_chord": 2.9832932960993888
+  },
+  {
+    "chord_mm": 191.18561864773875,
+    "LE_aft_mm": 22.21351341803097,
+    "LE_up_mm": -0.06956327574101803,
+    "TE_aft_mm": 213.34000951081222,
+    "TE_up_mm": -4.823852814112159,
+    "incidence_LE_up_deg": 1.4249440399781195,
+    "max_t_c": 0.09780499573829181,
+    "max_t_x_c": 0.31047378773808265,
+    "max_camber_c": 0.029439568202159663,
+    "max_camber_x_c": 0.3993755568918649,
+    "TE_thickness_mm": 1.006990593319883,
+    "TE_thickness_c": 0.005267083373960635,
+    "quarterchord_aft_mm": 69.99513744122629,
+    "quarterchord_up_mm": -1.2581356603338032,
+    "station_y_mm": 449.82,
+    "section_id": "aileron_start_out",
+    "source_audit": [
+      {
+        "component": "right_wing_2",
+        "format": "STL",
+        "outer_area_mm2": 2179.222211539821,
+        "outer_points": 269,
+        "internal_loops_ignored": 5,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_1",
+        "format": "STEP",
+        "outer_area_mm2": 238.5265681700594,
+        "outer_points": 2631,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.047190561887622474,
+      "lower_replaced_fraction": 0.047190561887622474,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.70960298267158,
+        167.70960298267158
+      ],
+      "max_raw_inward_cut_mm": 1.5744784197548887
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.7946747206855429,
+    "shape_vs_root_rms_c": 0.0003014531792938335,
+    "shape_vs_root_max_c": 0.0005537973287193407,
+    "shape_vs_root_rms_mm_at_local_chord": 0.057633512576619264
+  },
+  {
+    "chord_mm": 186.83725820034226,
+    "LE_aft_mm": 24.692025175372372,
+    "LE_up_mm": -0.07800672981680355,
+    "TE_aft_mm": 211.4819365049525,
+    "TE_up_mm": -4.283964089200769,
+    "incidence_LE_up_deg": 1.2899138317728343,
+    "max_t_c": 0.09787793563813613,
+    "max_t_x_c": 0.30431316658139884,
+    "max_camber_c": 0.0294748435843352,
+    "max_camber_x_c": 0.38824734987936743,
+    "TE_thickness_mm": 1.006906235311774,
+    "TE_thickness_c": 0.005389215432781005,
+    "quarterchord_aft_mm": 71.3895030077674,
+    "quarterchord_up_mm": -1.1294960696627947,
+    "station_y_mm": 500,
+    "section_id": "servo_pocket",
+    "source_audit": [
+      {
+        "component": "right_wing_2",
+        "format": "STL",
+        "outer_area_mm2": 1318.8616694897073,
+        "outer_points": 380,
+        "internal_loops_ignored": 3,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_1",
+        "format": "STEP",
+        "outer_area_mm2": 304.2299027233853,
+        "outer_points": 2867,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.04819036192761448,
+      "lower_replaced_fraction": 0.32013597280543893,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.5599986827443,
+        167.5599986827443
+      ],
+      "max_raw_inward_cut_mm": 14.868817137643509
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.9297049288908281,
+    "shape_vs_root_rms_c": 0.000354557596827688,
+    "shape_vs_root_max_c": 0.0005629904544768939,
+    "shape_vs_root_rms_mm_at_local_chord": 0.06624456926538759
+  },
+  {
+    "chord_mm": 184.7595941102047,
+    "LE_aft_mm": 25.876455465150112,
+    "LE_up_mm": -0.08204168455449459,
+    "TE_aft_mm": 210.59393120924344,
+    "TE_up_mm": -4.026882682348291,
+    "incidence_LE_up_deg": 1.2234272197081937,
+    "max_t_c": 0.09790999948791733,
+    "max_t_x_c": 0.3035906598947005,
+    "max_camber_c": 0.029486895979183622,
+    "max_camber_x_c": 0.39361270547788835,
+    "TE_thickness_mm": 1.0068656330437462,
+    "TE_thickness_c": 0.0054495986413737995,
+    "quarterchord_aft_mm": 72.05582440117344,
+    "quarterchord_up_mm": -1.0682519340029437,
+    "station_y_mm": 523.98,
+    "section_id": "joint_2_in",
+    "source_audit": [
+      {
+        "component": "right_wing_2",
+        "format": "STL",
+        "outer_area_mm2": 1284.1826599879116,
+        "outer_points": 379,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_1",
+        "format": "STEP",
+        "outer_area_mm2": 295.08955009924176,
+        "outer_points": 2820,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.04879024195160968,
+      "lower_replaced_fraction": 0.32373525294941013,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.48850583475195,
+        167.48850583475195
+      ],
+      "max_raw_inward_cut_mm": 14.753000874381684
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.9961915409554687,
+    "shape_vs_root_rms_c": 0.00037891388115051283,
+    "shape_vs_root_max_c": 0.000576472166532474,
+    "shape_vs_root_rms_mm_at_local_chord": 0.07000797488409109
+  },
+  {
+    "chord_mm": 184.75818944867976,
+    "LE_aft_mm": 25.87894948089007,
+    "LE_up_mm": 0.036958146342107326,
+    "TE_aft_mm": 210.59244992719997,
+    "TE_up_mm": -4.026454363520953,
+    "incidence_LE_up_deg": 1.2602156409227707,
+    "max_t_c": 0.09790865208443382,
+    "max_t_x_c": 0.31047378773808265,
+    "max_camber_c": 0.029094576271818107,
+    "max_camber_x_c": 0.39399644503897274,
+    "TE_thickness_mm": 1.0068514874186159,
+    "TE_thickness_c": 0.005449563510137605,
+    "quarterchord_aft_mm": 72.05732459246755,
+    "quarterchord_up_mm": -0.9788949811236578,
+    "station_y_mm": 524.02,
+    "section_id": "joint_2_out",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1284.1871738906018,
+        "outer_points": 380,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_1",
+        "format": "STEP",
+        "outer_area_mm2": 295.0744205155787,
+        "outer_points": 2820,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.04879024195160968,
+      "lower_replaced_fraction": 0.3239352129574085,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.48838658062684,
+        167.48838658062684
+      ],
+      "max_raw_inward_cut_mm": 14.752694473692884
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -0.9594031197408917,
+    "shape_vs_root_rms_c": 0.0003788510558263423,
+    "shape_vs_root_max_c": 0.0005101473769265046,
+    "shape_vs_root_rms_mm_at_local_chord": 0.0699958351451957
+  },
+  {
+    "chord_mm": 179.07962102192474,
+    "LE_aft_mm": 29.11554330362857,
+    "LE_up_mm": -0.010575031154052832,
+    "TE_aft_mm": 208.16445930152983,
+    "TE_up_mm": -3.326648813912227,
+    "incidence_LE_up_deg": 1.0610246489335515,
+    "max_t_c": 0.09794063190620748,
+    "max_t_x_c": 0.3007054971623014,
+    "max_camber_c": 0.02928522178105164,
+    "max_camber_x_c": 0.39322903154183253,
+    "TE_thickness_mm": 1.006746182120355,
+    "TE_thickness_c": 0.00562177972220021,
+    "quarterchord_aft_mm": 73.87777230310388,
+    "quarterchord_up_mm": -0.8395934768435963,
+    "station_y_mm": 589.58,
+    "section_id": "aileron_joint_in",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1856.5255870439673,
+        "outer_points": 329,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_1",
+        "format": "STEP",
+        "outer_area_mm2": 270.79715686716867,
+        "outer_points": 2692,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.05018996200759848,
+      "lower_replaced_fraction": 0.05038992201559688,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.29292906960185,
+        167.29292906960185
+      ],
+      "max_raw_inward_cut_mm": 1.3711638047725478
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.1585941117301108,
+    "shape_vs_root_rms_c": 0.00038484563687091883,
+    "shape_vs_root_max_c": 0.0005814678821251598,
+    "shape_vs_root_rms_mm_at_local_chord": 0.06891801080278541
+  },
+  {
+    "chord_mm": 179.0761569718744,
+    "LE_aft_mm": 29.117518040555193,
+    "LE_up_mm": -0.010604032482604456,
+    "TE_aft_mm": 208.16297781359225,
+    "TE_up_mm": -3.326223201985321,
+    "incidence_LE_up_deg": 1.0608996963717472,
+    "max_t_c": 0.09794065975829604,
+    "max_t_x_c": 0.3007054971623014,
+    "max_camber_c": 0.029285306996523996,
+    "max_camber_x_c": 0.39322903154183253,
+    "TE_thickness_mm": 1.0067461155674933,
+    "TE_thickness_c": 0.005621888098288888,
+    "quarterchord_aft_mm": 73.87888298381446,
+    "quarterchord_up_mm": -0.8395088248582836,
+    "station_y_mm": 589.62,
+    "section_id": "aileron_joint_out",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1856.4592696836419,
+        "outer_points": 327,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_2",
+        "format": "STEP",
+        "outer_area_mm2": 270.7826630203759,
+        "outer_points": 2692,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.05018996200759848,
+      "lower_replaced_fraction": 0.05038992201559688,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.29280981547677,
+        167.29280981547677
+      ],
+      "max_raw_inward_cut_mm": 1.371636378875638
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.1587190642919152,
+    "shape_vs_root_rms_c": 0.00038486870839422025,
+    "shape_vs_root_max_c": 0.0005815297694835931,
+    "shape_vs_root_rms_mm_at_local_chord": 0.06892080923796594
+  },
+  {
+    "chord_mm": 173.8479090443509,
+    "LE_aft_mm": 32.09877910428834,
+    "LE_up_mm": -0.038552275707109535,
+    "TE_aft_mm": 205.92653395153994,
+    "TE_up_mm": -2.6856495267940703,
+    "incidence_LE_up_deg": 0.8724485816016462,
+    "max_t_c": 0.09807647535526821,
+    "max_t_x_c": 0.30142605468260975,
+    "max_camber_c": 0.029386776254601475,
+    "max_camber_x_c": 0.397453015144648,
+    "TE_thickness_mm": 1.0066461297665477,
+    "TE_thickness_c": 0.005790383878069761,
+    "quarterchord_aft_mm": 75.55571781610124,
+    "quarterchord_up_mm": -0.7003265884788497,
+    "station_y_mm": 650,
+    "section_id": "outer_clean",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1758.5913715494273,
+        "outer_points": 299,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_2",
+        "format": "STEP",
+        "outer_area_mm2": 249.3449393294962,
+        "outer_points": 2573,
+        "internal_loops_ignored": 1,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.051789642071585686,
+      "lower_replaced_fraction": 0.051789642071585686,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        158.11279571365114,
+        167.11279571365114
+      ],
+      "max_raw_inward_cut_mm": 1.38541484794212
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.347170179062016,
+    "shape_vs_root_rms_c": 0.0004469320808830529,
+    "shape_vs_root_max_c": 0.0006752493001534084,
+    "shape_vs_root_rms_mm_at_local_chord": 0.07769820774635947
+  },
+  {
+    "chord_mm": 166.97670990250222,
+    "LE_aft_mm": 36.01901012309546,
+    "LE_up_mm": -0.04147381068055036,
+    "TE_aft_mm": 202.985933204294,
+    "TE_up_mm": -1.8493030784802709,
+    "incidence_LE_up_deg": 0.6203440643051825,
+    "max_t_c": 0.09817046549656575,
+    "max_t_x_c": 0.30467460110039246,
+    "max_camber_c": 0.02938405430313814,
+    "max_camber_x_c": 0.402069715637953,
+    "TE_thickness_mm": 1.0064022494545333,
+    "TE_thickness_c": 0.006027201338690719,
+    "quarterchord_aft_mm": 77.76074089339511,
+    "quarterchord_up_mm": -0.49343112763048047,
+    "station_y_mm": 729.38,
+    "section_id": "aileron_end_in",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1694.88021169062,
+        "outer_points": 251,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      },
+      {
+        "component": "right_aileron_2",
+        "format": "STEP",
+        "outer_area_mm2": 162.4224219946512,
+        "outer_points": 2121,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.05378924215156969,
+      "lower_replaced_fraction": 0.05378924215156969,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        157.87613590240701,
+        166.87613590240701
+      ],
+      "max_raw_inward_cut_mm": 1.6835414819220769
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.5992746963584799,
+    "shape_vs_root_rms_c": 0.0005345595614396182,
+    "shape_vs_root_max_c": 0.0008009683314253533,
+    "shape_vs_root_rms_mm_at_local_chord": 0.08925899681611194
+  },
+  {
+    "chord_mm": 129.98077184195225,
+    "LE_aft_mm": 36.020985548149035,
+    "LE_up_mm": -0.04147528285740772,
+    "TE_aft_mm": 165.9979090576172,
+    "TE_up_mm": 0.9587265185358236,
+    "incidence_LE_up_deg": -0.44089526966759834,
+    "max_t_c": 0.12608072842931647,
+    "max_t_x_c": 0.39284542346747464,
+    "max_camber_c": 0.02931895099493996,
+    "max_camber_x_c": 0.41868141740255826,
+    "TE_thickness_mm": 7.61601720645438,
+    "TE_thickness_c": 0.058593414229875,
+    "quarterchord_aft_mm": 68.51521642551607,
+    "quarterchord_up_mm": 0.20857516749090008,
+    "station_y_mm": 729.42,
+    "section_id": "aileron_end_out",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1694.8145934806319,
+        "outer_points": 251,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0625874825034993,
+      "lower_replaced_fraction": 0.0625874825034993,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        157.87601664828193,
+        166.87601664828193
+      ],
+      "max_raw_inward_cut_mm": 3.852528669008597
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -2.6605140303312607,
+    "shape_vs_root_rms_c": 0.018998615129145007,
+    "shape_vs_root_max_c": 0.02724269137040073,
+    "shape_vs_root_rms_mm_at_local_chord": 2.469454658414459
+  },
+  {
+    "chord_mm": 129.9498145535215,
+    "LE_aft_mm": 36.048641498898995,
+    "LE_up_mm": -0.04149589333341083,
+    "TE_aft_mm": 165.99457995605468,
+    "TE_up_mm": 0.9621878136854676,
+    "incidence_LE_up_deg": -0.4425355461036018,
+    "max_t_c": 0.1260763744969633,
+    "max_t_x_c": 0.39284542346747464,
+    "max_camber_c": 0.02932006092799346,
+    "max_camber_x_c": 0.41868141740255826,
+    "TE_thickness_mm": 7.612911233587077,
+    "TE_thickness_c": 0.05858347131731845,
+    "quarterchord_aft_mm": 68.53512611318791,
+    "quarterchord_up_mm": 0.20942503342130878,
+    "station_y_mm": 729.98,
+    "section_id": "tip_root_in",
+    "source_audit": [
+      {
+        "component": "right_wing_3",
+        "format": "STL",
+        "outer_area_mm2": 1693.895886949831,
+        "outer_points": 251,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0625874825034993,
+      "lower_replaced_fraction": 0.0625874825034993,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": [
+        157.87434709053065,
+        166.87434709053065
+      ],
+      "max_raw_inward_cut_mm": 3.850986410514533
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -2.662154306767264,
+    "shape_vs_root_rms_c": 0.018994990785923798,
+    "shape_vs_root_max_c": 0.027237680838891797,
+    "shape_vs_root_rms_mm_at_local_chord": 2.468395530076647
+  },
+  {
+    "chord_mm": 166.92122985357636,
+    "LE_aft_mm": 36.050939751899755,
+    "LE_up_mm": -0.043048865422440935,
+    "TE_aft_mm": 202.96247833522898,
+    "TE_up_mm": -1.8417327109809996,
+    "incidence_LE_up_deg": 0.6174109046862006,
+    "max_t_c": 0.09816592617786984,
+    "max_t_x_c": 0.30142605468260975,
+    "max_camber_c": 0.0294098736415283,
+    "max_camber_x_c": 0.38633439217667676,
+    "TE_thickness_mm": 1.006580721620038,
+    "TE_thickness_c": 0.006030273815397913,
+    "quarterchord_aft_mm": 77.77882439773205,
+    "quarterchord_up_mm": -0.4927198268120806,
+    "station_y_mm": 730.02,
+    "section_id": "tip_root_out",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 1862.5184378195818,
+        "outer_points": 207,
+        "internal_loops_ignored": 2,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "aircraft-y constant section",
+    "twist_LE_up_relative_root_deg": -1.6022078559774617,
+    "shape_vs_root_rms_c": 0.0005327682278331211,
+    "shape_vs_root_max_c": 0.0007832016960645904,
+    "shape_vs_root_rms_mm_at_local_chord": 0.08893032781681494
+  },
+  {
+    "chord_mm": 163.4286628285571,
+    "LE_aft_mm": 39.19123414665388,
+    "LE_up_mm": 1.7642851825450057,
+    "TE_aft_mm": 202.60971402436758,
+    "TE_up_mm": -0.060069055940639215,
+    "incidence_LE_up_deg": 0.6396060974109622,
+    "max_t_c": 0.09135574375263032,
+    "max_t_x_c": 0.3035906598947005,
+    "max_camber_c": 0.027371637327278507,
+    "max_camber_x_c": 0.38518745704302654,
+    "TE_thickness_mm": 1.0063429873318845,
+    "TE_thickness_c": 0.0061576896605192,
+    "quarterchord_aft_mm": 80.04585411608231,
+    "quarterchord_up_mm": 1.3081966229235944,
+    "station_y_mm": 750,
+    "section_id": "curved_tip_750",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 1677.6014878763253,
+        "outer_points": 210,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "local aircraft-y plane; curved-tip oblique diagnostic, NOT certified local normal airfoil",
+    "twist_LE_up_relative_root_deg": -1.5800126632527003,
+    "shape_vs_root_rms_c": 0.0020088585893675926,
+    "shape_vs_root_max_c": 0.00498465060420554,
+    "shape_vs_root_rms_mm_at_local_chord": 0.3283050730720071
+  },
+  {
+    "chord_mm": 147.3722722459677,
+    "LE_aft_mm": 55.41393284655843,
+    "LE_up_mm": 9.512942351062005,
+    "TE_aft_mm": 202.77406333446524,
+    "TE_up_mm": 7.621231610304985,
+    "incidence_LE_up_deg": 0.7354844745279094,
+    "max_t_c": 0.08341327819910457,
+    "max_t_x_c": 0.29890625860747216,
+    "max_camber_c": 0.025360612366549986,
+    "max_camber_x_c": 0.3741342256657515,
+    "TE_thickness_mm": 1.005528613703509,
+    "TE_thickness_c": 0.006823051571229483,
+    "quarterchord_aft_mm": 92.25396546853514,
+    "quarterchord_up_mm": 9.04001466587275,
+    "station_y_mm": 780,
+    "section_id": "curved_tip_780",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 1268.0527725735412,
+        "outer_points": 210,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "local aircraft-y plane; curved-tip oblique diagnostic, NOT certified local normal airfoil",
+    "twist_LE_up_relative_root_deg": -1.484134286135753,
+    "shape_vs_root_rms_c": 0.00447988614090719,
+    "shape_vs_root_max_c": 0.01096159342479995,
+    "shape_vs_root_rms_mm_at_local_chord": 0.6602109999887121
+  },
+  {
+    "chord_mm": 119.59469699580013,
+    "LE_aft_mm": 84.1137241805755,
+    "LE_up_mm": 18.68596912902004,
+    "TE_aft_mm": 203.69266767920288,
+    "TE_up_mm": 16.744881477901465,
+    "incidence_LE_up_deg": 0.92998282034829,
+    "max_t_c": 0.08148984863005129,
+    "max_t_x_c": 0.3170336006853849,
+    "max_camber_c": 0.02407525737162088,
+    "max_camber_x_c": 0.38901301715530207,
+    "TE_thickness_mm": 1.0043079480360741,
+    "TE_thickness_c": 0.008397595990994006,
+    "quarterchord_aft_mm": 114.00846005523235,
+    "quarterchord_up_mm": 18.200697216240396,
+    "station_y_mm": 800,
+    "section_id": "near_tip_800",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 830.895349030381,
+        "outer_points": 169,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "local aircraft-y plane; curved-tip oblique diagnostic, NOT certified local normal airfoil",
+    "twist_LE_up_relative_root_deg": -1.2896359403153723,
+    "shape_vs_root_rms_c": 0.0052856043418378915,
+    "shape_vs_root_max_c": 0.013130144538170047,
+    "shape_vs_root_rms_mm_at_local_chord": 0.6321302497017882
+  },
+  {
+    "chord_mm": 84.66648777739867,
+    "LE_aft_mm": 120.13155731248892,
+    "LE_up_mm": 24.654377289479676,
+    "TE_aft_mm": 204.7859259963897,
+    "TE_up_mm": 23.221891586025883,
+    "incidence_LE_up_deg": 0.9694426149946552,
+    "max_t_c": 0.06148968940615303,
+    "max_t_x_c": 0.2556893792515225,
+    "max_camber_c": 0.006297723493050467,
+    "max_camber_x_c": 0.5886711980278413,
+    "TE_thickness_mm": 1.000007975153532,
+    "TE_thickness_c": 0.011811142772128544,
+    "quarterchord_aft_mm": 141.29514948346412,
+    "quarterchord_up_mm": 24.296255863616228,
+    "station_y_mm": 809,
+    "section_id": "near_tip_809",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 330.7496228483695,
+        "outer_points": 145,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "local aircraft-y plane; curved-tip oblique diagnostic, NOT certified local normal airfoil",
+    "twist_LE_up_relative_root_deg": -1.2501761456690073,
+    "shape_vs_root_rms_c": 0.01783653936552602,
+    "shape_vs_root_max_c": 0.042315066251857596,
+    "shape_vs_root_rms_mm_at_local_chord": 1.5101571421823992
+  },
+  {
+    "chord_mm": 14.552480343897301,
+    "LE_aft_mm": 146.5728031450337,
+    "LE_up_mm": 24.593113469230964,
+    "TE_aft_mm": 161.12508600713923,
+    "TE_up_mm": 24.51730014067298,
+    "incidence_LE_up_deg": 0.29849230533283594,
+    "max_t_c": 0.05432476655939812,
+    "max_t_x_c": 0.5642247151001515,
+    "max_camber_c": -0.003537739229408421,
+    "max_camber_x_c": 0.21668901337820845,
+    "TE_thickness_mm": 0.02630492596184124,
+    "TE_thickness_c": 0.0018075905509037447,
+    "quarterchord_aft_mm": 150.21087386056007,
+    "quarterchord_up_mm": 24.574160137091468,
+    "station_y_mm": 810.25,
+    "section_id": "near_tip_810p25",
+    "source_audit": [
+      {
+        "component": "right_wingtip",
+        "format": "STL",
+        "outer_area_mm2": 9.17743101277053,
+        "outer_points": 19,
+        "internal_loops_ignored": 0,
+        "all_other_loops_nested": true
+      }
+    ],
+    "skin_recovery": {
+      "method": "original STL fixed-wing and original STEP movable outer skin; inward machining cuts and hinge arc replaced by original inboard STEP underlying loft only where y<730. No loft substitution on curved tip.",
+      "upper_replaced_fraction": 0.0,
+      "lower_replaced_fraction": 0.0,
+      "missing_samples": 0,
+      "hinge_limits_aft_mm": null,
+      "max_raw_inward_cut_mm": 0.0
+    },
+    "section_class": "local aircraft-y plane; curved-tip oblique diagnostic, NOT certified local normal airfoil",
+    "twist_LE_up_relative_root_deg": -1.9211264553308265,
+    "shape_vs_root_rms_c": 0.023885452626662387,
+    "shape_vs_root_max_c": 0.054098916943929716,
+    "shape_vs_root_rms_mm_at_local_chord": 0.3475925798545945
+  }
+]

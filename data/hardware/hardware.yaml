@@ -1,0 +1,59 @@
+# QxF7 / Stork VTOL hardware list. Fill in what you have chosen.
+# Leave a field as null if unknown. Add "source:" for every spec (datasheet URL or "measured").
+# Defaults in comments are Flightory's recommendations (Stork VTOL manual v2), not your choices.
+
+configuration: standard_stork_vtol   # standard_stork_vtol | qxf7_scaled
+
+battery:
+  chemistry: null          # e.g. Li-ion 21700 (Samsung 50E), LiPo
+  cells_series: null       # manual: 4S-6S
+  cells_parallel: null
+  capacity_mAh: null
+  nominal_voltage_V: null
+  energy_Wh: null
+  mass_g: null
+  max_continuous_A: null
+  internal_resistance_mOhm: null
+  source: null
+
+pusher:
+  motor: null              # default: BrotherHobby Avenger 2812 V5 910KV
+  kv: null
+  Rm_ohm: null
+  I0_A: null
+  mass_g: null
+  prop: null               # default on 4S: 10x6 two-blade (APC 10x6E per Flightony); 6S: 9x4.5x3 / 9453
+  esc: null                # default: Lumenier 51A BLHeli32 (35-40 A on 4S)
+  source: null
+
+lift:
+  motor: null              # default: 4x T-Motor F90 1300KV
+  kv: null
+  mass_g_each: null
+  prop: null               # default: 7 in two-blade
+  esc: null                # default: 4-in-1 (Velox V50A); separate ESCs recommended for QxF7
+  prop_alignment_system: null   # none | ratchet | other  (stopped-prop drag matters: 10-35%)
+  source: null
+
+booms:
+  section: 10x10 mm square carbon   # manual
+  length_mm: 500                    # manual, x2
+  count: 2
+
+avionics:
+  flight_controller: null  # default: SpeedyBee F405 Wing
+  gps: null                # default: Matek M10Q
+  receiver: null           # default: Matek R24-D ELRS
+  telemetry: null
+  camera_vtx: null
+  servos: null             # default: 4x EMAX ES08 MAII
+  mass_g_total: null
+
+payload:
+  mass_g: null             # QxF7 target 750 g gross; stock Stork runs 0-500 g
+  box_dims_mm: null
+
+wiring_glue_fasteners_allowance_pct: 10   # typical 5-15%
+
+notes: |
+  Anything else (filament per part is in slicer_weights.csv).

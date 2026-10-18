@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "executed_regression_tests": 6,
+  "test_process_returncode": 0,
+  "all_five_original_CAD_hashes_match_pre_post_and_upstream": true,
+  "production_script_and_references_hashes_match_execution_receipt": true,
+  "all_profile_coordinate_counts": {
+    "root": 140,
+    "midspan": 140,
+    "outer_regular": 140,
+    "fin_transition": 140,
+    "tip_fin_near_cap": 140
+  },
+  "finite_TE_caps_preserved": true,
+  "MAC_vector_QC_LE_identity_verified": true,
+  "aerodynamic_true_zero_unknown_preserved": true,
+  "degenerate_tip_conventional_foil_unknown_preserved": true,
+  "final_artifacts": {
+    "README.md": {
+      "sha256": "06dae37040cb11029519b77ba12c6b42770a435a0aca7fdf20eaa4bd9abef06f",
+      "bytes": 8529
+    },
+    "airfoil_tools_local.py": {
+      "sha256": "1ac22db9442c5d6597c6f783b4f323b02f7677fd701215e02af77f90d15877d6",
+      "bytes": 4347
+    },
+    "basis.json": {
+      "sha256": "73e2a419509bf6f52a6037a511eb1ea05c0d15474cec6040dd43641b5fdf3479",
+      "bytes": 280
+    },
+    "component_0.ply": {
+      "sha256": "b342bc0876dd8cccee6db81332f39a193db558bd30d90fde3ddd2e2102019e55",
+      "bytes": 41978
+    },
+    "component_1.ply": {
+      "sha256": "60e342ee699713ecee813818b172a1645679369bd323979047bdd7a2f7798b20",
+      "bytes": 74007
+    },
+    "component_2.ply": {
+      "sha256": "b9f2b2b435fe2d80a3e70239b6f37117b86b41ae848682b37445bcc036bf5d82",
+      "bytes": 188715
+    },
+    "component_3.ply": {
+      "sha256": "f56c735ee59aecbfc28392c1febd58d1468d99033ff48ef12970d00e1144b6d5",
+      "bytes": 540275
+    },
+    "component_4.ply": {
+      "sha256": "677e6d676b02859e388d6ee9aed7139d28062cc4f1670aca03a67d1cfa8fdb15",
+      "bytes": 627689
+    },
+    "extract_tail.py": {
+      "sha256": "6c767c3e03ce0e46bfe5472a4ba2c33b776b47d86713735d96ccd86a34d64f39",
+      "bytes": 17986
+    },
+    "extraction.log": {
+      "sha256": "9ae9301ee5d68df3c12a42c445bcab6511750f90e5f921124519cd7c52c63fdf",
+      "bytes": 3164
+    },
+    "fin_transition_140cosineSelig.dat": {
+      "sha256": "24b8b4b1c0416071e11e225121ac9d5d837c856f1af31ff1d0c04a5d5e247234",
+      "bytes": 3803
+    },
+    "fin_transition_raw_section_loops.csv": {
+      "sha256": "2e4586d3572d2bf5bfee8dd205705ffdd6e09975080f93ff19b04d7bccb504d3",
+      "bytes": 26529
+    },
+    "geometry_inspection.png": {
+      "sha256": "a90795d8802c9e82d5f5771392ad207ad68f190d4b9ebf22a6cd6a84e2e3238a",
+      "bytes": 212788
+    },
+    "inspect_tail.py": {
+      "sha256": "6981443260a8566298401eee3e64acf0aeeeaba99563b04fb9a7d1e26d703e10",
+      "bytes": 2001
+    },
+    "inspection.log": {
+      "sha256": "e729ee3fbb5cd5010da056c31da40b3093c0f3a3880e14e945b94dd7e7811f2a",
+      "bytes": 2864
+    },
+    "midspan_140cosineSelig.dat": {
+      "sha256": "dcf4c673f6024d284bf8c66ecb6becd4c12aca1caebc7c666da70b7504d9a82b",
+      "bytes": 3809
+    },
+    "midspan_raw_section_loops.csv": {
+      "sha256": "3d767afe751f8820abeb390e171138eb9d8c79faa3064ad0d20a8b081a325618",
+      "bytes": 88986
+    },
+    "normalize_tail.py": {
+      "sha256": "e2632dd1caaa3aca9c46fdcee4c764bb228696ef150fcf29e7a0512bfcb2fad8",
+      "bytes": 4135
+    },
+    "outer_regular_140cosineSelig.dat": {
+      "sha256": "79919b9dc9e269386db93dab1afdb41bd404e4f81f900bc73bff82d790ad3e26",
+      "bytes": 3815
+    },
+    "outer_regular_raw_section_loops.csv": {
+      "sha256": "869fba7456f7ad18b6682e7e80ce9834f83eb651c061342e37bae8364b4f546f",
+      "bytes": 49704
+    },
+    "planform_diagnostics.png": {
+      "sha256": "dc1d738053b1efd5b5e248f3c0abaa43af0af86082991cca87d21405454a5db4",
+      "bytes": 241180
+    },
+    "profile_summary.csv": {
+      "sha256": "e734710d7d75e0cd5428f72ae43e6f57187581c987649810a01fd5d1adddb54d",
+      "bytes": 1876
+    },
+    "root_140cosineSelig.dat": {
+      "sha256": "98a5d3d959d247a5f78eb1b3b93c83a4c037eb12608369513f3451556a3e66e1",
+      "bytes": 3805
+    },
+    "root_raw_section_loops.csv": {
+      "sha256": "8dd335674f8b59b91311f0b22647c8d1cfdfb8b95b70812853c37e5a31e2e706",
+      "bytes": 67429
+    },
+    "section_diagnostics.png": {
+      "sha256": "1e98fa5ea1299aa593abf8b014bcc5be1c7e65b3befb4d6e0f877fad949ebd7f",
+      "bytes": 326688
+    },
+    "source_hash_verification.json": {
+      "sha256": "b2a9a6f9a84aa92afea73af3e680fb687bb2079143cb6ea48c6cf235f9b87a35",
+      "bytes": 3868
+    },
+    "spanwise_geometry.csv": {
+      "sha256": "0b8589a4d18876d8b7b03ab5e52f65790ea303d97e8b7e333e468037f72bcf9e",
+      "bytes": 101090
+    },
+    "tail_geometry.json": {
+      "sha256": "42f9df675953e6147de3fd2ac3afed662e84b71c2dd1528dc07ec65ae7864d2c",
+      "bytes": 21362
+    },
+    "test_tail.py": {
+      "sha256": "4fef5630774bb7c9d012509f6ccf0fe7f71cdf71b5c5595aab976690184a37e0",
+      "bytes": 2950
+    },
+    "tests.log": {
+      "sha256": "80d11915664f229800fb8c36cd39999144b144f224e4c11e0cf51d83911f2304",
+      "bytes": 622
+    },
+    "tip_fin_near_cap_140cosineSelig.dat": {
+      "sha256": "77d3761d841cda25e654717da0287bebd093a2ea8feb982138fa9e3ba334fd61",
+      "bytes": 3805
+    },
+    "tip_fin_near_cap_raw_section_loops.csv": {
+      "sha256": "3d0ce7e377599db33487547cef2b82723339b524d4a2332808297a936c0f7ccd",
+      "bytes": 11014
+    },
+    "verify_deliverables.py": {
+      "sha256": "c5fad5b3e5ed4587fc002d55539495befaed14328fa4dccfd92ca33f3ac3e39a",
+      "bytes": 2246
+    }
+  }
+}

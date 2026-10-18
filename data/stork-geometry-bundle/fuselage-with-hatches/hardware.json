@@ -1,0 +1,740 @@
+[
+  {
+    "part": "MOTOR MOUNT 19x19.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/MOTOR MOUNT 19x19.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        -25.304118566423195,
+        -48.71986118986173,
+        642.7491136436045
+      ],
+      [
+        25.304118566423195,
+        0.28331804562242097,
+        663.7491137436049
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      21.00000010000042,
+      50.60823713284639,
+      49.003179235484154
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 1881.025426922245,
+      "side_xz_mm2": 777.3946380690353,
+      "top_xy_mm2": 827.3330971646261
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": {
+      "source": "MOTOR MOUNT 19x19.STEP",
+      "transform_source_to_native": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "checks": [
+        {
+          "a": "MOTOR MOUNT 19x19.STEP",
+          "a_face": 1,
+          "b": "FUS 6 VTOL MODIFIER.STEP",
+          "b_face": 11,
+          "type": "CYLINDER",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 4.547612284625202e-13,
+          "radius_a": 1.6000000000000458,
+          "radius_b": 1.6000000000000458
+        },
+        {
+          "a": "MOTOR MOUNT 19x19.STEP",
+          "a_face": 8,
+          "b": "FUS 6 VTOL MODIFIER.STEP",
+          "b_face": 138,
+          "type": "CYLINDER",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 4.547473508864641e-13,
+          "radius_a": 1.6000000000000458,
+          "radius_b": 1.6000000000000458
+        },
+        {
+          "a": "MOTOR MOUNT 19x19.STEP",
+          "a_face": 40,
+          "b": "FUS 6 VTOL MODIFIER.STEP",
+          "b_face": 27,
+          "type": "CYLINDER",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 3.155443620884047e-29,
+          "radius_a": 15.0,
+          "radius_b": 15.25
+        }
+      ],
+      "remaining_continuous_DoF": [],
+      "note": "Orthogonal transverse screw axes plus longitudinal concentric seat; seat radius15 vs15.25 radial clearance. Mount flange plane657.749 vs FUS6 end657.549 gives0.2 axial clearance. Actual motor and propeller absent, unresolved motor dimensions/shaft overhang."
+    },
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "605d4d1a1ac9a6d8ae5be0f8f47c863b147b2a5d2e82ae6cbeb47a9979148db4"
+  },
+  {
+    "part": "BOOM MOUNT 1 VTOL.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/BOOM MOUNT 1 VTOL.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        244.9569551367584,
+        -4.059145548465365,
+        148.17953032118882
+      ],
+      [
+        275.3569551367584,
+        1.9408544515346358,
+        158.17953032118885
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      10.000000000000028,
+      30.400000000000006,
+      6.0
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 182.38135092004856,
+      "side_xz_mm2": 60.00000000000017,
+      "top_xy_mm2": 282.5072699155988
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": [
+      {
+        "side": "right",
+        "station": "aft",
+        "native_z_mm": 153.17953032118882,
+        "transform_mount_source_to_native": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 22,
+            "axis_distance_mm": 1.9065862296939058e-13,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 28,
+            "axis_distance_mm": 2.0495186137532011e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "right",
+        "station": "forward",
+        "native_z_mm": 71.7414234234275,
+        "transform_mount_source_to_native": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -81.43810689776132
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 30,
+            "axis_distance_mm": 8.526512829121202e-14,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 19,
+            "axis_distance_mm": 1.1368683772161603e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "left",
+        "station": "aft",
+        "native_z_mm": 153.17953032118882,
+        "transform_mount_source_to_native": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 22,
+            "axis_distance_mm": 1.9065862296939058e-13,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 28,
+            "axis_distance_mm": 2.0495186137532011e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "left",
+        "station": "forward",
+        "native_z_mm": 71.7414234234275,
+        "transform_mount_source_to_native": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -81.43810689776132
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 30,
+            "axis_distance_mm": 8.526512829121202e-14,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 19,
+            "axis_distance_mm": 1.1368683772161603e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      }
+    ],
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3"
+  },
+  {
+    "part": "BOOM MOUNT 2 VTOL.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/BOOM MOUNT 2 VTOL.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        244.9569551367584,
+        -16.059145548465366,
+        148.17953022118883
+      ],
+      [
+        275.3569551367584,
+        -4.059145548465363,
+        158.17953042118884
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      10.000000200000017,
+      30.400000000000006,
+      12.000000000000004
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 111.21843439532941,
+      "side_xz_mm2": 120.00000000000041,
+      "top_xy_mm2": 266.4289810368851
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": [
+      {
+        "side": "right",
+        "station": "aft",
+        "native_z_mm": 153.17953032118882,
+        "transform_mount_source_to_native": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 22,
+            "axis_distance_mm": 1.9065862296939058e-13,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 28,
+            "axis_distance_mm": 2.0495186137532011e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "right",
+        "station": "forward",
+        "native_z_mm": 71.7414234234275,
+        "transform_mount_source_to_native": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -81.43810689776132
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 30,
+            "axis_distance_mm": 8.526512829121202e-14,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 19,
+            "axis_distance_mm": 1.1368683772161603e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "left",
+        "station": "aft",
+        "native_z_mm": 153.17953032118882,
+        "transform_mount_source_to_native": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 22,
+            "axis_distance_mm": 1.9065862296939058e-13,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 28,
+            "axis_distance_mm": 2.0495186137532011e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      },
+      {
+        "side": "left",
+        "station": "forward",
+        "native_z_mm": 71.7414234234275,
+        "transform_mount_source_to_native": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -81.43810689776132
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checks": [
+          {
+            "mount1_face": 1,
+            "wing_source": "WING 1.1 L VTOL MODIFIER.STEP",
+            "wing_body": 2,
+            "wing_face": 30,
+            "axis_distance_mm": 8.526512829121202e-14,
+            "wing_radius": 5.250000000000004
+          },
+          {
+            "mount1_face": 2,
+            "wing_source": "WING 1.2 L VTOL MODIFIER.STEP",
+            "wing_body": 1,
+            "wing_face": 19,
+            "axis_distance_mm": 1.1368683772161603e-13,
+            "wing_radius": 5.250000000000004
+          }
+        ],
+        "remaining_continuous_DoF": [],
+        "note": "Reflection gives corresponding symmetric part placement, not a rigid rotation; mount1/body pocket planar datum Y=-4.059145548465 matches wing. Parent owns wing global transform."
+      }
+    ],
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc"
+  },
+  {
+    "part": "MAIN SKIDS VTOL.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MAIN SKIDS VTOL.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        -119.89967481433412,
+        -159.16834254842735,
+        -110.90449643878559
+      ],
+      [
+        119.89967481433413,
+        -78.76198775288992,
+        -76.24788694787934
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      34.65660949090625,
+      239.79934962866827,
+      80.40635479553742
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 1560.4487386473597,
+      "side_xz_mm2": 1631.1131183698521,
+      "top_xy_mm2": 5751.119451477401
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": {
+      "source": "MAIN SKIDS VTOL.STEP",
+      "transform_source_to_native": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "checks": [
+        {
+          "a": "MAIN SKIDS VTOL.STEP",
+          "a_face": 2,
+          "b": "FUS 2 VTOL MODIFIER.STEP",
+          "b_face": 1,
+          "type": "CYLINDER",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 4.263256414560601e-14,
+          "radius_a": 1.600000000000004,
+          "radius_b": 1.600000000000004
+        },
+        {
+          "a": "MAIN SKIDS VTOL.STEP",
+          "a_face": 4,
+          "b": "FUS 2 VTOL MODIFIER.STEP",
+          "b_face": 48,
+          "type": "CYLINDER",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 4.263256414560601e-14,
+          "radius_a": 1.600000000000004,
+          "radius_b": 1.600000000000004
+        },
+        {
+          "a": "MAIN SKIDS VTOL.STEP",
+          "a_face": 7,
+          "b": "FUS 2 VTOL MODIFIER.STEP",
+          "b_face": 99,
+          "type": "PLANE",
+          "axis_angle_rad": 0.0,
+          "residual_mm": 0.20000000000003126,
+          "radius_a": null,
+          "radius_b": null
+        }
+      ],
+      "remaining_continuous_DoF": [],
+      "note": "Two screw axes plus underside seating plane. As-authored seating clearance 0.2 mm, not a registration error; do not close it by translation."
+    },
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "9709422fde9cb10b0742e7efd43fbe38acc155e504087d014c891c3c86e4e3b9"
+  },
+  {
+    "part": "MOTOR MOUNT 1 VTOL.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MOTOR MOUNT 1 VTOL.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        242.15695500843083,
+        -18.059145648465332,
+        294.27381552258595
+      ],
+      [
+        278.1569645107246,
+        -9.05914544846532,
+        358.0000001000001
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      63.72618457741413,
+      36.00000950229378,
+      9.000000200000011
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 322.98602107273297,
+      "side_xz_mm2": 568.7034134289138,
+      "top_xy_mm2": 1567.2347483076135
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": {
+      "installed_transform": null,
+      "native_bounds_are_not_installed_motor_stations": true
+    },
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19"
+  },
+  {
+    "part": "MOTOR MOUNT 2 VTOL.STEP",
+    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MOTOR MOUNT 2 VTOL.STEP",
+    "body": 1,
+    "native_bounds_mm": [
+      [
+        246.1569551367585,
+        -9.059145548465324,
+        294.273815622586
+      ],
+      [
+        274.1569551367584,
+        -0.05914554846531672,
+        322.1129139293563
+      ]
+    ],
+    "dimensions_aircraft_xyz_mm": [
+      27.839098306770268,
+      27.999999999999915,
+      9.000000000000007
+    ],
+    "projected_physical_silhouette_areas": {
+      "frontal_yz_mm2": 216.77762110405857,
+      "side_xz_mm2": 250.55188476093247,
+      "top_xy_mm2": 557.7344158948863
+    },
+    "silhouette_tessellation_tolerance_mm": 0.12,
+    "installation": {
+      "installed_transform": null,
+      "native_bounds_are_not_installed_motor_stations": true
+    },
+    "projection_frame": "native XYZ remapped to aircraft ZXY; no installation transform applied to silhouette",
+    "interpretation": "physical-part native-axis projection, NOT net installed drag area",
+    "source_sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd"
+  }
+]

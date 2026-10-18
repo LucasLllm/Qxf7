@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "same_axial_grid": true,
+  "same_angular_vertices": 256,
+  "same_section_count": 419,
+  "baseline_original_grid_convex_envelope_m2": 0.3644781430007272,
+  "baseline_hatch_augmented_grid_convex_envelope_m2": 0.3645937800837863,
+  "hatch_inclusive_same_grid_convex_envelope_m2": 0.38249992923878123,
+  "matched_grid_hatch_increase_m2": 0.017906149154994944,
+  "matched_grid_hatch_increase_percent": 4.911260184109545,
+  "baseline_grid_only_change_m2": 0.00011563708305911691,
+  "baseline_nose_bridge_sensitivity_m2": 0.0009745246967359014,
+  "scope": "Only the convex envelope model; not exact section outer contour or exposed wetted area. Nose gap excluded from both primary values."
+}

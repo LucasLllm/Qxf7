@@ -1,0 +1,22 @@
+{
+  "rows": 1017,
+  "inputs_sha256": {
+    "wing-extraction/wing_geometry.json": "6f1cbe9160b47d1c3c89c2c54087b826029c50e9c2a3c655808cc8fdebadfb43",
+    "wing-extraction/sections.csv": "0893dacfbeef6738c8cf17ed7588bcdcf71327d8c365426f3782f85bfbc638ea",
+    "tail-extraction/tail_geometry.json": "42f9df675953e6147de3fd2ac3afed662e84b71c2dd1528dc07ec65ae7864d2c",
+    "tail-extraction/profile_summary.csv": "e734710d7d75e0cd5428f72ae43e6f57187581c987649810a01fd5d1adddb54d",
+    "fuselage-with-hatches/results.json": "6ad96c416f18942149744c2593b49370da372896ca1d51e2239761f554a1c49d",
+    "fuselage-with-hatches/hardware_dimensions.csv": "7f63d86704c4de6d342b5292a8f31985e5ab5f9b85bbbbc0af52ab21fd1f9304",
+    "fuselage-with-hatches/cross_sections_50mm.csv": "d463296eaf3b549bbec9206e15b03287478e8fdfa2a0352469e98ea98506f476",
+    "wing-extraction/panel_rates.json": "dcc2e821a513a30633ab4391f826d974b30298c2d7a7c640f9e053d80149d2ab",
+    "coordinate_frame.json": "8212bc8e2a02988b94193c1c70072835b67d4a73ea431ce1fd21d7b442910b5b",
+    "extraction_authorization.json": "48b4752792e6da855ed4909bbcd8d10a7649a79b11a19215a3022e349aca5520",
+    "hatch_parent_verification.json": "395e8f323fb3795e7bbafd05ef144c8163a6a1591c94291bf652930f07f5bcc4",
+    "hatch-feature-work/placement.json": "7da97d8bc993f42234ec3b43195afdf73c22464e8e39859227755382524b8035",
+    "fuselage-with-hatches/verification.json": "ab98c438a52ddec8ae05542ebf52219f9264d577da65c87a2e7fe281759e6e60",
+    "fuselage-with-hatches/manifest.json": "2fc3f7a5433578e32c3c227cde42e04540bde6f71353fb54bd65ff78ffc4f9f9",
+    "fuselage-with-hatches/manifest_verification.json": "3fbd57e9c3c2686fb216507b33edef6bb5fccebe34f86e0285a928918542cac9"
+  },
+  "geometry_table_sha256": "ca1e9ad5b7c2c934f5c116dc6e8aeee79330ef01fd8c3c15ae024d7ccc1faad4",
+  "format": "long form with units/status/definitions and source paths. Empty UNKNOWN values are not zeros."
+}

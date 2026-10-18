@@ -1,0 +1,182 @@
+{
+  "parent_independent_audit_passed": true,
+  "finished_filament_mass_g": 77.2728549269774,
+  "quantity": 1,
+  "source_pose": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/geometry/remaining-poses/all58-pose-manifest.json",
+  "independent_deposition": {
+    "finished_filament_length_mm": 32450.82816000362,
+    "finished_raw_filament_volume_mm3": 78053.38881512868,
+    "finished_raw_filament_volume_cm3": 78.05338881512868,
+    "finished_filament_mass_g": 77.2728549269774,
+    "raw_density_g_cm3": 0.99,
+    "filament_diameter_mm": 1.75,
+    "sparse_deposition_moves": 139856,
+    "deposition_moves_by_feature": {
+      "Outer wall": 44048,
+      "Inner wall": 37109,
+      "Bottom surface": 1610,
+      "Gap infill": 2785,
+      "Internal solid infill": 24660,
+      "Top surface": 6537,
+      "Bridge": 12714,
+      "Sparse infill": 139856,
+      "Floating vertical shell": 4043,
+      "Overhang wall": 819
+    },
+    "deposition_filament_mm_by_feature": {
+      "Outer wall": 7471.524349999975,
+      "Inner wall": 6803.480029999944,
+      "Bottom surface": 176.11937999999992,
+      "Gap infill": 29.51887999999999,
+      "Internal solid infill": 5760.883739999979,
+      "Top surface": 2030.63868,
+      "Bridge": 3736.4877100000213,
+      "Sparse infill": 6177.649300000359,
+      "Floating vertical shell": 166.36737999999963,
+      "Overhang wall": 98.15870999999991
+    },
+    "foam_reduction_applied_again": false
+  },
+  "delegate_result": {
+    "finished_filament_length_mm": 32450.82816000362,
+    "finished_raw_filament_volume_mm3": 78053.38881512868,
+    "finished_raw_filament_volume_cm3": 78.05338881512868,
+    "finished_filament_mass_g": 77.2728549269774,
+    "raw_density_g_cm3": 0.99,
+    "filament_diameter_mm": 1.75,
+    "sparse_deposition_moves": 139856,
+    "deposition_moves_by_feature": {
+      "Outer wall": 44048,
+      "Inner wall": 37109,
+      "Bottom surface": 1610,
+      "Gap infill": 2785,
+      "Internal solid infill": 24660,
+      "Top surface": 6537,
+      "Bridge": 12714,
+      "Sparse infill": 139856,
+      "Floating vertical shell": 4043,
+      "Overhang wall": 819
+    },
+    "deposition_filament_mm_by_feature": {
+      "Outer wall": 7471.524349999975,
+      "Inner wall": 6803.480029999944,
+      "Bottom surface": 176.11937999999992,
+      "Gap infill": 29.51887999999999,
+      "Internal solid infill": 5760.883739999979,
+      "Top surface": 2030.63868,
+      "Bridge": 3736.4877100000213,
+      "Sparse infill": 6177.649300000359,
+      "Floating vertical shell": 166.36737999999963,
+      "Overhang wall": 98.15870999999991
+    },
+    "foam_reduction_applied_again": false,
+    "header_reported": {
+      "length": 32450.83,
+      "volume": 78053.39,
+      "weight": 77.27
+    },
+    "header_volume_actual_units": "mm3 despite cm^3 label",
+    "mass_header_difference_g": 0.0028549269774060804,
+    "length_header_difference_mm": -0.0018399963810225017,
+    "header_raw_density_mass_g": 77.2728561,
+    "part_definition_id": "vtol/FUS 2 VTOL.STL",
+    "installed_quantity": 1,
+    "manufacturing_quantity": 1,
+    "valid_finished_filament_estimate": true,
+    "global_recipe_checks": {
+      "wall_loops": true,
+      "sparse_infill_pattern": true,
+      "sparse_infill_density": true,
+      "layer_height": true,
+      "top_shell_layers": true,
+      "bottom_shell_layers": true,
+      "top_shell_thickness": true,
+      "bottom_shell_thickness": true,
+      "brim_type": true,
+      "brim_width": true,
+      "skirt_loops": true,
+      "raft_layers": true,
+      "enable_support": true,
+      "enable_prime_tower": true,
+      "filament_flow_ratio": true,
+      "filament_density": true,
+      "nozzle_temperature": true,
+      "nozzle_temperature_initial_layer": true,
+      "nozzle_diameter": true
+    },
+    "local_modifier_checks": [
+      {
+        "subtype": "modifier_part",
+        "settings": {
+          "name": "FUS_2_VTOL__original_STEP_body_02.stl",
+          "matrix": "1 0 0 108.00001281499863 0 -1 0 106.72598378360271 0 0 -1 75.002230405807495 0 0 0 1",
+          "sparse_infill_density": "10%",
+          "wall_loops": "3"
+        },
+        "local_override_retained": true
+      }
+    ],
+    "physical_mesh_not_modifier_as_printable": true,
+    "finished_mass_g": 77.2728549269774,
+    "finished_raw_volume_mm3": 78053.38881512868,
+    "native_lattice_sparse_toolpath_generated": false,
+    "hardware_validated": false,
+    "waste_feature_violations": [],
+    "source_stl_sha256": "765d342999b018fe5a6b635467a90eee1854fdb1cc4fe24aa4b43a9a96ecf156",
+    "modifier_source_hashes": {
+      "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/geometry/modifiers/FUS_2_VTOL__original_STEP_body_02.stl": "0f9daef1422958c30e827c38c3adbab14efecdf8334da061177e3c721c0c4185"
+    },
+    "profile_hashes": {
+      "machine": "c06806c1567100f9caf0630b48bb1e0373818178cbd2780a9cfa65e12cb9f97a",
+      "process": "219b3f110125679ec94d0a742a9dc0b7799f513a12aa220b2febcc2a898115b4",
+      "filament": "5dbb68bd1d82e17cb5aca155271b1eac1f0c8b6fe9480b66e541358c85f21877"
+    },
+    "artifact_hashes": {
+      "sliced.3mf": "a14fe20fafbf0ea55d5b90f3917ad6c0e855e83c02265e15141064777b900ef4",
+      "plate_1.gcode": "7f80e03a36ac9709b9b05a8692739d69db64fc7570514655248b30dd1974beb5"
+    },
+    "whole_airframe_claim": false,
+    "local_overrides_effective_differential": {
+      "control_has_identical_geometry_pose_global_recipe": true,
+      "control_only_removes_local_wall_and_density_overrides": true,
+      "control_finished_mass_g": 58.9395850409065,
+      "reinforced_minus_control_mass_g": 18.3332698860709,
+      "positive_toolpath_material_change_verified": true,
+      "per_setting_isolated_effect_not_tested": true
+    },
+    "local_overrides_ignored_or_unsupported": false,
+    "warnings_and_errors": [
+      "[2026-10-07 12:40:06.574022] [0x00000001fc152180] [warning] cli mode, Current BambuStudio Version 02.05.03.61",
+      "[2026-10-07 12:40:06.651939] [0x00000001fc152180] [warning] run:2723, can not find system preset file: /Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/cli-alternative/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab P2S 0.4 nozzle.json ",
+      "[2026-10-07 12:40:06.651950] [0x00000001fc152180] [warning] run:2745, can not find system preset file: /Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/cli-alternative/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/0.20mm Standard @BBL P2S.json ",
+      "[2026-10-07 12:40:06.652072] [0x00000001fc152180] [warning] no filament colors found in projects",
+      "[2026-10-07 12:40:06.652521] [0x00000001fc152180] [warning] 3949: disable_wipe_tower_after_mapping: disable prime tower for only one filament!",
+      "[2026-10-07 12:40:07.749050] [0x00000001fc152180] [warning] tree support default to organic support",
+      "[2026-10-07 12:40:07.996846] [0x00000001fc152180] [warning] plate 1: found NON_CRITICAL slicing warnings: It seems object  has floating cantilever. Please re-orient the object or enable support generation.",
+      "[2026-10-07 12:40:08.547380] [0x00000001fc152180] [error]   Invalid T command (T65535)."
+    ],
+    "invocation_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/command.json",
+    "exit_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/exit.json",
+    "log_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/run.log",
+    "output_3mf_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/sliced.3mf",
+    "output_gcode_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/plate_1.gcode",
+    "all_gcode_features": [
+      "Bottom surface",
+      "Bridge",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Overhang wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "waste_exclusion_verified": true,
+    "custom_machine_start_end_extrusion_excluded": true,
+    "physical_print_release": "HOLD: offline mass estimate only; warnings, adhesion, material calibration and hardware require independent review",
+    "native_lattice_evidence": "not applicable (gyroid)"
+  },
+  "qualification": "Uncalibrated offline estimate; warnings retained; no physical print approval."
+}

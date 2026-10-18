@@ -1,0 +1,1 @@
+We want to create a vtol fixed wing drone with 3d printed parts, carry confortably 500g-1kg payload and can operate in winter for long/medium ranged missions, at least 30km radius. We hope it can be as fast as possible We are trying to find a model/guide (paid or open source) to start with, then modify towards our needs.

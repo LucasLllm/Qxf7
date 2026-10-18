@@ -1,0 +1,71 @@
+{
+  "status": "STOP_MEASURED_GEOMETRY_GATE_FAILURE",
+  "controlling_targets": "Lucas continuation after resolving current gross-area reference as31dm2; span1620mm and approximately1000mm overall length retained,2% stop rule",
+  "checks": [
+    {
+      "quantity": "span",
+      "measured": 1620.5406494140625,
+      "target": 1620.0,
+      "units": "mm",
+      "signed_error_percent": 0.03337342062114197,
+      "absolute_error_percent": 0.03337342062114197,
+      "tolerance_percent": 2.0,
+      "pass": true
+    },
+    {
+      "quantity": "length_registered_airframe",
+      "measured": 1044.020107383391,
+      "target": 1000.0,
+      "units": "mm",
+      "signed_error_percent": 4.402010738339095,
+      "absolute_error_percent": 4.402010738339095,
+      "tolerance_percent": 2.0,
+      "pass": false
+    },
+    {
+      "quantity": "gross_wing_reference_area",
+      "measured": 31.211534332366277,
+      "target": 31.0,
+      "units": "dm2",
+      "signed_error_percent": 0.6823688140847647,
+      "absolute_error_percent": 0.6823688140847647,
+      "tolerance_percent": 2.0,
+      "pass": true
+    }
+  ],
+  "failed_quantities": [
+    "length_registered_airframe"
+  ],
+  "aircraft_axes": "x aft=nativeZ; y right=nativeX; z up=nativeY",
+  "origin": "Original common STEP CAD datum(0,0,0), not claimed wing-root LE; source frame fixed by fuselage pin chain and spar axes. Translation cannot alter tested dimensions.",
+  "registered_component_count": 45,
+  "frontmost_component": "fuselage_NOSE ",
+  "rearmost_component": "right_fixed_tail_3",
+  "frontmost_aircraft_x_mm": -336.250886356396,
+  "rearmost_aircraft_x_mm": 707.7692210269951,
+  "overall_registered_bounds_mm": [
+    [
+      -336.250886356396,
+      -810.2703247070312,
+      -159.16834244842735
+    ],
+    [
+      707.7692210269951,
+      810.2703247070312,
+      157.23078945988613
+    ]
+  ],
+  "length_scope": "Bounding extent of registered main airframe, fixed tail/control surfaces and located skids/pusher/boom clamps. Final equipped length unknown; missing hardware cannot reduce this already failing extent.",
+  "manufacturer_1000mm_reference_nose_to_pusher_mount_mm": 1000.0000002000008,
+  "reference_length_not_overall_length": true,
+  "gross_area_convention": "Exposed outer silhouette including neutral ailerons plus rectangular centerline continuation of root-region chord. Not physical hidden wing. Root plates not separately added to avoid overlap.",
+  "control_surface_status": "Saved-source zero/no added hinge rotations; hinge alignment verified, aerodynamic neutral and commanded zero not established before gate.",
+  "excluded_unresolved": [
+    "Four lift motor mount pairs: continuous boom-axis translation/end assignments unresolved",
+    "Boom tube fore/aft datum orientation unresolved; conditional intervals in hardware receipt, no guessed installed tubes",
+    "Actual motors/propellers/electronics/fasteners not supplied as complete geometry",
+    "Front reinforcement XY placement not solved;3mm nose interface layer retained",
+    "Small covers/retainers/rear fin tip not exhaustively registered; not a whole-aircraft-completeness claim"
+  ],
+  "next_action": "STOP downstream aerodynamic stations/angles/UIUC matching until Lucas adjudicates overall-length reference. Do not shorten/scale geometry to force pass."
+}

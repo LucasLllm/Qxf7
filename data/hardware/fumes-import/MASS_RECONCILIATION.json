@@ -1,0 +1,132 @@
+{
+  "status": "documentary_mass_reconciliation_NOT_measured_mass_or_closed_CG",
+  "printed_definitions": 58,
+  "installed_print_pieces": 82,
+  "printed_prediction_g": 965.642456,
+  "scope": "Stock geometry and retained all-Bambu print plan. Includes optional complete airspeed allowance. No powered cargo release, FPV, independent telemetry or active cold-weather/heating equipment.100g unused growth is separate. No inventory/geometry/recipe reduction.",
+  "propulsion": [
+    {
+      "name": "F90 1300KV lift motor, with factory wires",
+      "quantity": 4,
+      "unit_mass_g": 46.6,
+      "total_mass_g": 186.4,
+      "basis": "published retailer family specification; exact 1300KV listed",
+      "source": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors"
+    },
+    {
+      "name": "BrotherHobby Avenger 2812 V5 910KV, with cable",
+      "quantity": 1,
+      "unit_mass_g": 79,
+      "total_mass_g": 79,
+      "basis": "published manufacturer exact variant",
+      "source": "https://www.brotherhobby.com/avenger-2812-v5-910kv-motorcw-p00234p1.html"
+    },
+    {
+      "name": "Gemfan Flash 7042 two-blade lift prop, candidate",
+      "quantity": 4,
+      "unit_mass_g": 5.48,
+      "total_mass_g": 21.92,
+      "basis": "published candidate, pitch not specified by manual; fit/thrust unqualified",
+      "source": "https://www.lumenier.com/products/gemfan-flash-7042-durable-2-blade-black-set-of-4"
+    },
+    {
+      "name": "APC 10x6EP cruise prop, candidate NOT exact manual gray 10x6E",
+      "quantity": 1,
+      "unit_mass_g": 20.1,
+      "total_mass_g": 20.1,
+      "basis": "published alternate; rotation/adapters require review",
+      "source": "https://www.lumenier.com/products/apc-10x6ep-2-blade-propeller-cw-gray"
+    },
+    {
+      "name": "Velox V50A original 4in1 ESC",
+      "quantity": 1,
+      "unit_mass_g": 18.5,
+      "total_mass_g": 18.5,
+      "basis": "published; accessory inclusion unresolved; added installation allowance",
+      "source": "https://www.racedayquads.com/products/t-motor-velox-v50a-32bit-50a-3-6s-30x30-4in1-esc"
+    },
+    {
+      "name": "Lumenier 51A standalone cruise ESC, manual example",
+      "quantity": 1,
+      "unit_mass_g": 7.5,
+      "total_mass_g": 7.5,
+      "basis": "published excluding motor/power wires; NOT approved for manufacturer 6S/60A test setup",
+      "source": "https://www.lumenier.com/products/lumenier-51a-blheli-32-32bit-2-6s-w-telemetry"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "low",
+      "parts": {
+        "printed_prediction_g": 965.642456,
+        "extra_print_calibration_sensitivity_g": 0.0,
+        "nominal_calculated_tubes_g": 290.2629977884472,
+        "published_reference_avionics_g": 94,
+        "reference_propulsion_g": 333.42,
+        "common_unmeasured_installation_g": 191.2,
+        "esc_unrepresented_accessory_allowance_g": 0,
+        "complete_airspeed_allowance_g": 15
+      },
+      "dry_equipped_planning_g": 1889.5254537884473,
+      "actual_measured_dry_g": null,
+      "max_pack_g_with100g_unused_growth": {
+        "0": 1110.4745462115527,
+        "500": 610.4745462115527,
+        "1000": 110.4745462115527
+      }
+    },
+    {
+      "name": "central",
+      "parts": {
+        "printed_prediction_g": 965.642456,
+        "extra_print_calibration_sensitivity_g": 0.0,
+        "nominal_calculated_tubes_g": 290.2629977884472,
+        "published_reference_avionics_g": 94,
+        "reference_propulsion_g": 333.42,
+        "common_unmeasured_installation_g": 336.4,
+        "esc_unrepresented_accessory_allowance_g": 15,
+        "complete_airspeed_allowance_g": 22
+      },
+      "dry_equipped_planning_g": 2056.7254537884473,
+      "actual_measured_dry_g": null,
+      "max_pack_g_with100g_unused_growth": {
+        "0": 943.2745462115527,
+        "500": 443.27454621155266,
+        "1000": -56.72545378844734
+      }
+    },
+    {
+      "name": "higher_installation",
+      "parts": {
+        "printed_prediction_g": 965.642456,
+        "extra_print_calibration_sensitivity_g": 144.84636839999993,
+        "nominal_calculated_tubes_g": 290.2629977884472,
+        "published_reference_avionics_g": 94,
+        "reference_propulsion_g": 333.42,
+        "common_unmeasured_installation_g": 579.0,
+        "esc_unrepresented_accessory_allowance_g": 30,
+        "complete_airspeed_allowance_g": 30
+      },
+      "dry_equipped_planning_g": 2467.171822188447,
+      "actual_measured_dry_g": null,
+      "max_pack_g_with100g_unused_growth": {
+        "0": 532.8281778115529,
+        "500": 32.828177811552905,
+        "1000": -467.1718221884471
+      }
+    }
+  ],
+  "limits": [
+    "10x6EP is analyst class-compatible mass reference, not exact manual prop, and rotation/retention are unqualified.",
+    "Common harness from earlier inventory reused as explicit route/assembly allocation, not measured length or ampacity. Factory wiring never added twice.",
+    "ESC accessory0/15/30g is analyst allowance for Velox/Lumenier, not product mass specification.",
+    "Higher installation case adds15percent printed calibration sensitivity, not a statistical upper bound.",
+    "GNSS model is historical8g EOL reference; actual replacement must meet interface and installed mass budget.",
+    "6S branch cannot reuse7.5g51A ESC as the60A example. It needs its own exact ESC and prop/hub mass."
+  ],
+  "sources": {
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/PART_MASS_RESULTS.csv": "a0f455885edf5fbb50746fa200fa1b9a675f38e0b7055f4cfac084b491961a1e",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/nonprinted-installation/installed_bom.json": "ca3a3b3051f7dc1d5b4a4eb71e735dfa9639696c2912e338b791b7187730f917",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/mass-budget/mass_inputs.json": "348c31993dcc3d39dcfe92887e3a62ffe2d9d3184cdda063163e55985c2cf086"
+  }
+}

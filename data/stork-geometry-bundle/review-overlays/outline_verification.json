@@ -1,0 +1,31 @@
+{
+  "input_glb_sha256": "6f6327c2506b0474e708260812c64582eac1548830c99216fd7778b52e8449b2",
+  "views": {
+    "top": {
+      "projection_axis_indices": [
+        1,
+        0
+      ],
+      "png_sha256": "a6eb36e4eb161e3cd4f2b148adee6ad42da5bcfdf876b7ae419ba95d3d86d7cd",
+      "outline_geojson_sha256": "acce04c31aea1094060a6a6890134b990ae73a543098202a189743250d71a32c"
+    },
+    "front": {
+      "projection_axis_indices": [
+        1,
+        2
+      ],
+      "png_sha256": "522645f2a6c182fb194039e239ef59af8327ee8d7f1afc0398d6375aa8e39002",
+      "outline_geojson_sha256": "cecadf98c2e1e96e35be07962fd31cab3da729da26e9099f9f828e663c519d37"
+    },
+    "side": {
+      "projection_axis_indices": [
+        0,
+        2
+      ],
+      "png_sha256": "b14f18d44756b61f4aca07356b33fdca4a373e914e9a6213eceebff3e7b8b87f",
+      "outline_geojson_sha256": "975704dca3cb57f306a0e39bbc814e50b06a238d7e7f1484fdb8ddcd9661bd6f"
+    }
+  },
+  "origin": "Original common STEP datum. Aircraft x aft=nativeZ,y right=nativeX,z up=nativeY.",
+  "scope": "Feature-registered subset only. Orthographic union of projected triangles, per-component exterior loops (internal holes discarded), then union by category. Not convex hull. Missing booms/motors not drawn. Controls retain saved source pose, not certified neutral."
+}

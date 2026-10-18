@@ -1,0 +1,30 @@
+{
+  "filament_length_mm": 87.66,
+  "volume_numeric_unit": "mm3",
+  "reported_volume_label": "cm^3",
+  "volume_mm3": 210.84,
+  "header_mass_g": 0.25,
+  "raw_density_g_cm3": 1.185,
+  "density_mass_g": 0.24984540000000002,
+  "length_volume_error_mm3": 0.007009197974724657,
+  "status": "uncalibrated slicer estimate; flow already included in consumed filament",
+  "command_deposition_mass_g": 0.24983982513816147,
+  "command_deposition_length_mm": 87.6551300000001,
+  "installed_quantity": 4,
+  "installed_mass_g_using_rounded_header": 1.0,
+  "profile_fields_verified": {
+    "sparse_infill_density": "99%",
+    "sparse_infill_pattern": "grid",
+    "wall_loops": "6",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5",
+    "brim_type": "no_brim",
+    "brim_width": "0",
+    "enable_support": "0",
+    "top_shell_thickness": "0",
+    "bottom_shell_thickness": "0"
+  },
+  "source_pose_record": "input-receipt.json",
+  "warning": "Invalid T command T65535 logged; end sequence not hardware-validated; offline analytical artifact only",
+  "sha256_3mf": "3e21b31a854bf99242771547b271d48f0b9b045f0a864bff4c06985ef1848923"
+}

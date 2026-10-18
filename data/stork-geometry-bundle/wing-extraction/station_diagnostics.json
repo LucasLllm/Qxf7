@@ -1,0 +1,1490 @@
+{
+  "stations": [
+    {
+      "section_id": "wing_root",
+      "station_y_mm": 92.02,
+      "retained_contour_chord_norm_mm": 222.2134108471839,
+      "physical_outer_extreme_projected_chord_mm": 222.04771628420528,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_1p1",
+          "loop_count": 8,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 7,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": null,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 222.21335077813617,
+      "retained_minus_design_chord_mm": 6.006904771993504e-05,
+      "physical_TE_extreme_aft_mm": 226.59185299135967,
+      "design_support_TE_aft_mm": 226.59185299135967,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "inner_clean",
+      "station_y_mm": 200,
+      "retained_contour_chord_norm_mm": 212.84570194223744,
+      "physical_outer_extreme_projected_chord_mm": 212.71577380105438,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_1p1",
+          "loop_count": 4,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 3,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": null,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 212.84565041169697,
+      "retained_minus_design_chord_mm": 5.153054047468686e-05,
+      "physical_TE_extreme_aft_mm": 222.5925946968596,
+      "design_support_TE_aft_mm": 222.5925946968596,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_1p1_in",
+      "station_y_mm": 260.13695513675856,
+      "retained_contour_chord_norm_mm": 207.6299344877879,
+      "physical_outer_extreme_projected_chord_mm": 192.0151229940718,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_1p1",
+          "loop_count": 5,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 4,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": null,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 207.62988410647318,
+      "retained_minus_design_chord_mm": 5.038131470769258e-05,
+      "physical_TE_extreme_aft_mm": 204.6664371199175,
+      "design_support_TE_aft_mm": 220.36530042511754,
+      "missing_aft_domain_relative_design_mm": 15.698863305200035,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_1p1_out",
+      "station_y_mm": 260.1769551367585,
+      "retained_contour_chord_norm_mm": 207.626465568684,
+      "physical_outer_extreme_projected_chord_mm": 192.01314019717273,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_1p2",
+          "loop_count": 5,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 4,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": null,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 207.62641524461736,
+      "retained_minus_design_chord_mm": 5.032406664895461e-05,
+      "physical_TE_extreme_aft_mm": 204.66643711991753,
+      "design_support_TE_aft_mm": 220.36381894383592,
+      "missing_aft_domain_relative_design_mm": 15.697381823918391,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_1p2_in",
+      "station_y_mm": 317.98,
+      "retained_contour_chord_norm_mm": 202.61409990407685,
+      "physical_outer_extreme_projected_chord_mm": 202.5196201604765,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_1p2",
+          "loop_count": 6,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 5,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": null,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 202.61406276773903,
+      "retained_minus_design_chord_mm": 3.713633782354009e-05,
+      "physical_TE_extreme_aft_mm": 218.2229656615946,
+      "design_support_TE_aft_mm": 218.2229656615946,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_1p2_out",
+      "station_y_mm": 318.02,
+      "retained_contour_chord_norm_mm": 202.62625238939128,
+      "physical_outer_extreme_projected_chord_mm": 202.51699030492142,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_2",
+          "loop_count": 6,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 5,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 202.61059878587665,
+      "retained_minus_design_chord_mm": 0.01565360351463596,
+      "physical_TE_extreme_aft_mm": 218.22148826187328,
+      "design_support_TE_aft_mm": 218.22148418023332,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "aileron_start_in",
+      "station_y_mm": 449.78,
+      "retained_contour_chord_norm_mm": 145.46123141215185,
+      "physical_outer_extreme_projected_chord_mm": 145.45976263407232,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_2",
+          "loop_count": 6,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 5,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 191.19022222030154,
+      "retained_minus_design_chord_mm": -45.72899080814969,
+      "physical_TE_extreme_aft_mm": 167.67130035520626,
+      "design_support_TE_aft_mm": 213.34148427628568,
+      "missing_aft_domain_relative_design_mm": 45.67018392107943,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain.",
+      "flag": "CONTROL_CLEARANCE_TRUNCATED_CONTOUR_NOT_LOCAL_AERODYNAMIC_CHORD",
+      "missing_skin_not_invented": true,
+      "nearest_cleaner_retained_section": {
+        "section_id": "aileron_start_out",
+        "station_y_mm": 449.82,
+        "chord_norm_mm": 191.18561864773875,
+        "delta_y_mm": 0.040000000000020464
+      }
+    },
+    {
+      "section_id": "aileron_start_out",
+      "station_y_mm": 449.82,
+      "retained_contour_chord_norm_mm": 191.18561864773875,
+      "physical_outer_extreme_projected_chord_mm": 191.12649605607982,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_2",
+          "loop_count": 6,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 5,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05655741266555392,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 191.18675821950924,
+      "retained_minus_design_chord_mm": -0.0011395717704942854,
+      "physical_TE_extreme_aft_mm": 213.3400094741108,
+      "design_support_TE_aft_mm": 213.3400027947425,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "servo_pocket",
+      "station_y_mm": 500,
+      "retained_contour_chord_norm_mm": 186.83725820034226,
+      "physical_outer_extreme_projected_chord_mm": 186.78991153901754,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_2",
+          "loop_count": 4,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 3,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0011677937716569886,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 186.83761938415287,
+      "retained_minus_design_chord_mm": -0.0003611838106110099,
+      "physical_TE_extreme_aft_mm": 211.48193671438992,
+      "design_support_TE_aft_mm": 211.4814841552491,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_2_in",
+      "station_y_mm": 523.98,
+      "retained_contour_chord_norm_mm": 184.7595941102047,
+      "physical_outer_extreme_projected_chord_mm": 184.71747609375873,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.014355575540804466,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 184.7600951769901,
+      "retained_minus_design_chord_mm": -0.0005010667854037365,
+      "physical_TE_extreme_aft_mm": 210.59393155890885,
+      "design_support_TE_aft_mm": 210.59333591861062,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "joint_2_out",
+      "station_y_mm": 524.02,
+      "retained_contour_chord_norm_mm": 184.75818944867976,
+      "physical_outer_extreme_projected_chord_mm": 184.7135007964141,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.013645092183594443,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 184.75662994302908,
+      "retained_minus_design_chord_mm": 0.001559505650675419,
+      "physical_TE_extreme_aft_mm": 210.59245027730418,
+      "design_support_TE_aft_mm": 210.59185443696512,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "aileron_joint_in",
+      "station_y_mm": 589.58,
+      "retained_contour_chord_norm_mm": 179.07962102192474,
+      "physical_outer_extreme_projected_chord_mm": 179.04891653143858,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0013375823894490324,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 179.07934110968543,
+      "retained_minus_design_chord_mm": 0.00027991223930712295,
+      "physical_TE_extreme_aft_mm": 208.16445983506716,
+      "design_support_TE_aft_mm": 208.16370594552453,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "aileron_joint_out",
+      "station_y_mm": 589.62,
+      "retained_contour_chord_norm_mm": 179.0761569718744,
+      "physical_outer_extreme_projected_chord_mm": 179.04546030697324,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_2",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0013423083830090832,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 179.07587540088278,
+      "retained_minus_design_chord_mm": 0.000281570991631952,
+      "physical_TE_extreme_aft_mm": 208.16297834752842,
+      "design_support_TE_aft_mm": 208.16222446378836,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "outer_clean",
+      "station_y_mm": 650,
+      "retained_contour_chord_norm_mm": 173.8479090443509,
+      "physical_outer_extreme_projected_chord_mm": 173.82775528343643,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0014581088187410884,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 173.84637924098465,
+      "retained_minus_design_chord_mm": 0.0015298033662531907,
+      "physical_TE_extreme_aft_mm": 205.9265343877248,
+      "design_support_TE_aft_mm": 205.92592772004306,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "aileron_end_in",
+      "station_y_mm": 729.38,
+      "retained_contour_chord_norm_mm": 166.97670990250222,
+      "physical_outer_extreme_projected_chord_mm": 166.96692314397035,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        },
+        {
+          "component": "right_aileron_2",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 8.026998122545592e-05,
+          "fallback_reason": null
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 166.9758116697339,
+      "retained_minus_design_chord_mm": 0.0008982327683213498,
+      "physical_TE_extreme_aft_mm": 202.9859332670658,
+      "design_support_TE_aft_mm": 202.9859269403687,
+      "missing_aft_domain_relative_design_mm": 0.0,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain."
+    },
+    {
+      "section_id": "aileron_end_out",
+      "station_y_mm": 729.42,
+      "retained_contour_chord_norm_mm": 129.98077184195225,
+      "physical_outer_extreme_projected_chord_mm": 129.97692350946815,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 166.97235821326095,
+      "retained_minus_design_chord_mm": -36.9915863713087,
+      "physical_TE_extreme_aft_mm": 165.9979090576172,
+      "design_support_TE_aft_mm": 202.9844454584395,
+      "missing_aft_domain_relative_design_mm": 36.9865364008223,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain.",
+      "flag": "CONTROL_CLEARANCE_TRUNCATED_CONTOUR_NOT_LOCAL_AERODYNAMIC_CHORD",
+      "missing_skin_not_invented": true,
+      "nearest_cleaner_retained_section": {
+        "section_id": "aileron_end_in",
+        "station_y_mm": 729.38,
+        "chord_norm_mm": 166.97670990250222,
+        "delta_y_mm": -0.03999999999996362
+      }
+    },
+    {
+      "section_id": "tip_root_in",
+      "station_y_mm": 729.98,
+      "retained_contour_chord_norm_mm": 129.9498145535215,
+      "physical_outer_extreme_projected_chord_mm": 129.94593845715568,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wing_3",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ],
+      "underlying_design_support_chord_norm_mm": 166.92390079095227,
+      "retained_minus_design_chord_mm": -36.97408623743078,
+      "physical_TE_extreme_aft_mm": 165.99457995605468,
+      "design_support_TE_aft_mm": 202.96370471142518,
+      "missing_aft_domain_relative_design_mm": 36.9691247553705,
+      "diagnostic_note": "Zero unoccupied_x_gap refers only to intervals INSIDE retained extrema; it does not exclude absent aft skin outside that measured domain.",
+      "flag": "CONTROL_CLEARANCE_TRUNCATED_CONTOUR_NOT_LOCAL_AERODYNAMIC_CHORD",
+      "missing_skin_not_invented": true,
+      "nearest_cleaner_retained_section": {
+        "section_id": "tip_root_out",
+        "station_y_mm": 730.02,
+        "chord_norm_mm": 166.92122985357636,
+        "delta_y_mm": 0.03999999999996362
+      }
+    },
+    {
+      "section_id": "tip_root_out",
+      "station_y_mm": 730.02,
+      "retained_contour_chord_norm_mm": 166.92122985357636,
+      "physical_outer_extreme_projected_chord_mm": 166.91153858332922,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 3,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 2,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    },
+    {
+      "section_id": "curved_tip_750",
+      "station_y_mm": 750,
+      "retained_contour_chord_norm_mm": 163.4286628285571,
+      "physical_outer_extreme_projected_chord_mm": 163.4184798777137,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    },
+    {
+      "section_id": "curved_tip_780",
+      "station_y_mm": 780,
+      "retained_contour_chord_norm_mm": 147.3722722459677,
+      "physical_outer_extreme_projected_chord_mm": 147.36013048790682,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    },
+    {
+      "section_id": "near_tip_800",
+      "station_y_mm": 800,
+      "retained_contour_chord_norm_mm": 119.59469699580013,
+      "physical_outer_extreme_projected_chord_mm": 119.57894349862738,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    },
+    {
+      "section_id": "near_tip_809",
+      "station_y_mm": 809,
+      "retained_contour_chord_norm_mm": 84.66648777739867,
+      "physical_outer_extreme_projected_chord_mm": 84.65436868390077,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    },
+    {
+      "section_id": "near_tip_810p25",
+      "station_y_mm": 810.25,
+      "retained_contour_chord_norm_mm": 14.552480343897301,
+      "physical_outer_extreme_projected_chord_mm": 14.552282862105528,
+      "unoccupied_x_gap_mm": 0.0,
+      "strict_single_outer_profile_compatible": true,
+      "source_audit": [
+        {
+          "component": "right_wingtip",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "original_STL_section"
+        }
+      ]
+    }
+  ],
+  "dense_nonnested_stations": [
+    {
+      "station_y_mm": 561.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 2,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": false,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.004916989249880821,
+          "fallback_reason": null
+        }
+      ]
+    },
+    {
+      "station_y_mm": 562.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 2,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": false,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0005918915504059541,
+          "fallback_reason": null
+        }
+      ]
+    },
+    {
+      "station_y_mm": 563.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 2,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": false,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0011770950123501933,
+          "fallback_reason": null
+        }
+      ]
+    },
+    {
+      "station_y_mm": 563.02,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 2,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": false,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.0011745562767977447,
+          "fallback_reason": null
+        }
+      ]
+    },
+    {
+      "station_y_mm": 563.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 3,
+          "outer_loop_count": 2,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": false,
+          "section_method": "physical_STEP_exact_section",
+          "exact_vs_tessellation_extrema_max_mm": 0.002156842873922038,
+          "fallback_reason": null
+        }
+      ]
+    }
+  ],
+  "dense_STEP_tessellation_fallbacks": [
+    {
+      "station_y_mm": 449.801,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05658161066747702,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 449.82,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05655741266555392,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 450.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.055692033654819006,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 451.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.054739635150152566,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 452.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05378920529850095,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 452.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05284078307441309,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 453.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05189436073679765,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 454.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05094997021399461,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 455.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.05000758864124233,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 455.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.04906728474931388,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 456.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.048128976933682566,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 457.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.047192814106481684,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 458.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.04625864219343523,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 458.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.04532664497006422,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 459.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 1,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 0,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.044396697575217026,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 460.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.0434688802219636,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 461.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.04254319159025233,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 461.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.041619633725464844,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 462.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.040698217118853464,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 463.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.039778958070775694,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 464.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.03886191447439025,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 464.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.037947047019490476,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 465.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.0370343661721142,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 466.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.036123909118305875,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 467.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.035215702908001134,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 467.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.034309717606698875,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 468.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.03340599642756903,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 469.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.03250457058046052,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 470.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.0316054001878312,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 470.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.030708566532478443,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 471.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.029814036652578757,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 472.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.028921843126516578,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 473.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.02803200451376764,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 473.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.02714452750264762,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 474.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.026259442953080026,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 475.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.02537675696250652,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 476.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.024496484021145015,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 476.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.02361866685005154,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 477.5001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.022743271570811352,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 478.2501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.02187039167352811,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 479.0001,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.020999994080430184,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 479.7501,
+      "components": [
+        {
+          "component": "right_aileron_1",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 0.020132090280156056,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 693.5001,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.3342874348721807,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 694.2501,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.3325423430298997,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 698.7501,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.319242076642581,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 699.5001,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.315994366865226,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 700.2501,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.314610782165005,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 701.0001,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.3123966558598,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    },
+    {
+      "station_y_mm": 701.7501,
+      "components": [
+        {
+          "component": "right_aileron_2",
+          "loop_count": 2,
+          "outer_loop_count": 1,
+          "nested_holes_ignored": 1,
+          "strict_single_outer_profile_compatible": true,
+          "section_method": "physical_STEP_tessellation_0.0025mm_fallback",
+          "exact_vs_tessellation_extrema_max_mm": 2.3103871172478705,
+          "fallback_reason": "open or missing/incomplete exact intersection"
+        }
+      ]
+    }
+  ],
+  "tessellation_refinement_checks": [
+    {
+      "component": "right_aileron_1",
+      "station_y_mm": 563.02,
+      "tolerances_mm": [
+        0.0025,
+        0.00125
+      ],
+      "extrema_max_delta_mm": 0.0009008383186213109,
+      "passed_lt_0p01mm": true
+    },
+    {
+      "component": "right_aileron_2",
+      "station_y_mm": 650.0,
+      "tolerances_mm": [
+        0.0025,
+        0.00125
+      ],
+      "extrema_max_delta_mm": 0.0006518101764356743,
+      "passed_lt_0p01mm": true
+    },
+    {
+      "component": "right_aileron_2",
+      "station_y_mm": 693.5001,
+      "tolerances_mm": [
+        0.0025,
+        0.00125
+      ],
+      "extrema_max_delta_mm": 0.0,
+      "passed_lt_0p01mm": true
+    },
+    {
+      "component": "right_aileron_2",
+      "station_y_mm": 700.0,
+      "tolerances_mm": [
+        0.0025,
+        0.00125
+      ],
+      "extrema_max_delta_mm": 0.0,
+      "passed_lt_0p01mm": true
+    }
+  ]
+}

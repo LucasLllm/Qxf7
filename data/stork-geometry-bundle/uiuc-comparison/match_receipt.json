@@ -1,0 +1,66 @@
+{
+  "matched_profiles": 18,
+  "match_rows": 90,
+  "top_candidates_per_profile": 5,
+  "excluded_extracted_profiles": [
+    {
+      "profile": "tail-extraction/fin_transition_140cosineSelig.dat",
+      "reason": "Actual nonconventional fin contour; intentionally not ranked as a conventional airfoil."
+    },
+    {
+      "profile": "tail-extraction/tip_fin_near_cap_140cosineSelig.dat",
+      "reason": "Actual nonconventional fin contour; intentionally not ranked as a conventional airfoil."
+    },
+    {
+      "profile": "wing-extraction/dat/aileron_end_out.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/aileron_start_in.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/aileron_start_out.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/curved_tip_750.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/curved_tip_780.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/fuselage_junction.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/near_tip_800.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/near_tip_809.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/near_tip_810p25.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/root_plate_in.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/root_plate_out.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    },
+    {
+      "profile": "wing-extraction/dat/tip_root_in.dat",
+      "reason": "Oblique winglet diagnostic or mechanical-plate/clearance cut; not ranked as a conventional aerodynamic section."
+    }
+  ],
+  "pairwise_same_component_family_comparisons": 108,
+  "corpus_npz_sha256": "8148c7cc6b6c71805e7bd3af58a962758b8791f5b890a8c983d2c0df21ced519",
+  "caution": "Closest in this finite archive under stated metric, not proof of intended/manufacturer airfoil. Archive postrelease updates omitted. Shape-only comparisons remove chord/placement/twist."
+}

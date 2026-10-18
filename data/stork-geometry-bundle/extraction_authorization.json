@@ -1,0 +1,11 @@
+{
+  "status": "AUTHORIZED_EXTRACTION_WITH_ACCEPTED_LENGTH_REFERENCE_DISTINCTION",
+  "user_instruction": "Yes, continue extraction.",
+  "accepted_nose_to_pusher_reference_mm": 1000.0,
+  "accepted_registered_airframe_overall_reference_mm": 1044.020107383391,
+  "span_reference_mm": 1620.0,
+  "gross_area_reference_dm2": 31.0,
+  "original_failed_gate_preserved": "reference_gate.json",
+  "geometry_modified_to_satisfy_reference": false,
+  "qualification": "Permission to extract from registered source geometry; not full-aircraft completeness, aerodynamic-neutral certification, or flightworthiness approval. Unresolved quantities retain explicit unknowns."
+}

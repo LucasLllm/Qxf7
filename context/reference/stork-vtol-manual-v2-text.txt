@@ -1,0 +1,885 @@
+                                                                     STORK VTOL
+                                                                      USER MANUAL
+        © 20 25 Flightory by Szymon Wójcik   All rights reserved .
+                                                                          V.2
+
+MOOSE
+                                                        SOCIALS
+
+
+
+Join Flightory Tech group on Facebook and create community with us.
+Share progress  of your builds . Any suggestions or questions welcome.
+www.facebook.com/groups/flightory
+
+
+
+
+Join our Discord server, where the discussions are organized by topics, and the
+interaction between users is lively.
+https://discord.gg/GPMgDZ3Cxv
+
+
+
+
+Follow us on Instagram for   regular updates          and fresh content
+www.instagram.com/flightory_
+
+
+
+
+ STORK VTOL                                                                       USER MANUAL   2
+                                        TABLE OF CONTENTS
+
+                                                     Parts List
+Introduction
+                                                     Parts List - VTOL                               19
+General Aircraft Data                          05
+
+                                                     Parts Orientation                           20 -24
+VTOL Conversion         Overview               06
+
+
+                                                     Assembly Guide
+Recommended             Equipment
+                                                     Fuselage      Assembly                      26 -30
+Recommended         Electronics                08
+
+                                                     Wings    Assembly                           31-40
+Recommended         Accessories             09 -10
+
+                                                     Finishing     Build                             41
+Powertrain     Selection                     11-13
+
+                                                     Wiring      Diagram                            42
+
+Print Settings
+                                                     Ardupilot     Configuration                    43
+
+Print Settings    Overview                   15-17
+
+Modifiers                                      18
+
+
+
+
+                           STORK VTOL                                              USER MANUAL            3
+STORK VTOL
+The VTOL Pack converts the Stork platform into a 4+1                 quadplane
+configuration, enabling vertical takeoff and landing while preserving the
+efficiency of fixed    -wing flight. Four lift motors mounted on lightweight carbon
+tube arms work alongside the existing pusher motor. The design integrates
+seamlessly with the original airframe, maintaining the wing geometry and
+overall flight characteristics of the fixed         -wing version. Dedicated landing skids
+are introduced to support vertical operations, representing the only
+modification to the fuselage. This expansion significantly increases
+operational flexibility, enabling deployment in confined areas without runway
+access and making the platform well              -suited for missions in complex or
+remote environments.
+
+
+
+
+            Building the aircraft in the VTOL configuration requires the base fixed-wing version. This
+            documentation covers only the additional aspects related to the VTOL conversion.
+            For complete information about the design and detailed instructions for building the fixed-wing
+            version, refer to the base manual.
+
+
+
+
+               STORK VTOL                                                                                     USER MANUAL   4
+             GENERAL AIRCRAFT DATA
+
+
+
+                        Wingspan                                  1620mm
+
+                        Wing area                                  31 dm ²
+
+                        Lenght                                    1000mm
+
+                        Center of    Gravity       47mm from   leading   edge (at wing root )
+
+                        AUW                                      1400 -3100g
+
+                        Optimal     Cruise Speed                 50 -70 km/h
+
+                        Airfoil                                     S3021
+
+                        Root Chord                                 230mm
+
+                        MAC                                        195mm
+
+                        Aspect Ratio                                  8,3
+
+                        Wing load                              45 - 100 g / dm ²
+
+
+
+
+STORK VTOL                                                         USER MANUAL          5
+                                                 VTOL CONVERSION OVERVIEW
+
+
+
+
+The VTOL configuration requires a set of additional printed components,
+along with the replacement of selected parts from the base fixed-wing
+version. Elements included in the VTOL Pack are highlighted in red in the
+diagram. The first wing segment is replaced with a redesigned two-piece
+structure that provides a mounting interface for the lift motor arms.
+Selected fuselage segments can also be replaced to integrate landing
+skids; however, this modification is optional. The standard fuselage may
+be retained, allowing for conventional belly landings. Despite these
+modifications, the overall geometry of the aircraft remains unchanged,
+preserving the original flight characteristics of the platform.
+
+
+
+
+         STORK VTOL                                                         USER MANUAL   6
+                                                        RECOMMENDED EQUIPMENT
+
+             This section presents the recommended accessories and                      electronics needed to complete the
+             entire aircraft. This list, along with periodically updated store links, can also be found
+             at the bottom of the aircraft description on the website                 .
+
+
+
+
+                      The list contains all the same items as in the basic fixed-wing version. Items highlighted in blue are
+                      additionally required for the VTOL conversion or differ in quantity compared to the fixed-wing version.
+
+
+
+
+STORK VTOL                                                                                              USER MANUAL             7
+                                            RECOMMENDED ELECTRONICS
+
+
+COMPONENT                                  MODEL / SPECIFICATION
+
+Motors VTOL / Motor      Pusher            T-Motor F90 1300 KV / 28XX Motor          e.g . BrotherHobby     Avenger   2812 V5 910KV
+
+Propellers   VTOL / Propeller     Pusher   7 inch Propeller / 9 -10 inch Propeller
+
+Flight Controller                          Speedybee      F405 Wing or any other Mavlink FC
+
+GPS                                        Matek M10Q      or similar GPS with     compass
+
+Servos                                     4x EMAX ES08 MAII Metal Gear           or similar
+
+ESCs                                       4in1 ESC    e.g . Velox V50A + Separate     ESC e.g . Lumenier    51A BLHeli32
+
+Battery                                    4S -6S Li -Ion / Li -Po
+
+Receiver                                   Matek R24 -D ELRS         or similar
+
+FPV Camera      + VTX                      Walksnail    Avatar or any Digital or Analog VTX
+
+FPV Goggles                                Walksnail    Goggles      X or any other matching    the chosen    VTX
+
+
+
+
+               STORK VTOL                                                                                                             USER MANUAL   8
+                                                        RECOMMENDED ACCESSORIES
+
+
+ITEM                                                         QUANTITY    ITEM                                           QUANTITY
+
+10x1000mm Carbon       Tube                                      2       Hot Glue (optional )                         Small amount
+
+8x1000mm Carbon       Tube                                       1       Epoxy Glue (optional )                       Small amount
+
+6x500mm Carbon       Tube (WING SPAR)                            2       LW -PLA / LW -ASA                                   1 roll
+
+3x500mm Carbon       Tube (AILERON HINGE)                        2       PC / PETG /    other rigid material          Small amount
+
+8x155mm Carbon      Tube (V TAIL SPAR)                           2       Velcro Strap                                          2
+
+6x265mm Carbon       Tube (V TAIL SPAR)                          2       Servo Extension Cable                                 4
+
+3x265mm Carbon       Tube (RUDDER HINGE)                         2       Control Horn                                          4
+
+10x10x500mm      Square Carbon    Tube (BOOMS)                   2       Pushrod                                               4
+
+4x95mm Carbon       Tube (FIN REINFORCEMENT)                     1       M3x6mm Screw                                         12
+
+Thick CA Glue                                                1-2 Tubes   M3x10mm Screw                                         7
+
+CA Activator                                                     1       M3x8mm        Screw                                  20
+
+M3 Threaded     Insert (Outer Ø5mm,       height 5mm)           35
+
+
+
+                  STORK VTOL                                                                                   USER MANUAL            9
+                                          RECOMMENDED ACCESSORIES
+
+             When selecting square-profile tubes for the booms, it is strongly recommended to choose ones with a circular inner profile, if available.
+             Avoid using the thinnest tubes with a fully square cross-section, particularly those with wall thicknesses of 1 mm or less.
+
+
+
+
+STORK VTOL                                                                                                                                               USER MANUAL   10
+                                                             POWERTRAIN SELECTION
+
+
+There are multiple options for selecting the powertrain configuration, including the motor, propeller, and battery. Recommend                                ed motors are in the 28XX
+class, with propellers ranging from 9 to 10 inches, and batteries rated from 4S to 6S. The motor mount is available in two va                          ria nts with bolt spacing of
+19×19 mm and 16 ×19 mm, which corresponds to most motors in this class on the market.                         This component is also provided in STEP format for easy
+modification if a different bolt pattern is required.
+
+
+EXAMPLE MOTOR AND PROP SETUP
+
+A suggested motor for this aircraft is the         BrotherHobby        Avenger 2812 V5 910KV, which performs optimally with 9453 tri             -blade or two -blade propellers and
+a 6S battery. According to the manufacturer’s specifications, this setup delivers up to approximately 3800 g of thrust per mo                           tor at a maximum power of
+1280W with a current draw of around 50A. This requires using an ESC rated at 60A (6S capable).
+This setup fully utilizes the motor’s performance potential and offers maximum available thrust for demanding applications.
+
+It is worth noting that in recent years, brushless motor technology has significantly improved. Modern motors in the 28XX cla                            ss are capable of delivering
+over 1200W of power and exceptionally high thrust, which was not achievable with this motor size just a few years ago. This i                           s a result of advancements in
+materials, winding efficiency, cooling design, and overall manufacturing quality.
+
+As a result, the market trend has shifted towards motors optimized for higher voltage systems, particularly 6S setups, which                            now dominate availability in
+this size class. However, this does not limit the possibility of operating these motors effectively on 4S systems, depending                         on user preferences and
+mission requirements.
+
+
+
+
+     STORK VTOL                                                                                                                                                                USER MANUAL   11
+                                                                POWERTRAIN SELECTION
+
+
+
+FLEXIBLE OPERATION WITH 4S
+
+While the 6S configuration allows the motors to deliver maximum thrust and performance, the same setup can be operated very e                                         ffe ctively with a 4S
+battery, offering a more efficient and lighter alternative without compromising flight capabilities. In this case, it is reco                          mme nded to use a slightly larger
+propeller, such as a 10x6 two       -blade, to compensate for the lower RPM resulting from the reduced voltage. This results in proport                            ionally lower motor
+speed and a significantly reduced current draw, which allows for the use of smaller and lighter ESCs rated at 35                              –40A for 4S. At the same time, the overall
+system weight decreases, providing the option to use larger capacity 4S batteries                       . Despite the lower voltage, the total thrust generated by moto                 r remains
+around 2000 grams, which is fully sufficient for this aircraft's design and operational requirements.
+
+Prototype testing confirmed that during cruise flight with a 4S battery and 10x6 propellers, the required throttle setting wa                                  s b elow 50%, demonstrating
+efficient power utilization and good endurance potential.
+
+The main reason for choosing 4S operation is the current state of the market, which is heavily saturated with high                                  -performance m       otors optimized for 6S
+in this size class. Finding lighter motors designed specifically for 4S that could match or exceed this performance is challe                                 ngi ng. For this reason, using a
+motor like the       BrotherHobby       2812 V5 910KV , even when operating on 4S remains a                 practical and efficient solution. Although this setup does not fully
+utilize the maximum power capabilities of the motor, it offers several important advantages, including improved efficiency du                                      rin g cruise flight, a lower
+total system weight, the use of smaller and more                  cost -efficient ESCs, and the ability to select 4S batteries with higher capacity while maintaining similar
+weight compared to smaller 6S packs.
+
+This flexible approach allows users to tailor the system to their needs. Whenever the mission demands higher thrust, greater                                     pay load, or higher airspeed,
+the same airframe can be seamlessly scaled by switching to 6S batteries and appropriate ESCs, immediately unlocking the full                                       per formance potential of
+the motors without requiring any changes to the mechanical setup.
+
+
+
+
+     STORK VTOL                                                                                                                                                                         USER MANUAL   12
+                                                              POWERTRAIN SELECTION
+
+
+
+VTOL LIFT MOTOR CONFIGURATION
+
+The selection of lift motors follows a similar approach to the pusher             motor system, balancing thrust, efficiency, and system weight depending on the
+chosen power setup. The recommended configuration uses T                   -Motor F90 1300KV motors paired with 7          -inch two -blade propellers.
+
+The motor mounts use a 19        ×19 mm bolt pattern, which is compatible with many motors in this size class. This allows alternative motors to be used
+without requiring changes to the mechanical design, provided similar specifications are maintained.
+
+The system was primarily tested on a 4S power setup, where it provides stable and efficient hover performance with sufficient                              th rust for safe vertical
+takeoff and landing. At the same time, the same hardware can be operated on higher voltage systems up to 6S, following the sa                                me principle as described
+for the pusher motor. This allows to increase available thrust when required, without                   any modif ications .
+
+
+
+
+     STORK VTOL                                                                                                                                                               USER MANUAL   13
+             PRINT SETTINGS
+
+
+
+
+STORK VTOL                USER MANUAL   14
+                                                                          PRINT SETTINGS
+
+
+This aircraft is designed with optimization for LW             -PLA / LW -ASA filaments, reinforced with additional components printed from PC                   , PETG, or other rigid
+materials. All parts are designed to fit within a print volume of 220x220x2               20 mm. The entire      design is tailored for printers equipped with 0.4 mm nozzles.
+
+
+
+GENERAL GUIDLINES
+- All airframe com    ponents should be printed using lightweight filaments (LW                -PLA, LW -ASA) with single      -wall construction.
+
+- Fuselage sections: Recommended to print with gyroid infill between 3% and 6%.
+
+- Wings: Use Lateral Lattice infill, or optionally Cubic Subdivision, with an infill density between                 2% and 4%.This approach ensures an optimal balance
+between strength and low weight while allowing flexibility for tuning print settings.
+
+- For reinforcement parts that require higher strength, it is essential to use rigid and durable materials such as PETG, PC, AB                              S, or others . These components
+should be printed using the default print settings for the selected material and the standard                         strength profiles available in your slicer, ensuring reliable
+performance without the need           fo r extra configurations.
+
+
+
+SUPPORTS AND WALL SETTINGS
+- All airframe parts are designed to be printed without supports and with a single wall.                  (This applies to LW components; reinforcement parts can have
+a higher wall count.   ) Some files include pre     -designed supports, which is indicated in the file name.
+
+- Some components may benefit from           adding support s touching the build plate, or        increased wall count for improved strength in specific areas.
+These exceptions are clearly marked and explained in the        Parts Orientation       section of this manual.
+
+
+
+
+      STORK VTOL                                                                                                                                                                 USER MANUAL   15
+                                                                           PRINT SETTINGS
+
+
+PART LIST AND MATERIAL ASSIGNMENT
+- The PART LIST      section contains a complete list of all files required for assembly.
+
+- Each file is accompanied by a clear recommendation regarding:                      The type of material it should be printed with (e.g. LW           -PLA, LW -ASA, PETG, PC, etc.).
+
+
+
+PRINT SETTINGS AND PROFILES
+- Complete print settings, including filament breakdown and settings for Active Foaming                           and Prefoamed        filaments, are available on our website under the
+“PRINT SETTINGS       ” tab.
+
+- You will find: Pre -configured profiles for PLA Aero and ASA Aero for         Bambulab printers - ready to use out of the box                     and g eneral configuration templates for
+Active Foaming and      Prefoamed LW -PLA for Cura, providing a reliable starting point for further tuning.
+
+- Currently, we primarily focus on testing and validating settings in                 Orca Slicer , Bambu      Studio and    Cura .
+
+
+
+PRINTING VARIABLES AND TUNING
+Printing results may vary depending on several factors, such as the printer model, filament brand, filament moisture levels,                                amb ient conditions like
+temperature and humidity, as well as whether the printer is equipped with an enclosed chamber. These variables can influence                                      pri nt quality, strength, and
+weight. Because of this, achieving optimal results often requires fine                 -tuning key parameters, particularly printing temperature,                flow rate, and retraction
+settings. In most cases, only minor adjustments are necessary to reach excellent quality. It is strongly recommended to perfo                                 rm test prints when changing
+filaments, switching printers, or printing in different environmental conditions, in order to refine the settings for the bes                          t p ossible outcome.
+
+
+
+
+    STORK VTOL                                                                                                                                                                       USER MANUAL   16
+                                                                           PRINT SETTINGS
+
+
+
+
+FINAL NOTES
+Achieving optimal results is feasible on the majority of modern 3D printers, provided that appropriate calibration and parame                                   ter tuning are performed.
+Variability in printer hardware, filament manufacturers, material properties, and operating conditions                           such as ambient temperature, humidity levels, and the
+presence or absence of an enclosed build chamber                , can all have a measurable impact on print quality. As a result, full standardization of print settings across
+all equipment and environments is not possible.
+
+The provided print profiles and configuration guidelines serve as a reliable baseline; however, minor adjustments to paramete                                 rs such as temperature, flow
+rate, or retraction may be required to achieve the intended balance of strength, weight, and surface quality specific to each                              us er’s setup.
+
+To facilitate consistency and knowledge sharing across different hardware configurations, an online user community is maintai                                   ned via Discord. This platform
+serves as a technical resource where users can exchange verified print profiles, discuss material                   -specific settings, share build          results, and troubleshoot
+technical challenges related to the printing process.
+
+
+
+
+     STORK VTOL                                                                                                                                                                     USER MANUAL   17
+                                                                                         MOFIDIERS
+
+
+
+
+USING FILES WITH MODIFIERS
+The package includes several elements in STEP format, featuring additional solid
+volumes in critical areas such as the motor mounts, servo sections, the fuselage
+around the main landing skids, and the wing attachment points for the lift motor
+arms. These files can be imported directly into a slicer and used as modifier
+meshes by assigning the additional solids accordingly. This allows for localized
+adjustment of print settings, such as increasing the number of walls to 2                  –3 and
+the infill density to 5   –10%, affecting only the overlapping regions of the model.
+This approach significantly reinforces high           -load areas, particularly around the
+motor mounts. You can also create your own modifiers directly in the slicer or in
+any CAD software and plan additional reinforcements if needed for your specific
+use case. The included solutions are ready to use and are the recommended
+method for printing these components.
+
+
+
+
+              STORK VTOL                                                                             USER MANUAL   18
+                                       PARTS LIST - VTOL
+
+
+PART                             MATERIAL                     PART                                MATERIAL
+
+FUS 1 VTOL                     LW -PLA/ASA                    MOTOR MOUNT 1 VTOL (PRINT 4x)            PC
+
+FUS 2 VTOL                     LW -PLA/ASA                    MOTOR MOUNT 2 VTOL (PRINT 4x)            PC
+
+FUS 5 VTOL                     LW -PLA/ASA                    BOOM MOUNT 1 VTOL (PRINT 4x)             PC
+
+FUS 6 VTOL                     LW -PLA/ASA                    BOOM MOUNT 2 VTOL (PRINT 4x)             PC
+
+WING 1.1 L / R VTOL            LW -PLA/ASA                    BATTERY PAD VTOL                     PC / PETG
+
+WING 1.2 L / R VTOL            LW -PLA/ASA                    FIN TIP VTOL                      PC / PETG / TPU
+
+MAIN SKIDS VTOL                      PC                       BOOM MOUNT GUIDE                  PC / PETG / PLA
+
+
+
+
+                               All files in VTOL PACK are available in STL and STEP format
+
+
+
+
+                  STORK VTOL                                                                  USER MANUAL         19
+                       PARTS ORIENTATION
+
+
+
+
+      FUS 1 VTOL                FUS 2 VTOL             FUS 5 VTOL
+
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK VTOL                                               USER MANUAL   20
+                       PARTS ORIENTATION
+
+
+
+
+      FUS 6 VTOL             WING 1.1 L / R VTOL       WING 1.2 L / R VTOL
+                         3% -6% LATERAL LATTICE    3% -6% LATERAL LATTICE
+3% -6% GYROID INFILL
+                                   INFILL                    INFILL
+
+
+
+     STORK VTOL                                                   USER MANUAL   21
+                        PARTS ORIENTATION
+
+
+
+
+   MAIN SKIDS VTOL         MOTOR MOUNT 1 VTOL      MOTOR MOUNT 2 VTOL
+
+80% -100% GRID INFILL      80% -100% GRID INFILL   80% -100% GRID INFILL
+
+
+
+
+     STORK VTOL                                                 USER MANUAL   22
+                        PARTS ORIENTATION
+
+
+
+
+  BATTERY PAD VTOL               FIN TIP VTOL       BOOM MOUNT 1 VTOL
+
+20% -100% GRID INFILL      3% -10% GYROID INFILL   80% -100% GRID INFILL
+
+
+
+
+     STORK VTOL                                                 USER MANUAL   23
+                                     PARTS ORIENTATION
+
+
+
+
+              BOOM MOUNT 2 VTOL                           BOOM MOUNT GUIDE
+
+             80% -100% GRID INFILL                       20% -100% GRID INFILL
+
+
+
+
+STORK VTOL                                                                       USER MANUAL   24
+             ASSEMBLY GUIDE
+
+
+
+
+STORK VTOL               USER MANUAL   25
+FUSELAGE ASSEMBLY
+
+
+Fuselage assembly follows the same process as in the base fixed            -wing
+version of the aircraft. The segments highlighted in red are part of the
+VTOL Pack and replace the corresponding components from the base
+version. The original fuselage may also be used without modification
+if landing skids are not needed, allowing for belly landings.
+
+
+
+
+       CA GLUE
+
+
+
+
+                    STORK VTOL                                                     USER MANUAL   26
+FUSELAGE ASSEMBLY
+
+
+
+
+Prepare the BATTERY PAD             and press M3 THREADED
+INSERTS into the designated locations using a slightly
+heated soldering iron. Compared to the base version,
+this part is reinforced; in addition to the battery
+mounting platform, it also includes mounting points for
+the main landing        skids
+
+
+
+
+                  STORK VTOL                                USER MANUAL   27
+FUSELAGE ASSEMBLY
+
+
+
+
+ Glue the prepared component into the designated
+ location at the front of the fuselage.
+
+
+
+
+      CA GLUE
+
+
+
+
+                  STORK VTOL                       USER MANUAL   28
+FUSELAGE ASSEMBLY
+
+
+
+
+ Prepare the MAIN SKIDS VTOL and mount them to the
+ underside of the fuselage using M3x10 screws.
+ The landing    skids supported by a reinforced fuselage
+ structure created using modifier volumes provided in the
+ STEP files.
+
+
+
+
+          When printed according to the recommended settings using a durable
+          material such as PC, the skids provide sufficient strength and shock
+          absorption for proper operation. This configuration has been tested with
+          a takeoff weight of up to 3000 g.
+
+
+
+
+                  STORK VTOL                                                         USER MANUAL   29
+FUSELAGE ASSEMBLY
+
+
+                     Glue the FIN TIP VTOL at the rear of the fuselage,
+                     inserting a 4 mm carbon tube cut to the appropriate
+                     length into the designated slot. The component can be
+                     printed from a range of materials, from rigid options
+                     such as PC to more flexible ones like TPU.
+
+
+
+
+                                                                      CA GLUE
+
+
+
+
+        STORK VTOL                                             USER MANUAL      30
+WING ASSEMBLY
+
+
+
+
+ Wing modification is required for the VTOL configuration.
+ If a fixed -wing version has already been built, all wing
+ components must be reprinted.
+ In the VTOL version, the first wing segment (WING 1) is
+ replaced with two modified parts, WING 1.1 and WING 1.2.
+ The remaining wing components remain unchanged
+ compared to the base version. The use of modifier
+                                   s
+ meshes is also recommended in this case to reinforce the
+ lift motor arm mounting area.
+
+ Begin by bonding these two segments into a single
+ assembly, following the same process as in the base
+ version. Inserting the carbon tubes into the designated
+ slots during gluing helps ensure proper alignment of the
+ components.
+
+
+
+
+       CA GLUE
+
+
+
+
+                   STORK VTOL                                USER MANUAL   31
+WING ASSEMBLY
+
+
+
+
+ Take the BOOM        MOUNT 1 and press M3 threaded inserts
+ into the designated locations, following the same method
+ as for the previous mounts of this type. This component is
+ printed in four units, with two used per wing.
+
+
+
+
+                  STORK VTOL                                  USER MANUAL   32
+WING ASSEMBLY
+
+
+
+
+ Install the prepared components into the designated
+ locations in the wing. Apply the adhesive evenly in a thin
+ layer across the entire bonding surface..
+
+
+
+
+       CA GLUE
+
+
+
+
+                    STORK VTOL                                USER MANUAL   33
+WING ASSEMBLY
+
+
+
+
+ Prepare the BOOM MOUNT GUIDE, which serves as a
+ template for the boom. Insert a 10        ×10 mm square carbon
+ tube, 500 mm in length, into the guide slot and proceed
+ to the next step..
+
+
+
+
+                  STORK VTOL                                      USER MANUAL   34
+WING ASSEMBLY
+
+
+                         150mm
+
+
+
+
+      The guide is used to accurately position the boom mounts and to create an opening for the motor cables. To ensure proper alig   nme nt, measure
+      150 mm from one end of the tube to the point of contact with one side of the guide, following the diagram.
+
+      For ease of assembly, once the measurement is set, you may temporarily secure the tube with tape at the contact points with t   he guide.
+      This helps prevent any unintended movement within the slot during the process.
+
+
+
+
+          STORK VTOL                                                                                                                                    USER MANUAL   35
+WING ASSEMBLY
+
+
+
+
+ From the underside, mark the location of the cable opening
+ on the tube using a white permanent marker.              Remove the
+ tube from the guide and carefully cut the marked opening
+ using a suitable tool, such as a Dremel        -type rotary tool with
+ a thin cutting disc designed for composite materials.
+ Take care not to cut too deeply, as this may weaken the tube            ,
+ only remove a single wall to form the opening.
+
+
+
+
+                   STORK VTOL                                                USER MANUAL   36
+WING ASSEMBLY
+
+
+
+
+ Place the tube back into the guide and bond BOOM
+ MOUNT 2 in the designated positions. It is recommended
+ to use a slow -curing epoxy adhesive, which provides
+ a strong bond with the carbon surface of the tube.
+ Apply an even layer of adhesive across the entire bonding
+ surface, ensuring it is well distributed while avoiding any
+ excess spilling outside the joint area.
+
+
+
+
+       EPOXY GLUE
+
+
+
+
+                    STORK VTOL                                 USER MANUAL   37
+WING ASSEMBLY
+
+
+
+
+ Prepare MOTOR MOUNT            1 and M OTOR MOUNT          2 by first
+ pressing the M3 threaded inserts into the designated
+ locations. Attach the motor using M3 screws, preferably
+ those included with the motor.
+
+ Route the cables through the tube. Ensure they are long
+ enough to extend at least beyond the previously
+ prepared opening in the tube, or longer if you intend to
+ route them directly into the fuselage in the following
+ steps.
+
+ Then align and secure the two motor mount
+ components using M3         ×8 screws, as shown in the
+ diagram. If you find that the motor mount does not fit
+ tightly enough on the tube, you can wrap the tube at
+ the joint area with strong duct tape. This will reduce the
+ tolerance and result in a more secure, snug fit.           Repeat
+ the same procedure for all four motor arm ends.
+
+
+
+
+                   STORK VTOL                                            USER MANUAL   38
+WING ASSEMBLY
+
+
+
+
+At this stage, you should have a completed arm with the motor installed
+and the cables routed through the tube and exiting via the prepared
+opening. It is recommended to solder 3.5 mm gold (bullet/banana)
+connectors to each motor wire.
+
+These can then be connected to extension leads made with matching
+wires and connectors, which are routed through the wing and exit at the
+wing root. At the wing root, you may use another set of connectors (e.g.
+gold connectors or an alternative of your choice) to interface with the final
+set of wires leading to the ESC.       These wires should be pre        -soldered to the
+ESC on one end, and terminated with compatible connectors on the other.
+
+The images provided illustrate how this setup should look in practice.
+This approach ensures a modular and easily serviceable wiring setup.
+
+
+
+
+                    STORK VTOL                                                             USER MANUAL   39
+WING ASSEMBLY
+
+
+
+
+ Once the cables have been prepared and routed,
+ install the arm with the motors and secure it using
+ M3 ×8 screws, as shown in the diagram.
+
+
+
+
+                   STORK VTOL                          USER MANUAL   40
+FINISHING BUILD
+
+
+
+
+ The remaining stages of the build process remain
+ unchanged from the base version and should be
+ completed in the same manner.             Once these steps
+ are finalized, the VTOL configuration of the aircraft
+ will be structurally complete and ready for the
+ installation of the remaining onboard electronics.
+
+
+
+
+                    STORK VTOL                                USER MANUAL   41
+                                                             WIRING DIAGRAM
+
+
+
+
+The diagram illustrates an example wiring and equipment
+layout, including suggested channel assignments for the
+servos and motors. Only the essential equipment is shown
+in the schematic. Optional components, such as the FPV
+camera, VTX, receiver, and additional sensors, are not
+included, as their implementation can vary depending on
+the chosen hardware. The presented schematic is not the
+only solution but is intended to help beginners understand
+the setup. This diagram is also available in a larger size
+in PDF format in the file package
+
+
+
+
+                    STORK VTOL                                                USER MANUAL   42
+ARDUPILOT CONFIGURATION
+
+
+
+  For beginners, a document with a preconfigured parameter (.param) file is also available.
+  The document outlines the key parameter settings for a                  QuadPlane 4+1 VTOL configuration        in
+  ArduPilot . It is intended to serve as a reference and a solid starting point for further
+  configuration and tuning of this type of aircraft.
+
+  The file is prepared for the Speedybee /Corewing F405 Wing used with an ELRS receiver, GPS,
+  Walksnail FPV system, and the     Yaapu telemetry script option.
+
+  This is not a ready    -to -use configuration and must not be applied without proper verification.
+  Before flight, you are required to configure the correct servo outputs according to your airframe
+  setup and perform all necessary calibrations, including compass and accelerometer                       . The
+  following sections of the document present the main parameters along with explanations of
+  their functionality.
+
+  All information, as well as the firmware, is available               onthe ArduPilot website. It is also
+  recommended to review              the user manual of the flight controller for configuration.
+
+  https://ardupilot.org/plane/docs/common            -speedybeef405wing.html
+
+  The document is available for free download from the                 Flightory    Discord server in the #free        -
+  files channel.
+
+
+
+
+                  STORK VTOL                                                                                               USER MANUAL   43
+STORK VTOL
+
+
+
+
+   MOOSE
+

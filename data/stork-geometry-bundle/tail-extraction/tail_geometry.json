@@ -1,0 +1,562 @@
+{
+  "units": "mm, degrees; ratios dimensionless",
+  "coordinate_system": "aircraft x aft=native Z; y right=native X; z up=native Y; common STEP datum unchanged",
+  "source_assembly": {
+    "fixed_right_panel1_translation_native_mm": [
+      0,
+      -3.703521516,
+      0
+    ],
+    "fixed_right_2_3": "identity",
+    "rudder": "both genuine STEP solids unchanged on left, reflected native X=0 for right; no control rotation",
+    "STEP_tessellation": {
+      "linear_tolerance_mm": 0.008,
+      "angular_tolerance_rad": 0.05
+    },
+    "left_panel": "mirror right aircraft y=0, not independently fitted left STLs"
+  },
+  "basis": {
+    "span_root_plane_normal_aircraft": [
+      0.1075066118429083,
+      0.8134810259557614,
+      0.5715688487138013
+    ],
+    "aft_in_section_aircraft": [
+      0.9942043695388078,
+      -0.08796439804379994,
+      -0.06180563296928265
+    ],
+    "up_in_section_aircraft": [
+      0.0,
+      -0.5749007610768609,
+      0.8182231449386201
+    ],
+    "root_plane_equation_n_dot_xyz_mm": 93.85734103749203,
+    "definition": "physical mount-plane normal, not global aircraft-y sections; full 3D n retained including aft component",
+    "dihedral_cant_above_horizontal_deg": 35.092682729587445,
+    "cant_from_vertical_deg": 54.907317270412555,
+    "span_axis_elevation_3D_deg": 34.85969895803691,
+    "span_axis_aft_sweep_deg": 6.171602517232521,
+    "normal_span_root_to_fin_extreme_mm": 272.25480569900037,
+    "fin_starts_s_mm": 229.80119128452301
+  },
+  "root_LE_aircraft_mm": [
+    492.0852363733185,
+    43.971509689329565,
+    9.071410616320371
+  ],
+  "root_LE_method": "fixed-skin LE at s=.05 and .15 linearly extrapolated .05 mm to mounting plane; independent of absent rudder root clearance",
+  "profiles": {
+    "root": {
+      "chord_mm": 162.28877917332412,
+      "leading_edge_aft_mm": 484.96484845540175,
+      "leading_edge_up_mm": -17.85451307844814,
+      "trailing_edge_aft_mm": 647.23684631271,
+      "trailing_edge_up_mm": -15.520727105890312,
+      "incidence_LE_up_deg": -0.8239675984637468,
+      "max_thickness_over_chord": 0.10419204869049979,
+      "max_thickness_x_over_chord": 0.2956754626318254,
+      "max_camber_over_chord": -0.0002621632771465498,
+      "max_camber_x_over_chord": 0.87660954407336,
+      "TE_thickness_mm": 0.9999999272304023,
+      "TE_thickness_over_chord": 0.006161855011321542,
+      "TE_cap_length_mm": 0.9999999272902216,
+      "TE_endpoints_section_mm": [
+        [
+          647.2296615557185,
+          -15.020778765646957
+        ],
+        [
+          647.2440310697016,
+          -16.020675446133666
+        ]
+      ],
+      "normalization": "raw outer-loop farthest nose from genuine TE-cap midpoint; LE->TE chord; physical TE endpoints projected parallel chord to x/c=1, preserving normal thickness; upper TE->LE then lower LE->TE, 70+71 cosine points minus shared LE = 140",
+      "hinge_bridge": {
+        "hinge_center_aft_mm": 606.7670472775098,
+        "outer_skin_bridge_aft_limits_mm": [
+          601.7670472775098,
+          611.7670472775098
+        ],
+        "disconnected_exterior_gaps_mm": [],
+        "method": "straight upper/lower skin bridges; hx +/- nominal halfwidth, expanded to 1mm past disconnected exterior gap lips; no manufactured pocket surfaces retained"
+      },
+      "span_station_from_root_plane_mm": 0.61,
+      "leading_edge_aircraft_mm": [
+        492.31003517183547,
+        44.452321697166354,
+        9.412054088819453
+      ],
+      "trailing_edge_aircraft_mm": [
+        653.6415644953632,
+        28.836467754469446,
+        1.292288246138341
+      ],
+      "quarter_chord_aircraft_mm": [
+        532.6429175027173,
+        40.54835821149213,
+        7.382112628149173
+      ],
+      "projected_chord_mm": 162.27199785730824,
+      "incidence_aircraft_LE_up_deg": 2.8812476488452967,
+      "raw_missing_x_samples": 0,
+      "exterior_selection": [
+        {
+          "component_index": 0,
+          "closed_loops": 3,
+          "exterior_loops": 1
+        },
+        {
+          "component_index": 4,
+          "closed_loops": 2,
+          "exterior_loops": 1
+        }
+      ],
+      "label": "root",
+      "conventional_foil_status": "resolved full fixed+rudder section"
+    },
+    "midspan": {
+      "chord_mm": 141.96015277514678,
+      "leading_edge_aft_mm": 516.3092081187248,
+      "leading_edge_up_mm": -17.40372480218626,
+      "trailing_edge_aft_mm": 658.2546833186207,
+      "trailing_edge_up_mm": -15.362390381090943,
+      "incidence_LE_up_deg": -0.8239204854071396,
+      "max_thickness_over_chord": 0.10459378890763277,
+      "max_thickness_x_over_chord": 0.30431316658139884,
+      "max_camber_over_chord": 5.592120276844126e-05,
+      "max_camber_x_over_chord": 9.869571931442334e-06,
+      "TE_thickness_mm": 0.9999856937577276,
+      "TE_thickness_over_chord": 0.007044129456113103,
+      "TE_cap_length_mm": 0.9999876285189725,
+      "TE_endpoints_section_mm": [
+        [
+          658.2484770535007,
+          -14.86243508651851
+        ],
+        [
+          658.2608895837408,
+          -15.862345675663377
+        ]
+      ],
+      "normalization": "raw outer-loop farthest nose from genuine TE-cap midpoint; LE->TE chord; physical TE endpoints projected parallel chord to x/c=1, preserving normal thickness; upper TE->LE then lower LE->TE, 70+71 cosine points minus shared LE = 140",
+      "hinge_bridge": {
+        "hinge_center_aft_mm": 617.7852016590011,
+        "outer_skin_bridge_aft_limits_mm": [
+          612.7852016590011,
+          622.7852016590011
+        ],
+        "disconnected_exterior_gaps_mm": [],
+        "method": "straight upper/lower skin bridges; hx +/- nominal halfwidth, expanded to 1mm past disconnected exterior gap lips; no manufactured pocket surfaces retained"
+      },
+      "span_station_from_root_plane_mm": 120.0,
+      "leading_edge_aircraft_mm": [
+        536.307948897432,
+        138.55747513306466,
+        76.08324634885611
+      ],
+      "trailing_edge_aircraft_mm": [
+        677.430760577431,
+        124.8977621397646,
+        68.98048347690101
+      ],
+      "quarter_chord_aircraft_mm": [
+        571.5886518174318,
+        135.14254688473966,
+        74.30755563086734
+      ],
+      "projected_chord_mm": 141.9454751998959,
+      "incidence_aircraft_LE_up_deg": 2.8812863325859994,
+      "raw_missing_x_samples": 0,
+      "exterior_selection": [
+        {
+          "component_index": 1,
+          "closed_loops": 4,
+          "exterior_loops": 1
+        },
+        {
+          "component_index": 3,
+          "closed_loops": 2,
+          "exterior_loops": 1
+        }
+      ],
+      "label": "midspan",
+      "conventional_foil_status": "resolved full fixed+rudder section"
+    },
+    "outer_regular": {
+      "chord_mm": 124.9124186236654,
+      "leading_edge_aft_mm": 542.5835595876716,
+      "leading_edge_up_mm": -17.021635372172653,
+      "trailing_edge_aft_mm": 667.4831254041478,
+      "trailing_edge_up_mm": -15.22976895149101,
+      "incidence_LE_up_deg": -0.8219351278513806,
+      "max_thickness_over_chord": 0.10503848496399303,
+      "max_thickness_x_over_chord": 0.30142605468260975,
+      "max_camber_over_chord": 0.00010212667048125484,
+      "max_camber_x_over_chord": 0.9208967678751176,
+      "TE_thickness_mm": 0.9999738962805188,
+      "TE_thickness_over_chord": 0.008005400161958498,
+      "TE_cap_length_mm": 0.9999802745797209,
+      "TE_endpoints_section_mm": [
+        [
+          667.4777387150991,
+          -14.729807832034481
+        ],
+        [
+          667.4885120931966,
+          -15.72973007094754
+        ]
+      ],
+      "normalization": "raw outer-loop farthest nose from genuine TE-cap midpoint; LE->TE chord; physical TE endpoints projected parallel chord to x/c=1, preserving normal thickness; upper TE->LE then lower LE->TE, 70+71 cosine points minus shared LE = 140",
+      "hinge_bridge": {
+        "hinge_center_aft_mm": 627.0139095754859,
+        "outer_skin_bridge_aft_limits_mm": [
+          622.0139095754859,
+          632.0139095754859
+        ],
+        "disconnected_exterior_gaps_mm": [],
+        "method": "straight upper/lower skin bridges; hx +/- nominal halfwidth, expanded to 1mm past disconnected exterior gap lips; no manufactured pocket surfaces retained"
+      },
+      "span_station_from_root_plane_mm": 220.0,
+      "leading_edge_aircraft_mm": [
+        573.1806851189482,
+        217.3747067135694,
+        131.92886271191412
+      ],
+      "trailing_edge_aircraft_mm": [
+        697.3563792071888,
+        205.35784622159315,
+        125.67551256707827
+      ],
+      "quarter_chord_aircraft_mm": [
+        604.2246086410083,
+        214.3704915905753,
+        130.36552517570516
+      ],
+      "projected_chord_mm": 124.89956581647618,
+      "incidence_aircraft_LE_up_deg": 2.882916473160251,
+      "raw_missing_x_samples": 0,
+      "exterior_selection": [
+        {
+          "component_index": 1,
+          "closed_loops": 2,
+          "exterior_loops": 1
+        },
+        {
+          "component_index": 3,
+          "closed_loops": 2,
+          "exterior_loops": 1
+        }
+      ],
+      "label": "outer_regular",
+      "conventional_foil_status": "resolved full fixed+rudder section"
+    },
+    "fin_transition": {
+      "chord_mm": 115.17375415464872,
+      "leading_edge_aft_mm": 554.1668817015516,
+      "leading_edge_up_mm": -16.85340724321786,
+      "trailing_edge_aft_mm": 669.3288138212533,
+      "trailing_edge_up_mm": -15.203244665571034,
+      "incidence_LE_up_deg": -0.8209386503101285,
+      "max_thickness_over_chord": 0.0991736600208793,
+      "max_thickness_x_over_chord": 0.28498077736669947,
+      "max_camber_over_chord": 0.00023043694623558087,
+      "max_camber_x_over_chord": 0.9157348061512727,
+      "TE_thickness_mm": 0.9999715909396215,
+      "TE_thickness_over_chord": 0.008682287021719522,
+      "TE_cap_length_mm": 0.9999791262268012,
+      "TE_endpoints_section_mm": [
+        [
+          669.3235910474186,
+          -14.703282381137697
+        ],
+        [
+          669.3340365950879,
+          -15.703206950004372
+        ]
+      ],
+      "normalization": "raw outer-loop farthest nose from genuine TE-cap midpoint; LE->TE chord; physical TE endpoints projected parallel chord to x/c=1, preserving normal thickness; upper TE->LE then lower LE->TE, 70+71 cosine points minus shared LE = 140",
+      "hinge_bridge": {
+        "hinge_center_aft_mm": 628.8596511587829,
+        "outer_skin_bridge_aft_limits_mm": [
+          623.8596511587829,
+          638.8849578917655
+        ],
+        "disconnected_exterior_gaps_mm": [
+          [
+            632.8823685135809,
+            637.8849578917655
+          ]
+        ],
+        "method": "straight upper/lower skin bridges; hx +/- nominal halfwidth, expanded to 1mm past disconnected exterior gap lips; no manufactured pocket surfaces retained"
+      },
+      "span_station_from_root_plane_mm": 240.0,
+      "leading_edge_aircraft_mm": [
+        586.8470068152012,
+        232.52869279621908,
+        142.78197327979524
+      ],
+      "trailing_edge_aircraft_mm": [
+        701.3415029331403,
+        221.44986303795883,
+        137.01451838511372
+      ],
+      "quarter_chord_aircraft_mm": [
+        615.470630844686,
+        229.75898535665402,
+        141.34010955612484
+      ],
+      "projected_chord_mm": 115.16193211970176,
+      "incidence_aircraft_LE_up_deg": 2.8837346601704805,
+      "raw_missing_x_samples": 60,
+      "exterior_selection": [
+        {
+          "component_index": 2,
+          "closed_loops": 3,
+          "exterior_loops": 1
+        },
+        {
+          "component_index": 3,
+          "closed_loops": 1,
+          "exterior_loops": 1
+        }
+      ],
+      "label": "fin_transition",
+      "conventional_foil_status": "actual fin contour only; not a conventional tip airfoil"
+    },
+    "tip_fin_near_cap": {
+      "chord_mm": 33.280341079496395,
+      "leading_edge_aft_mm": 638.8210963597844,
+      "leading_edge_up_mm": -15.643353727099807,
+      "trailing_edge_aft_mm": 672.0979846374403,
+      "trailing_edge_up_mm": -15.163969826635139,
+      "incidence_LE_up_deg": -0.8253408255906284,
+      "max_thickness_over_chord": 0.1101204905244378,
+      "max_thickness_x_over_chord": 0.4568568171010383,
+      "max_camber_over_chord": -0.00019349789713171174,
+      "max_camber_x_over_chord": 0.07741572086518522,
+      "TE_thickness_mm": 0.999908562441353,
+      "TE_thickness_over_chord": 0.03004502147537737,
+      "TE_cap_length_mm": 1.0000010181912338,
+      "TE_endpoints_section_mm": [
+        [
+          672.0975813369619,
+          -14.663969480190659
+        ],
+        [
+          672.0983879379186,
+          -15.663970173079619
+        ]
+      ],
+      "normalization": "raw outer-loop farthest nose from genuine TE-cap midpoint; LE->TE chord; physical TE endpoints projected parallel chord to x/c=1, preserving normal thickness; upper TE->LE then lower LE->TE, 70+71 cosine points minus shared LE = 140",
+      "hinge_bridge": null,
+      "span_station_from_root_plane_mm": 270.0,
+      "leading_edge_aircraft_mm": [
+        674.2357952835798,
+        248.79090585324985,
+        155.6870252142418
+      ],
+      "trailing_edge_aircraft_mm": [
+        707.31982301388,
+        245.58812623790993,
+        154.02256907366433
+      ],
+      "quarter_chord_aircraft_mm": [
+        682.5068022161548,
+        247.9902109494149,
+        155.27091117909742
+      ],
+      "projected_chord_mm": 33.27688827765587,
+      "incidence_aircraft_LE_up_deg": 2.8801201135227585,
+      "raw_missing_x_samples": 0,
+      "exterior_selection": [
+        {
+          "component_index": 2,
+          "closed_loops": 1,
+          "exterior_loops": 1
+        }
+      ],
+      "label": "tip_fin_near_cap",
+      "conventional_foil_status": "actual fin contour only; not a conventional tip airfoil"
+    }
+  },
+  "true_tip": {
+    "s_mm": 272.25480569900037,
+    "conventional_airfoil": null,
+    "chord_incidence_tc_camber_TE": null,
+    "reason": "geometric fin extreme degenerates and is not a conventional finite-chord airfoil; do not substitute a NACA or other conventional foil",
+    "near_tip_actual_fin_dat": "tip_fin_near_cap_140cosineSelig.dat at s=270mm, real fin contour only"
+  },
+  "planform_full_including_fin": {
+    "projected_one_panel_area_mm2": 36723.33113822959,
+    "MAC_projected_mm": 139.1211045921932,
+    "MAC_3D_chord_length_weighted_mm": 139.13548544689448,
+    "area_weighted_MAC_chord_vector_aircraft_mm": [
+      138.31481008062383,
+      -13.38763059589392,
+      -6.961843942602891
+    ],
+    "area_weighted_quarter_chord_aircraft_mm": [
+      574.548349035254,
+      138.41430563838767,
+      76.65091656222806
+    ],
+    "effective_MAC_LE_aircraft_mm": [
+      539.969646515098,
+      141.76121328736116,
+      78.39137754787879
+    ],
+    "area_centroid_span_station_mm": 124.31909279722501,
+    "definition": "c = LE-to-TE projected on section aft unit a; MAC=integral(c^2 ds)/area; 3D QC=integral(QC(s)*c ds)/area; MAC vector=integral(chord_vector*c ds)/area, effective LE=QC-.25vector; geometric not aerodynamic center; physical root-normal ds; saved control pose"
+  },
+  "planform_regular_before_fin_sample_truncation": {
+    "projected_one_panel_area_mm2": 32810.97558668016,
+    "MAC_projected_mm": 143.69170702508276,
+    "MAC_3D_chord_length_weighted_mm": 143.70656411378238,
+    "area_weighted_MAC_chord_vector_aircraft_mm": [
+      142.8589229908274,
+      -13.827701263942853,
+      -7.1902207069486925
+    ],
+    "area_weighted_quarter_chord_aircraft_mm": [
+      568.2196386485743,
+      126.92188171286725,
+      68.49180038493448
+    ],
+    "effective_MAC_LE_aircraft_mm": [
+      532.5049079008675,
+      130.37880702885295,
+      70.28935556167166
+    ],
+    "area_centroid_span_station_mm": 109.62634914058937,
+    "definition": "c = LE-to-TE projected on section aft unit a; MAC=integral(c^2 ds)/area; 3D QC=integral(QC(s)*c ds)/area; MAC vector=integral(chord_vector*c ds)/area, effective LE=QC-.25vector; geometric not aerodynamic center; physical root-normal ds; saved control pose"
+  },
+  "integration_convergence": {
+    "fine_station_count": 292,
+    "coarse_station_count": 147,
+    "area_fine_minus_coarse_mm2": 4.961441622777784,
+    "MAC_fine_minus_coarse_mm": -0.01651417677436484
+  },
+  "neutral": {
+    "true_zero_relative_agreed_neutral_contour_deg": null,
+    "status": "UNKNOWN: no agreed neutral target contour/hinge angle/transmitter calibration provided; coaxial hinge and smooth saved pose do not prove it",
+    "source_STEP_rotation_applied_deg": 0.0,
+    "source_pose_geometric_diagnostics": [
+      {
+        "station_mm": 0.61,
+        "fixed_midline_angle_up_deg": 0.8116108092377696,
+        "rudder_midline_angle_up_deg": 0.8630741473690402,
+        "rudder_minus_fixed_midline_deg": 0.05146333813127048,
+        "fixed_fit_RMS_mm": 0.001568664531233669,
+        "rudder_fit_RMS_mm": 0.010499300225543578,
+        "TE_offset_from_fixed_midline_mm": 0.022801220920539933
+      },
+      {
+        "station_mm": 120.0,
+        "fixed_midline_angle_up_deg": 0.811091265329786,
+        "rudder_midline_angle_up_deg": 0.832104393281979,
+        "rudder_minus_fixed_midline_deg": 0.02101312795219298,
+        "fixed_fit_RMS_mm": 0.001267327783638455,
+        "rudder_fit_RMS_mm": 8.443544551975135e-05,
+        "TE_offset_from_fixed_midline_mm": 0.021098852012295666
+      },
+      {
+        "station_mm": 220.0,
+        "fixed_midline_angle_up_deg": 0.811647595101292,
+        "rudder_midline_angle_up_deg": 0.8659242100499603,
+        "rudder_minus_fixed_midline_deg": 0.05427661494866831,
+        "fixed_fit_RMS_mm": 0.001080369983840739,
+        "rudder_fit_RMS_mm": 0.0060478758863952535,
+        "TE_offset_from_fixed_midline_mm": 0.017358057571732033
+      }
+    ],
+    "diagnostic_definition": "linear fits of raw upper/lower-envelope midpoint: fixed 15..60% total section aft chord; rudder hinge+12mm to TE-3mm. Relative slope is not commanded/aerodynamic-neutral certification; fixed camber and fitting windows matter"
+  },
+  "hinge_closure": {
+    "method": "straight upper and lower bridges nominally hx-5 to hx+5 mm, expanded to 1mm past disconnected exterior gap lips where present; actual per-station limits recorded; all nonnested physical exterior loops retained, nested cavities removed",
+    "width_sensitivity": [
+      {
+        "label": "root",
+        "hinge_halfwidth_mm": 3.0,
+        "max_t_c": 0.10419204869049979,
+        "max_camber_c": -0.0012947391149842648
+      },
+      {
+        "label": "root",
+        "hinge_halfwidth_mm": 4.0,
+        "max_t_c": 0.10419204869049979,
+        "max_camber_c": -0.0002621632771465498
+      },
+      {
+        "label": "root",
+        "hinge_halfwidth_mm": 5.0,
+        "max_t_c": 0.10419204869049979,
+        "max_camber_c": -0.0002621632771465498
+      },
+      {
+        "label": "root",
+        "hinge_halfwidth_mm": 6.0,
+        "max_t_c": 0.10419204869049979,
+        "max_camber_c": -0.0002621632771465498
+      },
+      {
+        "label": "midspan",
+        "hinge_halfwidth_mm": 3.0,
+        "max_t_c": 0.10459378890763277,
+        "max_camber_c": 0.0004230793719856834
+      },
+      {
+        "label": "midspan",
+        "hinge_halfwidth_mm": 4.0,
+        "max_t_c": 0.10459378890763277,
+        "max_camber_c": 0.0001758063615751159
+      },
+      {
+        "label": "midspan",
+        "hinge_halfwidth_mm": 5.0,
+        "max_t_c": 0.10459378890763277,
+        "max_camber_c": 5.592120276844126e-05
+      },
+      {
+        "label": "midspan",
+        "hinge_halfwidth_mm": 6.0,
+        "max_t_c": 0.10459378890763277,
+        "max_camber_c": 5.592120276844126e-05
+      },
+      {
+        "label": "outer_regular",
+        "hinge_halfwidth_mm": 3.0,
+        "max_t_c": 0.10503848496399303,
+        "max_camber_c": -0.002827238978315645
+      },
+      {
+        "label": "outer_regular",
+        "hinge_halfwidth_mm": 4.0,
+        "max_t_c": 0.10503848496399303,
+        "max_camber_c": 0.00010212667048125484
+      },
+      {
+        "label": "outer_regular",
+        "hinge_halfwidth_mm": 5.0,
+        "max_t_c": 0.10503848496399303,
+        "max_camber_c": 0.00010212667048125484
+      },
+      {
+        "label": "outer_regular",
+        "hinge_halfwidth_mm": 6.0,
+        "max_t_c": 0.10503848496399303,
+        "max_camber_c": 0.00010212667048125484
+      }
+    ],
+    "not_a_solid_boolean": "outer skin aerodynamic section reconstruction, not CAD union or watertight CFD boundary"
+  },
+  "limitations": [
+    "Root complete profile at .61mm, 0.01mm outboard of STEP rudder root; actual mounting-plane root LE separately reported.",
+    "First .61mm planform strip uses constant complete-profile chord and QC translated spanwise to root; nominal clearance closure, not extra source material.",
+    "Full-planform MAC is a geometric projected-area measure including the real fin; do not treat fin-tip contours as conventional foil sections.",
+    "Section local incidence is relative projected aircraft aft axis in physical plane. Aircraft x-z chord pitch also separately reported.",
+    "Only fixed STL exists, so tessellation and skin interpolation are part of uncertainty; reported precision is not CAD exactness.",
+    "No geometric-neutral target supplied: source pose is measured without rotating to a guessed zero.",
+    "Bilateral position from mirror y=0; no wing-tail arms computed here."
+  ]
+}

@@ -1,0 +1,1216 @@
+                                                                     STORK
+                                                                     USER MANUAL
+        © 20 26 Flightory by Szymon Wójcik   All rights reserved .
+                                                                         V.2
+
+MOOSE
+                                                        SOCIALS
+
+
+
+Join Flightory Tech group on Facebook and create community with us.
+Share progress  of your builds . Any suggestions or questions welcome.
+www.facebook.com/groups/flightory
+
+
+
+
+Join our Discord server, where the discussions are organized by topics, and the
+interaction between users is lively.
+https://discord.gg/GPMgDZ3Cxv
+
+
+
+
+Follow us on Instagram for   regular updates          and fresh content
+www.instagram.com/flightory_
+
+
+
+
+ STORK                                                                            USER MANUAL   2
+                                    TABLE OF CONTENTS
+
+                                                 Parts List
+Introduction
+                                                 Parts List - Fuselage                          20
+General Aircraft Data                      05
+
+                                                 Parts List - WIngs                              21
+Aerodynamic      Design                    06
+
+                                                 Parts List - VTail                             22
+CFD Characteriscics                        07
+
+                                                 STEP Files List                                24
+Design   Features                       08 -09
+
+                                                 Parts Orientation                           24 -35
+
+Recommended             Equipment
+                                                 Assembly Guide
+Recommended         Electronics             11
+                                                 Fuselage      Assembly                      37 -46
+Recommended         Accessories             12
+                                                 Wings    Assembly                           47 -51
+Powertrain     Selection                 13-14
+                                                 Tail Assembly                               52 -56
+
+Print Settings                                   Finishing     Build                         57 -58
+
+Print Settings    Overview               16-18   Wiring      Diagram                            59
+
+Modifiers                                   19   Ardupilot     Configuration                    60
+
+
+
+
+                           STORK                                               USER MANUAL            3
+STORK
+The Stork is a UAV platform designed in a classic configuration with a pusher
+motor and a V -tail. It delivers high efficiency and stability, while its          hig h aspect
+ratio wing provides smooth flight characteristics and the capacity to carry a
+substantial wing load. The hybrid airframe is optimized for 3D printing with
+LW filaments, combined with high             strength materials and reinforced with
+carbon rods to ensure excellent structural integrity and durability.
+A notable feature of the Stork is its modular nose section, which can be easily
+swapped or customized for specific mission profiles, making the platform
+highly adaptable to a wide range of applications. While designed primarily as
+an FPV aircraft, Stork also offers strong potential for autonomous missions
+and can be configured to carry custom equipment and payloads.
+
+
+
+
+              STORK                                                                               USER MANUAL   4
+        GENERAL AIRCRAFT DATA
+
+
+
+                   Wingspan                                  1620mm
+
+                   Wing area                                  31 dm ²
+
+                   Lenght                                    1000mm
+
+                   Center of    Gravity       47mm from   leading   edge (at wing root )
+
+                   AUW                                      1400 -3100g
+
+                   Optimal     Cruise Speed                 50 -70 km/h
+
+                   Airfoil                                     S3021
+
+                   Root Chord                                 230mm
+
+                   MAC                                        195mm
+
+                   Aspect Ratio                                  8,3
+
+                   Wing load                              45 - 100 g / dm ²
+
+
+
+
+STORK                                                         USER MANUAL          5
+                                                                                      AERODYNAMIC DESIGN
+
+
+The geometry of the aircraft has been engineered to deliver high
+aerodynamic efficiency without compromising stability.
+Its airframe provides a balanced lift distribution and a clean,
+streamlined profile that effectively reduces drag. The design
+is based on the Selig S3021 airfoil        . When the center of gravity
+is properly set, the aircraft maintains longitudinal stability and
+produces virtually no pitching moment at a zero                 -degree angle
+of attack. Peak aerodynamic efficiency occurs between 0                   ° and 3 °
+angle of attack, aligning with the aircraft’s typical cruising
+conditions.
+
+
+
+
+                                                                                                           CFD ANALYSIS
+
+
+                      STORK                                                                                   USER MANUAL   6
+CL/CD                                     CFD CHARACTERISTICS
+
+
+
+
+                                                           CL
+                                                            1,2
+                     20
+                                                                 1
+
+
+                     15                                     0,8
+
+
+                                                            0,6
+                     10
+
+                                                            0,4
+
+                      5
+                                                            0,2
+
+
+                      0                                          0
+        -4   -2           0   2   4   6   8
+                                              Alpha 10            0,00       0,01       0,02    0,03   0,04     0,05     0,06   0,07      0,08      0,09
+                                                                                                                                                           CD
+                                                                                                                                                                0,10
+ Cm
+
+
+
+
+                                                                Cm
+                    0,1                                                  0,10
+
+                   0,05                                                  0,05
+
+                     0                                                   0,00
+        -4   -2           0   2   4   6   8           10         -0,15           0,05          0,25      0,45          0,65      0,85            1,05           1,25
+                  -0,05                                                  -0,05
+
+                   -0,1                                                  -0,10
+
+                  -0,15                                                  -0,15
+
+                   -0,2                                                  -0,20
+
+                  -0,25                                                  -0,25
+
+                   -0,3                                                  -0,30
+                                              Alpha                                                                                                        CL
+
+
+                  STORK                                                                                                                 USER MANUAL                7
+                                                                                     STEP FILES
+
+
+
+
+All files are available in STL format. In addition, some important
+elements are available in STEP format, which allows easier editing and
+customization.       Check the full list of STEP files in the      STEP FILES LIST
+section. You can find the se files in folders labeled STEP            .
+
+
+
+
+            STORK                                                                                 USER MANUAL   8
+                                                         COMPARTMENT DIMENSIONS AND LAYOUT
+
+        The fuselage is divided into suggested compartments,
+        each designed to optimally house specific equipment.
+
+
+
+
+Battery Compartment:
+Height: 8 0 mm
+Length: 22 0 mm
+Width: varies from     65 mm to     8 0 mm — the compartment narrows
+towards the nose of the fuselage.
+
+
+
+
+Electronics Compartment
+(Flight Controller and Other Electronics         / Payload ):
+Height: 8 0 mm
+Length: 20 5 mm
+Width: 65 mm
+
+
+
+
+                     STORK                                                                   USER MANUAL   9
+                                                   RECOMMENDED EQUIPMENT
+
+        This section presents the recommended accessories and                      electronics needed to complete the
+        entire aircraft. This list, along with periodically updated store links, can also be found
+        at the bottom of the aircraft description on the website                 .
+
+
+
+
+STORK                                                                                              USER MANUAL          10
+                         RECOMMENDED ELECTRONICS
+
+
+COMPONENT               MODEL / SPECIFICATION
+
+Motors                  28XX Motor     e.g . BrotherHobby      Avenger      2812 V5 910KV
+
+Propeller               9 -10 inch Propeller
+
+Flight Controller       Speedybee     F405 Wing or any other Mavlink FC
+
+GPS                     Matek M10Q      or similar GPS with     compass
+
+Servos                  4x EMAX ES08 MAII Metal Gear           or similar
+
+ESC                     BlHeliS   35 -60A
+
+Battery                 4S -6S Li -Ion / Li -Po
+
+Receiver                Matek R24 -D ELRS         or similar
+
+FPV Camera      + VTX   Walksnail    Avatar or any Digital or Analog VTX
+
+FPV Goggles             Walksnail    Goggles      X or any other matching       the chosen   VTX
+
+
+
+
+               STORK                                                                               USER MANUAL   11
+                                                        RECOMMENDED ACCESSORIES
+
+
+ITEM                                                         QUANTITY    ITEM                                           QUANTITY
+
+10x1000mm Carbon       Tube (MAIN SPAR)                          1       Hot Glue (optional )                         Small amount
+
+8x1000mm Carbon       Tube (SECONDARY SPAR)                      1       Epoxy Glue (optional )                       Small amount
+
+6x500mm Carbon       Tube (WING SPAR)                            2       LW -PLA / LW -ASA                                   1 roll
+
+3x500mm Carbon       Tube (AILERON HINGE)                        2       PC / PETG /    other rigid material          Small amount
+
+8x155mm Carbon      Tube (V TAIL SPAR)                           2       Velcro Strap                                          2
+
+6x265mm Carbon       Tube (V TAIL SPAR)                          2       Servo Extension Cable                                 4
+
+3x265mm Carbon       Tube (RUDDER HINGE)                         2       Control Horn                                          4
+
+Thick CA Glue                                                1-2 Tubes   Pushrod                                               4
+
+CA Activator                                                     1       M3x6mm Screw                                         12
+
+M3 Threaded     Insert (Outer Ø5mm,       height 5mm)            15      M3x10mm Screw                                         3
+
+
+
+
+                  STORK                                                                                        USER MANUAL            12
+                                                             POWERTRAIN SELECTION
+
+
+There are multiple options for selecting the powertrain configuration, including the motor, propeller, and battery. Recommend                                ed motors are in the 28XX
+class, with propellers ranging from 9 to 10 inches, and batteries rated from 4S to 6S. The motor mount is available in two va                          ria nts with bolt spacing of
+19×19 mm and 16 ×19 mm, which corresponds to most motors in this class on the market.                         This component is also provided in STEP format for easy
+modification if a different bolt pattern is required.
+
+
+EXAMPLE MOTOR AND PROP SETUP
+
+A suggested motor for this aircraft is the         BrotherHobby        Avenger 2812 V5 910KV, which performs optimally with 9453 tri             -blade or two -blade propellers and
+a 6S battery. According to the manufacturer’s specifications, this setup delivers up to approximately 3800 g of thrust per mo                           tor at a maximum power of
+1280W with a current draw of around 50A. This requires using an ESC rated at 60A (6S capable).
+This setup fully utilizes the motor’s performance potential and offers maximum available thrust for demanding applications.
+
+It is worth noting that in recent years, brushless motor technology has significantly improved. Modern motors in the 28XX cla                            ss are capable of delivering
+over 1200W of power and exceptionally high thrust, which was not achievable with this motor size just a few years ago. This i                           s a result of advancements in
+materials, winding efficiency, cooling design, and overall manufacturing quality.
+
+As a result, the market trend has shifted towards motors optimized for higher voltage systems, particularly 6S setups, which                            now dominate availability in
+this size class. However, this does not limit the possibility of operating these motors effectively on 4S systems, depending                         on user preferences and
+mission requirements.
+
+
+
+
+     STORK                                                                                                                                                                     USER MANUAL   13
+                                                                POWERTRAIN SELECTION
+
+
+
+FLEXIBLE OPERATION WITH 4S
+
+While the 6S configuration allows the motors to deliver maximum thrust and performance, the same setup can be operated very e                                         ffe ctively with a 4S
+battery, offering a more efficient and lighter alternative without compromising flight capabilities. In this case, it is reco                          mme nded to use a slightly larger
+propeller, such as a 10x6 two       -blade, to compensate for the lower RPM resulting from the reduced voltage. This results in proport                            ionally lower motor
+speed and a significantly reduced current draw, which allows for the use of smaller and lighter ESCs rated at 35                              –40A for 4S. At the same time, the overall
+system weight decreases, providing the option to use larger capacity 4S batteries                       . Despite the lower voltage, the total thrust generated by moto                 r remains
+around 2000 grams, which is fully sufficient for this aircraft's design and operational requirements.
+
+Prototype testing confirmed that during cruise flight with a 4S battery and 10x6 propellers, the required throttle setting wa                                  s b elow 50%, demonstrating
+efficient power utilization and good endurance potential.
+
+The main reason for choosing 4S operation is the current state of the market, which is heavily saturated with high                                  -performance m       otors optimized for 6S
+in this size class. Finding lighter motors designed specifically for 4S that could match or exceed this performance is challe                                 ngi ng. For this reason, using a
+motor like the       BrotherHobby       2812 V5 910KV , even when operating on 4S remains a                 practical and efficient solution. Although this setup does not fully
+utilize the maximum power capabilities of the motor, it offers several important advantages, including improved efficiency du                                      rin g cruise flight, a lower
+total system weight, the use of smaller and more                  cost -efficient ESCs, and the ability to select 4S batteries with higher capacity while maintaining similar
+weight compared to smaller 6S packs.
+
+This flexible approach allows users to tailor the system to their needs. Whenever the mission demands higher thrust, greater                                     pay load, or higher airspeed,
+the same airframe can be seamlessly scaled by switching to 6S batteries and appropriate ESCs, immediately unlocking the full                                       per formance potential of
+the motors without requiring any changes to the mechanical setup.
+
+
+
+
+     STORK                                                                                                                                                                              USER MANUAL   14
+        PRINT SETTINGS
+
+
+
+
+STORK                USER MANUAL   15
+                                                                          PRINT SETTINGS
+
+
+This aircraft is designed with optimization for LW             -PLA / LW -ASA filaments, reinforced with additional components printed from PC                   , PETG, or other rigid
+materials. All parts are designed to fit within a print volume of 220x220x2               20 mm. The entire      design is tailored for printers equipped with 0.4 mm nozzles.
+
+
+
+GENERAL GUIDLINES
+- All airframe com    ponents should be printed using lightweight filaments (LW                -PLA, LW -ASA) with single      -wall construction.
+
+- Fuselage sections: Recommended to print with gyroid infill between 3% and 6%.
+
+- Wings: Use Lateral Lattice infill, or optionally Cubic Subdivision, with an infill density between                 2% and 4%.This approach ensures an optimal balance
+between strength and low weight while allowing flexibility for tuning print settings.
+
+- For reinforcement parts that require higher strength, it is essential to use rigid and durable materials such as PETG, PC, AB                              S, or others . These components
+should be printed using the default print settings for the selected material and the standard                         strength profiles available in your slicer, ensuring reliable
+performance without the need           fo r extra configurations.
+
+
+
+SUPPORTS AND WALL SETTINGS
+- All airframe parts are designed to be printed without supports and with a single wall.                  (This applies to LW components; reinforcement parts can have
+a higher wall count.   ) Some files include pre     -designed supports, which is indicated in the file name.
+
+- Some components may benefit from           adding support s touching the build plate, or        increased wall count for improved strength in specific areas.
+These exceptions are clearly marked and explained in the        Parts Orientation       section of this manual.
+
+
+
+
+      STORK                                                                                                                                                                      USER MANUAL   16
+                                                                           PRINT SETTINGS
+
+
+PART LIST AND MATERIAL ASSIGNMENT
+- The PART LIST      section contains a complete list of all files required for assembly.
+
+- Each file is accompanied by a clear recommendation regarding:                      The type of material it should be printed with (e.g. LW           -PLA, LW -ASA, PETG, PC, etc.).
+
+
+
+PRINT SETTINGS AND PROFILES
+- Complete print settings, including filament breakdown and settings for Active Foaming                           and Prefoamed        filaments, are available on our website under the
+“PRINT SETTINGS       ” tab.
+
+- You will find: Pre -configured profiles for PLA Aero and ASA Aero for         Bambulab printers - ready to use out of the box                     and g eneral configuration templates for
+Active Foaming and      Prefoamed LW -PLA for Cura, providing a reliable starting point for further tuning.
+
+- Currently, we primarily focus on testing and validating settings in                 Orca Slicer , Bambu      Studio and    Cura .
+
+
+
+PRINTING VARIABLES AND TUNING
+Printing results may vary depending on several factors, such as the printer model, filament brand, filament moisture levels,                                amb ient conditions like
+temperature and humidity, as well as whether the printer is equipped with an enclosed chamber. These variables can influence                                      pri nt quality, strength, and
+weight. Because of this, achieving optimal results often requires fine                 -tuning key parameters, particularly printing temperature,                flow rate, and retraction
+settings. In most cases, only minor adjustments are necessary to reach excellent quality. It is strongly recommended to perfo                                 rm test prints when changing
+filaments, switching printers, or printing in different environmental conditions, in order to refine the settings for the bes                          t p ossible outcome.
+
+
+
+
+    STORK                                                                                                                                                                            USER MANUAL   17
+                                                                           PRINT SETTINGS
+
+
+
+
+FINAL NOTES
+Achieving optimal results is feasible on the majority of modern 3D printers, provided that appropriate calibration and parame                                   ter tuning are performed.
+Variability in printer hardware, filament manufacturers, material properties, and operating conditions                           such as ambient temperature, humidity levels, and the
+presence or absence of an enclosed build chamber                , can all have a measurable impact on print quality. As a result, full standardization of print settings across
+all equipment and environments is not possible.
+
+The provided print profiles and configuration guidelines serve as a reliable baseline; however, minor adjustments to paramete                                 rs such as temperature, flow
+rate, or retraction may be required to achieve the intended balance of strength, weight, and surface quality specific to each                              us er’s setup.
+
+To facilitate consistency and knowledge sharing across different hardware configurations, an online user community is maintai                                   ned via Discord. This platform
+serves as a technical resource where users can exchange verified print profiles, discuss material                   -specific settings, share build          results, and troubleshoot
+technical challenges related to the printing process.
+
+
+
+
+     STORK                                                                                                                                                                          USER MANUAL   18
+                                                                                          MOFIDIERS
+
+
+
+
+USING FILES WITH MODIFIERS
+The package includes        FUS 6 MODIFIER          file in STEP format, which contain an
+additional solid in the motor mount            and servos area , This prepared file can be
+opened and sliced directly in the slicer by setting the additional solid as a
+modifier. This allows you to apply different print settings, such as increasing the
+number of walls to 2      –3 and the infill density to 5       –10%. These changes will only
+affect the overlapping volume between the wing and the modifier solid.
+
+This method significantly strengthens the motor mount area, where higher forces
+are applied. You can also create your own modifiers directly in the slicer or in any
+CAD software and plan additional reinforcements if needed for your specific use
+case. This ready -made solution is provided in the package and can be used
+directly in the slicer.
+
+
+
+
+              STORK                                                                                   USER MANUAL   19
+                                         PARTS LIST - FUSELAGE
+
+
+PART                                    MATERIAL       PART                            MATERIAL
+
+FUS 1                                  LW -PLA/ASA     WING BOLT WASHER                 PC / PETG
+
+FUS 2                                  LW -PLA/ASA     FRONT REINFORCEMENT              PC / PETG
+
+FUS 3                                  LW -PLA/ASA     BATTERY PAD                      PC / PETG
+
+FUS 4                                  LW -PLA/ASA     FUS ROOT L / R                   PC / PETG
+
+FUS 5                                  LW -PLA/ASA     LOCK 1                           PC / PETG
+
+FUS 6                                  LW -PLA/ASA     LOCK 2                           PC / PETG
+
+HATCH FRONT 1 / HATCH FRONT 1 VENT     LW -PLA/ASA     LOCK 3                           PC / PETG
+
+HATCH FRONT 2                          LW -PLA/ASA     MOTOR MOUNT 19x19 / 19x16        PC / PETG
+
+HATCH MIDDLE 1                         LW -PLA/ASA
+
+HATCH MIDDLE 2 / HATCH MIDDLE 2 VENT   LW -PLA/ASA
+
+NOSE / NOSE GIMBAL / NOSE CLEAN        LW -PLA/ASA
+
+
+
+
+                 STORK                                                             USER MANUAL      20
+                             PARTS LIST - WINGS
+
+
+PART                     MATERIAL        PART                       MATERIAL
+
+WING 1 L / R            LW -PLA/ASA      WING BAY PLATE L / R        PC / PETG
+
+WING 2 L / R            LW -PLA/ASA      SERVO COVER L / R           PC / PETG
+
+WING 3 L / R            LW -PLA/ASA      WING ROOT L / R             PC / PETG
+
+WINGTIP L / R           LW -PLA/ASA      WING KNOB                   PC / PETG
+
+AIL 1 L / R             LW -PLA/ASA      WING BOLT                   PC / PETG
+
+AIL 2 L / R             LW -PLA/ASA
+
+
+
+
+                STORK                                           USER MANUAL      21
+                         PARTS LIST - TAIL
+
+
+        PART                                  MATERIAL
+
+        VTAIL 1 L / R                        LW -PLA/ASA
+
+        VTAIL 2 L / R                        LW -PLA/ASA
+
+        VTAIL 3 L /R                         LW -PLA/ASA
+
+        RUDDER 1 L / R                       LW -PLA/ASA
+
+        RUDDER 2 L / R                       LW -PLA/ASA
+
+
+
+
+STORK                                                      USER MANUAL   22
+                                          STEP FILES LIST
+
+        PART                                       PART
+
+        FUS 3                                      WING ROOT L
+
+        FUS6 MODIFIER                              FUS ROOT L
+
+        WING 1 L                                   RUDDER L
+
+        WINGTIP L                                  WING BAY PLATE L
+
+        NOSE / NOSE GIMBAL / NOSE CLEAN            SERVO   COVER L
+
+        HATCH FRONT                                BATTERY PAD
+
+        HATCH MIDDLE                               MOTOR MOUNT 19x19mm / 19x16mm
+
+        AILERON L
+
+
+
+
+STORK                                                                              USER MANUAL   23
+                       PARTS ORIENTATION
+
+
+
+
+         FUS 1                     FUS 2                  FUS 3
+
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK                                                    USER MANUAL   24
+                       PARTS ORIENTATION
+
+
+
+
+         FUS 4                     FUS 5                  FUS 6
+
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK                                                    USER MANUAL   25
+                       PARTS ORIENTATION
+
+
+
+
+    HATCH FRONT 1            HATCH FRONT 2          HATCH MIDDLE 1
+
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK                                                    USER MANUAL   26
+                       PARTS ORIENTATION
+
+
+
+
+   HATCH MIDDLE 2                  NOSE                  VTAIL 1
+                                  2 WALLS
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK                                                    USER MANUAL   27
+                       PARTS ORIENTATION
+
+
+
+
+        VTAIL 2                   VTAIL 3              RUDDER 1
+
+3% -6% GYROID INFILL      3% -6% GYROID INFILL   3% -6% GYROID INFILL
+
+
+
+
+     STORK                                                    USER MANUAL   28
+                       PARTS ORIENTATION
+
+
+
+
+      RUDDER 2                    WING 1                   WING 2
+                         2% -4% LATERAL LATTICE   2% -4% LATERAL LATTICE
+3% -6% GYROID INFILL
+                                   INFILL                   INFILL
+
+
+
+     STORK                                                       USER MANUAL   29
+                         PARTS ORIENTATION
+
+
+
+
+         WING 3                    WINGTIP                   AIL 1
+2% -4% LATERAL LATTICE     2% -4% LATERAL LATTICE
+                                                    3% -6% GYROID INFILL
+          INFILL                     INFILL
+
+
+
+      STORK                                                      USER MANUAL   30
+                       PARTS ORIENTATION
+
+
+
+
+         AIL 2                 BATTERY PAD        WING BOLT WASHER
+
+3% -6% GYROID INFILL      20% -100% GRID INFILL   20% -100% GRID INFILL
+
+
+
+
+     STORK                                                     USER MANUAL   31
+                        PARTS ORIENTATION
+
+
+
+
+         LOCK1                     LOCK 2                  LOCK 3
+
+20% -100% GRID INFILL      20% -100% GRID INFILL   20% -100% GRID INFILL
+
+
+
+
+     STORK                                                      USER MANUAL   32
+                        PARTS ORIENTATION
+
+
+
+
+FRONT REINFORCEMENT              FUS ROOT                WING ROOT
+
+20% -100% GRID INFILL      20% -100% GRID INFILL   20% -100% GRID INFILL
+
+
+
+
+     STORK                                                      USER MANUAL   33
+                        PARTS ORIENTATION
+
+
+
+
+     WING KNOB                   WING BOLT             MOTOR MOUNT
+
+20% -100% GRID INFILL      20% -100% GRID INFILL   20% -100% GRID INFILL
+
+
+
+
+     STORK                                                      USER MANUAL   34
+                                PARTS ORIENTATION
+
+
+
+
+           WING BAY PLATE                               SERVO COVER
+
+        20% -100% GRID INFILL                       20% -100% GRID INFILL
+
+
+
+
+STORK                                                                       USER MANUAL   35
+        ASSEMBLY GUIDE
+
+
+
+
+STORK               USER MANUAL   36
+FUSELAGE ASSEMBLY
+
+
+    The fuselage segments are designed with small 2 mm holes for
+    alignment pins, which help align the parts during gluing.
+    The best option for    this is to use short pieces of filament           as pins .
+
+    Before gluing, it is recommended to clean the parts, especially if any
+    stringing occurred, and to remove any supports if they were used.
+
+
+
+
+             STORK                                                                       USER MANUAL   37
+FUSELAGE ASSEMBLY
+
+
+Fit all fuselage segments together       with the alignment pins in place   ,
+then glue them using thick or medium CA adhesive              .
+
+
+
+
+       CA GLUE
+
+
+
+
+                   STORK                                                        USER MANUAL   38
+FUSELAGE ASSEMBLY
+
+
+
+
+Prepare the FUS ROOT . Glue them in the designated
+places . These components reinforce the joint areas
+where the wings connect to the fuselage          .
+
+
+
+
+      CA GLUE
+
+
+
+
+                 STORK                                USER MANUAL   39
+FUSELAGE ASSEMBLY
+
+
+
+ Prepare the FRONT REINFORCEMENT                  . Press M3
+ THREADED INSERTS into the designated holes,
+ preferably using a slightly heated soldering iron. Once
+ prepared, glue this part onto the front section of the
+ fuselage. This component reinforces the connection
+ between the nose and the fuselage, where the modular
+ nose can be easily attached and removed.
+
+
+
+
+      CA GLUE
+
+
+
+
+                   STORK                                       USER MANUAL   40
+FUSELAGE ASSEMBLY
+
+
+
+
+ Take the WING BOLT WASHERS and glue them
+ into the designated spots inside the fuselage.
+ They serve as reinforcement for the          knobs that
+ will be used to attach the wings to the         fuselage .
+
+
+
+
+        CA GLUE
+
+
+
+
+                    STORK                                     USER MANUAL   41
+FUSELAGE ASSEMBLY
+
+
+
+
+ Prepare the BATTERY PAD           . This part serves as the
+ battery mounting base. The designed holes can be used
+ to route velco ties for securing the battery. This part is
+ also available in STEP format to facilitate customization
+ of the hole pattern or mounting options if needed.
+
+
+
+
+       CA GLUE
+
+
+
+
+                    STORK                                      USER MANUAL   42
+FUSELAGE ASSEMBLY
+
+
+ Glue the front and middle hatch          togethe r. Use alignment pins made
+ from short pieces of filament, as with the fuselage segments.
+
+
+
+
+       CA GLUE
+
+
+
+
+                    STORK                                                      USER MANUAL   43
+FUSELAGE ASSEMBLY
+
+
+
+ Assemble the lock, which consists of three parts                . Glue the completed locks
+ into the designated slots in the hatches. A thin layer of CA glue applied from
+ the outside along the joint line is sufficient after the parts are properly fitted.
+
+
+
+
+        CA GLUE
+
+
+
+
+                     STORK                                                                    USER MANUAL   44
+FUSELAGE ASSEMBLY
+
+
+
+
+Fit the prepared hatches to the fuselage and make sure that the locks
+work properly and securely hold the hatches in place.
+
+
+
+
+                      STORK                                             USER MANUAL   45
+FUSELAGE ASSEMBLY
+
+Prepare the nose and attach it to the fuselage using M3x6mm screws.                       The nose is
+designed by default to fit standard 19x19mm FPV cameras, with a shelf for any VTX, which
+can be mounted, for example, using foam double                -sided tape , this is a sufficient solution.
+Alternatively, you can       add holes to match the desired dimensions and screw it in place.
+There are also slots for VTX antennas.         The nose is also available as a STEP file to make it
+easier to adapt for custom equipment, different cameras, antennas, or sensors.
+
+An additional nose variant designed for the           Caddx GM3 gimbal is also available.
+Both versions can be used interchangeably, allowing you to choose between a fixed FPV
+setup or a stabilized gimbal configuration depending on your needs.
+
+
+
+
+                    STORK                                                                                    USER MANUAL   46
+WING ASSEMBLY
+
+Prepare the wing segments along with the carbon
+fiber tubes with diameters of 6mm and 3mm, each
+with a length of 500mm. The 6mm             tube acts as
+additional reinforcement along the leading edge of
+the wing, while the 3mm rod serves both as the
+aileron hinge and as       reinforcement near the trailing
+edge. Insert the    tubes into their dedicated slots, which
+will help ensure precise alignment of the parts, and
+then glue the wing segments together. Once the wing
+is assembled, take the WING          BOLTS and WING ROOT
+and glue them into the designated           place.
+
+
+
+
+      CA GLUE
+
+
+
+
+                    STORK                                     USER MANUAL   47
+WING ASSEMBLY
+
+ Prepare the aileron segments and glue them together.
+ Use an alignment pin made from a short piece of filament
+ to ensure proper positioning during assembly. If the 3mm
+ carbon tube was previously inserted into the wing during
+ previous step, slide it out at this stage. During the gluing
+ process, the 3mm       tube can be temporarily inserted
+ between the aileron segments to assist with accurate
+ alignment. Once the aileron is assembled, place it into its
+ designated position on the wing and insert the carbon
+ tube into the dedicated slot. This will secure the aileron to
+ the wing, forming the functional hinge.
+
+
+
+
+     CA GLUE
+
+
+
+
+                    STORK                                        USER MANUAL   48
+WING ASSEMBLY
+
+
+At this stage, take the      WINGTIP and glue it onto the
+wing by sliding it over the exposed ends of the
+carbon tubes protruding from the wing. This ensures
+a secure fit and proper alignment with the rest of
+the wing assembly.
+
+
+
+
+      CA GLUE
+
+
+
+
+                   STORK                                    USER MANUAL   49
+WING ASSEMBLY
+
+
+
+Take the WING BAY PLATE and insert the M3 threaded inserts into their
+designated holes.        This plate serves as a reinforcement for the wing bay
+and as the base to which the servo cover and the servo will be attached.
+This part is also available in STEP format in case you need to adapt it for
+additional equipment to the bay, which has extra free space.
+
+
+
+
+      CA GLUE
+
+
+
+
+                   STORK                                                         USER MANUAL   50
+WING ASSEMBLY
+Prepare the micro servo and mount it in the assigned position                   in SERVO COVER
+Besides securing it with the small screws included with every servo, you may apply a
+small amount of hot glue to enhance the servo’s adhesion to the surface.                     At this stage,
+also attach the servo horn and center it. It’s best to connect the servo now                  , either to
+a servo tester or directly to the receiver         and ensure that its range of motion is properly
+centered once powered.
+
+
+
+Route the servo wires through the channel all the way to the wing
+root. If the cable is too short, use a servo extension or solder
+additional wires. At this stage, you can secure the WING SERVO
+COVER using M3x6mm screws. You can also install the                 control horn
+and connect it to the servo horn with a pushrod. The choice of              horns ,
+pushrods, snaps, or other connection systems is up to the user, and
+many solutions are possible. Using the recommended equipment
+according to the suggested parts list is the simplest option.
+
+
+
+
+      HOT GLUE
+         OPTIONAL
+
+
+
+
+                      STORK                                                                                   USER MANUAL   51
+TAIL ASSEMBLY
+
+
+
+ Prepare the two VTAIL segments and the carbon tubes
+ of 8 mm and 6 mm, cut to lengths of 155 mm and 265
+ mm respectively      . Assemble all the parts together with
+ the tube s inserted into its designated slot        s , which will
+ help with proper alignment during gluing             .
+
+
+
+
+       CA GLUE
+
+
+
+
+                     STORK                                            USER MANUAL   52
+TAIL ASSEMBLY
+
+
+
+
+Take the ruddervator parts and assemble them together.
+Place the completed        part in its designated position and
+insert a 3mm carbon tube cut to 2           65 mm, which acts
+as the control surface hinge.
+
+
+
+
+      CA GLUE
+
+
+
+
+                    STORK                                        USER MANUAL   53
+TAIL ASSEMBLY
+
+
+
+Take the last V -tail segment and glue it in place by sliding it onto
+the exposed end of the carbon tube at the tip of the              stabilizer .
+
+
+
+
+      CA GLUE
+
+
+
+
+                    STORK                                                        USER MANUAL   54
+TAIL ASSEMBLY
+
+
+Take the servos and mount them in the rear part
+of the fuselage in the slots designated for this
+purpose. Route the servo cables inside the
+fuselage. Besides securing          it with the small
+screws included with every servo, you may apply
+a small amount of hot glue to enhance the
+servo’s adhesion to the surface.           At this stage,
+also attach the servo horn and center it. It’s best
+to connect the servo now         , either to a servo tester
+or directly to the receiver      and ensure that its
+range of motion is properly centered once
+powered. You can also install the            control horn
+and connect it to the servo horn with a pushrod.
+The choice of     horns , pushrods, snaps, or other
+connection systems is up to the user, and many
+solutions are possible. Using the recommended
+equipment according to the suggested parts list
+is the simplest option.
+
+
+
+
+    HOT GLUE
+        OPTIONAL
+
+
+
+
+                     STORK                                    USER MANUAL   55
+TAIL ASSEMBLY
+
+ Prepare the motor mount with the screw spacing you
+ chose to match selected motor. Press the M3
+ threaded inserts into the sides as well as the top.
+ Attach the motor to the motor mount using the M3
+ screws from the motor kit, or other suitable screws in
+ the 8 –12 mm range. This part is also available in STEP
+ format in case you need to adapt it for different
+ motors. Insert the assembled unit into the designated
+ position in the    fuselage and secure it with M3x10mm
+ screws . Route the motor wires through the channel in
+ the lower part of the fuselage, extend them and solder
+ the connectors beforehand if necessary.
+
+
+
+
+ You can install a     regular propeller by simply using an
+ M6 nut to secure it, or you can use a folding propeller,
+ which is a safer choice considering belly landings in
+ the field. Propeller selection depends on the chosen
+ motor, battery, and your performance expectations.
+ More details on this topic can be found at the
+ beginning of the document in the POWERTRAIN
+ SELECTION section.
+
+
+
+
+                   STORK                                      USER MANUAL   56
+FINAL ASSEMBLY
+
+
+
+
+Take the 10mm and 8mm carbon tubes, each 1000mm long,
+which serve as the main wing spars. Insert them into the
+designated slots in the fuselage.        Slide the wings to the fuselage
+and secure them with the knobs from             the inside . Route the
+servo cables into the fuselage through the designated slot.
+
+
+
+
+                    STORK                                                  USER MANUAL   57
+FINISHING BUILD
+
+
+
+
+ At this stage, the entire airframe is ready for installing
+ and arranging the remaining electronics. Before t          he
+ first flight , make sure that all control surfaces move in
+ the correct directions , the propellers rotate properly .
+ Ensure that the center of gravity is correcly set.
+
+
+
+
+                  STORK                                          USER MANUAL   58
+                                                             WIRING DIAGRAM
+
+
+
+
+The diagram illustrates an example wiring and equipment
+layout, including suggested channel assignments for the
+servos and motors. Only the essential equipment is shown
+in the schematic. Optional components, such as the FPV
+camera, VTX, receiver, and additional sensors, are not
+included, as their implementation can vary depending on
+the chosen hardware. The presented schematic is not the
+only solution but is intended to help beginners understand
+the setup. This diagram is also available in a larger size
+in PDF format in the file package
+
+
+
+
+                    STORK                                                     USER MANUAL   59
+ARDUPILOT CONFIGURATION
+
+
+
+  For beginners, a document with a preconfigured parameter (.param) file is also available.
+  The document outlines the key parameter settings for a                    Fixed -Wing configuration    in ArduPilot .
+  It is intended to serve as a reference and a solid starting point for further configuration and
+  tuning of this type of aircraft.
+
+  The file is prepared for the Speedybee /Corewing F405 Wing used with an ELRS receiver, GPS,
+  Walksnail FPV system, and the     Yaapu telemetry script option.
+
+  This is not a ready    -to -use configuration and must not be applied without proper verification.
+  Before flight, you are required to configure the correct servo outputs according to your airframe
+  setup and perform all necessary calibrations, including compass and accelerometer                       . The
+  following sections of the document present the main parameters along with explanations of
+  their functionality.
+
+  All information, as well as the firmware, is available               onthe ArduPilot website. It is also
+  recommended to review              the user manual of the flight controller for configuration.
+
+  https://ardupilot.org/plane/docs/common            -speedybeef405wing.html
+
+  The document is available for free download from the                 Flightory    Discord server in the #free      -
+  files channel.
+
+
+
+
+                  STORK                                                                                                   USER MANUAL   60
+STORK
+
+
+
+
+  MOOSE
+

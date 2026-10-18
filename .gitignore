@@ -1,0 +1,39 @@
+# Vendor files (Flightory license: personal, non-commercial). Never commit.
+*.stl
+*.STL
+*.step
+*.STEP
+*.stp
+*.STP
+*.3mf
+*.pdf
+vendor/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Tool caches / large intermediates
+*.vsp3.bak
+*.adb
+*.lod
+cache/
+tmp/
+
+# OS
+.DS_Store
+
+# Compiled tools, build trees, scratch (added 2026-10-18)
+tools/
+build/
+*.o
+*.mod
+scratch/
+.claude/
+.env
+*.key
+*credentials*

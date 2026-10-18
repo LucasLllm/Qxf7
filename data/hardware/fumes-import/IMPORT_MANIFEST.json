@@ -1,0 +1,376 @@
+{
+  "purpose": "Read-only retained-source import; no simulation or hardware deployment",
+  "created_utc": "2026-10-18T15:46:37.364096+00:00",
+  "files": [
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/PART_MASS_RESULTS.csv",
+      "destination": "data/hardware/fumes-import/PART_MASS_RESULTS.csv",
+      "sha256": "a0f455885edf5fbb50746fa200fa1b9a675f38e0b7055f4cfac084b491961a1e"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/PRINTED_MASS_REPORT.md",
+      "destination": "data/hardware/fumes-import/PRINTED_MASS_REPORT.md",
+      "sha256": "fd7a87652fba32a313b75fd3d7812d8b0bdc21c61a4d33ba0097bbaaed4b8530"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/PRINTED_MASS_COMPLETION_VERIFICATION.json",
+      "destination": "data/hardware/fumes-import/PRINTED_MASS_COMPLETION_VERIFICATION.json",
+      "sha256": "a20a890085fa2793a5d37592637d3166b5f22b711c31c88afed26a1d2ddf3d32"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/NO_PAYLOAD_RANGE_SPEC.md",
+      "destination": "data/hardware/fumes-import/NO_PAYLOAD_RANGE_SPEC.md",
+      "sha256": "949294f40551367c134a6ea84e7d7d93b02469b2cf3586145faa70b320eedf93"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/MASS_RECONCILIATION.json",
+      "destination": "data/hardware/fumes-import/MASS_RECONCILIATION.json",
+      "sha256": "8a39ec758dcf03fac20cf0b8ac987aa47298d600929d09466c41e5a0079bf6af"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/CONCLUSION.md",
+      "destination": "data/hardware/fumes-import/HISTORICAL_CONCLUSION_6S_SUPERSEDED.md",
+      "sha256": "e58d86aabc2516534a06afc3c5761225e011be24fd16391c26cf204971416e00"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/nonprinted-installation/REPORT.md",
+      "destination": "data/hardware/fumes-import/nonprinted-installation/REPORT.md",
+      "sha256": "cea98919a3b82190ed8c624318443c7dd3609c7818dea84896ceb172fffb468d"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/nonprinted-installation/installed_bom.json",
+      "destination": "data/hardware/fumes-import/nonprinted-installation/installed_bom.json",
+      "sha256": "ca3a3b3051f7dc1d5b4a4eb71e735dfa9639696c2912e338b791b7187730f917"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/mass-closure/REPORT.md",
+      "destination": "data/hardware/fumes-import/mass-closure/REPORT.md",
+      "sha256": "05f1f4cbe627acde4803dfdef71383d6f3eab41cdfa766c1664c4c5619f44663"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/mass-closure/predicted-print-centroids.json",
+      "destination": "data/hardware/fumes-import/mass-closure/predicted-print-centroids.json",
+      "sha256": "643e118cb99e2ddf8670afa32d3d7d60593e3e2135c22b51b74dc22fc7d54bc9"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/mass-closure/verification.json",
+      "destination": "data/hardware/fumes-import/mass-closure/verification.json",
+      "sha256": "e4fbdfba1e058fe822725e805b301e5d8d73c547fd4096de243eadaf2064f456"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v1/README.md",
+      "destination": "data/hardware/fumes-import/CFD_EXTERIOR_STATUS.md",
+      "sha256": "88176d417c636d9496dbed2eb8dba3c189c8ef33cb07014907ac4d76c76e1741"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/slicing-parameters/PER_PIECE_PARAMETERS.csv",
+      "destination": "data/hardware/fumes-import/HISTORICAL_RECIPE_PROPOSAL.csv",
+      "sha256": "18fa5c7450d5ff3428a3422b523721082a8146aa5e6e194ea2de35a0e56d5c01"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/slicing-parameters/APPROVAL_STATUS.json",
+      "destination": "data/hardware/fumes-import/HISTORICAL_RECIPE_APPROVAL.json",
+      "sha256": "8235c87f1f00cf9bd9227fd65dfe6abde7fa96e3f6908a4fb47cc85b57581807"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/Downloads/qxf7-performance/data/hardware/slicer_weights.csv",
+      "destination": "data/hardware/fumes-import/original-slicer_weights-template.csv",
+      "sha256": "3e5725a0a6b622e6ca3fb704291986510a01e49d645581679c4ae5867d67c481"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__FRONT_REINFORCEMENT.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__FRONT_REINFORCEMENT.STL/parent-mass-verification.json",
+      "sha256": "ac2c957e46c39fe72776fef156301a594c21ec3e455844deb0ffeafc0b20e6aa"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__FUS_3.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__FUS_3.STL/parent-mass-verification.json",
+      "sha256": "8c07e808efd701feae0656f0fecd12d7be4d42420f6928258312c63540aa9187"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__FUS_4.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__FUS_4.STL/parent-mass-verification.json",
+      "sha256": "458b2739d67bcf0a3a6a67136b4d561721b89ada0422513585431d8a5d289420"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__FUS_ROOT_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__FUS_ROOT_L.STL/parent-mass-verification.json",
+      "sha256": "503f69bff6598b4167c168415e62083b0d840976dab93f60c9222a209a4149e7"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__FUS_ROOT_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__FUS_ROOT_R.STL/parent-mass-verification.json",
+      "sha256": "f25213ec0431685be1c767a12d3db83c4898f16ea8156030f1dfb1e943c2d016"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__HATCH_FRONT_1.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__HATCH_FRONT_1.STL/parent-mass-verification.json",
+      "sha256": "e243f32942c3c0ec27a67db9083750a7db460f4155fdfe1148612e3e2501762e"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__HATCH_FRONT_2.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__HATCH_FRONT_2.STL/parent-mass-verification.json",
+      "sha256": "7dd5faf734694055f303c47b668b3086205a7079a6fb59bd837c562202f86991"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__HATCH_MIDDLE_1.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__HATCH_MIDDLE_1.STL/parent-mass-verification.json",
+      "sha256": "8387798cc6f20cde66d6a27ad7f4f6e9f5cedfd5cc4084063afa890f61166b63"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__HATCH_MIDDLE_2.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__HATCH_MIDDLE_2.STL/parent-mass-verification.json",
+      "sha256": "5f8b6676d54447baa09440b5441c069536a735518efebb2d8454029b76fb6635"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__LOCK_2.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__LOCK_2.STL/parent-mass-verification.json",
+      "sha256": "5a70ad7065ae71cb4532744ee71c61a2421b91fd6f35ece65e1c450da7959929"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__LOCK_3.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__LOCK_3.STL/parent-mass-verification.json",
+      "sha256": "54a4f3502495e25fd18ce733fd13bc5a5433fe6fedfd9fc1b28770fdf1123f68"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__LOCK1.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__LOCK1.STL/parent-mass-verification.json",
+      "sha256": "27126e28f91291171f1bf5252e781a9f02860da684c8c3a0500982b1310eee72"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__MOTOR_MOUNT_19x19.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__MOTOR_MOUNT_19x19.STL/parent-mass-verification.json",
+      "sha256": "c11830f4efb80107c668335f5e3a05ea449cac9546a111b666230c9ef96d6866"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__NOSE.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__NOSE.STL/parent-mass-verification.json",
+      "sha256": "bef63163293fbfc8f79337b1a254d1c099c6c7a09415a5be053dc1840c0ad77a"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/approved-washer/mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/approved-washer/mass-verification.json",
+      "sha256": "aea5631ddb2c92e00cda3a626348e5b18304adf4c784618a26620553ab942e7f"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__RUDDER_2_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__RUDDER_2_L.STL/parent-mass-verification.json",
+      "sha256": "9baf64e9ec0b391ee8606a3d5067922986ffe88ef1d586c5eac2b35952827744"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__RUDDER_2_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__RUDDER_2_R.STL/parent-mass-verification.json",
+      "sha256": "725f683279ec1c85f317874269f74679fe2f8ee6de23daedfdd49b96192d85b5"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__RUDEER_1_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__RUDEER_1_L.STL/parent-mass-verification.json",
+      "sha256": "76a9518a9d669cef2bde34a9749dd54f1e26fd0066a4468a89eed4691064836d"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__RUDEER_1_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__RUDEER_1_R.STL/parent-mass-verification.json",
+      "sha256": "9befd693a6b9da923345339348855a50d2c4bf27ab8eb23e31d9a1f084f6650f"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_1_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_1_L.STL/parent-mass-verification.json",
+      "sha256": "260ad12bc5a93362107f468a520db4f2d3df6bf6e90d7ce8b080c946f908537a"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_1_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_1_R.STL/parent-mass-verification.json",
+      "sha256": "6dd89dc58a67b9a14185df74eda141657da775f7018ba2dfec50325db8e5ed5b"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_2_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_2_L.STL/parent-mass-verification.json",
+      "sha256": "e0d6eeb449d9e9e1e5806d51426bb0985c26ae4f25447727aca7d7140ba35736"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_2_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_2_R.STL/parent-mass-verification.json",
+      "sha256": "0fc1d57081c52ac8478d2f920cf3565ceaa915bae3177ca7fda5fc0ed18e29a6"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_3_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_3_L.STL/parent-mass-verification.json",
+      "sha256": "4537ed5f47d651add9f5b876668348ba3b9603c369dd68ee9a67f28190552d8f"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/base__V_TAIL_3_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/base__V_TAIL_3_R.STL/parent-mass-verification.json",
+      "sha256": "03c305fa2fba0f5b479656ec5263b3177b8f0627b9dac4fb0fb22e678fef9ec1"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__AIILERON_1_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__AIILERON_1_L.STL/parent-mass-verification.json",
+      "sha256": "88e689879a41f745ac13bb4ed8ead3369a927d9f05127e4e76169ebdef395a4e"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__AIILERON_1_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__AIILERON_1_R.STL/parent-mass-verification.json",
+      "sha256": "dc45faea4b2ed57779af28a9cac5a226f7cf07a4d729cb31c44171da66fe9472"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__AILERON_2_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__AILERON_2_L.STL/parent-mass-verification.json",
+      "sha256": "4f1330816f571601a1d94937b09101f78fddaf6f6c0ad16207549e673b4aea61"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__AILERON_2_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__AILERON_2_R.STL/parent-mass-verification.json",
+      "sha256": "1797edc5ba400ef0d51dbf86615808a0894e5437c3e142c5a6a3239b615f6896"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__SERVO_COVER_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__SERVO_COVER_L.STL/parent-mass-verification.json",
+      "sha256": "75c881e2292e6d85f1ecfa3c09587c13f34d521ede4f5b3f8c70217405461302"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__SERVO_COVER_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__SERVO_COVER_R.STL/parent-mass-verification.json",
+      "sha256": "c5c4bb6267fba2b5625a3784e10b3abfeac7626ab9d1f24ed510939894bb7ca0"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_2_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_2_L.STL/parent-mass-verification.json",
+      "sha256": "1293cbd78341db993aee58a108bc393306104f009ff2ac1f7448651139f369ca"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_2_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_2_R.STL/parent-mass-verification.json",
+      "sha256": "605841b3a50d61591eae3de8a88b3382245ecb3573058cf97fa6f3a2d2d70b67"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_3_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_3_L.STL/parent-mass-verification.json",
+      "sha256": "961f6926d8a98700dd4378bf67594955eb6810f6c9c58b3baff7c01e863a3cee"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_3_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_3_R.STL/parent-mass-verification.json",
+      "sha256": "01e54ec9f5cca799fa1a11277ad1800154eb69374f1a173e3792200d24c76f2e"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_BAY_PLATE_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_BAY_PLATE_L.STL/parent-mass-verification.json",
+      "sha256": "f8dbec9b3cbee6056c2787f9a737896a59ca1bc040408941ae0ac7078717eaa5"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_BAY_PLATE_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_BAY_PLATE_R.STL/parent-mass-verification.json",
+      "sha256": "31c305ed7fe5163d3027fac5d710d5562fe88083eb4442f9f8c282af4aa6d803"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_BOLT.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_BOLT.STL/parent-mass-verification.json",
+      "sha256": "969c7a7e639511c2e94980cc374fd9d2725807e948556e0fabda97cc682734ec"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_KNOB.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_KNOB.STL/parent-mass-verification.json",
+      "sha256": "68d7633d4d9304b095cfbb7b1a06c2e144cddf1d5e37f24e0f4d26f50eab0c76"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_ROOT_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_ROOT_L.STL/parent-mass-verification.json",
+      "sha256": "715550c03512cb75776248a92ae2ec3ec886d64ca4b44632f6362c2fff3855e4"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WING_ROOT_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WING_ROOT_R.STL/parent-mass-verification.json",
+      "sha256": "8530dd04ed1ea6ced0baa0f3367360220b4d62db04262da629f64aadd14f9e9f"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WINGTIP_3_L.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WINGTIP_3_L.STL/parent-mass-verification.json",
+      "sha256": "2b4133b345a81e5c6a6e4d51cfcca8f18168c02b415f13caaa5442becfad6016"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/base__WINGTIP_3_R.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/base__WINGTIP_3_R.STL/parent-mass-verification.json",
+      "sha256": "4b421b3c7bd8fd5efa527bae093a3ac38e8bbed3fb55a0f4e02c14c8f60fe559"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__BATTERY_PAD_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__BATTERY_PAD_VTOL.STL/parent-mass-verification.json",
+      "sha256": "3fe78edb90738fa58abb0a66d6b9da4ae95558f68fa82a4512839388c1d240c6"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__BOOM_MOUNT_1_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__BOOM_MOUNT_1_VTOL.STL/parent-mass-verification.json",
+      "sha256": "5a1d96ea264bda3a249569682c3c8c674df21cd1161eba6a80ff1357d60828eb"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__BOOM_MOUNT_2_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__BOOM_MOUNT_2_VTOL.STL/parent-mass-verification.json",
+      "sha256": "82e004226b7b114f49c0d236b83c9b169944b8ff14ad0b0c80af5eb33c7f1bf1"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__FIN_TIP_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__FIN_TIP_VTOL.STL/parent-mass-verification.json",
+      "sha256": "8f1948c7ce502040c21bb0eecd0dbbf34e250c185ddebe3d3de40cfecf33cc41"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__FUS_1_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__FUS_1_VTOL.STL/parent-mass-verification.json",
+      "sha256": "61cc8ad022abdc43a6114ed612dd42e43688155d210079b183520b02ef4b41e2"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_2_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/FUS_2_VTOL/parent-mass-verification.json",
+      "sha256": "d5aa20104775bf4bfc5dcc249700d101221f42b29556fb904b34f3459601dbff"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__FUS_5_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__FUS_5_VTOL.STL/parent-mass-verification.json",
+      "sha256": "52440dcca5898cb6993474d8ff3a9a2d7859342820ff6111646803d080afbc3c"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/FUS_6_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/FUS_6_VTOL/parent-mass-verification.json",
+      "sha256": "85f72c233f45568c930572c939467a3c29adb56544d831d2a8969202a0a9dbf8"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-final-11-batch/vtol__MAIN_SKIDS_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-final-11-batch/vtol__MAIN_SKIDS_VTOL.STL/parent-mass-verification.json",
+      "sha256": "b855e686f0d01f5206421fcbcaa07453dc19be1af971505d01b158f57e3a9505"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__MOTOR_MOUNT_1_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__MOTOR_MOUNT_1_VTOL.STL/parent-mass-verification.json",
+      "sha256": "550a78b25d8728957fcdc4f8e7fb8aa293a136cf2f8933113c07247bcef1c4e1"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/verified-nonreinforced-batch/vtol__MOTOR_MOUNT_2_VTOL.STL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/verified-nonreinforced-batch/vtol__MOTOR_MOUNT_2_VTOL.STL/parent-mass-verification.json",
+      "sha256": "29e45988111a92851b4a78284883c5cd2186d32341d2c9e27c4f3caa27cfb4e0"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_1_L_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/WING_1_1_L_VTOL/parent-mass-verification.json",
+      "sha256": "d9f22ab00feb909f38531a0f4f24bffabdd5981990622bc53bc61f3beeffdd9b"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_1_R_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/WING_1_1_R_VTOL/parent-mass-verification.json",
+      "sha256": "11edc230d37615f25f015532117d39883d15b8ffe90e898f2d6bab71c295372b"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_L_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/WING_1_2_L_VTOL/parent-mass-verification.json",
+      "sha256": "9aded6078a244eec701aed1302b9b7441dc5ec9d19624fb7bf42db783343d1dc"
+    },
+    {
+      "source_absolute": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/reinforced-slicing/WING_1_2_R_VTOL/parent-mass-verification.json",
+      "destination": "data/hardware/fumes-import/evidence/reinforced-slicing/WING_1_2_R_VTOL/parent-mass-verification.json",
+      "sha256": "eb1fa7fe1b9821544ba64f20f1021c18239da34f3052c9db147f22050b6e797c"
+    }
+  ],
+  "printed_source_sha256": "a0f455885edf5fbb50746fa200fa1b9a675f38e0b7055f4cfac084b491961a1e",
+  "definitions": 58,
+  "installed_pieces": 82,
+  "total_predicted_g": 965.642456,
+  "scope": "Original-scale stock reference; no source CAD or Gcode copied. Raw copied records can be historical; read context/12_fumes_handoff.md first."
+}

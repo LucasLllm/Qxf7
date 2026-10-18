@@ -1,0 +1,14 @@
+{
+  "units": "mm",
+  "aircraft_axes": {"x": "aft", "y": "right", "z": "up"},
+  "origin": "common original STEP zero; not wing root LE, nose, CG or aerodynamic centre",
+  "native_to_aircraft_homogeneous": [[0,0,1,0],[1,0,0,0],[0,1,0,0],[0,0,0,1]],
+  "mapping": "aircraft (x,y,z) = native (Z,X,Y); no common-frame translation",
+  "nose_aircraft_x_mm": -336.250886456396,
+  "nose_relative_conversion": "x_from_nose_mm = aircraft_x_mm - nose_aircraft_x_mm",
+  "installed_component_transforms": "Apply the feature-registered source-to-native component placement first. This common axis map is NOT evidence that all source components have identity placement.",
+  "wing_planform_quantities": "Wing fields named aft_mm use the untranslated common STEP aircraft-x datum, as stated in wing_geometry.json:datum. derive_arms.py therefore directly subtracts wing and tail common-frame quarter-chords; no wing-LE translation is applied.",
+  "raw_fuselage_STEP_warning": "raw_brep_section_edges.step, installed_hatches.step and external_skin_patches.step remain native XYZ. JSON section points and envelope loft vertices are aircraft XYZ.",
+  "historical_note": "wing_assembly.json retains a preliminary pending root-LE-origin note. Final integrated common-frame outputs instead follow the explicit fuselage and tail extraction conventions; no geometry was translated to enact that earlier proposal.",
+  "evidence": ["fuselage-with-hatches/results.json:datum", "tail-extraction/tail_geometry.json:coordinate_system", "wing-extraction/wing_geometry.json:datum", "derive_arms.py"]
+}

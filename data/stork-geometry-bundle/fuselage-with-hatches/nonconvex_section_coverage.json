@@ -1,0 +1,9 @@
+{
+  "station_count": 42,
+  "all_closed_loops_included_station_count": 7,
+  "partial_invalid_loop_station_count": 35,
+  "empty_valid_union_station_count": 13,
+  "excluded_invalid_loop_count": 70,
+  "continuous_aerodynamic_outer_contour_reconstructed": false,
+  "interpretation": "A partial diagnostic only. Empty/partial unions do NOT indicate absent source material; all original curves retained. No repair or seam closure."
+}

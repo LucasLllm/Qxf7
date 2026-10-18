@@ -1,0 +1,62 @@
+{
+  "status": "historical_standard_size_unloaded_reference_selection_NOT_final_scaled_BOM",
+  "source": "fumes-import/NO_PAYLOAD_RANGE_SPEC.md",
+  "configuration": "standard_stork_vtol_original_scale",
+  "payload_g": 0,
+  "battery": {
+    "chemistry": "Li-ion Molicel P50B",
+    "cells_series": 4,
+    "cells_parallel": 3,
+    "capacity_mAh": 15000,
+    "nominal_voltage_V": 14.4,
+    "full_charge_voltage_V": 16.8,
+    "nominal_energy_Wh": 216,
+    "finished_mass_target_max_g": 927,
+    "actual_finished_mass_g": null,
+    "qualified_continuous_A": null,
+    "status": "professional_custom_pack_design_target_not_purchased_or_qualified"
+  },
+  "pusher": {
+    "motor_reference": "BrotherHobby Avenger2812 V5 910KV",
+    "prop_class": "10x6 inch two-blade",
+    "exact_prop_SKU": null,
+    "cruise_ESC_mass_reference": "Lumenier51A 7.5g excluding motor/power wires",
+    "Rm_ohm": null,
+    "I0_A": null
+  },
+  "lift": {
+    "motor_reference": "T-Motor F90 1300KV",
+    "motor_count": 4,
+    "prop_class": "7-inch two-blade",
+    "exact_prop_SKU": null,
+    "ESC_architecture": "4-in-1",
+    "architecture_status": "Lucas-selected standard-Stork PhaseA modeling baseline; final modified QxF7 separate ESCs remain undecided"
+  },
+  "mass_reference": {
+    "printed_predicted_g": 965.642456,
+    "dry_low_g": 1889.5254537884473,
+    "dry_central_g": 2056.7254537884473,
+    "dry_high_g": 2467.171822188447,
+    "mass_source": "fumes-import/MASS_RECONCILIATION.json",
+    "lift_ESC_mass_assumption": "ONE Velox V50A 4-in-1 at18.5g; NOT four standalone units",
+    "unused_growth_g": 100,
+    "actual_measured_AUW_g": null,
+    "aircraft_CG_mm": null
+  },
+  "final_qxf7": {
+    "gross_payload_target_g": 750,
+    "one_way_target_km": 95,
+    "scale_factor": null,
+    "span_m": null,
+    "AUW_kg": null,
+    "final_hardware": null,
+    "cruise_airspeed_target_min_km_h": 70,
+    "lift_ESC_architecture": null
+  },
+  "warning": "Standard-size reference; not final scaled BOM. PhaseA lift4-in-1 confirmed as modeling choice. Remaining pack/CG/electrical/weather qualifications apply; cargo packaging accounting affects loaded cases. No purchases, hardware deployment or flight authorized.",
+  "study_budget": {
+    "status": "deferred_per_Lucas",
+    "active_cost_constraint": null,
+    "instruction": "Assess performance first; do not impose historical budget figures."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "local_artifact_count": 1100,
+  "dependency_count": 667,
+  "local_hashes_verified": true,
+  "read_only_dependency_hashes_verified": true,
+  "manifest_sha256": "2fc3f7a5433578e32c3c227cde42e04540bde6f71353fb54bd65ff78ffc4f9f9"
+}

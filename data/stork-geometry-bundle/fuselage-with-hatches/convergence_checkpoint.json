@@ -1,0 +1,50 @@
+[
+  {
+    "dx_mm": 10,
+    "angular_vertices": 128,
+    "lateral_envelope_area_mm2": 368650.5223555522,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+    "conditional_with_straight_gap_bridge_mm2": 369624.9497952387,
+    "section_count": 122
+  },
+  {
+    "dx_mm": 5,
+    "angular_vertices": 128,
+    "lateral_envelope_area_mm2": 378705.9818047419,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+    "conditional_with_straight_gap_bridge_mm2": 379680.4092444284,
+    "section_count": 221
+  },
+  {
+    "dx_mm": 2.5,
+    "angular_vertices": 128,
+    "lateral_envelope_area_mm2": 382065.51099591225,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+    "conditional_with_straight_gap_bridge_mm2": 383039.93843559874,
+    "section_count": 419
+  },
+  {
+    "dx_mm": 10,
+    "angular_vertices": 256,
+    "lateral_envelope_area_mm2": 369091.68641521333,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+    "conditional_with_straight_gap_bridge_mm2": 370066.21111194923,
+    "section_count": 122
+  },
+  {
+    "dx_mm": 5,
+    "angular_vertices": 256,
+    "lateral_envelope_area_mm2": 379144.9594129455,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+    "conditional_with_straight_gap_bridge_mm2": 380119.4841096814,
+    "section_count": 221
+  },
+  {
+    "dx_mm": 2.5,
+    "angular_vertices": 256,
+    "lateral_envelope_area_mm2": 382499.9292387812,
+    "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+    "conditional_with_straight_gap_bridge_mm2": 383474.4539355171,
+    "section_count": 419
+  }
+]

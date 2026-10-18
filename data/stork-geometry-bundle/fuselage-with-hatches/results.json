@@ -1,0 +1,505 @@
+{
+  "scope": "NO CFD / no flightworthiness claim",
+  "datum": {
+    "aircraft_xyz": "native Z,X,Y; origin common STEP zero, not wing root LE",
+    "nose_aircraft_x_mm": -336.250886456396,
+    "fuselage_aft_x_mm": 657.549775411409,
+    "length_mm": 993.800661867805
+  },
+  "exterior_method": "Convex hull of measured section samples; holes, cavities, residual hatch seams and slots bridged, local concavities convexified. All physical part extents retained with boundary-adjacent stations. The unresolved nose connection has NO fabricated section rings and NO area in the primary estimate; straight bridge sensitivity given separately.",
+  "wetted_area_envelope_m2": 0.38249992923878123,
+  "convergence": [
+    {
+      "dx_mm": 10,
+      "angular_vertices": 128,
+      "lateral_envelope_area_mm2": 368650.5223555522,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+      "conditional_with_straight_gap_bridge_mm2": 369624.9497952387,
+      "section_count": 122
+    },
+    {
+      "dx_mm": 5,
+      "angular_vertices": 128,
+      "lateral_envelope_area_mm2": 378705.9818047419,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+      "conditional_with_straight_gap_bridge_mm2": 379680.4092444284,
+      "section_count": 221
+    },
+    {
+      "dx_mm": 2.5,
+      "angular_vertices": 128,
+      "lateral_envelope_area_mm2": 382065.51099591225,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.4274396865162,
+      "conditional_with_straight_gap_bridge_mm2": 383039.93843559874,
+      "section_count": 419
+    },
+    {
+      "dx_mm": 10,
+      "angular_vertices": 256,
+      "lateral_envelope_area_mm2": 369091.68641521333,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+      "conditional_with_straight_gap_bridge_mm2": 370066.21111194923,
+      "section_count": 122
+    },
+    {
+      "dx_mm": 5,
+      "angular_vertices": 256,
+      "lateral_envelope_area_mm2": 379144.9594129455,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+      "conditional_with_straight_gap_bridge_mm2": 380119.4841096814,
+      "section_count": 221
+    },
+    {
+      "dx_mm": 2.5,
+      "angular_vertices": 256,
+      "lateral_envelope_area_mm2": 382499.9292387812,
+      "unregistered_gap_bridge_sensitivity_mm2": 974.5246967359014,
+      "conditional_with_straight_gap_bridge_mm2": 383474.4539355171,
+      "section_count": 419
+    }
+  ],
+  "exclusions": [
+    "all slicer modifiers",
+    "interior walls, ribs, holes and segment end caps",
+    "guide assembly tool",
+    "wings and tails",
+    "FIN TIP VTOL separate part",
+    "motor/propeller unspecified",
+    "hardware from fuselage area; tabulated separately"
+  ],
+  "installed_exposed_area_status": "Isolated convex exterior-envelope estimate of registered fuselage portions only, NOT exact exposed wetted area. Unregistered nose connection omitted from primary area and separately bounded by straight-bridge sensitivity. Wing-root/tail/skid buried contacts NOT subtracted. All four original complete hatch solids included at feature-verified native identity.",
+  "end_caps": "No forward finite end face, aft mating face, internal segment caps or gap-facing end caps added. Global limit sections evaluated 0.002mm inward, plotted at true physical bounds; no claim of sharp/zero-area nose tip.",
+  "boom_guide_cases": {
+    "source": "BOOM MOUNT GUIDE.STEP",
+    "role": "assembly tool; EXCLUDE from installed exposed hardware",
+    "native_to_right_wing_frame": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "tube_nominal_section_mm": [
+      10,
+      10
+    ],
+    "tube_nominal_length_mm": 500,
+    "guide_end_planes_native_z_mm": [
+      60,
+      165
+    ],
+    "guide_contact_faces": [
+      11,
+      9
+    ],
+    "tube_axis_native": [
+      0,
+      0,
+      1
+    ],
+    "tube_center_native_xy_mm": [
+      260.1569551367584,
+      -9.0591455484653
+    ],
+    "datum_150mm": "Manual p35: from one tube end to outer contacted guide side, NOT to screw axis or motor center. Viewed raster confirms outer guide edge. Which native end corresponds to illustrated short side remains discrete unresolved.",
+    "conditional_tube_native_z_intervals_mm": [
+      [
+        -90,
+        410
+      ],
+      [
+        -185,
+        315
+      ]
+    ],
+    "remaining_discrete_choices": [
+      "guide side60 with short tube end at-90 OR guide side165 with short end at315"
+    ],
+    "installed_motor_positions_inferred": false
+  },
+  "motor_unknowns": {
+    "sources": [
+      "MOTOR MOUNT 1 VTOL.STEP",
+      "MOTOR MOUNT 2 VTOL.STEP"
+    ],
+    "relative_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "a": "MOTOR MOUNT 1 VTOL.STEP",
+        "a_face": 18,
+        "b": "MOTOR MOUNT 2 VTOL.STEP",
+        "b_face": 9,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.5999999999999348,
+        "radius_b": 1.5999999999999348
+      },
+      {
+        "a": "MOTOR MOUNT 1 VTOL.STEP",
+        "a_face": 19,
+        "b": "MOTOR MOUNT 2 VTOL.STEP",
+        "b_face": 10,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.5999999999999348,
+        "radius_b": 1.5999999999999348
+      },
+      {
+        "a": "MOTOR MOUNT 1 VTOL.STEP",
+        "a_face": 16,
+        "b": "MOTOR MOUNT 2 VTOL.STEP",
+        "b_face": 7,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.5999999999999348,
+        "radius_b": 1.5999999999999348
+      },
+      {
+        "a": "MOTOR MOUNT 1 VTOL.STEP",
+        "a_face": 17,
+        "b": "MOTOR MOUNT 2 VTOL.STEP",
+        "b_face": 8,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.5999999999999348,
+        "radius_b": 1.5999999999999348
+      },
+      {
+        "a": "MOTOR MOUNT 1 VTOL.STEP",
+        "a_face": 37,
+        "b": "MOTOR MOUNT 2 VTOL.STEP",
+        "b_face": 15,
+        "type": "PLANE",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": null,
+        "radius_b": null
+      }
+    ],
+    "native_motor_axis": {
+      "point": [
+        260.1569551367584,
+        -13.0591455484653,
+        340.0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ]
+    },
+    "installed_transform": null,
+    "remaining_continuous_DoF": [
+      "translation along each boom axis until tube insertion/end-stop is feature-verified"
+    ],
+    "remaining_discrete_choices": [
+      "four end assignments and fore/aft reversal",
+      "left/right duplication"
+    ],
+    "note": "Parts1/2 already form coherent clamp in original coordinates, but native340 is not established as installed motor center. Do not infer installed motors from500-mm tubes or150-mm guide dimension."
+  },
+  "source_hashes": {
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-feature-work/verified_chain.json": "d48d9ff8acf52a76d2e01584bb10bba88fe67104658aed3cc95d16ba65d9b012",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-feature-work/analytic_features.json": "60897a66fa0ecdd007bdb68fc42ad3a96c888291e0c8bbf8449c22fd96485f4f",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-feature-work/fus4_mesh_features.json": "8a6fe74bbcce3f58e4038f73ea72ac2c4162c0936f9fa841c5f689e0b3400599",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-feature-work/guide35.png": "7d225f9a7b56f8a1348b18500eb7074f47cfb0813eb778663c46834ad0d587e9",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/extraction_authorization.json": "48b4752792e6da855ed4909bbcd8d10a7649a79b11a19215a3022e349aca5520",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/FUS 1 VTOL.STEP": "905c7784e733076cee69542fd61fbf9da0ae9dd2e2f68dd3410522b2a3997950",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/FUS 2 VTOL MODIFIER.STEP": "47c31f2f1122c96e3e655556cbc1095551d4803ff62f8ea6ed7b40a32b451dc7",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/FUS3.STEP": "e56aa5220a5cd5a155537a7f7af95886651e5669ed42661889a93451d3d398c3",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/FUS 5 VTOL.STEP": "c774c64c271d0d9e334ed63e2c47f301ff4a4f09bacf27d316eac1952d644403",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/FUS 6 VTOL MODIFIER.STEP": "eda75fdadd513d54ac0f0851dfcacf386a3dff5e7e2e4876fe7f8c3833f6ea8b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/NOSE .STEP": "b74c7fb4859c573dee2b3dcc181f96ed3cc8a16572b2a7d81b232ed96c20c52b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/FUSELAGE/FUS 4.STL": "36b69db5fdb267b8e9b7b5e479ba57f3a88ee8b0aa155c70f393c4da2ff505b7",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/resolve.py": "f125c4cc3d3ac8ca0d7d2f024b1862bb21c73441677606998fd5f076035f40bb",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/installed_hatches.step": "592484f0a69c2de0d75ee4688412283708aaa5aff828466d9351461430cc99f1",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/features.json": "b6b9761febc85d72e9a01ffb2eb9d1494101ab45ae94b0f63c8913324c23f5da",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/exact_skin_sections.step": "5e829b2c9b4a0383f43044746b06135dd7573533d0cea89df0011776e707abc2",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/external_skin_patches.step": "18c4a24be8bb1154b687694017b89b8ad32cf486f8bdcd39ed04fa0a87a4fc2b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/run.log": "415da0884016d2ef4b2761952524461fd04aabea5a6430783485a33250abc451",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/investigation.log": "a5df48576f6464baf2a36bfb3f190282d28d4ea8b876499559ef2081fec79029",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/continuity_probe.py": "dd25953247fb3669ec4daee2b54c6835b45e1a1e14b2a78effffc9aba38b7052",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/fus4_lip_check.json": "f495e32d13feb601ce10199fe42117d232dac8a87570485bf71d248b3450caa0",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/placement.json": "7da97d8bc993f42234ec3b43195afdf73c22464e8e39859227755382524b8035",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/fus4_probe.py": "aca7db2f4a3724224382318f2664a53764d5278fac8beb2d66986627b558bbeb",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/README.md": "7875d842cc78d1ddb3ec945e1b29efc3565b724415f3794e25d4cc69ccde2bbb",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/probe.py": "ec856c175800f921c59367aba1623ca0cff610b1676e6aa0385a4b620d6b1de7",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/investigate.py": "e1f1fbc9c64d3b0bc1ec29ffb26b6ad30aaef369407722172dd4254a1d2b340a",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/HATCH FRONT.STEP": "34595f7d3eb845127d2f08a9888c6597ee782b545df33286a0a530f7947e3add",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/HATCH MIDDLE.STEP": "50f759725e2b92b6daf06b8b66a5c7d08b051e45dfb77c5eeedb65126cdb249b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-extraction/extract.py": "d763b314b1372a9ac56e8ff9a05cecae764de740ede268893fed9acd2cf737ba",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-extraction/parameter_sampler.py": "a2875e6b5976aaf1956f20afa5688679a8ba13b5690c770382598d29a160d073",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-extraction/hardware.json": "0cb147f2dd5e1c3ee515d0d48c36045cbed886fb25e3ea7d3a9779283edff3a2",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-extraction/results.json": "b497749ee0032fc1b04adc4a82d26e9676dc5cc3083dd1f52517e15647475b0b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STEP/MOTOR MOUNT 19x19.STEP": "605d4d1a1ac9a6d8ae5be0f8f47c863b147b2a5d2e82ae6cbeb47a9979148db4",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/BOOM MOUNT 1 VTOL.STEP": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/BOOM MOUNT 2 VTOL.STEP": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MAIN SKIDS VTOL.STEP": "9709422fde9cb10b0742e7efd43fbe38acc155e504087d014c891c3c86e4e3b9",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MOTOR MOUNT 1 VTOL.STEP": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK VTOL PACK FILES/STEP/MOTOR MOUNT 2 VTOL.STEP": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/FUSELAGE/FRONT REINFORCEMENT.STL": "026d1c2fbd489abe7e5365376a10f647caa867f8c70a67239d68d90e10b5cbac"
+  },
+  "sources_unchanged": true,
+  "checks": {
+    "positive_sections": true,
+    "row_count": 41,
+    "grid_every_50_native": true,
+    "grid_every_50_from_nose": true
+  },
+  "convergence_last_axial_relative_change": 0.008848778659830803,
+  "convergence_last_angular_relative_change": 0.001137025537156111,
+  "unresolved_nose_connection": {
+    "intervals_aircraft_x_mm": [
+      [
+        -249.25088625639518,
+        -246.25088645639661
+      ]
+    ],
+    "physical_feature": "partial 3mm nose connection reinforcement; XY registration unresolved",
+    "primary_area_excludes_unregistered_connection": true,
+    "conditional_straight_bridge_sensitivity_m2": 0.0009745246967359014,
+    "conditional_envelope_with_bridge_m2": 0.3834744539355171
+  },
+  "nose_interface_evidence": {
+    "checks": [
+      {
+        "a": "NOSE .STEP",
+        "a_face": 36,
+        "b": "FUS 1 VTOL.STEP",
+        "b_face": 53,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.6000000000000008,
+        "radius_b": 4.25
+      },
+      {
+        "a": "NOSE .STEP",
+        "a_face": 38,
+        "b": "FUS 1 VTOL.STEP",
+        "b_face": 59,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.6000000000000008,
+        "radius_b": 4.25
+      },
+      {
+        "a": "NOSE .STEP",
+        "a_face": 71,
+        "b": "FUS 1 VTOL.STEP",
+        "b_face": 72,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.6000000000000008,
+        "radius_b": 4.25
+      },
+      {
+        "a": "NOSE .STEP",
+        "a_face": 77,
+        "b": "FUS 1 VTOL.STEP",
+        "b_face": 56,
+        "type": "CYLINDER",
+        "axis_angle_rad": 0.0,
+        "residual_mm": 0.0,
+        "radius_a": 1.6000000000000008,
+        "radius_b": 4.25
+      }
+    ],
+    "plane_separation_mm": 3.0,
+    "status": "identity screw-axis pattern;3-mm layer required, not direct plane mate",
+    "manual": "base pp40,46 explicitly FRONT REINFORCEMENT between fuselage and modular screwed nose",
+    "remaining_DoF": "axial stack resolved conditionally on3-mm reinforcement layer; direct reinforcement XY registration not completed",
+    "reinforcement_source_check": {
+      "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/sources/STORK FILES PACK/STORK FILES PACK/STL/FUSELAGE/FRONT REINFORCEMENT.STL",
+      "sha256": "026d1c2fbd489abe7e5365376a10f647caa867f8c70a67239d68d90e10b5cbac",
+      "horizontal_planes": [
+        {
+          "print_z_mm": 0.2992,
+          "area_mm2": 2383.608199756591
+        },
+        {
+          "print_z_mm": 3.2992,
+          "area_mm2": 2308.5551556280548
+        },
+        {
+          "print_z_mm": 5.2992,
+          "area_mm2": 75.0472546622832
+        },
+        {
+          "print_z_mm": 8.2992,
+          "area_mm2": 200.31281635070445
+        }
+      ],
+      "main_plate_thickness_mm": 3.0,
+      "status": "3-mm main plate confirms layer thickness; full reinforcement registration remains unperformed"
+    }
+  },
+  "extraction_scope_note": "FUS2 and FUS6 files contain MODIFIER in filename, but only upstream-selected physical body 1 is used; actual slicer modifier bodies excluded. Integral FUS6 ventral extent retained. Separate FIN TIP VTOL not modeled.",
+  "physical_part_bounds_aircraft_x_mm": {
+    "FUS 1 VTOL.STEP": [
+      -246.25088645639661,
+      -131.24959343423765
+    ],
+    "FUS 2 VTOL MODIFIER.STEP": [
+      -131.25055680274554,
+      18.7526393709251
+    ],
+    "FUS3.STEP": [
+      18.750406304953913,
+      233.75040706745872
+    ],
+    "FUS 5 VTOL.STEP": [
+      377.5491135436041,
+      517.5491146220661
+    ],
+    "FUS 6 VTOL MODIFIER.STEP": [
+      517.5471421147674,
+      657.549775411409
+    ],
+    "NOSE .STEP": [
+      -336.250886456396,
+      -249.25088625639518
+    ],
+    "FUS 4.STL": [
+      233.75040710307462,
+      377.5491131577621
+    ],
+    "HATCH:HATCH FRONT.STEP:body1": [
+      -225.69727198740006,
+      -111.25088625629996
+    ],
+    "HATCH:HATCH FRONT.STEP:body2": [
+      -111.25088645630001,
+      -6.650886256389
+    ],
+    "HATCH:HATCH MIDDLE.STEP:body1": [
+      34.14911354361092,
+      149.14911374361
+    ],
+    "HATCH:HATCH MIDDLE.STEP:body2": [
+      149.14911354358,
+      288.32214065935005
+    ]
+  },
+  "hardware_projection_warning": "Native-axis physical-part silhouettes only; not net installed projected area, blockage, exposed wetted area, or installed drag.",
+  "sampling": {
+    "method": "individual edge native-parameter adaptive tessellation; wire explorer ordering; no arc-length inverse",
+    "checked_chord_deviation_tolerance_mm": 0.01,
+    "max_chord_mm": 0.7,
+    "join_tolerance_mm": 0.0001,
+    "max_observed_checked_deviation_mm": 0.009977981249740593,
+    "section_cache_directory": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-with-hatches/section_cache/3fd270c1c6d3a0e2",
+    "diagnosis": "CadQuery w.positions() invokes GCPnts_AbscissaPoint on composite wires and can fail inversion; edge parameter Value evaluation avoids inversion without dropping edges."
+  },
+  "hatches": {
+    "count": 4,
+    "placement_receipt": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/hatch-feature-work/placement.json",
+    "pose": "feature-verified native identity; nominal clearance retained",
+    "rear_interface_limit": "FUS4 mesh curved lip nominal fit checked; full rear tongue seating/penetration not certified"
+  },
+  "baseline_envelope_area_m2": 0.3644781430007272,
+  "hatch_inclusive_minus_baseline_envelope_area_m2": 0.01802178623805406,
+  "convex_lateral_envelope_area_m2": 0.38249992923878123,
+  "actual_exposed_wetted_area_m2": null,
+  "actual_continuous_section_outer_contour_status": "Not reconstructed across physical seam clearance, disconnected material islands, or unregistered nose gap. Real raw curves and measured open external hatch skin arcs saved; no invented closure.",
+  "legacy_field_warning": "wetted_area_envelope_m2 is retained for baseline schema compatibility only; it means convex lateral section-envelope loft approximation, NOT exact exposed wetted area.",
+  "nonconvex_diagnostic": {
+    "method": "Per-source valid closed-loop even/odd nesting, then planar union; retain cavities and disconnected islands, do not repair invalid loops or bridge open edges.",
+    "artifact": "nonconvex_material_sections.json",
+    "meaning": "Physical material section union diagnostic, not certified continuous aerodynamic outer skin. Open original outer hatch skin arcs are separately retained.",
+    "wetted_area_inferred": false,
+    "coverage": {
+      "station_count": 42,
+      "all_closed_loops_included_station_count": 7,
+      "partial_invalid_loop_station_count": 35,
+      "empty_valid_union_station_count": 13,
+      "excluded_invalid_loop_count": 70,
+      "continuous_aerodynamic_outer_contour_reconstructed": false,
+      "interpretation": "A partial diagnostic only. Empty/partial unions do NOT indicate absent source material; all original curves retained. No repair or seam closure."
+    }
+  },
+  "raw_sections": {
+    "raw_curve_file": "raw_section_curves.json",
+    "exact_brep_edges": "raw_brep_section_edges.step",
+    "exact_brep_step_frame": "native XYZ; section coordinate is native Z. JSON points are aircraft XYZ. installed_hatches.step and external_skin_patches.step also remain native XYZ.",
+    "aircraft_xyz": "native Z,X,Y at common STEP zero",
+    "every_50mm_native_and_nose_relative": true,
+    "extra_regression_station_mm": -80.0
+  },
+  "matched_resolution_comparison": {
+    "baseline_convex_lateral_envelope_m2": 0.3644781430007272,
+    "hatch_inclusive_convex_lateral_envelope_m2": 0.38249992923878123,
+    "difference_m2": 0.01802178623805406,
+    "relative_increase_percent": 4.944545121329291,
+    "dx_mm": 2.5,
+    "angular_vertices": 256,
+    "comparison_is_same_model_same_grid_resolution": true,
+    "warning": "Hatch endpoint-adjacent stations are additionally retained, so section counts differ. This is model sensitivity, not exact skin-area gain."
+  },
+  "exact_matched_grid_comparison": {
+    "status": "PASS",
+    "same_axial_grid": true,
+    "same_angular_vertices": 256,
+    "same_section_count": 419,
+    "baseline_original_grid_convex_envelope_m2": 0.3644781430007272,
+    "baseline_hatch_augmented_grid_convex_envelope_m2": 0.3645937800837863,
+    "hatch_inclusive_same_grid_convex_envelope_m2": 0.38249992923878123,
+    "matched_grid_hatch_increase_m2": 0.017906149154994944,
+    "matched_grid_hatch_increase_percent": 4.911260184109545,
+    "baseline_grid_only_change_m2": 0.00011563708305911691,
+    "baseline_nose_bridge_sensitivity_m2": 0.0009745246967359014,
+    "scope": "Only the convex envelope model; not exact section outer contour or exposed wetted area. Nose gap excluded from both primary values."
+  },
+  "verification_file": "verification.json",
+  "sampler_refinement_validation": "tolerance_validation.json"
+}

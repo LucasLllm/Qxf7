@@ -1,0 +1,4 @@
+part_name,pack,quantity,filament,infill_pct,walls,mass_g_each,x_cg_mm,y_cg_mm,z_cg_mm,source,notes
+# One row per printed part. pack = base | vtol. mass from Bambu Studio / CLI with your actual settings.
+# x/y/z_cg in the bundle frame (x aft, y right, z up, origin ~ wing-root LE on centreline) if known; else leave blank.
+# Example (delete): FUS 3,base,1,LW-ASA,4,1,,,,,bambu-cli 2026-10-xx,

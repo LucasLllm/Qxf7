@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "5a17e5400322d7d1b0171554cee3764bcf34aa2cc349e0e4e95aeafe5062fda7",
+  "accepted_profiles": 1661,
+  "excluded_profiles": 4,
+  "exclusions": [
+    {
+      "member": "coord_seligFmt/30p-30n.dat",
+      "reason": "incomplete chord coverage"
+    },
+    {
+      "member": "coord_seligFmt/fx79w660a.dat",
+      "reason": "too thick/multielement"
+    },
+    {
+      "member": "coord_seligFmt/naca1.dat",
+      "reason": "not a single Selig TE-LE-TE contour"
+    },
+    {
+      "member": "coord_seligFmt/ua79sfm.dat",
+      "reason": "incomplete chord coverage"
+    }
+  ],
+  "metric": "RMS ordinate deviation percent chord:100*sqrt(integral_0^1((upper1-upper2)^2+(lower1-lower2)^2)/2 dx),1001 uniform chord stations,trapezoidal integration. Independent LE/TE-midpoint chord alignment, no thickness/camber fitting. Maximum deviation also reported.",
+  "scope": "official archive linked by current UIUC index; post-archive update files are not in this comparison corpus",
+  "source_index_url": "https://m-selig.ae.illinois.edu/ads/coord_database.html",
+  "source_archive_url": "https://m-selig.ae.illinois.edu/ads/archives/coord_seligFmt.zip",
+  "identification_claim": false
+}
