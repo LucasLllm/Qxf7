@@ -1,0 +1,133 @@
+{
+  "method": "OCC native BRep Boolean common; tolerance-based CAD not exact arithmetic",
+  "pairs": [
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_055_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_061_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "F90_mount_061_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "boom_R_bore8_open_ends_cable24x5",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    }
+  ],
+  "positive_volume_overlap": false,
+  "scope": "7 hardware only; no full parent-airframe screen"
+}

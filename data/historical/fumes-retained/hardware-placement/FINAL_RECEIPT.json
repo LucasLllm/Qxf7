@@ -1,0 +1,288 @@
+{
+  "status": "FINAL_FILES_HASH_VERIFIED",
+  "created_utc": "2026-10-12T22:07:21.524891+00:00",
+  "root": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors",
+  "files": {
+    "CAD_BASELINE_INTERSECTIONS.json": {
+      "sha256": "d9762811d441cea97a8e84768c84ea3c6146c5f100377f422e07ecc1340d6dc5",
+      "bytes": 3598
+    },
+    "CAD_MOUNT_INTERSECTIONS.json": {
+      "sha256": "b7612b91a0f09d4cd86689ef28bb9806fe299e69131b65edb03152c14077b69d",
+      "bytes": 15263
+    },
+    "INPUT_BASELINE.json": {
+      "sha256": "40f2f9d6863fa2d263842eb847aee8a2a27f37423fda00b55331fb22018562da",
+      "bytes": 2325
+    },
+    "PLACEMENT_AND_SUBSTITUTIONS.json": {
+      "sha256": "77c0500e59dcc866a3bc0e9345de9f8162f00bfb00c44fe8de8908d2c1a64a53",
+      "bytes": 13417
+    },
+    "REPORT.md": {
+      "sha256": "60d2ab3214ace575d5ee7580db3f2c4209d7fcd9a40eba794c40f5286fba560d",
+      "bytes": 10386
+    },
+    "RESEARCH_RECEIPTS.json": {
+      "sha256": "3217105caa2a4099fab1cd9b318b652a3af8ab5260973c44de2db6a2ff240373",
+      "bytes": 156438
+    },
+    "RESULTS.json": {
+      "sha256": "fcdc7f86e0b7833c4324653fb0e0758bb36ca70d12a1a3d0b0b61094b6731a75",
+      "bytes": 49022
+    },
+    "SOURCE_AND_APPROXIMATION.json": {
+      "sha256": "86362b0daf07395499ebf9d8ce7b5fcee1f1d57b5064b3711eba825c709636fd",
+      "bytes": 5132
+    },
+    "Stork-standard-installed-motors-booms-CFD-APPROXIMATE-m.obj": {
+      "sha256": "bb62e38bef674a69b14b8cfebe76ec86b65b1763f3952a7be81f537a357341da",
+      "bytes": 301101
+    },
+    "Stork-standard-installed-motors-booms-CFD-APPROXIMATE.step": {
+      "sha256": "2bf57d5b847ba1487761b48478e8b9b7a85b461e1033bb53b515ea6aec49b057",
+      "bytes": 179853
+    },
+    "VERIFICATION.json": {
+      "sha256": "6d0c1eac19d78f04e8258620db72bd5c803dce95748aa6be0a7e52198a924519",
+      "bytes": 28383
+    },
+    "build.py": {
+      "sha256": "cf705c1c0016453768d1f87f6904360ddb7448cc41b826e865cee1d37b581c19",
+      "bytes": 9709
+    },
+    "components/Avenger2812V5_axisymmetric_local-m.obj": {
+      "sha256": "870b123dff79180a13d933261f42ab1da3e8fa9c472ad04338594bb43c4ec1b7",
+      "bytes": 48783
+    },
+    "components/Avenger2812V5_axisymmetric_local.step": {
+      "sha256": "806a7e4ff3969baf93004ee8cc08ba7eaabdc305ba58b01f16c24baac69d4fb6",
+      "bytes": 19563
+    },
+    "components/Avenger2812V5_mount_011_CFD_APPROXIMATE-m.obj": {
+      "sha256": "e8d041dc116b7a0355ad22f1faf0507a3c69e3d0d5fdf80ee0529be34e386b6c",
+      "bytes": 51835
+    },
+    "components/Avenger2812V5_mount_011_CFD_APPROXIMATE.step": {
+      "sha256": "bdce52a88f8c5e4b093ed0b780d128c7c67e36f1bdad9e00fa7db487b2c176b3",
+      "bytes": 20004
+    },
+    "components/F90_axisymmetric_local-m.obj": {
+      "sha256": "70c4348b2b2dafdd36e55bc2881c5e5c1ab7d0531fcc1719f8d546a70b290878",
+      "bytes": 50602
+    },
+    "components/F90_axisymmetric_local.step": {
+      "sha256": "bf7db974e0900a21e1bfe80ef9078e3607d955bd95874cb86b3c97f6c911aa03",
+      "bytes": 19520
+    },
+    "components/F90_mount_053_CFD_APPROXIMATE-m.obj": {
+      "sha256": "293b7ca38974e10f7020e0c77b1245d9dd0ff9fc2c47456ae3984073c44d4aa6",
+      "bytes": 51877
+    },
+    "components/F90_mount_053_CFD_APPROXIMATE.step": {
+      "sha256": "e2ee78b832d4f48560ac43662cb01dd7521670b8913e7fdbb0cc5f5ea0df098d",
+      "bytes": 20439
+    },
+    "components/F90_mount_055_CFD_APPROXIMATE-m.obj": {
+      "sha256": "f8049abfeeb13943846c2ec30a89c09873b2fd4cf4b30ab9a97ac26c20e1f652",
+      "bytes": 51799
+    },
+    "components/F90_mount_055_CFD_APPROXIMATE.step": {
+      "sha256": "be0fa0ee8361b803aa1874e6f9e1204bf3bcfa61c616c5a49942ae90768cd1a7",
+      "bytes": 20406
+    },
+    "components/F90_mount_061_CFD_APPROXIMATE-m.obj": {
+      "sha256": "ba654b9c48eba81015395b6a49cb246149d9bfa92d40551dd50aeacee22d533f",
+      "bytes": 51332
+    },
+    "components/F90_mount_061_CFD_APPROXIMATE.step": {
+      "sha256": "22680c2f29243c6ccac57cd74e8f9cfb01808d3e0ff3d470168c6f4299f99b81",
+      "bytes": 20439
+    },
+    "components/F90_mount_063_CFD_APPROXIMATE-m.obj": {
+      "sha256": "dc523febdff1747cfc133c7febdeed3b9e31e638d177315aea950a40db90ee82",
+      "bytes": 51282
+    },
+    "components/F90_mount_063_CFD_APPROXIMATE.step": {
+      "sha256": "5769ef723e68a2c35f9a544df4f0ca71b3ea21ca21609b904a08eae26c97dc6c",
+      "bytes": 20406
+    },
+    "components/boom_L_bore6_open_ends_cable24x5-m.obj": {
+      "sha256": "9a69b7c64bc2f1dadf4963bc600977037f2b05ec4625074e5d32bf0bda3a8bb0",
+      "bytes": 14178
+    },
+    "components/boom_L_bore6_open_ends_cable24x5.step": {
+      "sha256": "405d6b1b6e3daa2ade464a13704dba15bc68aaad434380c4882e72e88a80b9d3",
+      "bytes": 34621
+    },
+    "components/boom_L_bore8_open_ends_cable24x5-m.obj": {
+      "sha256": "c09e0a057d588dc7138a6a982a20471a1e50525f236ec553384c8467307dbbfd",
+      "bytes": 13109
+    },
+    "components/boom_L_bore8_open_ends_cable24x5.step": {
+      "sha256": "c2faed26529390635bb2b7050b658b884aefce339c5571003ba25e651f8ad0e7",
+      "bytes": 34621
+    },
+    "components/boom_L_bore8_open_ends_taped_cable-m.obj": {
+      "sha256": "2e6094765a1bd50eb9b6a2275febf8d8011dbb20642ce81221688edcaa0c368c",
+      "bytes": 9982
+    },
+    "components/boom_L_bore8_open_ends_taped_cable.step": {
+      "sha256": "c1da994441be593d27b1a4157c36e0e33cc5f5300e0451f668b3b86288d46f35",
+      "bytes": 19894
+    },
+    "components/boom_L_bore9_open_ends_cable24x5-m.obj": {
+      "sha256": "182e051ebe9a34951ffcc8a20d074913b299406c89074981d837ace4e1c0b702",
+      "bytes": 12691
+    },
+    "components/boom_L_bore9_open_ends_cable24x5.step": {
+      "sha256": "778c33ae8471e0a4b0ff4fcdf88c661e614e0416bf9dd2b4235c063ece6e37ae",
+      "bytes": 34630
+    },
+    "components/boom_L_sealed_exterior_void_ignored-m.obj": {
+      "sha256": "27f966cfbdd0b69b67b9c2d6e3c4d121fe08f7a285b188dd716b43d775b92158",
+      "bytes": 567
+    },
+    "components/boom_L_sealed_exterior_void_ignored.step": {
+      "sha256": "b1039d120846cf7f921d2269eda126292e4de5ed4569c6328cdfe9ebd3223cb4",
+      "bytes": 16126
+    },
+    "components/boom_R_bore6_open_ends_cable24x5-m.obj": {
+      "sha256": "ba56ba85d3924f5ae500c924d7954f28fd43d804937c57e14229158b277e5dcf",
+      "bytes": 14354
+    },
+    "components/boom_R_bore6_open_ends_cable24x5.step": {
+      "sha256": "76ce08997948b91576596dd444c9c1a6f0fb1e93b5b2c455cdf814f9b036379d",
+      "bytes": 34619
+    },
+    "components/boom_R_bore8_open_ends_cable24x5-m.obj": {
+      "sha256": "cdeb28612641a0c81d98e4cd645c04ca4e052e291f8d0aee1aaf1ff5086c3c9a",
+      "bytes": 13273
+    },
+    "components/boom_R_bore8_open_ends_cable24x5.step": {
+      "sha256": "2a3060545021114e13465399bb930ac49d3d2af44a5baadb304b0001fbbf5109",
+      "bytes": 34619
+    },
+    "components/boom_R_bore8_open_ends_taped_cable-m.obj": {
+      "sha256": "d03809a993cfc2434c2d49e228c175f08c533e5bf60ca261fd3dd8855ef364af",
+      "bytes": 10110
+    },
+    "components/boom_R_bore8_open_ends_taped_cable.step": {
+      "sha256": "567093f551967fccb367709e08e79dea03f106ef816084641bf68703b5d32102",
+      "bytes": 19894
+    },
+    "components/boom_R_bore9_open_ends_cable24x5-m.obj": {
+      "sha256": "c3cfacbdac3217245fb93316914d1330423925e61246af46459c6b60bd9e8ec8",
+      "bytes": 12857
+    },
+    "components/boom_R_bore9_open_ends_cable24x5.step": {
+      "sha256": "09a89157eff0b334efe2a067e8df33ebc45083e896f121081aca5e45e445b2a2",
+      "bytes": 34630
+    },
+    "components/boom_R_sealed_exterior_void_ignored-m.obj": {
+      "sha256": "2736a5d5d801997e3faf9f1ec5395cc6b7b1dfc6be484153e19e26b3ebc19c03",
+      "bytes": 575
+    },
+    "components/boom_R_sealed_exterior_void_ignored.step": {
+      "sha256": "a1a3d2f189089573ad4ecf0f13bd2cc5f4e19d1aae4971cd8d9b2055a10da25c",
+      "bytes": 16126
+    },
+    "research.py": {
+      "sha256": "34beeb8f63b4df81c14384949cc03f4d5f323e0aadce34cbaad03da13a2185dc",
+      "bytes": 3297
+    },
+    "research_fallback.py": {
+      "sha256": "d989583cedea6ffcb1944abfdd2e65512e600a64617f8e79c3e60eca0a52f57a",
+      "bytes": 1572
+    },
+    "seal_delivery.py": {
+      "sha256": "fc5f8f336383b9b0c0930a892b1f23be44aac2ddaee0d755a35a726c2ddcab2d",
+      "bytes": 5304
+    },
+    "sources/020a69360fd81063.html": {
+      "sha256": "d92f05d0f4304f254ca8d7d130069465d83d0365211ece759504bd7d284efc2c",
+      "bytes": 93360
+    },
+    "sources/020a69360fd81063.txt": {
+      "sha256": "efe45cb449b93b1949d38e769459b2bdc9dcb95bbac51b81414edb1fda9d95a4",
+      "bytes": 168
+    },
+    "sources/03588b5c857caa66.html": {
+      "sha256": "da9d21e635a6ecf09e7c899922702c1483425ee2bb91e4db426f59b09d75b545",
+      "bytes": 118696
+    },
+    "sources/188ef85f3436be08.html": {
+      "sha256": "24d907e5bccec508f92dc8e0eceb44421f52beea1dadf6a04f5e30a0a323d5a6",
+      "bytes": 98603
+    },
+    "sources/188ef85f3436be08.txt": {
+      "sha256": "6ed208f3ded72a210f4066d4c922df8effda0849b60875bc2d9ebb9a38204c00",
+      "bytes": 5775
+    },
+    "sources/1e390cc44e8d1bf7.html": {
+      "sha256": "7fff7b7182d206e92cf5d66c4092c671eab1ad07ff835c05c043500714af35ac",
+      "bytes": 93606
+    },
+    "sources/1e390cc44e8d1bf7.txt": {
+      "sha256": "0517e031051602641ce5541f6fa99fed8b3da0edb9bca41a9ebe553918519ba0",
+      "bytes": 5526
+    },
+    "sources/31d71a48c98f5f47.jpg": {
+      "sha256": "b9424e07933ec3a7177e640343fa63c177425b58cf7118eb52a51e047be5ce84",
+      "bytes": 79015
+    },
+    "sources/37d8421f6c28b99c.html": {
+      "sha256": "6d11fad958b05936796a94cdaacc860b9fd5ef0b7c08a0adb9d55fb06d064047",
+      "bytes": 52160
+    },
+    "sources/37d8421f6c28b99c.txt": {
+      "sha256": "70728eea2b085d194e9cb1db127f898d140bbc8d68244adfff378c47bc63e4b0",
+      "bytes": 1267
+    },
+    "sources/4bb898d52e93d25a.html": {
+      "sha256": "1aa9b3197edb8fb5ec0e7cd42ed662a1621e9e6f70e0ec700c6d8dad948b654a",
+      "bytes": 93311
+    },
+    "sources/4bb898d52e93d25a.txt": {
+      "sha256": "efe45cb449b93b1949d38e769459b2bdc9dcb95bbac51b81414edb1fda9d95a4",
+      "bytes": 168
+    },
+    "sources/88054a4c90af1796.html": {
+      "sha256": "948cd1661ea177532a688bca2c4a0ae598dab62f82e34367ec29f8497437e205",
+      "bytes": 120585
+    },
+    "sources/9d880e95f6a531bd.jpg": {
+      "sha256": "0e403c6036c9bbc3454f64a595ee90fd871ecf2a1f519279d534ca1cdeabe30b",
+      "bytes": 159082
+    },
+    "sources/d51517ac2944c065.html": {
+      "sha256": "3440c6ff1930b4387d073b7d987723eb7782ec98a9f831c65e5f0f22a33bebab",
+      "bytes": 61234
+    },
+    "sources/d51517ac2944c065.txt": {
+      "sha256": "722a2ffa5005c6e6cabdd138e76f7a4ff7d09641145016ff1d226e3baf81615b",
+      "bytes": 7226
+    },
+    "verify.py": {
+      "sha256": "73f9a3bc8c92f73bf95051fb74e65a37cce9a8914a3ecc6374856028cb81d76f",
+      "bytes": 5897
+    }
+  },
+  "preserved_inputs": {
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/readiness-review/RELEASE_GATES.json": "2673ef857efa96fa713fd43749a0da3e2bf92f9f93a15219d9482e40ce1b9025",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v1/hardware/RESULTS.json": "f1f32605c9f073374604908d8bac9cc5d5a4b13a128b7627f76e60e6073f6af3",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-corrections-v1/hardware/EVIDENCE.json": "7124219dc6a004171b8a143a3314891732c6233ff5bbd082bf36a91d554ef12b",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/showcase/hybrid-v2-final/assembly-manifest.json": "c171e5f49e62e96a6e6ca10b480ff995d496dbf6f54412fa020979d90eb6e789",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-corrections-v1/hardware/vtol-page-36.png": "40eb9b8db53a31a7e9090f60f247257c937fe05bf7bae5e75c0a32882306eb50",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x19.STEP": "605d4d1a1ac9a6d8ae5be0f8f47c863b147b2a5d2e82ae6cbeb47a9979148db4",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/cruise/base_manual.pdf": "2ac98e62612d26fea8b2f47fabb52f37425afbf73ff9123c3a933d2bff5939c5",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/cruise/vtol_manual.pdf": "600d8f6aed1552213c6757cfb38053602ff6bc3c1433c3e5ec2fb98cd6ff4bbd"
+  },
+  "verification_status": "PASS_COMPONENTS_AND_HARDWARE_BASELINE_ONLY",
+  "installed_baseline_obj_sha256": "bb62e38bef674a69b14b8cfebe76ec86b65b1763f3952a7be81f537a357341da",
+  "scope": "17 pairs and hardware-only baseline, approximate geometry; full parent remains unmodified"
+}

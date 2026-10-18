@@ -1,0 +1,14 @@
+test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis) ... FAIL
+
+======================================================================
+FAIL: test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 35, in test_geometry_conversion_preserves_actual_contour_chord_and_axis
+    self.assertTrue(hasattr(solver,'build_airplane'),'source geometry adapter missing')
+AssertionError: False is not true : source geometry adapter missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

@@ -1,0 +1,14 @@
+test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback) ... FAIL
+
+======================================================================
+FAIL: test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 10, in test_no_generic_airfoil_fallback
+    self.assertIsNotNone(solver, 'actual contour loader not implemented')
+AssertionError: unexpectedly None : actual contour loader not implemented
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

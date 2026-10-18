@@ -1,0 +1,21 @@
+F..F.
+======================================================================
+FAIL: test_curve_integration_keeps_reserve_separate (__main__.BatteryTests.test_curve_integration_keeps_reserve_separate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 54, in test_curve_integration_keeps_reserve_separate
+    self.assertTrue(hasattr(m,'integrate_curve'),'battery integration not implemented')
+AssertionError: False is not true : battery integration not implemented
+
+======================================================================
+FAIL: test_selected_prop_rpm_limit_and_unsupported_low_thrust (__main__.LimitTests.test_selected_prop_rpm_limit_and_unsupported_low_thrust)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 68, in test_selected_prop_rpm_limit_and_unsupported_low_thrust
+    with self.assertRaises(m.DomainError):m.evaluate(31,50/3.6,16.8)
+AssertionError: DomainError not raised
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=2)

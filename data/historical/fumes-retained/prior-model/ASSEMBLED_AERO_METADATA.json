@@ -1,0 +1,45 @@
+{
+  "surface_audit": [
+    {
+      "family": "tail",
+      "side": -1,
+      "area_m2": 0.0359374311920329,
+      "profile_method": "source envelope with explicitly sealed short hinge gaps",
+      "profile_fit_max_chord": 0.003988134449856742,
+      "profile_confidence_min": 0.9643077444584881
+    },
+    {
+      "family": "tail",
+      "side": 1,
+      "area_m2": 0.03593742988314756,
+      "profile_method": "source envelope with explicitly sealed short hinge gaps",
+      "profile_fit_max_chord": 0.003987941106132303,
+      "profile_confidence_min": 0.9643384160664954
+    },
+    {
+      "family": "wing",
+      "side": -1,
+      "area_m2": 0.1338248379446198,
+      "profile_method": "source envelope with explicitly sealed short hinge gaps",
+      "profile_fit_max_chord": 0.003293856359656738,
+      "profile_confidence_min": 0.9764688001598304
+    },
+    {
+      "family": "wing",
+      "side": 1,
+      "area_m2": 0.13382346625655075,
+      "profile_method": "source envelope with explicitly sealed short hinge gaps",
+      "profile_fit_max_chord": 0.003292308123398592,
+      "profile_confidence_min": 0.9764628138216308
+    }
+  ],
+  "wing_reference_area_m2": 0.27121840608205844,
+  "wing_modeled_area_m2": 0.2676483042011706,
+  "workingCG_ASB_m": [
+    0.051443253844503455,
+    0,
+    0
+  ],
+  "center_bridge": false,
+  "hinge_sealing_approximation": true
+}

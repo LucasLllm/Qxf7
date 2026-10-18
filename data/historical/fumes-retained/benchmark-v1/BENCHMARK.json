@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "stock-stork-flightony-v1",
+  "created_utc": "2026-10-12T15:44:21.455999+00:00",
+  "status": "documentary_reference_frozen; exact_as_flown_inputs_and_production_solver_NOT_released",
+  "authorization": "Freeze benchmark/source evidence and unresolved inputs; no new CFD, hardware, purchase, contact or CAD mutation.",
+  "scope": {
+    "standard_scale_factor": 1.0,
+    "architecture": "fixed 4+1 high-wing pusher V-tail",
+    "excluded": "scaled QxF7, 95 km/750 g design feasibility, legacy alternative-hardware studies"
+  },
+  "airframe_published": {
+    "span_m": 1.62,
+    "length_m": 1.0,
+    "wing_area_m2": 0.31,
+    "area_definition": null,
+    "airfoil_label": "Selig S3021; use source geometry, not a substituted ideal section",
+    "material": "LW-PLA + carbon",
+    "AUW_range_kg": [
+      1.8,
+      3.1
+    ],
+    "range_is_qualified_MTOW": false,
+    "cargo_nominal_mm": [
+      205,
+      65,
+      80
+    ]
+  },
+  "hardware_published": {
+    "cruise_motor": "BrotherHobby Avenger 2812 V5 910KV",
+    "cruise_prop": "APC 10x6E",
+    "cruise_ESC": "Lumenier 51A BLHeli32",
+    "lift_motor": "4 x T-Motor F90 1300KV",
+    "lift_ESC": "Velox V50A 4-in-1",
+    "lift_prop_diameter_in": 7,
+    "lift_prop_pairing": "2 CW + 2 CCW",
+    "lift_prop_SKU": null,
+    "lift_prop_pitch_in": null,
+    "FC": "SpeedyBee F405 Wing",
+    "GPS": "Matek M10Q",
+    "receiver": "Matek R24-D ELRS",
+    "servos": "4 x EMAX ES08 MAII Metal Gear",
+    "camera": "DJI O3 Air Unit",
+    "autopilot": "ArduPilot ArduPlane QuadPlane; exact release/parameters unresolved",
+    "listed_optional_telemetry": [
+      "Raspberry Pi Zero 2W",
+      "Huawei E3372"
+    ],
+    "optional_telemetry_installed_active": null,
+    "note": "Ground transmitter/ground station excluded from airborne mass/power; listed radio setup is not regulatory approval."
+  },
+  "cases": [
+    {
+      "id": "OPERATOR-REF",
+      "priority": "primary",
+      "published_total_mass_kg": 2.9,
+      "mass_approximate": true,
+      "cargo_g": null,
+      "cargo_included_in_published_mass": null,
+      "cell": "Samsung INR21700-50E",
+      "series": 4,
+      "parallel": 4,
+      "nominal_Wh": 288,
+      "nominal_V": 14.4,
+      "maximum_V": 16.8,
+      "pack_mass_kg": 1.2,
+      "pack_mass_approximate": true
+    },
+    {
+      "id": "EXPLORER-REF",
+      "priority": "secondary",
+      "published_total_mass_kg": 2.7,
+      "mass_approximate": true,
+      "cargo_g": null,
+      "cargo_included_in_published_mass": null,
+      "cell": "Samsung INR21700-50E",
+      "series": 4,
+      "parallel": 3,
+      "nominal_Wh": 216,
+      "nominal_V": 14.4,
+      "maximum_V": 16.8,
+      "pack_mass_kg": null
+    }
+  ],
+  "reference_conventions": {
+    "airspeeds_kmh": [
+      54,
+      60
+    ],
+    "wind_kmh": 0,
+    "temperature_C": 15,
+    "pressure_Pa": 101325,
+    "density_kg_m3": 1.225,
+    "atmosphere": "standard sea-level engineering reference; not recovered vendor flight conditions",
+    "trajectory": "steady trimmed level cruise; one departure and one final VTOL landing for mission accounting",
+    "range": "one-way total path; not delivery radius",
+    "icing": "excluded",
+    "power_boundary": "total battery-terminal electrical power; show shaft/ESC/aux separately",
+    "reserve": "seller 10% nominal bookkeeping, once only; not a physical landing qualification"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "quantity": "cruise_power",
+      "value": [
+        80,
+        110
+      ],
+      "unit": "W",
+      "source": "seller-specs.txt; seller-performance.txt",
+      "measurement_boundary": "unspecified"
+    },
+    {
+      "id": "C02",
+      "quantity": "hover_power",
+      "value": 300,
+      "unit": "W",
+      "approximate": true,
+      "source": "seller-specs.txt; seller-performance.txt",
+      "measurement_boundary": "unspecified"
+    },
+    {
+      "id": "C03",
+      "quantity": "Operator_range_scenario",
+      "value": 130,
+      "unit": "km",
+      "wh_per_km": 2.0,
+      "source": "seller-performance.txt",
+      "condition": "best low-wind optimized; exact payload/conditions unknown"
+    },
+    {
+      "id": "C04",
+      "quantity": "Operator_range_scenario",
+      "value": 118,
+      "unit": "km",
+      "wh_per_km": 2.2,
+      "source": "seller-performance.txt",
+      "condition": "realistic mid; exact payload/conditions unknown"
+    },
+    {
+      "id": "C05",
+      "quantity": "Operator_range_scenario",
+      "value": 104,
+      "unit": "km",
+      "wh_per_km": 2.5,
+      "source": "seller-performance.txt",
+      "condition": "conservative wind/heavier; not our still-air reference"
+    },
+    {
+      "id": "C06",
+      "quantity": "Explorer_range",
+      "value": [
+        70,
+        85
+      ],
+      "unit": "km",
+      "source": "seller-explorer.txt; seller-specs.txt"
+    },
+    {
+      "id": "C07",
+      "quantity": "nominal_cruise_speed",
+      "value": [
+        54,
+        60
+      ],
+      "unit": "km/h",
+      "source": "seller-specs.txt",
+      "air_or_ground_basis": "unresolved"
+    },
+    {
+      "id": "C08",
+      "quantity": "Operator_payload_capacity",
+      "value": 200,
+      "unit": "g",
+      "source": "seller-operator.txt; seller-specs.txt",
+      "simultaneous_range_and_AUW_basis": "unresolved"
+    },
+    {
+      "id": "C09",
+      "quantity": "Explorer_payload_capacity",
+      "value": 500,
+      "unit": "g",
+      "source": "seller-explorer.txt; seller-specs.txt",
+      "simultaneous_range_and_AUW_basis": "unresolved"
+    }
+  ],
+  "seller_phase_accounting": {
+    "status": "illustrative published values; NOT validated physics or trajectory",
+    "phases": [
+      {
+        "phase": "takeoff_climb",
+        "power_W": 300,
+        "duration_s": 60,
+        "computed_Wh": 5.0
+      },
+      {
+        "phase": "transition_to_cruise",
+        "power_W": 200,
+        "duration_s": 30,
+        "computed_Wh": 1.6666666666666667
+      },
+      {
+        "phase": "transition_to_VTOL",
+        "power_W": 200,
+        "duration_s": 30,
+        "computed_Wh": 1.6666666666666667
+      },
+      {
+        "phase": "descent_landing",
+        "power_W": 300,
+        "duration_s": 60,
+        "computed_Wh": 5.0
+      }
+    ],
+    "computed_noncruise_Wh": 13.333333333333334,
+    "quoted_noncruise_Wh_rounded": 13.4,
+    "reserve_fraction": 0.1,
+    "nominal_after_reserve_Wh": 259.2,
+    "nominal_cruise_budget_after_separate_phases_Wh": 245.86666666666665,
+    "mission_efficiency_rule": "If 2.0-2.5 Wh/km is full-mission efficiency, do not subtract phases again; keep alternative interpretations separate."
+  },
+  "unresolved_inputs": [
+    {
+      "id": "U01",
+      "title": "Vendor/build version and source equivalence",
+      "released_value": null,
+      "unresolved": "Flightony build revision, modifications versus Flightory packs, and exact as-tested BOM are not established.",
+      "recommended_treatment": "Use the hash-frozen supplied standard packs as our source-based stock representation; request build-revision confirmation before calling it an exact Flightony replica.",
+      "gate": "Source-based analysis may proceed; exact vendor match blocked."
+    },
+    {
+      "id": "U02",
+      "title": "Installed CFD geometry and reference definitions",
+      "released_value": null,
+      "unresolved": "Complete native STEP coverage is absent. Tail root placement, root leading-edge datum, exposed boom lengths, actual motor/shaft/prop geometry, gear detail, openings, hinge gaps and assembled exterior quality remain unqualified; published 0.31 m2 is not a recovered area convention.",
+      "recommended_treatment": "Reuse original STEP where supported and original STL elsewhere. Audit placements against geometry/manuals; qualify the exterior fluid boundary without erasing real gaps. Replace illustrative hardware with sourced geometry. Retain published area as a documentary reference and separately report measured exposed area.",
+      "gate": "Whole-aircraft CFD release blocked until selected geometry and approximations are verified."
+    },
+    {
+      "id": "U03",
+      "title": "Actual mass, payload inclusion, mass distribution and inertia",
+      "released_value": null,
+      "unresolved": "Published approximate 2.9/2.7 kg AUWs do not establish whether 200/500 g cargo is included. Actual pack, printed-part and equipment masses, cargo location and inertia are not measured.",
+      "recommended_treatment": "Freeze 2.9 kg Operator and 2.7 kg Explorer total-mass reference cases with cargo inclusion null. Keep unloaded/loaded interpretations separate, not mixed into the nominal cases. Obtain mass breakdown or weigh an exact build; derive uncertainty and inertia from qualified distributions. Explorer 2.7+0.5=3.2 kg would exceed the published 3.1 kg range if AUW excludes cargo; flag, do not assert MTOW.",
+      "gate": "Fixed-total-mass aero studies allowed; payload claims and dynamics require resolution."
+    },
+    {
+      "id": "U04",
+      "title": "CG, trim, controls and allowed CG envelope",
+      "released_value": null,
+      "unresolved": "Installed 3D CG, documentary datum mapping, permitted CG envelope, cruise trim/control deflections, incidences and actuator characteristics are not qualified.",
+      "recommended_treatment": "Use source/manual geometry to resolve datum and surfaces first. Solve force/moment-balanced cruise with explicitly conditional CG cases; obtain vendor/measured CG and control limits. Do not adopt an old working CG as a measurement or release an invented safe CG range.",
+      "gate": "Trimmed exact-match prediction blocked; conditional CG/trim sensitivity allowed."
+    },
+    {
+      "id": "U05",
+      "title": "Surface condition and manufacturing variation",
+      "released_value": null,
+      "unresolved": "Flightony print profile, foaming ratio, paint/coating, seams, roughness and dimensional tolerances are not specified.",
+      "recommended_treatment": "Benchmark the vendor LW-PLA/carbon exterior, not the final project Bambu lineup. Run labelled smooth/printed/rough sensitivities supported by plausible bounds; seek build photos and measured surface/shape information. Do not call these statistical confidence bounds.",
+      "gate": "Conditional drag prediction allowed; tight accuracy claim blocked."
+    },
+    {
+      "id": "U06",
+      "title": "Exact lift propellers and thrust/power maps",
+      "released_value": null,
+      "unresolved": "Seven-inch diameter and CW/CCW pairing do not identify manufacturer, SKU, pitch, blade geometry or exact installed F90/prop/ESC maps.",
+      "recommended_treatment": "Ask Flightony for prop SKU/pitch and test data on the actual bus. Do not choose a convenient 7-inch prop and label it exact. If unavailable, use separately named candidate sensitivities and seek supervised calibrated lift tests.",
+      "gate": "Exact hover, VTOL phase energy and blade-resolved lift simulation blocked."
+    },
+    {
+      "id": "U07",
+      "title": "Lift-rotor state during cruise",
+      "released_value": null,
+      "unresolved": "Stopped/freewheeling/braked state, actual stop angles and controller behaviour are unknown.",
+      "recommended_treatment": "Retain aligned and crossflow stopped-rotor sensitivity cases; add windmilling only with an appropriate model. Use logs/video or configuration evidence to select the representative state. Never count omission of rotors as an aircraft result.",
+      "gate": "Conditional cruise bounds allowed; single exact drag figure blocked."
+    },
+    {
+      "id": "U08",
+      "title": "Voltage architecture and ESC settings/compatibility",
+      "released_value": null,
+      "unresolved": "Actual lift bus, any boost/regulation, BMS path, ESC variants, timing/PWM/braking, calibration and continuous thermal/current limits are unknown. F90 documented 5-6S rating versus advertised 4S pack remains an unresolved qualification gap.",
+      "recommended_treatment": "Request the installed electrical schematic/settings and evidence at the actual voltage. Freeze the advertised 4S pack without substituting a 6S design. Analyse low-voltage sensitivity but do not qualify operation from KV or model feasibility alone.",
+      "gate": "Exact propulsion prediction and physical operation qualification blocked."
+    },
+    {
+      "id": "U09",
+      "title": "Cruise prop/motor/ESC electrical map",
+      "released_value": null,
+      "unresolved": "Exact installed forward-flight electrical efficiency, motor constants/losses, ESC losses, wiring drop, prop installation and continuous thermal duty are not measured. Retained APC 10x6E map is manufacturer COMPUTED data, not wind-tunnel validation.",
+      "recommended_treatment": "Use retained hash-pinned APC computed advance-ratio map only in-domain; calibrate motor/ESC against exact-hardware evidence. Preserve previous motor-loss and 97% ESC assumptions as legacy assumptions, not new measured inputs. Obtain blade geometry only if powered/blade-resolved CFD is warranted.",
+      "gate": "Conditional cruise coupling allowed; measured efficiency claim blocked."
+    },
+    {
+      "id": "U10",
+      "title": "Avionics and auxiliary loads",
+      "released_value": null,
+      "unresolved": "Actual FC/GPS/RX/servo, DJI O3, Pi Zero 2W and LTE operating loads, regulators and duty cycles are unknown; telemetry-ready does not establish all options installed/active.",
+      "recommended_treatment": "Keep core and optional avionics separate. Preserve the old 15 W allowance as one named sensitivity only; obtain rail/terminal measurements or component evidence and run camera/LTE on-off cases without guessing installed status.",
+      "gate": "Exact total-battery-power comparison blocked; explicit-load sensitivities allowed."
+    },
+    {
+      "id": "U11",
+      "title": "Pack/BMS usable energy and landing reserve",
+      "released_value": null,
+      "unresolved": "Exact BMS, interconnects, finished pack resistance, cutoff/load curves, cell revision/age/state of health, temperature and delivered Wh are unknown. The retained Samsung document is a dealer-hosted tentative revision, not qualification of this pack. Explorer finished pack mass is unquoted.",
+      "recommended_treatment": "Freeze Samsung 50E 4S4P/4S3P nominal 288/216 Wh only as catalogue values. Keep 10% nominal reserve as seller accounting, not guaranteed usable energy. Build a load/temperature-aware pack model from exact evidence and maintain landing power/voltage feasibility. Keep proportional 900 g Explorer mass labelled legacy assumption until sourced.",
+      "gate": "Seller arithmetic allowed; validated endurance and physical pack safety blocked."
+    },
+    {
+      "id": "U12",
+      "title": "Operating environment and speed definition",
+      "released_value": null,
+      "unresolved": "Vendor altitude, temperature, density, wind/turbulence and airspeed-versus-groundspeed basis are not provided.",
+      "recommended_treatment": "Adopt a reproducible still-air reference at standard sea-level atmosphere: 15 C, 101325 Pa, rho 1.225 kg/m3; no icing. Reference speeds 54 and 60 km/h are AIRSPEED. Mark this as our convention, not recovered Flightony weather. Add conditions once sourced; cold/rough weather remain separate studies.",
+      "gate": "Reference calculations allowed; historical flight-condition match blocked."
+    },
+    {
+      "id": "U13",
+      "title": "Mission boundary and vendor claim accounting",
+      "released_value": null,
+      "unresolved": "Range versus radius, phase boundaries, VTOL-inclusive Wh/km, reserve/cutoff, current-meter boundary and payload/speed pairing are not fully established; performance page says estimated scenarios alongside flight-testing language.",
+      "recommended_treatment": "Freeze range as one-way total path for this comparison, not delivery radius. Compare steady cruise battery-terminal power separately from mission energy. Preserve both vendor scenario arithmetic and complete phase accounting. Do not subtract VTOL energy twice if quoted Wh/km already includes it; do not force the models to agree.",
+      "gate": "Documentary claims frozen; definitive claim verdict conditional on definitions."
+    },
+    {
+      "id": "U14",
+      "title": "Autopilot and transition model",
+      "released_value": null,
+      "unresolved": "ArduPlane release/parameter set, controller laws, lift/cruise schedule, transition times/altitudes, aerodynamic derivatives, inertia and actuator dynamics are not available.",
+      "recommended_treatment": "Defer custom six-DOF/SITL until aerodynamic/electrical model is checked. Keep seller 60/30/30/60-second phases as illustrative accounting only, not a validated trajectory. Request parameter files/logs before reproducing actual transitions.",
+      "gate": "Full matched dynamic mission simulation blocked; steady studies can proceed."
+    },
+    {
+      "id": "U15",
+      "title": "Validation data and measurement uncertainty",
+      "released_value": null,
+      "unresolved": "No independently calibrated exact-build power/airspeed/hover logs, pack discharges or installed drag measurements have been established. Raw sensor calibration, repetitions and independent holdout data are unavailable.",
+      "recommended_treatment": "Prefer existing vendor logs or access to a matching aircraft before constructing a second standard Stork. Request raw logs, setup/weather, sensor calibration and ending reserve. Separate calibration and held-out validation. Human-approved supervised tests only if required; no long-range flight presumed authorized.",
+      "gate": "Prediction possible; independently validated performance and numerical accuracy percentage blocked."
+    },
+    {
+      "id": "U16",
+      "title": "CFD runtime, model choices and release criteria",
+      "released_value": null,
+      "unresolved": "Earlier OpenFOAM runtime failed; a working solver is not established. Turbulence/transition treatment, surface meshes, domain/near-wall settings, discretization, convergence criteria and model-form uncertainty are not frozen.",
+      "recommended_treatment": "Verify runtime on a known case, then a small Stork pilot; retain solver/version and pilot cost. Freeze mesh/domain/wall and discretization criteria before production, using force/moment stability and refinement evidence; distinguish numerical from input/model-form uncertainty. Do not choose arbitrary settings and call them highest accuracy.",
+      "gate": "Production whole-aircraft CFD blocked until implementation verification; research and geometry audit allowed."
+    }
+  ],
+  "source_inventory": {
+    "retained_vendor_files": 104,
+    "format_counts": {
+      "base": {
+        ".pdf": 1,
+        ".step": 18,
+        ".stl": 54
+      },
+      "vtol": {
+        ".pdf": 1,
+        ".step": 14,
+        ".stl": 16
+      }
+    },
+    "missing_original_zip_containers": true,
+    "source_integrity": "all retained extracted vendor bytes matched prior audit hashes",
+    "geometry_quality": "original STEP + original STL; hardware proxies and unqualified placements are not exact CFD geometry"
+  },
+  "evidence_manifest": "SOURCE_MANIFEST.json",
+  "change_control": {
+    "rule": "Do not edit this release or tune coefficients to vendor targets. New evidence produces reviewed v2 with change log and rerun affected calculations.",
+    "unknowns": "null until evidence resolves; assumptions must be separate named cases",
+    "claim_verdicts": [
+      "supported under matched conditions",
+      "consistent but unverified",
+      "inconsistent under stated conditions",
+      "indeterminate"
+    ],
+    "release_gate": "No fully matched/validated claim until applicable U01-U16 gates close; numerical verification alone is not flight validation."
+  }
+}

@@ -1,0 +1,42 @@
+Operator — $7,495 | Flightony
+Skip to main content
+Operator
+$7,495
+Maximum range configuration. Built for 100+ km autonomous delivery missions with the extended 4S4P battery.
+Recommended
+What's Included
+Everything in Explorer, plus:
+4S4P Li-Ion pack — 288 Wh, 16 Samsung 50E cells
+100+ km autonomous range
+200g payload capacity
+Custom spot-welded pack with BMS
+Extended range flight testing
+Mission planning assistance
+Priority build scheduling
+Specifications
+Battery
+4S4P Li-Ion (288 Wh)
+Cells
+16× Samsung 50E
+Pack Weight
+~1,200g
+Range
+100–130 km
+Payload
+Up to 200g
+Camera
+DJI O3 — 4K/60fps
+Control Link
+ELRS 915 MHz
+Flight Controller
+ArduPilot VTOL
+Wingspan
+1,620 mm
+AUW
+~2,900g
+Cruise Speed
+54–60 km/h
+Ready to Order
+Place your $500 deposit to reserve a priority build slot. Each Operator is hand-built with a custom spot-welded battery pack.
+Order Operator — $7,495
+Compare Payload Options

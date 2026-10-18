@@ -1,0 +1,761 @@
+{
+  "project_root": "/Users/lucasliu/.hermes/profiles/fumes",
+  "sources": [
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/SAMPLE WIRING DIAGRAM.pdf",
+      "bytes": 3866083,
+      "sha256": "9c97738bd06b9816ba529d0d58b521c158ef3ba47798627c3c1e2132db078c61",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/AILERON L.STEP",
+      "bytes": 180611,
+      "sha256": "f6dfbdf9fc89a12b31495fcc3240c1ad086712cefef7040d33b00451121bc575",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/BATTERY PAD.STEP",
+      "bytes": 202241,
+      "sha256": "74bb2b1b8092e3b9787c751bac49f006c6717a5dd47550c8932910e5ec13bf55",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS ROOT L.STEP",
+      "bytes": 189168,
+      "sha256": "efb704bcbadfe40ec12eb91f71b320e49d9a821dad6f8400bb8c9b4a7e256641",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS3.STEP",
+      "bytes": 1690101,
+      "sha256": "e56aa5220a5cd5a155537a7f7af95886651e5669ed42661889a93451d3d398c3",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS6 MODIFIER.STEP",
+      "bytes": 2897834,
+      "sha256": "adfc8b08a960f2c65f3df221ec2b30d4c0f936beb321d11b3e9c460e3acf60eb",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH FRONT.STEP",
+      "bytes": 1361460,
+      "sha256": "34595f7d3eb845127d2f08a9888c6597ee782b545df33286a0a530f7947e3add",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH MIDDLE.STEP",
+      "bytes": 735687,
+      "sha256": "50f759725e2b92b6daf06b8b66a5c7d08b051e45dfb77c5eeedb65126cdb249b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x16 .STEP",
+      "bytes": 597240,
+      "sha256": "7e0dd9f453095639e4b706e7b5d78a6d417a20aa034747d5d0de9c3c120ec419",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x19.STEP",
+      "bytes": 590175,
+      "sha256": "605d4d1a1ac9a6d8ae5be0f8f47c863b147b2a5d2e82ae6cbeb47a9979148db4",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/NOSE .STEP",
+      "bytes": 2063634,
+      "sha256": "b74c7fb4859c573dee2b3dcc181f96ed3cc8a16572b2a7d81b232ed96c20c52b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/NOSE CLEAN.STEP",
+      "bytes": 185360,
+      "sha256": "7c90f873756169d1b5c39ed03a9a3e4197b84fe1e9764ab797df5e436bb65276",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/NOSE GIMBAL.STEP",
+      "bytes": 5359315,
+      "sha256": "f752ccd89afabc59cb7814e8db3d9bad21f111e5496d0edccd90c13f54cbefc1",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/RUDDER L.STEP",
+      "bytes": 177463,
+      "sha256": "2905ca8e375d5f4fdb828959989e78779c5effcdb837f98bf554783e14fe1e6d",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/SERVO COVER L.STEP",
+      "bytes": 90077,
+      "sha256": "2169d8deade2082de14eec479250e1b0659e6d9a040643a523fa27adcd499dbe",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 1 L.STEP",
+      "bytes": 174471,
+      "sha256": "f88427f19ee3713c908f753421ee074c3dbebdb8c0ab612d9703aa3739d19d2b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING BAY PLATE L.STEP",
+      "bytes": 560353,
+      "sha256": "520bb30115d77142e635e404d184501023f3873d6de28aa6f1d7b426c78061dd",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING ROOT L.STEP",
+      "bytes": 162227,
+      "sha256": "c55ba5dc9643b3a1c09cfb410d0774032cf4cbb30c1b7687c3141f1309302d82",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WINGTIP L.STEP",
+      "bytes": 158163,
+      "sha256": "b3094e26db4f307c3c39f61e9ee6389b484a18556e06f6332c38122bb1f9ed3d",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/BATTERY PAD.STL",
+      "bytes": 76284,
+      "sha256": "44f99bbacb1c1a509ef5c07cc002ee50a9b7280bc3d9c1af14afb79eaabbed99",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FRONT REINFORCEMENT.STL",
+      "bytes": 227584,
+      "sha256": "026d1c2fbd489abe7e5365376a10f647caa867f8c70a67239d68d90e10b5cbac",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 1.STL",
+      "bytes": 1187184,
+      "sha256": "6921754ec1c9add84f187036454d3447aff9e819bb41017f5fefbc3a87d0dd14",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 2.STL",
+      "bytes": 1085684,
+      "sha256": "97a006036751b58e2c2b3e16866daccb313597a7086a46c7245e3fe8a0ae1da0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 3.STL",
+      "bytes": 1478984,
+      "sha256": "e2412bbbd9dab6700cfb2bde5e450c36312d782404d040abe6ecebd2a4af5e3d",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 4.STL",
+      "bytes": 886984,
+      "sha256": "36b69db5fdb267b8e9b7b5e479ba57f3a88ee8b0aa155c70f393c4da2ff505b7",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 5.STL",
+      "bytes": 916184,
+      "sha256": "0ac38c01653439e717ca735e71dd8b3b279654a0b94cbd5f7aae211c2098fde0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS 6.STL",
+      "bytes": 1977484,
+      "sha256": "1b8853037a423cb046cc882d9fca5364ea66f09f2c50285212a1e931e666c847",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS ROOT L.STL",
+      "bytes": 186384,
+      "sha256": "f5ca7e1027d629a34d9c586aa19c63eef57347cef7d098c947bec11ea78bffb0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/FUS ROOT R.STL",
+      "bytes": 186484,
+      "sha256": "193cb33d641214e993a836744951aba76bce363ff5b3ff02bc66a654abd40788",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH FRONT 1 VENT.STL",
+      "bytes": 821584,
+      "sha256": "e9e3e357326098549edd03c6edb89dfb2ad4fd8369b39ed899dee32724f2366b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH FRONT 1.STL",
+      "bytes": 544384,
+      "sha256": "02715f7655fce799a451d1c833081108c32f7c15f2b266c8f3b41775ba3b5b70",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH FRONT 2.STL",
+      "bytes": 708584,
+      "sha256": "f47a86ec79f5f6f70b3a67977df20f652636a6c0aa2b67c89c5d2d13a3e3fbae",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH MIDDLE 1.STL",
+      "bytes": 457684,
+      "sha256": "2766f8c880dbd0803d89cf72e017fdfbf1fb4e29aaa1d7e6956b288d1929eba0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH MIDDLE 2 VENT.STL",
+      "bytes": 502484,
+      "sha256": "0db5ce888b1814d1b60dcbeb00bd12c9eb32b8fa6858a618f7064c4d01d25c21",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/HATCH MIDDLE 2.STL",
+      "bytes": 311584,
+      "sha256": "22983f37ef76692e139fbb20a922a805755fa160c3cc8f8781c15bbc236b3e52",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/LOCK 2.STL",
+      "bytes": 68284,
+      "sha256": "4648c6e2a875bb3dd96104b8f60e4211e38b6a10b56f5ba443a60250b21fab5f",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/LOCK 3.STL",
+      "bytes": 70284,
+      "sha256": "9568dc09fb02be314d5825345a609db43adaab2761b4d2b78d98f92b4b89563d",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/LOCK1.STL",
+      "bytes": 309084,
+      "sha256": "c0d53c07c579280cc10d59221366b694db27399bb608a5caee8e2382cabb0074",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x16.STL",
+      "bytes": 973584,
+      "sha256": "59f5e33e3647bcc53f68f4e34b990e02d181da15c8e4a1d9c797cac507e205a6",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x19.STL",
+      "bytes": 964284,
+      "sha256": "5b17b702afa0c8bef6b20d9cf6adbf2c9c4769924e7de713969f319ec8653e27",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/NOSE GIMBAL.STL",
+      "bytes": 6260084,
+      "sha256": "d73f67237ebc535b3b418d54d484f1dc276ca00185f54e86575d8acd341eda38",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/NOSE.STL",
+      "bytes": 2232984,
+      "sha256": "979699ab22670f96acd4da71df231960791e748c707cac13d2276d327789ab11",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING BOLT WASHER.STL",
+      "bytes": 52484,
+      "sha256": "0765645dd9f439e93bca69db3ab3a34a4dc6081101898cdfde746416d043d59a",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/RUDDER 2 L.STL",
+      "bytes": 65884,
+      "sha256": "89905707180bef232acd8631787a878427e407cd16288b4373acafd50f8d34a8",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/RUDDER 2 R.STL",
+      "bytes": 65884,
+      "sha256": "87a578a027e2aaa4329347554afb5c9760bc787dd9a6da0fa7009be9c6a691e4",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/RUDEER 1 L.STL",
+      "bytes": 63484,
+      "sha256": "11716c1dd2a09213f39c9f08e5278c7dac46a9be200eda72f1752ce4f0d7de33",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/RUDEER 1 R.STL",
+      "bytes": 63284,
+      "sha256": "a72d976f80dc5e84f5af9989c6b05f6f89e76a677fe566b1b7ef687c87956def",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 1 L.STL",
+      "bytes": 99584,
+      "sha256": "b69b504798c6c5ff66bae3efb3c6a3b74b5f2bb793f3cc4bfa668bfacc306e97",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 1 R.STL",
+      "bytes": 99584,
+      "sha256": "51655a54c1919bde2033dfe9a567220065ef286677d6540a0f61015219db3218",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 2 L.STL",
+      "bytes": 175484,
+      "sha256": "38d783b1f8a7d8571ec9e5aa3b95e6f6d535419ef82921706fb8d715d172265f",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 2 R.STL",
+      "bytes": 175784,
+      "sha256": "4a6a3c8d21fb662f830c7be316258c43eb58e92503e6bf91e8e3c041bcba60ee",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 3 L.STL",
+      "bytes": 448684,
+      "sha256": "3f431a27adf4f37a5a276996c32896505b82a68eb777fb3171a0a465f91b27d2",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/V TAIL 3 R.STL",
+      "bytes": 448784,
+      "sha256": "dad21ae6b96a938db800e30a00b83e035af7f1efc99864563ee02bc0ed45d3b0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/AIILERON 1 L.STL",
+      "bytes": 72984,
+      "sha256": "79fae03d5b179331d95b0c69f827116d10441b0836b3d804d496349d025acfcb",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/AIILERON 1 R.STL",
+      "bytes": 72984,
+      "sha256": "a32fb99380b931f658d2e09ada4a3755ff107242433509981d4eb3f7b302801a",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/AILERON 2 L.STL",
+      "bytes": 74184,
+      "sha256": "f89b2e7bae6b0a6092a2812fcc736fc0d2fed74b03bae722f66ca8474fe0f87d",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/AILERON 2 R.STL",
+      "bytes": 74184,
+      "sha256": "3a92b892afc8b14de53de1af683005b6a4b2ab3669742132f2798a54008cf080",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/SERVO COVER L.STL",
+      "bytes": 66184,
+      "sha256": "5a6a76e32a3efc3822ff067149b0e4f9ebe71a30c19a0cb97aeef99a4496ea2e",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/SERVO COVER R.STL",
+      "bytes": 66184,
+      "sha256": "0c116aec1abef99e5039c1c4150edec7cc1122abc7aedf2413ec5199a0b3af0b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 1 L.STL",
+      "bytes": 184584,
+      "sha256": "225aeb6ffe7e093bad4157d7987f28557ccca889ba42ca702f47691dd552ff45",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 1 R.STL",
+      "bytes": 184384,
+      "sha256": "b7a4d1886eaab17ac64763b63fb8432154acb0d2e02471fe948b84543e8e49a3",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 2 L.STL",
+      "bytes": 113884,
+      "sha256": "eb0d6e30d656431fbd5627b5d837a22650494e690398c9fad6f91802e5f46cae",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 2 R.STL",
+      "bytes": 114084,
+      "sha256": "da87adc918fd6ecb4dc3f3d5de233d987fbdd3a6cc668885479dba1c73cdbab4",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 3 L.STL",
+      "bytes": 94084,
+      "sha256": "df474a8d61c082be05952814f7f97c8869dfdda1caddfebf38deb5b35da82713",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING 3 R.STL",
+      "bytes": 93984,
+      "sha256": "944773a39c2c939bfa16bd7caf9e6d3c559b79f472de2bf7c5c1e09b9a570fed",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING BAY PLATE L.STL",
+      "bytes": 112084,
+      "sha256": "2676f586516c98f186a76d83d3b2c753f751340f368f456d9c0ed471be21f9bb",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING BAY PLATE R.STL",
+      "bytes": 112084,
+      "sha256": "1812a2e4a6cf31d21d36886653104b6d07eea64fe0a836b859d5378478f57e65",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING BOLT.STL",
+      "bytes": 3290184,
+      "sha256": "41ba7fd13e8aba6299b8686d864c046053063a1253dcae193a41eaf563899f0a",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING KNOB.STL",
+      "bytes": 5510884,
+      "sha256": "a1238d6a3958f9eb9b38562e6dda75d4019150ef33fe86399ea02cbc8a845d4f",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING ROOT L.STL",
+      "bytes": 166584,
+      "sha256": "39c26575b851775801c51c9111dd7c5bd256fbc41a575f04cf96c30f5165d792",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WING ROOT R.STL",
+      "bytes": 166584,
+      "sha256": "b850e518a809b524b57b5123b2f1e66c4e10c6db114b7b8813ad4fe653d40d0e",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WINGTIP 3 L.STL",
+      "bytes": 613984,
+      "sha256": "a301ed99d2b48981e6cc7c898515d659f8bafb1256f980597801fc738b2bc6c8",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/base/WINGTIP 3 R.STL",
+      "bytes": 613884,
+      "sha256": "92bfbf70a6b38719e77c1d7622d55432b3fa5e84d70e1f35a0771f43ff55f60f",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/SCHEME STORK VTOL.pdf",
+      "bytes": 6021965,
+      "sha256": "b9775cc6f62ce6da43b75ca56f91addd67dbbe11af4b57134d7a36a93914c81c",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BATTERY PAD VTOL.STEP",
+      "bytes": 337202,
+      "sha256": "e6c53bf5f4213097fbc175fab7625ad1fa4aac0b7f7a171c2dc59a706112f0ba",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP",
+      "bytes": 25550,
+      "sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP",
+      "bytes": 80921,
+      "sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT GUIDE.STEP",
+      "bytes": 178854,
+      "sha256": "5e691c95e4dfe8d7365c79ef7503d659fcb2c02e9c49ce92e8169efd7a55453e",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FIN TIP VTOL.STEP",
+      "bytes": 178129,
+      "sha256": "641e650204d1734eafe5434b4fd91b4939526cff86cedd8139d908550793af28",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 1 VTOL.STEP",
+      "bytes": 979849,
+      "sha256": "905c7784e733076cee69542fd61fbf9da0ae9dd2e2f68dd3410522b2a3997950",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 2 VTOL MODIFIER.STEP",
+      "bytes": 2171948,
+      "sha256": "47c31f2f1122c96e3e655556cbc1095551d4803ff62f8ea6ed7b40a32b451dc7",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 5 VTOL.STEP",
+      "bytes": 1760546,
+      "sha256": "c774c64c271d0d9e334ed63e2c47f301ff4a4f09bacf27d316eac1952d644403",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 6 VTOL MODIFIER.STEP",
+      "bytes": 3386366,
+      "sha256": "eda75fdadd513d54ac0f0851dfcacf386a3dff5e7e2e4876fe7f8c3833f6ea8b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MAIN SKIDS VTOL.STEP",
+      "bytes": 628583,
+      "sha256": "9709422fde9cb10b0742e7efd43fbe38acc155e504087d014c891c3c86e4e3b9",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "bytes": 473454,
+      "sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP",
+      "bytes": 127656,
+      "sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.1 L VTOL MODIFIER.STEP",
+      "bytes": 393482,
+      "sha256": "33ee66706898dd77fb4ea30fb94a73c2fbeddd70bd6dddb84bc6c862ebb3d4a0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.2 L VTOL MODIFIER.STEP",
+      "bytes": 365494,
+      "sha256": "7ef0ab6ce31b3ffab8fe28d236f4abbb22c83bd169af6c3170ed1ea190e9a1c0",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BATTERY PAD VTOL.STL",
+      "bytes": 183484,
+      "sha256": "07001cd714faa588a6ad0931ed701ff5d00312d7dfe7463ea48c1b245459880a",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STL",
+      "bytes": 52284,
+      "sha256": "716324a4b256fae2c7b9b33f9e9a8cfb7079b3e934ebac04bcb87ef9fe1518d1",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STL",
+      "bytes": 118884,
+      "sha256": "ea3892af116c0aa9571812a270d06f6c561de2e44b7857840e185de9a9ddbc0b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT GUIDE.STL",
+      "bytes": 98084,
+      "sha256": "e8f37da91bcd9826991ea3eea499ff875b8b56cbb1932728d3e5601e9768877f",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FIN TIP VTOL.STL",
+      "bytes": 918084,
+      "sha256": "804ead68d11f5c5c5b941e5bd4ad4e580eee6706a71462622a3c2b4c4b9b3352",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 1 VTOL.STL",
+      "bytes": 1654284,
+      "sha256": "0573e01e5f32154215f98382be3cbe2b3e0ae965962b2d66096bad214e805f50",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 2 VTOL.STL",
+      "bytes": 1429084,
+      "sha256": "765d342999b018fe5a6b635467a90eee1854fdb1cc4fe24aa4b43a9a96ecf156",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 5 VTOL.STL",
+      "bytes": 1226084,
+      "sha256": "7f9480c08e9836d7422d0c6655ba20af544bd24d5261f6d6bef95ec61684e81a",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/FUS 6 VTOL.STL",
+      "bytes": 2612384,
+      "sha256": "954e710e0c8939420b59f3eb7733e8c486b3ceaf9ee7146cfa9b947c84c335ce",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MAIN SKIDS VTOL.STL",
+      "bytes": 776984,
+      "sha256": "7b0f93f0a8d4e49d2736a44470fd51ca6119f94ee0b326da965a0c006722709e",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STL",
+      "bytes": 2106084,
+      "sha256": "c5e3a3281074c9a2abf46032c74bc883e31c0f52511a5443bba804f27d5a1539",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STL",
+      "bytes": 174084,
+      "sha256": "a8b7c41f15134d6cb1505b57b3cb5ddf92026b71b76463d4f22dfa0631cb529b",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.1 L VTOL.STL",
+      "bytes": 367484,
+      "sha256": "90dd96d278c42acc2f50074ac32024d3c209ceb5fae7f4020b64e0c5a227304c",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.1 R VTOL.STL",
+      "bytes": 367984,
+      "sha256": "a77ae149064d2c407c4a97b125a65e7e65aa708ff35ae090a611899ed821ac98",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.2 L VTOL.STL",
+      "bytes": 230684,
+      "sha256": "ec127d3f82908a05c095ed525cafb776222045fd00e9b9e78d38aa042e358e09",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/originals/vtol/WING 1.2 R VTOL.STL",
+      "bytes": 230984,
+      "sha256": "1c72864b84f5d30b70e822609d33625a34e43f2a5dd73af29dd5079da36400be",
+      "role": "retained_extracted_vendor_source"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/audit.json",
+      "bytes": 304189,
+      "sha256": "6a6904292dbc92fad3ff56a6b90e3b0fb8487769098dcfa10fe7949a3e9fc67a",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/source-format-audit/provenance-check.json",
+      "bytes": 13214,
+      "sha256": "6ade8b77988f72bd03042b98f5b6b1b9fc8d85521ff7ade0df46bad03636f7fb",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/showcase/hybrid-v2-final/assembly-manifest.json",
+      "bytes": 310668,
+      "sha256": "c171e5f49e62e96a6e6ca10b480ff995d496dbf6f54412fa020979d90eb6e789",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/cruise/base_manual.pdf",
+      "bytes": 20006938,
+      "sha256": "2ac98e62612d26fea8b2f47fabb52f37425afbf73ff9123c3a933d2bff5939c5",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/conclusion-research/cruise/vtol_manual.pdf",
+      "bytes": 13035700,
+      "sha256": "600d8f6aed1552213c6757cfb38053602ff6bc3c1433c3e5ec2fb98cd6ff4bbd",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/GEOMETRY.json",
+      "bytes": 1557570,
+      "sha256": "5a4356ca121c6a0cf37a898375ecb3f39a5fc64ef674fd2240a2163035e02cee",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/PROPULSION.json",
+      "bytes": 44459,
+      "sha256": "c92e31a8d94df451b58b4bddf18b2bd31a78c402e08c8663f49196df19bb8e82",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/SOURCES.json",
+      "bytes": 1706,
+      "sha256": "d71efa153da8f8348fc7ba52c2038665ed5b319fd2f5da7911f02b81b81ce3a0",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/PER3_10x6E.DOM.dat",
+      "bytes": 144076,
+      "sha256": "d72712e0b9c917b3f6837a40b47a11c272712be90fef9298971f84d09eca0a90",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-forward.csv",
+      "bytes": 20459,
+      "sha256": "16889973e612a6fb01d42c4bbc7f45af899a39461738e2a7aeeb1b2e538d03af",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/bh2812-bench.json",
+      "bytes": 2291,
+      "sha256": "d809a812740093bab064357e4728fdb74d6e478521808f430338fbeceab41549",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/flightony-independent-check/REPORT.md",
+      "bytes": 10946,
+      "sha256": "e0b3abd1d655e2273193861d8aca5d0d7ac0b582511d55898d0fbc84bff5cbe4",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/flightony-independent-check/INPUTS.json",
+      "bytes": 3151,
+      "sha256": "9e1289e7575fe3198c4815074c67e9d478b33dc4ba40b743e7adee1a9a3bf3fe",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/flightony-independent-check/BATTERY_HOVER_AUDIT.md",
+      "bytes": 9568,
+      "sha256": "42bef92902f426a88cbe0c91eeee67208a70b528db01e0eec88c4b0cdc395165",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/flightony-independent-check/battery_sources.json",
+      "bytes": 1587,
+      "sha256": "5d58cf2b3d3fc5bff7de67c49541ea43d30f8674288cc627727e803f93f1f6f4",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/flightony-independent-check/battery_samsung_50e.pdf",
+      "bytes": 1547579,
+      "sha256": "cb2705e5098f9ee6f665f1a70a0389e0981b1ccae77f2e1e455b16e3eb152427",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/RESEARCH_BRIEF.md",
+      "bytes": 16995,
+      "sha256": "efd59c6d7962056c018500eafac126a339fa97c18bdff0060ed209d3bbc9c0ef",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/research_sources.py",
+      "bytes": 1952,
+      "sha256": "8e95299e42feaca6aa4727989f4297bbe7385a9d2939d178080c5265113b2d2b",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/seller-specs.txt",
+      "bytes": 1855,
+      "sha256": "28a4798170b58a7aaf932396b51d19ff17e51412e480953d491d6fa2a554187d",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/seller-performance.txt",
+      "bytes": 1076,
+      "sha256": "e66aeb75386b64927de523ea6703109accd38d3ea0ba1e01f79dccc909dc0972",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/seller-operator.txt",
+      "bytes": 906,
+      "sha256": "5e698f1717fae921299ca888f7862efb1fa934e108f306de7fa4b321e0bf5c2e",
+      "role": "retained_supporting_evidence_not_measurement"
+    },
+    {
+      "path": "notes/stork-development/stock-validation-methods/seller-explorer.txt",
+      "bytes": 893,
+      "sha256": "0569458262d64ac01471e95e9261b696f173ed7f579e538dd851584ffd790934",
+      "role": "retained_supporting_evidence_not_measurement"
+    }
+  ]
+}

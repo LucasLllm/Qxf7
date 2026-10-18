@@ -1,0 +1,8 @@
+test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence) ... ok
+test_component_drag_is_dimensional_and_speed_dependent (test_solver.SourceBoundary.test_component_drag_is_dimensional_and_speed_dependent) ... ok
+test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.031s
+
+OK

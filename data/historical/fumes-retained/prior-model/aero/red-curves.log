@@ -1,0 +1,14 @@
+test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only) ... FAIL
+
+======================================================================
+FAIL: test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 72, in test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only
+    self.assertTrue(hasattr(solver,'generate_curves'),'curve generation missing')
+AssertionError: False is not true : curve generation missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

@@ -1,0 +1,14 @@
+{
+  "aero_points": 220,
+  "electrical_cases": 3960,
+  "unsupported_count": 0,
+  "accounting_checks": 12951,
+  "original_inputs_unchanged": true,
+  "hover_ideal_W": {
+    "2.7": 276.20842691016395,
+    "2.9": 307.45975377780167,
+    "3.1": 339.8081720053948
+  },
+  "AR_nominal": 8.465806451612904,
+  "seller_takeoff_transition_arrival_wh": 13.333333333333334
+}

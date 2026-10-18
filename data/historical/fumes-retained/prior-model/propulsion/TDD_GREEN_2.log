@@ -1,0 +1,16 @@
+E.
+======================================================================
+ERROR: test_solve_and_reject_extrapolation (__main__.InverseTests.test_solve_and_reject_extrapolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 24, in test_solve_and_reject_extrapolation
+    result=prop.solve(thrust,speed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/model.py", line 60, in solve
+    raise DomainError('thrust outside supported positive-thrust brackets')
+prop_model.DomainError: thrust outside supported positive-thrust brackets
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+FAILED (errors=1)

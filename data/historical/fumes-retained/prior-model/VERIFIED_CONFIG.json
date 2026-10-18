@@ -1,0 +1,15 @@
+{
+  "manual_source": "notes/stork-development/material-selection/base-manual-source.pdf, page5; VTOL manualpage5 agrees",
+  "manufacturer_declared_airfoil": "S3021",
+  "manufacturer_cg_aft_of_wing_root_le_m": 0.047,
+  "native_root_le_original_assembly_x_m": -0.004443253844503451,
+  "cg_ASB_aft_right_up_m": [0.051443253844503454,0,0],
+  "cg_conversion": "ASB X is aft = - original X-forward; root LE_ASB +47mm",
+  "cg_status": "Manufacturer datum mapped to retained CAD assembly; not measured installed balance or released envelope",
+  "selected_lift_prop_diameter_m": 0.1778,
+  "selected_cruise_prop_diameter_m": 0.254,
+  "physical_mass_kg": 2.9837,
+  "profile_problem": "Do NOT accept independent closed print-part profiles as complete isolated airfoils. Source-part fit audit failed. Reconstructed assembled sections explicitly seal short hinge gaps and must pass fit/confidence checks.",
+  "legacy_solver_default_cg_ASB_m": [0.075,0,0],
+  "legacy_default_is_not_current_central": true
+}

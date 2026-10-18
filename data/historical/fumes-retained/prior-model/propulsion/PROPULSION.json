@@ -1,0 +1,1220 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "payload_g": 0,
+    "central_mass_g": 2983.7,
+    "baseline": "stock 4S BH2812 V5 910KV / 10x6 two-blade"
+  },
+  "selected_prop": {
+    "model": "APC 10x6E",
+    "sku": "LP10060E",
+    "blades": 2,
+    "selection": "exact analyst-selected modeled candidate; not proven manual prototype",
+    "performance_kind": "APC computed vortex-theory map; not measurement",
+    "simulation_date": "2022-09-22",
+    "version": "v2022-0915",
+    "map": "data/PER3_10x6E.DOM.dat",
+    "suggested_max_rpm": 15000,
+    "hub": {
+      "diameter_mm": 20.32,
+      "thickness_mm": 9.906,
+      "bore_mm": 6.35,
+      "ring_set": "LPAR06E included",
+      "motor_thread": "M5",
+      "requires": "5mm centering interface/ring; sufficient nut thread engagement and prop clamping; verify exact supplied ring IDs, shaft shoulder, washer/nut and rotation clearance",
+      "installation_qualified": false
+    },
+    "catalog_mass_g": 20.12816141875
+  },
+  "motor": {
+    "model": "BrotherHobby Avenger 2812 V5 910KV",
+    "kv_rpm_per_V": 910,
+    "catalog_resistance_ohm": 0.072,
+    "idle_current_A": 1.17,
+    "idle_reference_conflict_V": [
+      10,
+      14
+    ],
+    "effective_R_sensitivities_ohm": [
+      0.036,
+      0.072,
+      0.144
+    ],
+    "torque_constant_Nm_per_A": 0.01049373251155354,
+    "method": "Equivalent DC: E=rpm/Kv; P0=(Vref-R*I0)*I0; Im=(Pshaft+P0)/E; Pe=Pshaft+P0+R*Im^2; Vm=E+R*Im; ideal PWM bus current Pe/Vloaded.",
+    "calibrated": false,
+    "excludes": [
+      "ESC losses",
+      "wiring",
+      "battery internal losses",
+      "auxiliary loads",
+      "temperature drift",
+      "speed-dependent iron/windage beyond constant no-load power hypothesis"
+    ],
+    "uncertainty": "R factors are assumed convention sensitivities, not proven phase-to-line conversion or confidence bounds; idle reference is contradictory. Bench has no torque, so only admissibility/upper-shaft consistency checks, not loss fitting."
+  },
+  "battery": {
+    "cell": "Molicel INR-21700-P50B",
+    "series": 4,
+    "parallel": 3,
+    "cells": 12,
+    "typical_capacity_Ah": 15,
+    "nominal_voltage_V": 14.4,
+    "full_voltage_V": 16.8,
+    "nominal_Wh": 216,
+    "cell_max_mass_g": 71,
+    "cell_only_max_mass_sum_g": 852,
+    "qualified_mission_usable_Wh": null,
+    "reserve_Wh": null,
+    "curve_diagnostic": {
+      "source": "data/p50b-1C.png",
+      "digitization": "data/p50b-1C-digitized.csv",
+      "sample_count": 1832,
+      "captured_capacity_range_Ah": [
+        0.0026026026026026027,
+        4.767967967967968
+      ],
+      "captured_V_end": 2.530729166666667,
+      "label": "manufacturer 1C tab / alt text",
+      "condition_conflict": "Caption instead says 1A/120s with 10A/10s pulses to 2.5V. No unambiguous constant-current/temperature raw trace. Cannot transfer to arbitrary flight load.",
+      "pack_equivalent_Wh_to_3V": 184.07383210293625,
+      "pack_equivalent_Wh_to_2_6V": 200.72741599411916,
+      "meaning": "12 times plotted cell integral only; illustrative 3.0/2.6V cell cutoffs, NOT flight cutoff or qualified usable pack energy",
+      "digitization_uncertainty": "grid/line approximately \u00b10.02V and \u00b10.02Ah; no manufacturer performance tolerance provided",
+      "reserve_subtracted": false
+    }
+  },
+  "api": {
+    "module": "model.py",
+    "call": "evaluate(thrust_N, airspeed_mps, loaded_voltage_V)",
+    "prop_only": "Propeller().solve(thrust_N, airspeed_mps)",
+    "energy": "integrate_curve(curve, cutoff_V); energy_budget(source_usable_Wh, reserve_Wh, noncruise_Wh)",
+    "failure": "DomainError outside supported brackets; electrical cases include voltage_feasible flag; reject infeasible cases",
+    "units": "SI except rpm, Ah, Wh",
+    "import_safe": true,
+    "no_extrapolation": true,
+    "density": "native APC dimensional map density; no altitude rescaling provided",
+    "unsupported_example": "1N at70km/h: minimum complete RPM bracket starts at1.272N"
+  },
+  "examples": [
+    {
+      "rpm": 5254.557679843045,
+      "airspeed_mps": 13.88888888888889,
+      "thrust_N": 1.0000000000000004,
+      "shaft_W": 22.87999190480817,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 5.980131798708134,
+          "copper_W": 1.2874311478771268,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 35.818142652685296,
+          "required_motor_V": 5.989523953372224,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.48737101754759,
+          "ideal_pwm_duty": 0.41593916342862663
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.7906281828923145,
+          "copper_W": 1.6600547202584894,
+          "no_load_W": 16.3307196,
+          "electrical_W": 40.87076622506666,
+          "required_motor_V": 6.018701823202854,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.838247654518518,
+          "ideal_pwm_duty": 0.4179654043890871
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 5.9715972717826755,
+          "copper_W": 2.567518126298085,
+          "no_load_W": 11.6014392,
+          "electrical_W": 37.048949231106256,
+          "required_motor_V": 6.204194212187083,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.572843696604601,
+          "ideal_pwm_duty": 0.43084682029076965
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.782093655966856,
+          "copper_W": 3.3117691937980225,
+          "no_load_W": 16.2814392,
+          "electrical_W": 42.47320029860619,
+          "required_motor_V": 6.262549951848344,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.9495277985143185,
+          "ideal_pwm_duty": 0.43489930221169054
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 5.954528217931756,
+          "copper_W": 5.105722506932956,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 39.48859281174112,
+          "required_motor_V": 6.631691272000904,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.7422633897042443,
+          "ideal_pwm_duty": 0.46053411611117384
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.765024602115937,
+          "copper_W": 6.59024033288168,
+          "no_load_W": 16.1828784,
+          "electrical_W": 45.65311063768985,
+          "required_motor_V": 6.748402751323425,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.1703549053951283,
+          "ideal_pwm_duty": 0.4686390799530156
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        35.818142652685296,
+        45.65311063768985
+      ]
+    },
+    {
+      "rpm": 5959.108369383433,
+      "airspeed_mps": 13.88888888888889,
+      "thrust_N": 1.9999999999999996,
+      "shaft_W": 40.70381969096438,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 7.99492605295698,
+          "copper_W": 2.3010783333210094,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 54.655617624285384,
+          "required_motor_V": 6.836288073492641,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.795529001686485,
+          "ideal_pwm_duty": 0.47474222732587784
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 8.709596727831892,
+          "copper_W": 2.73085470581256,
+          "no_load_W": 16.3307196,
+          "electrical_W": 59.765393996776936,
+          "required_motor_V": 6.862016217788137,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.150374583109509,
+          "ideal_pwm_duty": 0.4765289040130651
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 7.987400570750546,
+          "copper_W": 4.593496887189083,
+          "no_load_W": 11.6014392,
+          "electrical_W": 56.898755778153465,
+          "required_motor_V": 7.123563576680229,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.9513024845939904,
+          "ideal_pwm_duty": 0.4946919150472381
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 8.70207124562546,
+          "copper_W": 5.452275165403783,
+          "no_load_W": 16.2814392,
+          "electrical_W": 62.437534056368165,
+          "required_motor_V": 7.1750198652712225,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.3359398650255665,
+          "ideal_pwm_duty": 0.4982652684216127
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 7.972349606337681,
+          "copper_W": 9.152403587376849,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 61.35910167834123,
+          "required_motor_V": 7.696489078898815,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.261048727662586,
+          "ideal_pwm_duty": 0.5344784082568621
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 8.687020281212593,
+          "copper_W": 10.866862276732643,
+          "no_load_W": 16.1828784,
+          "electrical_W": 67.75356036769702,
+          "required_motor_V": 7.799401656080803,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.705108358867848,
+          "ideal_pwm_duty": 0.5416251150056113
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        54.655617624285384,
+        67.75356036769702
+      ]
+    },
+    {
+      "rpm": 7061.76975492481,
+      "airspeed_mps": 13.88888888888889,
+      "thrust_N": 3.9999999999999996,
+      "shaft_W": 81.22725466550361,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 11.96852340345217,
+          "copper_W": 5.156839888523364,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 98.03481415402698,
+          "required_motor_V": 8.191053386397696,
+          "voltage_feasible": true,
+          "ideal_bus_A": 6.807973205140762,
+          "ideal_pwm_duty": 0.5688231518331733
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 12.57160168946255,
+          "copper_W": 5.689626085385915,
+          "no_load_W": 16.3307196,
+          "electrical_W": 103.24760035088951,
+          "required_motor_V": 8.21276420469407,
+          "voltage_feasible": true,
+          "ideal_bus_A": 7.169972246589549,
+          "ideal_pwm_duty": 0.5703308475481993
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 11.96217298910048,
+          "copper_W": 10.302737948723887,
+          "no_load_W": 11.6014392,
+          "electrical_W": 103.1314318142275,
+          "required_motor_V": 8.621462999088653,
+          "voltage_feasible": true,
+          "ideal_bus_A": 7.161904987099131,
+          "ideal_pwm_duty": 0.5987127082700453
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 12.56525127511086,
+          "copper_W": 11.367758851680607,
+          "no_load_W": 16.2814392,
+          "electrical_W": 108.87645271718421,
+          "required_motor_V": 8.6648846356814,
+          "voltage_feasible": true,
+          "ideal_bus_A": 7.560864772026681,
+          "ideal_pwm_duty": 0.6017280997000972
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 11.949472160397102,
+          "copper_W": 20.561743427343174,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 113.29187649284678,
+          "required_motor_V": 9.4809105349706,
+          "voltage_feasible": true,
+          "ideal_bus_A": 7.86749142311436,
+          "ideal_pwm_duty": 0.658396564928514
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 12.552550446407482,
+          "copper_W": 22.68957927018307,
+          "no_load_W": 16.1828784,
+          "electrical_W": 120.09971233568669,
+          "required_motor_V": 9.567753808156095,
+          "voltage_feasible": true,
+          "ideal_bus_A": 8.340257801089352,
+          "ideal_pwm_duty": 0.6644273477886177
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        98.03481415402698,
+        120.09971233568669
+      ]
+    },
+    {
+      "rpm": 8778.626129851098,
+      "airspeed_mps": 13.88888888888889,
+      "thrust_N": 7.999999999999998,
+      "shaft_W": 175.87861930857244,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 19.439453951286506,
+          "copper_W": 13.604125317270785,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 201.13346422584323,
+          "required_motor_V": 10.346662243181587,
+          "voltage_feasible": true,
+          "ideal_bus_A": 13.967601682350224,
+          "ideal_pwm_duty": 0.7185182113320546
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 19.924586811144643,
+          "copper_W": 14.291609745414206,
+          "no_load_W": 16.3307196,
+          "electrical_W": 206.50094865398665,
+          "required_motor_V": 10.36412702613648,
+          "voltage_feasible": true,
+          "ideal_bus_A": 14.340343656526851,
+          "ideal_pwm_duty": 0.7197310434816999
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 19.4343455022722,
+          "copper_W": 27.193952527321517,
+          "no_load_W": 11.6014392,
+          "electrical_W": 214.67401103589395,
+          "required_motor_V": 11.046114777098872,
+          "voltage_feasible": true,
+          "ideal_bus_A": 14.90791743304819,
+          "ideal_pwm_duty": 0.7670913039651994
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 19.919478362130334,
+          "copper_W": 28.568564511795255,
+          "no_load_W": 16.2814392,
+          "electrical_W": 220.72862302036768,
+          "required_motor_V": 11.081044343008656,
+          "voltage_feasible": true,
+          "ideal_bus_A": 15.328376598636645,
+          "ideal_pwm_duty": 0.76951696826449
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 19.424128604243588,
+          "copper_W": 54.33073517292393,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 241.71223288149636,
+          "required_motor_V": 12.44391641994635,
+          "voltage_feasible": true,
+          "ideal_bus_A": 16.785571727881692,
+          "ideal_pwm_duty": 0.8641608624962742
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 19.90926146410172,
+          "copper_W": 57.07853165461907,
+          "no_load_W": 16.1828784,
+          "electrical_W": 249.1400293631915,
+          "required_motor_V": 12.51377555176592,
+          "voltage_feasible": true,
+          "ideal_bus_A": 17.30139092799941,
+          "ideal_pwm_duty": 0.8690121910948556
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        201.13346422584323,
+        249.1400293631915
+      ]
+    },
+    {
+      "rpm": 6043.566593855344,
+      "airspeed_mps": 16.666666666666668,
+      "thrust_N": 0.9999999999999999,
+      "shaft_W": 29.034391833274373,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 6.126093065959166,
+          "copper_W": 1.351044585100547,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 42.03615601837492,
+          "required_motor_V": 6.861821321644139,
+          "voltage_feasible": true,
+          "ideal_bus_A": 2.9191775012760357,
+          "ideal_pwm_duty": 0.4765153695586207
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.83077629131322,
+          "copper_W": 1.6797421707108042,
+          "no_load_W": 16.3307196,
+          "electrical_W": 47.044853603985175,
+          "required_motor_V": 6.887189917756885,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.2670037224989703,
+          "ideal_pwm_duty": 0.4782770776220059
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 6.118672751596188,
+          "copper_W": 2.6955472493610477,
+          "no_load_W": 11.6014392,
+          "electrical_W": 43.33137828263542,
+          "required_motor_V": 7.081826409384535,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.0091234918496816,
+          "ideal_pwm_duty": 0.4917935006517038
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.823355976950243,
+          "copper_W": 3.3521894487491473,
+          "no_load_W": 16.2814392,
+          "electrical_W": 48.66802048202352,
+          "required_motor_V": 7.132563601610026,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.3797236445849665,
+          "ideal_pwm_duty": 0.495316916778474
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 6.103832122870231,
+          "copper_W": 5.364974388122281,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 45.902244621396655,
+          "required_motor_V": 7.5202337969629225,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.187655876485879,
+          "ideal_pwm_duty": 0.5222384581224252
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 6.808515348224287,
+          "copper_W": 6.675246899568817,
+          "no_load_W": 16.1828784,
+          "electrical_W": 51.89251713284319,
+          "required_motor_V": 7.621708181413906,
+          "voltage_feasible": true,
+          "ideal_bus_A": 3.6036470231141102,
+          "ideal_pwm_duty": 0.5292852903759657
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        42.03615601837492,
+        51.89251713284319
+      ]
+    },
+    {
+      "rpm": 6642.988794749118,
+      "airspeed_mps": 16.666666666666668,
+      "thrust_N": 2.0000000000000004,
+      "shaft_W": 50.00147234636496,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.44551999177517,
+          "copper_W": 2.567765085533066,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 64.21995703189803,
+          "required_motor_V": 7.604026406241399,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.459719238326252,
+          "ideal_pwm_duty": 0.5280573893223194
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.086616963572911,
+          "copper_W": 2.972397882336876,
+          "no_load_W": 16.3307196,
+          "electrical_W": 69.30458982870184,
+          "required_motor_V": 7.627105897226118,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.812818738104294,
+          "ideal_pwm_duty": 0.5296601317518137
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.43876924066214,
+          "copper_W": 5.127323493394473,
+          "no_load_W": 11.6014392,
+          "electrical_W": 66.73023503975944,
+          "required_motor_V": 7.907579071865166,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.634044099983294,
+          "ideal_pwm_duty": 0.5491374355461921
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.079866212459883,
+          "copper_W": 5.935965871404282,
+          "no_load_W": 16.2814392,
+          "electrical_W": 72.21887741776925,
+          "required_motor_V": 7.953738053834604,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.01519982067842,
+          "ideal_pwm_duty": 0.5523429204051808
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.425267738436078,
+          "copper_W": 10.221859650863777,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 71.72621039722874,
+          "required_motor_V": 8.513226240872287,
+          "voltage_feasible": true,
+          "ideal_bus_A": 4.980986833140885,
+          "ideal_pwm_duty": 0.5911962667272421
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.066364710233824,
+          "copper_W": 11.836651544492147,
+          "no_load_W": 16.1828784,
+          "electrical_W": 78.02100229085711,
+          "required_motor_V": 8.605544204811164,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.4181251590873,
+          "ideal_pwm_duty": 0.5976072364452197
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        64.21995703189803,
+        78.02100229085711
+      ]
+    },
+    {
+      "rpm": 7678.032231563237,
+      "airspeed_mps": 16.666666666666668,
+      "thrust_N": 4.0,
+      "shaft_W": 95.18939131508247,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 12.662684656760069,
+          "copper_W": 5.772368977795687,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 112.61247989287817,
+          "required_motor_V": 8.893254704306258,
+          "voltage_feasible": true,
+          "ideal_bus_A": 7.820311103672095,
+          "ideal_pwm_duty": 0.6175871322434902
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.217358025086487,
+          "copper_W": 6.289147913879453,
+          "no_load_W": 16.3307196,
+          "electrical_W": 117.80925882896192,
+          "required_motor_V": 8.91322294556601,
+          "voltage_feasible": true,
+          "ideal_bus_A": 8.181198529789022,
+          "ideal_pwm_duty": 0.6189738156643063
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 12.656843946191591,
+          "copper_W": 11.534090304833764,
+          "no_load_W": 11.6014392,
+          "electrical_W": 118.32492081991624,
+          "required_motor_V": 9.348690820788692,
+          "voltage_feasible": true,
+          "ideal_bus_A": 8.21700839027196,
+          "ideal_pwm_duty": 0.649214640332548
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.21151731451801,
+          "copper_W": 12.56718166213026,
+          "no_load_W": 16.2814392,
+          "electrical_W": 124.03801217721272,
+          "required_motor_V": 9.388627303308194,
+          "voltage_feasible": true,
+          "ideal_bus_A": 8.613750845639773,
+          "ideal_pwm_duty": 0.6519880071741802
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 12.645162525054637,
+          "copper_W": 23.025619481046647,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 129.7178891961291,
+          "required_motor_V": 10.258301460270765,
+          "voltage_feasible": true,
+          "ideal_bus_A": 9.008186749731188,
+          "ideal_pwm_duty": 0.7123820458521365
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.199835893381056,
+          "copper_W": 25.089936136155483,
+          "no_load_W": 16.1828784,
+          "electrical_W": 136.46220585123797,
+          "required_motor_V": 10.338174425309768,
+          "voltage_feasible": true,
+          "ideal_bus_A": 9.476542073002637,
+          "ideal_pwm_duty": 0.7179287795354006
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        112.61247989287817,
+        136.46220585123797
+      ]
+    },
+    {
+      "rpm": 9315.436989182224,
+      "airspeed_mps": 16.666666666666668,
+      "thrust_N": 8.0,
+      "shaft_W": 198.24473925508426,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 20.504123186055114,
+          "copper_W": 15.135086434641224,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 225.03054528972547,
+          "required_motor_V": 10.974892378854275,
+          "voltage_feasible": true,
+          "ideal_bus_A": 15.62712120067538,
+          "ideal_pwm_duty": 0.7621453040871023
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 20.96129980642683,
+          "copper_W": 15.817539224696738,
+          "no_load_W": 16.3307196,
+          "electrical_W": 230.392998079781,
+          "required_motor_V": 10.991350737187656,
+          "voltage_feasible": true,
+          "ideal_bus_A": 15.999513755540347,
+          "ideal_pwm_duty": 0.7632882456380317
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 20.4993091162426,
+          "copper_W": 30.255960545515215,
+          "no_load_W": 11.6014392,
+          "electrical_W": 240.10213900059946,
+          "required_motor_V": 11.712694200525757,
+          "voltage_feasible": true,
+          "ideal_bus_A": 16.673759652819406,
+          "ideal_pwm_duty": 0.8133815417031776
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 20.956485736614315,
+          "copper_W": 31.62054919888218,
+          "no_load_W": 16.2814392,
+          "electrical_W": 246.14672765396642,
+          "required_motor_V": 11.74561091719252,
+          "voltage_feasible": true,
+          "ideal_bus_A": 17.093522753747667,
+          "ideal_pwm_duty": 0.8156674248050361
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 20.48968097661757,
+          "copper_W": 60.45509181939321,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 270.20270947447744,
+          "required_motor_V": 13.18725800478922,
+          "voltage_feasible": true,
+          "ideal_bus_A": 18.76407704683871,
+          "ideal_pwm_duty": 0.9157818058881402
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 20.946857596989286,
+          "copper_W": 63.18300141915087,
+          "no_load_W": 16.1828784,
+          "electrical_W": 277.6106190742351,
+          "required_motor_V": 13.253091438122746,
+          "voltage_feasible": true,
+          "ideal_bus_A": 19.27851521348855,
+          "ideal_pwm_duty": 0.9203535720918574
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        225.03054528972547,
+        277.6106190742351
+      ]
+    },
+    {
+      "thrust_N": 1,
+      "airspeed_mps": 19.444444444444443,
+      "error": "thrust outside supported positive-thrust brackets"
+    },
+    {
+      "rpm": 7379.112860193344,
+      "airspeed_mps": 19.444444444444443,
+      "thrust_N": 1.9999999999999998,
+      "shaft_W": 60.14175327688844,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.853523662769497,
+          "copper_W": 2.8218557248998986,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 74.61432860178833,
+          "required_motor_V": 8.4276420828414,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.181550597346412,
+          "ideal_pwm_duty": 0.5852529224195416
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.430666211025414,
+          "copper_W": 3.201748746615952,
+          "no_load_W": 16.3307196,
+          "electrical_W": 79.6742216235044,
+          "required_motor_V": 8.448419214578612,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.532932057187805,
+          "ideal_pwm_duty": 0.5866957787901814
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.847446351736362,
+          "copper_W": 5.6359661001734205,
+          "no_load_W": 11.6014392,
+          "electrical_W": 77.37915857706186,
+          "required_motor_V": 8.745931368306715,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.373552678962629,
+          "ideal_pwm_duty": 0.6073563450212996
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.424588899992278,
+          "copper_W": 6.395247067237751,
+          "no_load_W": 16.2814392,
+          "electrical_W": 82.81843954412619,
+          "required_motor_V": 8.787485631781141,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.751280523897652,
+          "ideal_pwm_duty": 0.6102420577625792
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 8.835291729670093,
+          "copper_W": 11.24098271256625,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 82.88561438945469,
+          "required_motor_V": 9.38119724005419,
+          "voltage_feasible": true,
+          "ideal_bus_A": 5.755945443712131,
+          "ideal_pwm_duty": 0.6514720305593188
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 9.412434277926009,
+          "copper_W": 12.757524341223816,
+          "no_load_W": 16.1828784,
+          "electrical_W": 89.08215601811224,
+          "required_motor_V": 9.464305767003042,
+          "voltage_feasible": true,
+          "ideal_bus_A": 6.186260834591128,
+          "ideal_pwm_duty": 0.657243456041878
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        74.61432860178833,
+        89.08215601811224
+      ]
+    },
+    {
+      "rpm": 8345.893690716062,
+      "airspeed_mps": 19.444444444444443,
+      "thrust_N": 3.9999999999999987,
+      "shaft_W": 110.17973028156527,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 13.283863118883355,
+          "copper_W": 6.352596697004258,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 128.18304657856953,
+          "required_motor_V": 9.64953082031943,
+          "voltage_feasible": true,
+          "ideal_bus_A": 8.901600456845106,
+          "ideal_pwm_duty": 0.6701063069666271
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.794149992623128,
+          "copper_W": 6.850028664683447,
+          "no_load_W": 16.3307196,
+          "electrical_W": 133.36047854624871,
+          "required_motor_V": 9.667901147774062,
+          "voltage_feasible": true,
+          "ideal_bus_A": 9.261144343489494,
+          "ideal_pwm_duty": 0.6713820241509765
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 13.278489798102875,
+          "copper_W": 12.694916974919193,
+          "no_load_W": 11.6014392,
+          "electrical_W": 134.47608645648447,
+          "required_motor_V": 10.127363013503036,
+          "voltage_feasible": true,
+          "ideal_bus_A": 9.338617115033644,
+          "ideal_pwm_duty": 0.703289098159933
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.788776671842648,
+          "copper_W": 13.689386071628544,
+          "no_load_W": 16.2814392,
+          "electrical_W": 140.1505555531938,
+          "required_motor_V": 10.1641036684123,
+          "voltage_feasible": true,
+          "ideal_bus_A": 9.732677468971792,
+          "ideal_pwm_duty": 0.705840532528632
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 13.267743156541917,
+          "copper_W": 25.34875321938694,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 147.0313619009522,
+          "required_motor_V": 11.081866762581665,
+          "voltage_feasible": true,
+          "ideal_bus_A": 10.21051124312168,
+          "ideal_pwm_duty": 0.7695740807348378
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 13.77803003028169,
+          "copper_W": 27.336112058209544,
+          "no_load_W": 16.1828784,
+          "electrical_W": 153.6987207397748,
+          "required_motor_V": 11.155348072400193,
+          "voltage_feasible": true,
+          "ideal_bus_A": 10.673522273595474,
+          "ideal_pwm_duty": 0.7746769494722355
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        128.18304657856953,
+        153.6987207397748
+      ]
+    },
+    {
+      "rpm": 9908.51649837525,
+      "airspeed_mps": 19.444444444444443,
+      "thrust_N": 7.999999999999998,
+      "shaft_W": 221.61394882090832,
+      "loaded_voltage_V": 14.4,
+      "motor_cases": [
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 21.423070577501054,
+          "copper_W": 16.522126306869286,
+          "no_load_W": 11.650719599999999,
+          "electrical_W": 249.78679472777762,
+          "required_motor_V": 11.659710209334268,
+          "voltage_feasible": true,
+          "ideal_bus_A": 17.346305189429,
+          "ideal_pwm_duty": 0.8097020978704352
+        },
+        {
+          "resistance_factor": 0.5,
+          "effective_R_ohm": 0.036,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 21.852882648833663,
+          "copper_W": 17.19174528229303,
+          "no_load_W": 16.3307196,
+          "electrical_W": 255.13641370320136,
+          "required_motor_V": 11.675183443902242,
+          "voltage_feasible": true,
+          "ideal_bus_A": 17.71780650716676,
+          "ideal_pwm_duty": 0.8107766280487667
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 21.41854465638992,
+          "copper_W": 33.030291974239375,
+          "no_load_W": 11.6014392,
+          "electrical_W": 266.2456799951477,
+          "required_motor_V": 12.430614883804305,
+          "voltage_feasible": true,
+          "ideal_bus_A": 18.48928333299637,
+          "ideal_pwm_duty": 0.8632371447086322
+        },
+        {
+          "resistance_factor": 1,
+          "effective_R_ohm": 0.072,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 21.848356727722532,
+          "copper_W": 34.36924980253092,
+          "no_load_W": 16.2814392,
+          "electrical_W": 272.2646378234393,
+          "required_motor_V": 12.461561352940253,
+          "voltage_feasible": true,
+          "ideal_bus_A": 18.907266515516614,
+          "ideal_pwm_duty": 0.8653862050652953
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 10,
+          "equivalent_motor_A": 21.409492814167656,
+          "copper_W": 66.0047590886251,
+          "no_load_W": 11.502878399999998,
+          "electrical_W": 299.1215863095334,
+          "required_motor_V": 13.971446633784373,
+          "voltage_feasible": true,
+          "ideal_bus_A": 20.77233238260649,
+          "ideal_pwm_duty": 0.9702393495683592
+        },
+        {
+          "resistance_factor": 2,
+          "effective_R_ohm": 0.144,
+          "idle_reference_V": 14,
+          "equivalent_motor_A": 21.839304885500265,
+          "copper_W": 68.68155425498435,
+          "no_load_W": 16.1828784,
+          "electrical_W": 306.47838147589266,
+          "required_motor_V": 14.033339572056267,
+          "voltage_feasible": true,
+          "ideal_bus_A": 21.283220935825877,
+          "ideal_pwm_duty": 0.9745374702816851
+        }
+      ],
+      "electrical_model": "uncalibrated equivalent-DC convention sensitivities; ESC excluded",
+      "all_cases_voltage_feasible": true,
+      "electrical_W_sensitivity": [
+        249.78679472777762,
+        306.47838147589266
+      ]
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "data/apc-index.DOM.html",
+      "url": "https://www.apcprop.com/technical-information/performance-data/?v=5435c69ed3bc",
+      "sha256": "f864b35930251084429db6acec9a7c42dbe4ea89f883ec34137facd9f35c1896",
+      "capture": "browser DOM"
+    },
+    {
+      "path": "data/apc-product.DOM.html",
+      "url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+      "sha256": "eb1d4c935a60cef7e648725052fe1f0d8b8a622b3b67d975345ec29adec056bf",
+      "capture": "browser DOM"
+    },
+    {
+      "path": "data/apc-product.DOM.txt",
+      "url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+      "sha256": "9f1832da2006bcee39c10ba0e4d304bd0ac2430fb4736c540c0c06e586bfa49e",
+      "capture": "browser DOM"
+    },
+    {
+      "path": "data/PER3_10x6E.DOM.dat",
+      "url": "https://www.apcprop.com/files/PER3_10x6E.dat",
+      "sha256": "d72712e0b9c917b3f6837a40b47a11c272712be90fef9298971f84d09eca0a90",
+      "capture": "browser DOM"
+    },
+    {
+      "path": "data/bh2812-test.jpg",
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/d92fe20edf.jpg",
+      "sha256": "df9837a407df975f47a344dfe86cdf791c1d06e4e2a42f64f546512eeff82f52",
+      "capture": "cached"
+    },
+    {
+      "path": "data/bh2812-bench.json",
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/d92fe20edf.jpg",
+      "sha256": "d809a812740093bab064357e4728fdb74d6e478521808f430338fbeceab41549",
+      "capture": "cached"
+    },
+    {
+      "path": "data/p50b-marketing.cached.html",
+      "url": "https://www.molicel.com/inr-21700-p50b/",
+      "sha256": "22995c3a2897b9f77ffa298dad9da76aa0d34c4e8171f8e5d6b5d984317de460",
+      "capture": "cached"
+    },
+    {
+      "path": "data/apc-rpm.cached.txt",
+      "url": "https://www.apcprop.com/technical-information/rpm-limits/",
+      "sha256": "295b7b777820b800fba32a72e0ae24ab7e6f4bb6d7cbf855a8f2bb8feb04cf09",
+      "capture": "cached"
+    },
+    {
+      "url": "https://www.apcprop.com/technical-information/performance-data/?v=5435c69ed3bc",
+      "final_url": "https://www.apcprop.com/technical-information/performance-data/?v=5435c69ed3bc",
+      "status": 403,
+      "path": "data/apc-index.html",
+      "sha256": "81c5b4362ece11dd0d3d713af0c5b8ce4f21fa8a63837d0be959462aa32c1a1b",
+      "utc": "2026-10-09T22:23:23.848647+00:00"
+    },
+    {
+      "url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+      "final_url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+      "status": 403,
+      "path": "data/apc-product.html",
+      "sha256": "ab94e24e16527e4c984f6fce6338e8bf26c931f18ba31162268b64ee8a39a821",
+      "utc": "2026-10-09T22:23:24.201007+00:00"
+    },
+    {
+      "url": "https://www.molicel.com/product/inr-21700-p50b/",
+      "final_url": "https://www.molicel.com/product/inr-21700-p50b/",
+      "status": 200,
+      "path": "data/p50b-product.html",
+      "sha256": "587ed3093cf2668d0cac05797cfd8dbd2fc47db50a6eabd344e9d429ed2ed694",
+      "utc": "2026-10-09T22:23:26.220096+00:00"
+    },
+    {
+      "url": "https://www.apcprop.com/files/PER3_10x6E.dat",
+      "final_url": "https://www.apcprop.com/files/PER3_10x6E.dat",
+      "status": 403,
+      "path": "data/PER3_10x6E.dat",
+      "sha256": "85480c5b45897a33b4fecbd907e8b89634a730e900a69cc093c827fb545b427c",
+      "utc": "2026-10-09T22:24:27.832465+00:00"
+    },
+    {
+      "url": "https://www.molicel.com/wp-content/uploads/chart_2-3-d@2x.png",
+      "final_url": "https://www.molicel.com/wp-content/uploads/chart_2-3-d@2x.png",
+      "status": 200,
+      "path": "data/p50b-1C.png",
+      "sha256": "c99d843d858670036e1afae89d0b3c4087078b2555f7a9ac9520fe359f29d15c",
+      "utc": "2026-10-09T22:24:52.926724+00:00"
+    }
+  ],
+  "new_fetch_attempts": 8
+}

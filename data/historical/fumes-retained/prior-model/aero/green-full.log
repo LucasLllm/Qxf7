@@ -1,0 +1,61 @@
+test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence) ... ok
+test_component_drag_is_dimensional_and_speed_dependent (test_solver.SourceBoundary.test_component_drag_is_dimensional_and_speed_dependent) ... ok
+test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis) ... ok
+test_level_trim_returns_drag_closure_and_residuals (test_solver.SourceBoundary.test_level_trim_returns_drag_closure_and_residuals) ... ERROR
+test_missing_geometry_produces_explicit_blocked_artifact_without_curves (test_solver.SourceBoundary.test_missing_geometry_produces_explicit_blocked_artifact_without_curves) ... ok
+test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback) ... ok
+test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only) ... ERROR
+test_ready_pipeline_exports_curves_and_real_mesh_convergence (test_solver.SourceBoundary.test_ready_pipeline_exports_curves_and_real_mesh_convergence) ... ERROR
+
+======================================================================
+ERROR: test_level_trim_returns_drag_closure_and_residuals (test_solver.SourceBoundary.test_level_trim_returns_drag_closure_and_residuals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 52, in test_level_trim_returns_drag_closure_and_residuals
+    out=solver.solve_point(g,root,60.,mass=2.9837,mesh=(1,3))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py", line 145, in solve_point
+    w=wing.subdivide_sections(ratio=ns)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/aero-venv/lib/python3.11/site-packages/aerosandbox/geometry/wing.py", line 1429, in subdivide_sections
+    raise ValueError("`ratio` must be an integer greater than or equal to 2.")
+ValueError: `ratio` must be an integer greater than or equal to 2.
+
+======================================================================
+ERROR: test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 76, in test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only
+    rows=solver.generate_curves(g,root,speeds=[60],masses=[2.9837],surfaces=['smooth'],mesh=(1,3))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py", line 234, in generate_curves
+    base=solve_point(g,geometry_root,speed,mass=mass,surface=surface,mesh=mesh,initial=initial)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py", line 145, in solve_point
+    w=wing.subdivide_sections(ratio=ns)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/aero-venv/lib/python3.11/site-packages/aerosandbox/geometry/wing.py", line 1429, in subdivide_sections
+    raise ValueError("`ratio` must be an integer greater than or equal to 2.")
+ValueError: `ratio` must be an integer greater than or equal to 2.
+
+======================================================================
+ERROR: test_ready_pipeline_exports_curves_and_real_mesh_convergence (test_solver.SourceBoundary.test_ready_pipeline_exports_curves_and_real_mesh_convergence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 87, in test_ready_pipeline_exports_curves_and_real_mesh_convergence
+    result=solver.execute_analysis(root/'GEOMETRY.json',solver.Path(temp),speeds=[60],masses=[2.9837],surfaces=['smooth'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py", line 273, in execute_analysis
+    point=solve_point(g,geo_root,60.,mesh=mesh)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py", line 145, in solve_point
+    w=wing.subdivide_sections(ratio=ns)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/aero-venv/lib/python3.11/site-packages/aerosandbox/geometry/wing.py", line 1429, in subdivide_sections
+    raise ValueError("`ratio` must be an integer greater than or equal to 2.")
+ValueError: `ratio` must be an integer greater than or equal to 2.
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.360s
+
+FAILED (errors=3)

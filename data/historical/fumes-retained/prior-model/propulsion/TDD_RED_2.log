@@ -1,0 +1,13 @@
+F.
+======================================================================
+FAIL: test_solve_and_reject_extrapolation (__main__.InverseTests.test_solve_and_reject_extrapolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 21, in test_solve_and_reject_extrapolation
+    self.assertTrue(hasattr(prop,'solve'),'thrust inversion not implemented')
+AssertionError: False is not true : thrust inversion not implemented
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (failures=1)

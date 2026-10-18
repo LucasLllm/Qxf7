@@ -1,0 +1,110 @@
+{
+  "actual_sources": [
+    {
+      "requested_url": "https://www.brotherhobby.com/avenger-2812-v5-910kv-motorcw-p00234p1.html",
+      "final_url": "https://www.brotherhobby.com/avenger-2812-v5-910kv-motorcw-p00234p1.html",
+      "status": 200,
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/37d8421f6c28b99c.html",
+      "sha256": "6d11fad958b05936796a94cdaacc860b9fd5ef0b7c08a0adb9d55fb06d064047",
+      "bytes": 52160,
+      "retrieved_utc": "2026-10-12T22:00:57.673262+00:00"
+    },
+    {
+      "requested_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+      "final_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+      "status": 200,
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/d51517ac2944c065.html",
+      "sha256": "3440c6ff1930b4387d073b7d987723eb7782ec98a9f831c65e5f0f22a33bebab",
+      "bytes": 61234,
+      "retrieved_utc": "2026-10-12T22:00:57.673485+00:00"
+    },
+    {
+      "requested_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+      "final_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+      "status": 200,
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/1e390cc44e8d1bf7.html",
+      "sha256": "7fff7b7182d206e92cf5d66c4092c671eab1ad07ff835c05c043500714af35ac",
+      "bytes": 93606,
+      "retrieved_utc": "2026-10-12T22:00:58.901790+00:00"
+    },
+    {
+      "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+      "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+      "status": 200,
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/31d71a48c98f5f47.jpg",
+      "sha256": "b9424e07933ec3a7177e640343fa63c177425b58cf7118eb52a51e047be5ce84",
+      "bytes": 79015,
+      "retrieved_utc": "2026-10-12T22:01:02.115091+00:00"
+    },
+    {
+      "requested_url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/913747b78f.jpg",
+      "final_url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/913747b78f.jpg",
+      "status": 200,
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/9d880e95f6a531bd.jpg",
+      "sha256": "0e403c6036c9bbc3454f64a595ee90fd871ecf2a1f519279d534ca1cdeabe30b",
+      "bytes": 159082,
+      "retrieved_utc": "2026-10-12T22:01:03.876631+00:00"
+    }
+  ],
+  "drawing_link_discovery_confirmed": true,
+  "native_vendor_CAD_recovered": false,
+  "source_dimensions_mm": {
+    "F90": {
+      "max_diameter": 33.4,
+      "seat_to_tip": 34.7,
+      "seat_to_shoulder": 19.7,
+      "shaft_nominal_M5_diameter": 5,
+      "mount_pitch_circle": 19,
+      "mount_count": 4,
+      "mount_thread": "M3"
+    },
+    "Avenger2812V5": {
+      "max_diameter": 33.9,
+      "seat_to_tip": 44.05,
+      "tip_to_rear_bell": 37.6,
+      "tip_to_prop_shoulder": 17,
+      "derived_seat_to_rear_bell": 6.449999999999996,
+      "derived_seat_to_shoulder": 27.049999999999997,
+      "shaft_nominal_M5_diameter": 5
+    }
+  },
+  "assumed_parameters_mm": {
+    "F90": {
+      "base_diameter": 24,
+      "base_thickness": 3,
+      "neck_diameter": 14,
+      "rear_bell_offset": 6.2,
+      "full_bell_ending": 18.2,
+      "shoulder_diameter": 29
+    },
+    "Avenger2812V5": {
+      "base_diameter": 25,
+      "base_thickness": 3.4,
+      "neck_diameter": 14,
+      "full_bell_ending": 25.5,
+      "shoulder_diameter": 30
+    },
+    "boom_baseline": {
+      "circular_bore_diameter": 8,
+      "minimum_side_wall": 1,
+      "cable_cut_length": 24,
+      "cable_cut_width": 5,
+      "cable_cut_center_x": -112.46047687230816,
+      "end_faces": "open bore / annular material end rings"
+    }
+  },
+  "source_manual_policy": "Reuse retained readiness-review REPORT and retained p36 image; no restart of manual datum derivation",
+  "explicit_limitations": [
+    "No exact motor vent/open stator topology; axisymmetric closed motor replacement excludes cooling flow",
+    "Motor base/neck/tapers assumed; nominal drawing dimensions and shaft directions preserved",
+    "Boom bore6/8/9 variants, cable cut and end sealing assumed; pick exactly one variant per side",
+    "No propellers, shaft nuts, exposed wires or ancillary fasteners; no exact physical installed fit",
+    "No whole-parent-airframe exact intersection/CFD release; parent remains unchanged"
+  ],
+  "measured_serialized_mesh_vs_STEP": {
+    "max_bounds_difference_m": 2.1070184999999464e-05,
+    "max_relative_volume_difference": 0.002900801601630891
+  },
+  "physical_hardware_error_bound": null,
+  "search_outcome": "Relevant manufacturer pages/drawings accessible; no CAD links; Google interstitials, Bing unrelated results. F100 incidental page excluded from model evidence."
+}

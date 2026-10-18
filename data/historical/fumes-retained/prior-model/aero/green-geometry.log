@@ -1,0 +1,17 @@
+test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence) ... ok
+test_component_drag_is_dimensional_and_speed_dependent (test_solver.SourceBoundary.test_component_drag_is_dimensional_and_speed_dependent) ... ok
+test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis) ... FAIL
+test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback) ... ok
+
+======================================================================
+FAIL: test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 38, in test_geometry_conversion_preserves_actual_contour_chord_and_axis
+    self.assertTrue((root/'GEOMETRY.json').exists(),'geometry child not ready')
+AssertionError: False is not true : geometry child not ready
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.025s
+
+FAILED (failures=1)

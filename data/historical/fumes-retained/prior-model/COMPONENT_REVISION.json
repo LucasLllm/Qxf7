@@ -1,0 +1,44 @@
+{
+  "rows": 44,
+  "prior_sha256": "a6105dc06668d9c268576ef90c2cfa2ad49c0f6ccda23058112cd7af142848b7",
+  "new_sha256": "a779b5aecfa49a4ad9b14923ea266c196ff34337e1e451ac21935eb4d5c82b05",
+  "assumptions": {
+    "rho_kg_m3": 1.225,
+    "nu_m2_s": 1.4607e-05,
+    "body_form_factor_smooth": 1.2,
+    "body_form_factor_rough": 1.6,
+    "interference_smooth": 1.1,
+    "interference_rough": 1.3,
+    "boom_count": 2,
+    "boom_length_m": 0.5,
+    "boom_square_m": 0.01,
+    "boom_exposed_fraction": 0.8,
+    "square_end_Cd": 1.05,
+    "lift_motor_count": 4,
+    "lift_motor_diameter_m": 0.0334,
+    "lift_motor_height_m": 0.025,
+    "pusher_motor_diameter_m": 0.028,
+    "pusher_motor_height_m": 0.025,
+    "lift_prop_count": 4,
+    "lift_prop_diameter_m": 0.1778,
+    "lift_prop_mean_chord_m": 0.018,
+    "lift_prop_edge_thickness_m": 0.0025,
+    "stopped_blade_Cd": 1.2,
+    "hardware_pressure_Cd": 1.1,
+    "bbox_frontal_blockage_smooth": 0.4,
+    "bbox_frontal_blockage_rough": 0.7,
+    "NF_smooth": {
+      "n_crit": 9.0,
+      "xtr_upper": 1.0,
+      "xtr_lower": 1.0
+    },
+    "NF_rough": {
+      "n_crit": 1.0,
+      "xtr_upper": 0.05,
+      "xtr_lower": 0.05
+    }
+  },
+  "trim_rerun": false,
+  "reason": "component drag additive; parasite pitch moment omitted in current model",
+  "convergence_artifact_status": "older component revision; final convergence readback not completed"
+}

@@ -1,0 +1,128 @@
+['Cd_cylinder', 'Cd_flat_plate_normal', 'Cf_flat_plate', 'Cl_flat_plate', 'fuselage_upsweep_drag_area']
+def Cf_flat_plate(
+    Re_L: Vectorizable,
+    method: Literal[
+        "blasius",
+        "turbulent",
+        "hybrid-cengel",
+        "hybrid-schlichting",
+        "hybrid-sharpe-convex",
+        "hybrid-sharpe-nonconvex",
+    ] = "hybrid-sharpe-convex",
+) -> Vectorizable:
+    """
+    Compute the mean skin friction coefficient over a flat plate.
+
+    Don't forget to double it (two sides) if you want a drag coefficient.
+
+    You can view all of these functions graphically using
+    `aerosandbox.library.aerodynamics.test_aerodynamics.test_Cf_flat_plate.py`
+
+    Parameters
+    ----------
+    Re_L : Vectorizable
+        Reynolds number, normalized to the length of the flat plate.
+    method : str
+        The method of computing the skin friction coefficient. One of:
+
+        * "blasius": Uses the Blasius solution. Citing Cengel and Cimbala, "Fluid Mechanics:
+          Fundamentals and Applications", Table 10-4.
+
+          Valid approximately for Re_L <= 5e5.
+
+        * "turbulent": Uses turbulent correlations for smooth plates. Citing Cengel and
+          Cimbala, "Fluid Mechanics: Fundamentals and Applications", Table 10-4.
+
+          Valid approximately for 5e5 <= Re_L <= 1e7.
+
+        * "hybrid-cengel": Uses turbulent correlations for smooth plates, but accounts for a
+          non-negligible laminar run at the beginning of the plate. Citing Cengel and Cimbala,
+          "Fluid Mechanics: Fundamentals and Applications", Table 10-4.
+
+          Valid approximately for 5e5 <= Re_L <= 1e7.
+
+        * "hybrid-schlichting": Schlichting's model, that roughly accounts for a
+          non-negligible laminar run. Citing "Boundary Layer Theory" 7th Ed., pg. 644.
+
+        * "hybrid-sharpe-convex": A hybrid model that blends the Blasius and Schlichting
+          models. Convex in log-log space; however, it may overlook some truly nonconvex
+          behavior near transitional Reynolds numbers.
+
+        * "hybrid-sharpe-nonconvex": A hybrid model that blends the Blasius and Cengel
+          models. Nonconvex in log-log-space; however, it may capture some truly nonconvex
+          behavior near transitional Reynolds numbers.
+
+    Returns
+    -------
+    Vectorizable
+        C_f: The mean skin friction coefficient, normalized to the length of the plate.
+    """
+    Re_L = np.abs(Re_L)
+
+    if method == "blasius":
+        return 1.328 / Re_L**0.5
+    elif method == "turbulent":
+        return 0.074 / Re_L ** (1 / 5)
+    elif method == "hybrid-cengel":
+        return 0.074 / Re_L ** (1 / 5) - 1742 / Re_L
+    elif method == "hybrid-schlichting":
+        return 0.02666 * Re_L**-0.139
+    elif method == "hybrid-sharpe-convex":
+        return np.softmax(
+            Cf_flat_plate(Re_L, method="blasius"),
+            Cf_flat_plate(Re_L, method="hybrid-schlichting"),
+            hardness=1e3,
+        )
+    elif method == "hybrid-sharpe-nonconvex":
+        return np.softmax(
+            Cf_flat_plate(Re_L, method="blasius"),
+            Cf_flat_plate(Re_L, method="hybrid-cengel"),
+            hardness=1e3,
+        )
+    else:
+        raise ValueError(
+            f"{method=!r} is not a valid method for Cf_flat_plate(). "
+            f"Valid options are: 'blasius', 'turbulent', 'hybrid-cengel', "
+            f"'hybrid-schlichting', 'hybrid-sharpe-convex', 'hybrid-sharpe-nonconvex'."
+        )
+
+(xyz_le: Union[int, float, numpy.integer, numpy.floating, Sequence[ForwardRef('ConcreteScalar | ConcreteArrayLike')], numpy.ndarray, casadi.casadi.MX, casadi.casadi.DM, NoneType] = None, chord: int | float | numpy.integer | numpy.floating | casadi.casadi.MX | casadi.casadi.DM = 1.0, twist: int | float | numpy.integer | numpy.floating | casadi.casadi.MX | casadi.casadi.DM = 0.0, airfoil: aerosandbox.geometry.airfoil.airfoil.Airfoil | None = None, control_surfaces: list['ControlSurface'] | None = None, analysis_specific_options: dict[type, dict[str, typing.Any]] | None = None, **deprecated_kwargs)
+(self, x_over_c: int | float | numpy.integer | numpy.floating | numpy.ndarray | casadi.casadi.MX | casadi.casadi.DM = array([0.  , 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1 ,
+       0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, 0.2 , 0.21,
+       0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29, 0.3 , 0.31, 0.32,
+       0.33, 0.34, 0.35, 0.36, 0.37, 0.38, 0.39, 0.4 , 0.41, 0.42, 0.43,
+       0.44, 0.45, 0.46, 0.47, 0.48, 0.49, 0.5 , 0.51, 0.52, 0.53, 0.54,
+       0.55, 0.56, 0.57, 0.58, 0.59, 0.6 , 0.61, 0.62, 0.63, 0.64, 0.65,
+       0.66, 0.67, 0.68, 0.69, 0.7 , 0.71, 0.72, 0.73, 0.74, 0.75, 0.76,
+       0.77, 0.78, 0.79, 0.8 , 0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87,
+       0.88, 0.89, 0.9 , 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98,
+       0.99, 1.  ])) -> int | float | numpy.integer | numpy.floating | numpy.ndarray | casadi.casadi.MX | casadi.casadi.DM
+(self, x_over_c: int | float | numpy.integer | numpy.floating | numpy.ndarray | casadi.casadi.MX | casadi.casadi.DM = array([0.  , 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1 ,
+       0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, 0.2 , 0.21,
+       0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29, 0.3 , 0.31, 0.32,
+       0.33, 0.34, 0.35, 0.36, 0.37, 0.38, 0.39, 0.4 , 0.41, 0.42, 0.43,
+       0.44, 0.45, 0.46, 0.47, 0.48, 0.49, 0.5 , 0.51, 0.52, 0.53, 0.54,
+       0.55, 0.56, 0.57, 0.58, 0.59, 0.6 , 0.61, 0.62, 0.63, 0.64, 0.65,
+       0.66, 0.67, 0.68, 0.69, 0.7 , 0.71, 0.72, 0.73, 0.74, 0.75, 0.76,
+       0.77, 0.78, 0.79, 0.8 , 0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87,
+       0.88, 0.89, 0.9 , 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98,
+       0.99, 1.  ])) -> int | float | numpy.integer | numpy.floating | numpy.ndarray | casadi.casadi.MX | casadi.casadi.DM
+def Cd_flat_plate_normal():
+    """
+    Compute the drag coefficient of a flat plate oriented normal to the flow (alpha = 90 deg).
+
+    Note: Cd for this case is effectively invariant of Re.
+
+    Returns
+    -------
+    Drag coefficient
+
+    References
+    ----------
+    Uses results from Tian, Xinliang, Muk Chen Ong, Jianmin Yang, and Dag Myrhaug. “Large-Eddy
+    Simulation of the Flow Normal to a Flat Plate Including Corner Effects at a High Reynolds
+    Number.” Journal of Fluids and Structures 49 (August 2014): 149–69.
+    https://doi.org/10.1016/j.jfluidstructs.2014.04.008.
+    """
+    return 2.202
+

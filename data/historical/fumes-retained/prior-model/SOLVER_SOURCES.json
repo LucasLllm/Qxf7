@@ -1,0 +1,25 @@
+[
+  {
+    "name": "aerosandbox",
+    "version": "4.2.10",
+    "url": "https://pypi.org/pypi/aerosandbox/4.2.10/json",
+    "sha256": "26514dd2c2c0aa892b8637d6198211ef464314cf808ff2458e41058df03d13ea",
+    "project_urls": {
+      "Bug Reports": "https://github.com/peterdsharpe/AeroSandbox/issues",
+      "Homepage": "https://peterdsharpe.github.io/AeroSandbox/",
+      "Source": "https://github.com/peterdsharpe/AeroSandbox"
+    },
+    "summary": "AeroSandbox is a Python package that helps you design and optimize aircraft and other engineered systems."
+  },
+  {
+    "name": "neuralfoil",
+    "version": "0.3.3",
+    "url": "https://pypi.org/pypi/neuralfoil/0.3.3/json",
+    "sha256": "12be054d791371882a01c74997db64a010b1de6b742e68155c4903c8cad633f6",
+    "project_urls": {
+      "Bug Reports": "https://github.com/peterdsharpe/NeuralFoil/issues",
+      "Source": "https://github.com/peterdsharpe/NeuralFoil"
+    },
+    "summary": "NeuralFoil is an airfoil aerodynamics analysis tool using physics-informed machine learning, in pure Python/NumPy."
+  }
+]

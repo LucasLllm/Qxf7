@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_no_internal_only_profile_when_native_outer_is_open (__main__.ContourTests.test_no_internal_only_profile_when_native_outer_is_open)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py", line 26, in test_no_internal_only_profile_when_native_outer_is_open
+    self.assertGreater(len(foils),0,'native internal loop must not conceal missing outer contour; inspect original physical STL')
+AssertionError: 0 not greater than 0 : native internal loop must not conceal missing outer contour; inspect original physical STL
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)

@@ -1,0 +1,42 @@
+[
+  {
+    "handle": "battery_samsung_50e",
+    "url": "https://cdn.shopify.com/s/files/1/0721/2761/1190/files/samsung_50E.pdf?v=1715096646",
+    "retrieved_utc": "2026-10-10T01:30:17.209619+00:00",
+    "status": 200,
+    "sha256": "cb2705e5098f9ee6f665f1a70a0389e0981b1ccae77f2e1e455b16e3eb152427",
+    "file": "battery_samsung_50e.pdf"
+  },
+  {
+    "handle": "battery_flightony_specs",
+    "url": "https://flightony.com/stork-vtol/specs",
+    "retrieved_utc": "2026-10-10T01:30:17.581912+00:00",
+    "status": 200,
+    "sha256": "d724c7f36c88bcde662b27b009c9eaaf3e494ed81e5c4112dc2f229d600f54f5",
+    "file": "battery_flightony_specs.html"
+  },
+  {
+    "handle": "battery_flightony_performance",
+    "url": "https://flightony.com/stork-vtol/performance",
+    "retrieved_utc": "2026-10-10T01:30:17.853595+00:00",
+    "status": 200,
+    "sha256": "c1fa70a7f4468ab2d99298e69e2d642aca721bdb3b1181b0a85a9acfca457109",
+    "file": "battery_flightony_performance.html"
+  },
+  {
+    "handle": "battery_flightony_home",
+    "url": "https://flightony.com",
+    "retrieved_utc": "2026-10-10T01:30:18.011273+00:00",
+    "status": 200,
+    "sha256": "f1449b0deb23c78a57947ab0ebddea59fea6faa50d0355c1479bcff2e768f5e6",
+    "file": "battery_flightony_home.html"
+  },
+  {
+    "handle": "battery_imr_listing",
+    "url": "https://www.imrbatteries.com/products/samsung-50e-21700-5000mah-9-8a-battery",
+    "retrieved_utc": "2026-10-10T01:30:18.833547+00:00",
+    "status": 200,
+    "sha256": "c2ea553434be23fab88604dee25dc24df415cc5b5139284cebcde4836a627ca3",
+    "file": "battery_imr_listing.html"
+  }
+]

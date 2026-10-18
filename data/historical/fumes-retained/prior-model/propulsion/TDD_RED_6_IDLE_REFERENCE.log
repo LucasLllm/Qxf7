@@ -1,0 +1,13 @@
+..F...
+======================================================================
+FAIL: test_motor_energy_identity_and_loaded_voltage_gate (__main__.ElectricalTests.test_motor_energy_identity_and_loaded_voltage_gate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 42, in test_motor_energy_identity_and_loaded_voltage_gate
+    self.assertAlmostEqual(c['no_load_W']/reference_emf,1.17)
+AssertionError: 0.995544376560672 != 1.17 within 7 places (0.17445562343932797 difference)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.893s
+
+FAILED (failures=1)

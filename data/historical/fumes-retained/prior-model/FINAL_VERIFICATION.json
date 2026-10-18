@@ -1,0 +1,28 @@
+{
+  "mission_rows": 64152,
+  "valid_range_arithmetic_checks": 48600,
+  "geometry_tests_passed": 4,
+  "propulsion_tests_passed": 6,
+  "parent_tests_passed": 9,
+  "mesh_readback_complete": false,
+  "flight_validated": false,
+  "hashes": {
+    "REPORT.md": "46c597694d29e619ec11d316154df6ba2a92b402fac15fdea15341f5fd0fc381",
+    "MISSION_SWEEP.csv": "cc3358e9e4d7fb07554fda7be0b7ae6754a8cf5705d5b5dc59049afd1260c62a",
+    "MISSION_SUMMARY.json": "c8297e732c76d99ddffecaf9581ff7e8e3f254f5426afc6b570dd78f07bfcfcd",
+    "ASSEMBLED_AERO.json": "a779b5aecfa49a4ad9b14923ea266c196ff34337e1e451ac21935eb4d5c82b05",
+    "ASSEMBLED_AERO.csv": "8e24d7763b1e8063bf533c20f12593434a6a376e289940c5598e1c71a8d2b87d",
+    "COMPONENT_REVISION.json": "f88cac4a377eebf06013dcef7cc6893031e6efffd23912019f2e506bdfc0d25e",
+    "PERFORMANCE_CURVES.png": "102565f6962c5e72e3cc0f527961bc323925947cb5f00d6ba4e5350d9d93d193",
+    "DRAG_BREAKDOWN.png": "f7396a1a8c3cd90941caa04527fcff95f37d0c08f2fa4c77e32ea3738bc66ca1",
+    "geometry/GEOMETRY.json": "5a4356ca121c6a0cf37a898375ecb3f39a5fc64ef674fd2240a2163035e02cee",
+    "propulsion/PROPULSION.json": "c92e31a8d94df451b58b4bddf18b2bd31a78c402e08c8663f49196df19bb8e82",
+    "propulsion/model.py": "a3e0d5bf7af720c12af7cbf3c7c24f794472d12cfa8f2b1ac7226484e0df1deb",
+    "propulsion/build.py": "e2b0875074d26881466ee693fcd086f81f4934caa6a9a1b948c2e64002fc90f6",
+    "aero/solver.py": "3c09ddd4fde1059bab30a7446714553998084adfca7397a879311563cd83da1f",
+    "assembled_solver.py": "a79b92cd2a4156fd8ef3bb23873ad8f39837b44f97548d7e1d49be88a751af6c",
+    "run_mission.py": "e9d48da2baaa62a3d2fff25b64581f1f26c0a6e132e5db2f46197c76f7c373ed",
+    "GEOMETRY_FINAL_TESTS.txt": "f3ce997f1fea8af76ada8e0ce3aecd0009a7d7d2e0c6c56d76ce78e10b3d7e0e",
+    "PARENT_FINAL_TESTS.txt": "0046b49e06bccb236ce2429e7dda7f93ebdb392e1009fbc237e974aeae1f9d7a"
+  }
+}

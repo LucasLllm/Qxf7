@@ -1,0 +1,14 @@
+test_ready_pipeline_exports_curves_and_real_mesh_convergence (test_solver.SourceBoundary.test_ready_pipeline_exports_curves_and_real_mesh_convergence) ... FAIL
+
+======================================================================
+FAIL: test_ready_pipeline_exports_curves_and_real_mesh_convergence (test_solver.SourceBoundary.test_ready_pipeline_exports_curves_and_real_mesh_convergence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 83, in test_ready_pipeline_exports_curves_and_real_mesh_convergence
+    self.assertTrue(hasattr(solver,'execute_analysis'),'ready pipeline not implemented')
+AssertionError: False is not true : ready pipeline not implemented
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

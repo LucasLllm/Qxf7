@@ -1,0 +1,13 @@
+F..
+======================================================================
+FAIL: test_motor_energy_identity_and_loaded_voltage_gate (__main__.ElectricalTests.test_motor_energy_identity_and_loaded_voltage_gate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 37, in test_motor_energy_identity_and_loaded_voltage_gate
+    self.assertTrue(hasattr(m,'evaluate'),'electrical evaluation not implemented')
+AssertionError: False is not true : electrical evaluation not implemented
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+FAILED (failures=1)

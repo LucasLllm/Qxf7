@@ -1,0 +1,515 @@
+{
+  "configuration": "original standard 1.62m Stork; CFD APPROXIMATE hardware, not enlarged mission",
+  "axes": {
+    "+X": "forward",
+    "+Y": "left",
+    "+Z": "up"
+  },
+  "baseline": [
+    {
+      "name": "F90_mount_053_CFD_APPROXIMATE",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_053_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "293b7ca38974e10f7020e0c77b1245d9dd0ff9fc2c47456ae3984073c44d4aa6",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_053_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_sha256": "e2ee78b832d4f48560ac43662cb01dd7521670b8913e7fdbb0cc5f5ea0df098d",
+      "legacy_proxy_instance_to_remove": 87,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -340.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.34
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_motor_record": "F90_mount_053",
+      "mount_instance_index": 53
+    },
+    {
+      "name": "F90_mount_055_CFD_APPROXIMATE",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_055_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "f8049abfeeb13943846c2ec30a89c09873b2fd4cf4b30ab9a97ac26c20e1f652",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_055_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_sha256": "be0fa0ee8361b803aa1874e6f9e1204bf3bcfa61c616c5a49942ae90768cd1a7",
+      "legacy_proxy_instance_to_remove": 84,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          210.00000000000006
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -260.1569548632416
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.21000000000000005
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.2601569548632416
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_motor_record": "F90_mount_055",
+      "mount_instance_index": 55
+    },
+    {
+      "name": "F90_mount_061_CFD_APPROXIMATE",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_061_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "ba654b9c48eba81015395b6a49cb246149d9bfa92d40551dd50aeacee22d533f",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_061_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_sha256": "22680c2f29243c6ccac57cd74e8f9cfb01808d3e0ff3d470168c6f4299f99b81",
+      "legacy_proxy_instance_to_remove": 94,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -340.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.34
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_motor_record": "F90_mount_061",
+      "mount_instance_index": 61
+    },
+    {
+      "name": "F90_mount_063_CFD_APPROXIMATE",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_063_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "dc523febdff1747cfc133c7febdeed3b9e31e638d177315aea950a40db90ee82",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_063_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_sha256": "5769ef723e68a2c35f9a544df4f0ca71b3ea21ca21609b904a08eae26c97dc6c",
+      "legacy_proxy_instance_to_remove": 91,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          210.00000000000006
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          260.15695513675837
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.21000000000000005
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.26015695513675835
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_motor_record": "F90_mount_063",
+      "mount_instance_index": 63
+    },
+    {
+      "name": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_mount_011_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "e8d041dc116b7a0355ad22f1faf0507a3c69e3d0d5fdf80ee0529be34e386b6c",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_mount_011_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_sha256": "bdce52a88f8c5e4b093ed0b780d128c7c67e36f1bdad9e00fa7db487b2c176b3",
+      "legacy_proxy_instance_to_remove": 97,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -663.7491136436045
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -25.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.6637491136436044
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_motor_record": "Avenger2812V5_mount_011",
+      "mount_instance_index": 11
+    },
+    {
+      "name": "boom_R_bore8_open_ends_cable24x5",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "cdeb28612641a0c81d98e4cd645c04ca4e052e291f8d0aee1aaf1ff5086c3c9a",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_sha256": "2a3060545021114e13465399bb930ac49d3d2af44a5baadb304b0001fbbf5109",
+      "legacy_proxy_instance_to_remove": 83,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_boom_record": "tube_R_outer_walls",
+      "side": "R"
+    },
+    {
+      "name": "boom_L_bore8_open_ends_cable24x5",
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "obj_sha256": "c09e0a057d588dc7138a6a982a20471a1e50525f236ec553384c8467307dbbfd",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_sha256": "c2faed26529390635bb2b7050b658b884aefce339c5571003ba25e651f8ad0e7",
+      "legacy_proxy_instance_to_remove": 90,
+      "transform_already_applied": true,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "retained_boom_record": "tube_L_outer_walls",
+      "side": "L"
+    }
+  ],
+  "combined": {
+    "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE-m.obj",
+    "obj_sha256": "bb62e38bef674a69b14b8cfebe76ec86b65b1763f3952a7be81f537a357341da",
+    "obj_units": "m",
+    "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE.step",
+    "step_sha256": "2bf57d5b847ba1487761b48478e8b9b7a85b461e1033bb53b515ea6aec49b057",
+    "step_units": "mm",
+    "installed_names": [
+      "F90_mount_053_CFD_APPROXIMATE",
+      "F90_mount_055_CFD_APPROXIMATE",
+      "F90_mount_061_CFD_APPROXIMATE",
+      "F90_mount_063_CFD_APPROXIMATE",
+      "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "boom_R_bore8_open_ends_cable24x5",
+      "boom_L_bore8_open_ends_cable24x5"
+    ],
+    "topology": {
+      "vertices": 3171,
+      "faces": 6330,
+      "edges": 9495,
+      "edge_incidence_two": true,
+      "winding_consistent": true,
+      "bad_vertex_link_ids": [],
+      "euler_number": 6,
+      "surface_shell_count": 7,
+      "volume_m3": 0.00012551738480147647,
+      "area_m2": 0.08726023013933948,
+      "zero_area_faces": 0
+    },
+    "exact_triangle_intersections": {
+      "aabb_candidate_pairs": 65657,
+      "forbidden_pairs": [],
+      "classification_counts": {
+        "empty_coplanar_clip": 13119,
+        "shared_simplex_only": 37086,
+        "disjoint_plane_intervals": 6277,
+        "shared_edge_distinct_planes": 5290,
+        "plane_separated": 3885
+      },
+      "elapsed_s": 2.401646137237549,
+      "scope": "ALL_TRIANGLES",
+      "exact_predicates": true,
+      "independent_bruteforce_candidate_count": 65657,
+      "passes": true
+    },
+    "scope": "7 hardware bodies ONLY; no parent airframe or props",
+    "step_valid": true,
+    "step_solid_count": 7
+  },
+  "integration_policy": "Replace legacy proxies; do not append duplicate local definitions/variants; preserve printed mounting parts. Hardware-only exact checks do not qualify merged airframe contact interfaces."
+}

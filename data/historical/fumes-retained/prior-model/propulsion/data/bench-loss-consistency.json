@@ -1,0 +1,434 @@
+[
+  {
+    "rpm": 6753,
+    "bench_electrical_W": 118.44,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 14.885463718811751,
+        "shaft_upper_bound_W": 98.8125073155338,
+        "required_motor_V": 7.956755814756344,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 14.885463718811751,
+        "shaft_upper_bound_W": 94.1325073155338,
+        "required_motor_V": 7.956755814756344,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 14.046152857941705,
+        "shaft_upper_bound_W": 92.63336327217618,
+        "required_motor_V": 8.432202126650925,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 14.046152857941705,
+        "shaft_upper_bound_W": 87.95336327217618,
+        "required_motor_V": 8.432202126650925,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 12.787374432564462,
+        "shaft_upper_bound_W": 83.39068153748111,
+        "required_motor_V": 9.262261039168404,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 12.787374432564462,
+        "shaft_upper_bound_W": 78.71068153748112,
+        "required_motor_V": 9.262261039168404,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 8336,
+    "bench_electrical_W": 214.2,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 21.55691145252549,
+        "shaft_upper_bound_W": 185.82006487060713,
+        "required_motor_V": 9.936488372730478,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 21.55691145252549,
+        "shaft_upper_bound_W": 181.14006487060712,
+        "required_motor_V": 9.936488372730478,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 20.18178982232148,
+        "shaft_upper_bound_W": 173.2726266888702,
+        "required_motor_V": 10.613528427646706,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 20.18178982232148,
+        "shaft_upper_bound_W": 168.59262668887018,
+        "required_motor_V": 10.613528427646706,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 18.184822068269796,
+        "shaft_upper_bound_W": 155.07808507373298,
+        "required_motor_V": 11.77905393827041,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 18.184822068269796,
+        "shaft_upper_bound_W": 150.39808507373297,
+        "required_motor_V": 11.77905393827041,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 9657,
+    "bench_electrical_W": 325.08,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 27.97763085321687,
+        "shaft_upper_bound_W": 285.2503585862805,
+        "required_motor_V": 11.61928262280372,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 27.97763085321687,
+        "shaft_upper_bound_W": 280.5703585862805,
+        "required_motor_V": 11.61928262280372,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 26.03438465707391,
+        "shaft_upper_bound_W": 264.677739517981,
+        "required_motor_V": 12.486563607397233,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 26.03438465707391,
+        "shaft_upper_bound_W": 259.997739517981,
+        "required_motor_V": 12.486563607397233,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 23.27934073827049,
+        "shaft_upper_bound_W": 235.53953204997597,
+        "required_motor_V": 13.964312978398862,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 23.27934073827049,
+        "shaft_upper_bound_W": 230.85953204997597,
+        "required_motor_V": 13.964312978398862,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 10882,
+    "bench_electrical_W": 509.04,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 38.179774482491254,
+        "shaft_upper_bound_W": 444.91225393678,
+        "required_motor_V": 13.332713639611443,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 38.179774482491254,
+        "shaft_upper_bound_W": 440.23225393678,
+        "required_motor_V": 13.332713639611443,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 35.135321055290134,
+        "shaft_upper_bound_W": 408.55522423260135,
+        "required_motor_V": 14.487984874222647,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 35.135321055290134,
+        "shaft_upper_bound_W": 403.87522423260134,
+        "required_motor_V": 14.487984874222647,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 30.99763024316509,
+        "shaft_upper_bound_W": 359.1742779803544,
+        "required_motor_V": 16.421900513257533,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 30.99763024316509,
+        "shaft_upper_bound_W": 354.4942779803544,
+        "required_motor_V": 16.421900513257533,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 12283,
+    "bench_electrical_W": 733.32,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 48.14632255974548,
+        "shaft_upper_bound_W": 638.2188188630261,
+        "required_motor_V": 15.231069809953034,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 48.14632255974548,
+        "shaft_upper_bound_W": 633.5388188630261,
+        "required_motor_V": 15.231069809953034,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 44.00124550929589,
+        "shaft_upper_bound_W": 582.3186691414082,
+        "required_motor_V": 16.6658918744715,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 44.00124550929589,
+        "shaft_upper_bound_W": 577.6386691414082,
+        "required_motor_V": 16.6658918744715,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 38.50856611537184,
+        "shaft_upper_bound_W": 508.2781299462773,
+        "required_motor_V": 19.043035718415744,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 38.50856611537184,
+        "shaft_upper_bound_W": 503.5981299462773,
+        "required_motor_V": 19.043035718415744,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 13751,
+    "bench_electrical_W": 995.4,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 57.88895070214338,
+        "shaft_upper_bound_W": 863.1085783177732,
+        "required_motor_V": 17.194991236266173,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 57.88895070214338,
+        "shaft_upper_bound_W": 858.4285783177733,
+        "required_motor_V": 17.194991236266173,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 52.65973012619653,
+        "shaft_upper_bound_W": 784.1391640586028,
+        "required_motor_V": 18.902489580075162,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 52.65973012619653,
+        "shaft_upper_bound_W": 779.4591640586027,
+        "required_motor_V": 18.902489580075162,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 45.84438861873145,
+        "shaft_upper_bound_W": 681.2511742331607,
+        "required_motor_V": 21.71258097208634,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 45.84438861873145,
+        "shaft_upper_bound_W": 676.5711742331606,
+        "required_motor_V": 21.71258097208634,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 14242,
+    "bench_electrical_W": 1121.4,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 62.62977576835188,
+        "shaft_upper_bound_W": 968.5396831394147,
+        "required_motor_V": 17.90522137821012,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 62.62977576835188,
+        "shaft_upper_bound_W": 963.8596831394148,
+        "required_motor_V": 17.90522137821012,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 56.80669364917859,
+        "shaft_upper_bound_W": 877.4545288786829,
+        "required_motor_V": 19.740631393290307,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 56.80669364917859,
+        "shaft_upper_bound_W": 872.7745288786829,
+        "required_motor_V": 19.740631393290307,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 49.294550823699026,
+        "shaft_upper_bound_W": 759.9839269089248,
+        "required_motor_V": 22.748964769162107,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 49.294550823699026,
+        "shaft_upper_bound_W": 755.3039269089247,
+        "required_motor_V": 22.748964769162107,
+        "admissible": true
+      }
+    ]
+  },
+  {
+    "rpm": 14724,
+    "bench_electrical_W": 1279.66,
+    "cases": [
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 68.61336952648648,
+        "shaft_upper_bound_W": 1098.5286791999856,
+        "required_motor_V": 18.650301083173293,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.036,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 68.61336952648648,
+        "shaft_upper_bound_W": 1093.8486791999856,
+        "required_motor_V": 18.650301083173293,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 61.98878313815209,
+        "shaft_upper_bound_W": 991.3906958836827,
+        "required_motor_V": 20.64341216616673,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.072,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 61.98878313815209,
+        "shaft_upper_bound_W": 986.7106958836827,
+        "required_motor_V": 20.64341216616673,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 10,
+        "equivalent_motor_A": 53.558684720128625,
+        "shaft_upper_bound_W": 855.0884115111801,
+        "required_motor_V": 23.8926703799183,
+        "admissible": true
+      },
+      {
+        "effective_R_ohm": 0.144,
+        "idle_reference_V": 14,
+        "equivalent_motor_A": 53.558684720128625,
+        "shaft_upper_bound_W": 850.40841151118,
+        "required_motor_V": 23.8926703799183,
+        "admissible": true
+      }
+    ]
+  }
+]

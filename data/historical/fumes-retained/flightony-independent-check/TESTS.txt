@@ -1,0 +1,10 @@
+test_energy (test_accounting.AccountingTests.test_energy) ... ok
+test_hover_scaling (test_accounting.AccountingTests.test_hover_scaling) ... ok
+test_invalid (test_accounting.AccountingTests.test_invalid) ... ok
+test_no_double_reserve (test_accounting.AccountingTests.test_no_double_reserve) ... ok
+test_range_identity (test_accounting.AccountingTests.test_range_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

@@ -1,0 +1,13 @@
+.F....
+======================================================================
+FAIL: test_offline_capture_build_and_hashes (__main__.BuildTests.test_offline_capture_build_and_hashes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py", line 73, in test_offline_capture_build_and_hashes
+    self.assertTrue((ROOT/'build.py').exists(),'offline build missing')
+AssertionError: False is not true : offline build missing
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+FAILED (failures=1)

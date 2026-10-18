@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.apcprop.com/technical-information/performance-data/?v=5435c69ed3bc",
+    "final_url": "https://www.apcprop.com/technical-information/performance-data/?v=5435c69ed3bc",
+    "status": 403,
+    "path": "data/apc-index.html",
+    "sha256": "81c5b4362ece11dd0d3d713af0c5b8ce4f21fa8a63837d0be959462aa32c1a1b",
+    "utc": "2026-10-09T22:23:23.848647+00:00"
+  },
+  {
+    "url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+    "final_url": "https://www.apcprop.com/product/10x6e/?v=5435c69ed3bc",
+    "status": 403,
+    "path": "data/apc-product.html",
+    "sha256": "ab94e24e16527e4c984f6fce6338e8bf26c931f18ba31162268b64ee8a39a821",
+    "utc": "2026-10-09T22:23:24.201007+00:00"
+  },
+  {
+    "url": "https://www.molicel.com/product/inr-21700-p50b/",
+    "final_url": "https://www.molicel.com/product/inr-21700-p50b/",
+    "status": 200,
+    "path": "data/p50b-product.html",
+    "sha256": "587ed3093cf2668d0cac05797cfd8dbd2fc47db50a6eabd344e9d429ed2ed694",
+    "utc": "2026-10-09T22:23:26.220096+00:00"
+  },
+  {
+    "url": "https://www.apcprop.com/files/PER3_10x6E.dat",
+    "final_url": "https://www.apcprop.com/files/PER3_10x6E.dat",
+    "status": 403,
+    "path": "data/PER3_10x6E.dat",
+    "sha256": "85480c5b45897a33b4fecbd907e8b89634a730e900a69cc093c827fb545b427c",
+    "utc": "2026-10-09T22:24:27.832465+00:00"
+  },
+  {
+    "url": "https://www.molicel.com/wp-content/uploads/chart_2-3-d@2x.png",
+    "final_url": "https://www.molicel.com/wp-content/uploads/chart_2-3-d@2x.png",
+    "status": 200,
+    "path": "data/p50b-1C.png",
+    "sha256": "c99d843d858670036e1afae89d0b3c4087078b2555f7a9ac9520fe359f29d15c",
+    "utc": "2026-10-09T22:24:52.926724+00:00"
+  }
+]

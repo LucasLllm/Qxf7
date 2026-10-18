@@ -1,0 +1,14 @@
+test_solver_exists_and_rejects_missing_sections (test_assembled.AssembledTests.test_solver_exists_and_rejects_missing_sections) ... ok
+test_disconnected_large_gap_rejected (test_reconstruction.ReconstructionTests.test_disconnected_large_gap_rejected) ... ok
+test_hinge_gap_is_explicit_not_claimed_measured (test_reconstruction.ReconstructionTests.test_hinge_gap_is_explicit_not_claimed_measured) ... ok
+test_invalid_energy_and_nonforward_groundspeed_rejected (test_mission.MissionTests.test_invalid_energy_and_nonforward_groundspeed_rejected) ... ok
+test_optimum_is_minimum_energy_per_distance_not_minimum_power (test_mission.MissionTests.test_optimum_is_minimum_energy_per_distance_not_minimum_power) ... ok
+test_zero_wind_energy_accounting (test_mission.MissionTests.test_zero_wind_energy_accounting) ... ok
+test_low_voltage_is_not_reported_as_achieved_range (test_couple.CouplingTests.test_low_voltage_is_not_reported_as_achieved_range) ... ok
+test_missing_prop_point_rejected (test_couple.CouplingTests.test_missing_prop_point_rejected) ... ok
+test_real_map_energy_accounting (test_couple.CouplingTests.test_real_map_energy_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.749s
+
+OK

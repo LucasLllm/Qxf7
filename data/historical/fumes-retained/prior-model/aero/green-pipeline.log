@@ -1,0 +1,6 @@
+test_missing_geometry_produces_explicit_blocked_artifact_without_curves (test_solver.SourceBoundary.test_missing_geometry_produces_explicit_blocked_artifact_without_curves) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

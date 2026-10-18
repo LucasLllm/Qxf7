@@ -1,0 +1,26 @@
+{
+  "configuration": "original Stork fixed4+1, no payload,4S3P P50B, BH2812V5 910KV10x6 two-blade",
+  "physical_mass_kg": 2.9837,
+  "growth_stress_mass_kg": 3.0837,
+  "growth_is_unspent_not_installed": true,
+  "nominal_battery_wh": 216,
+  "reserve_wh": 43.2,
+  "reserve_basis": "20 percent of nominal battery energy; planning policy",
+  "usable_energy_fraction_sensitivity": [0.85, 0.9, 0.95],
+  "usable_energy_status": "Sensitivity only until manufacturer discharge data/pack loss integration supports replacement. NOT statistical bounds or measured cold performance.",
+  "vtol_departure_arrival_wh_sensitivity": [20, 30, 40],
+  "vtol_status": "Planning sensitivities; not demonstrated selected4S lift-system consumption. Includes departure+transition+arrival allocation.",
+  "auxiliary_power_w": 15,
+  "esc_efficiency_central": 0.97,
+  "esc_efficiency_sensitivity": [0.95, 0.97, 0.99],
+  "esc_efficiency_status": "Explicit loss allowances; not measured Lumenier efficiency",
+  "loaded_voltage_v_checks": [12.0, 14.4, 16.8],
+  "voltage_status": "Motor operating-point screens only; do not infer SOC, pack cutoff or full discharge energy from these voltages",
+
+  "auxiliary_status": "Existing planning allowance, to be component-budgeted/calibrated",
+  "airspeed_kmh_grid": [50,52,54,56,58,60,62,64,66,68,70],
+  "tailwind_kmh_sensitivity": [-10,0,10],
+  "wind_model": "Steady horizontal wind on straight one-way cruise leg. No gust or turnaround certification.",
+  "validity": "Exclude insufficient lift, low aerodynamic confidence, out-of-map prop operating points and voltage/RPM/current infeasibility. Do not invent replacement values for failed solves.",
+  "flightworthiness_claim": false
+}

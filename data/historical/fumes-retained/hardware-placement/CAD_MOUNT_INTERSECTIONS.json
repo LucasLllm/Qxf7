@@ -1,0 +1,699 @@
+{
+  "checks": [
+    {
+      "clamp_instance": 49,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP",
+      "source_sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 50,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP",
+      "source_sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          81.43810689799999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 51,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP",
+      "source_sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 52,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP",
+      "source_sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          81.43810689799999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 53,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 54,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP",
+      "source_sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 55,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          -520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 56,
+      "hardware": "boom_R",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP",
+      "source_sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          -520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 57,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP",
+      "source_sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.3138885498047
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 58,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 1 VTOL.STEP",
+      "source_sha256": "3c968eeddb6493c54bf5aeb173833b072e6565bc09886a75085caa657bdf9ec3",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          81.43810689799999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.3138885498047
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 59,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP",
+      "source_sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.3139190673828
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 60,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/BOOM MOUNT 2 VTOL.STEP",
+      "source_sha256": "15a8df97f498053b2bacdfd74b97c7ab119f5d78e2fad03ad20456cc913de9bc",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          81.43810689799999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.3139190673828
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 61,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 62,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP",
+      "source_sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 63,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "clamp_instance": 64,
+      "hardware": "boom_L",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 2 VTOL.STEP",
+      "source_sha256": "0bdad7e24163b307d6a58052b904db9c6648ddaa4331edc70a6b81a48ce06ebd",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          -8.470329472543003e-22
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "mount_instance": 53,
+      "hardware": "F90_mount_053_CFD_APPROXIMATE",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "mount_instance": 55,
+      "hardware": "F90_mount_055_CFD_APPROXIMATE",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          -520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "mount_instance": 61,
+      "hardware": "F90_mount_061_CFD_APPROXIMATE",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          520.31391
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "mount_instance": 63,
+      "hardware": "F90_mount_063_CFD_APPROXIMATE",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/vtol/MOTOR MOUNT 1 VTOL.STEP",
+      "source_sha256": "5e5d4b011fc9cf1adcef2fad4d74e5653d9b7c3110f2a461d05a56452af9cc19",
+      "source_to_aircraft_mm": [
+        [
+          1.2246467991473532e-16,
+          0.0,
+          1.0,
+          -130.0
+        ],
+        [
+          1.0,
+          0.0,
+          -1.2246467991473532e-16,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "mount_instance": 11,
+      "hardware": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "overlap_mm3": 0.0,
+      "source_step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/source-format-audit/originals/base/MOTOR MOUNT 19x19.STEP",
+      "source_sha256": "605d4d1a1ac9a6d8ae5be0f8f47c863b147b2a5d2e82ae6cbeb47a9979148db4",
+      "source_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "method": "OCC BRep common, 16 boom halves plus 5 motor primary mounts; not a full assembly pair audit",
+  "all_zero_positive_volume": true
+}

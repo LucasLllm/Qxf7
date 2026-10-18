@@ -1,0 +1,75 @@
+{
+  "assumptions": {
+    "rho_kg_m3": 1.225,
+    "g_m_s2": 9.80665,
+    "diameter_m": 0.17779999999999999,
+    "lift_rotors": 4,
+    "total_disk_area_m2": 0.09931466590310954
+  },
+  "packs": {
+    "4S4P": {
+      "cells": 16,
+      "nominal_voltage_V": 14.4,
+      "full_charge_V": 16.8,
+      "retail_class_capacity_Ah": 20.0,
+      "standard_min_capacity_Ah": 19.6,
+      "rated_1C_min_capacity_Ah": 19.012,
+      "retail_class_Wh_estimate": 288.0,
+      "standard_min_Wh_estimate": 282.24,
+      "rated_1C_min_Wh_estimate": 273.7728,
+      "cell_only_max_g": 1104,
+      "cell_sum_CDR_A": 39.2,
+      "at_300W_14_4V_pack_A": 20.833333333333332,
+      "at_300W_14_4V_cell_A": 5.208333333333333,
+      "at_300W_10V_pack_A": 30.0,
+      "at_300W_10V_cell_A": 7.5,
+      "retail_class_90pct_Wh": 259.2,
+      "standard_min_90pct_Wh": 254.01600000000002,
+      "rated_1C_min_90pct_Wh": 246.39552000000003
+    },
+    "4S3P": {
+      "cells": 12,
+      "nominal_voltage_V": 14.4,
+      "full_charge_V": 16.8,
+      "retail_class_capacity_Ah": 15.0,
+      "standard_min_capacity_Ah": 14.700000000000001,
+      "rated_1C_min_capacity_Ah": 14.259,
+      "retail_class_Wh_estimate": 216.0,
+      "standard_min_Wh_estimate": 211.68,
+      "rated_1C_min_Wh_estimate": 205.3296,
+      "cell_only_max_g": 828,
+      "cell_sum_CDR_A": 29.400000000000002,
+      "at_300W_14_4V_pack_A": 20.833333333333332,
+      "at_300W_14_4V_cell_A": 6.944444444444444,
+      "at_300W_10V_pack_A": 30.0,
+      "at_300W_10V_cell_A": 10.0,
+      "retail_class_90pct_Wh": 194.4,
+      "standard_min_90pct_Wh": 190.512,
+      "rated_1C_min_90pct_Wh": 184.79664
+    }
+  },
+  "hover": [
+    {
+      "mass_kg": 2.9,
+      "thrust_N": 28.439284999999998,
+      "induced_velocity_m_s": 10.811092957428489,
+      "ideal_induced_power_W": 307.45975377780167,
+      "300W_minus_ideal_W": -7.459753777801666,
+      "300W_to_ideal_ratio": 0.975737462590981,
+      "ideal_to_300W_ratio": 1.0248658459260056
+    },
+    {
+      "mass_kg": 3.1,
+      "thrust_N": 30.400615,
+      "induced_velocity_m_s": 11.177674267622379,
+      "ideal_induced_power_W": 339.8081720053949,
+      "300W_minus_ideal_W": -39.80817200539491,
+      "300W_to_ideal_ratio": 0.8828510457224586,
+      "ideal_to_300W_ratio": 1.1326939066846498
+    }
+  ],
+  "4S3P_range_implied_Wh_km_retail90pct": {
+    "70km": 2.777142857142857,
+    "85km": 2.287058823529412
+  }
+}

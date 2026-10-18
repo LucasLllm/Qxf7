@@ -1,0 +1,14 @@
+{"wing": 1.6205406494140626, "wing_area": 0.27121840608205844, "tail_area": 0.0733246722756804, "tail_cant": 35.10688872248428, "foils": 36, "missing": 0, "fuselage": [0.9938015479879455, 0.1760000141826574, 0.17920405026823788], "wetted_envelope": 0.3640577981513995, "seconds": 56.91538095474243}
+F.
+======================================================================
+FAIL: test_actual_source_geometry_deliverable (__main__.ContourTests.test_actual_source_geometry_deliverable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py", line 41, in test_actual_source_geometry_deliverable
+    self.assertAlmostEqual(points[:,0].max(),1,places=5)
+AssertionError: np.float64(1.0001599094) != 1 within 5 places (np.float64(0.0001599093999999912) difference)
+
+----------------------------------------------------------------------
+Ran 2 tests in 58.829s
+
+FAILED (failures=1)

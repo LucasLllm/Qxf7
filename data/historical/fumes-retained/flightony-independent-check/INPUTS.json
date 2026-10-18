@@ -1,0 +1,56 @@
+{
+  "scenarios": [
+    {
+      "name": "seller_4S4P",
+      "mass": 2.9,
+      "parallel": 4,
+      "mass_basis": "seller Operator advertised AUW; payload inclusion unspecified"
+    },
+    {
+      "name": "seller_4S3P",
+      "mass": 2.7,
+      "parallel": 3,
+      "mass_basis": "seller Explorer advertised AUW; payload inclusion unspecified"
+    },
+    {
+      "name": "stock_3p1kg",
+      "mass": 3.1,
+      "parallel": 4,
+      "mass_basis": "documentary top mass sensitivity, NOT qualified MTOW"
+    },
+    {
+      "name": "our_dry_4S4P",
+      "mass": 3.2567,
+      "parallel": 4,
+      "mass_basis": "prior dry mass2056.7g + seller pack1200g, no cargo; different material/installation"
+    },
+    {
+      "name": "our_dry_4S3P",
+      "mass": 2.9567,
+      "parallel": 3,
+      "mass_basis": "prior dry mass2056.7g + assumed proportional900g pack, no cargo; NOT seller pack mass"
+    }
+  ],
+  "source_hashes": {
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled_solver.py": "a79b92cd2a4156fd8ef3bb23873ad8f39837b44f97548d7e1d49be88a751af6c",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py": "3c09ddd4fde1059bab30a7446714553998084adfca7397a879311563cd83da1f",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/model.py": "a3e0d5bf7af720c12af7cbf3c7c24f794472d12cfa8f2b1ac7226484e0df1deb",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/PER3_10x6E.DOM.dat": "d72712e0b9c917b3f6837a40b47a11c272712be90fef9298971f84d09eca0a90",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/GEOMETRY.json": "5a4356ca121c6a0cf37a898375ecb3f39a5fc64ef674fd2240a2163035e02cee",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/SECTIONS.json": "5ab33530da6604bc7c62c16dcdcc9c794ba7fe32b7a0a98d60e2d0adaa140b03",
+    "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/VERIFIED_CONFIG.json": "700b44f591140a7d5d8e96fe02088156b983a26ef645c9ecca6f9202d5a3f446"
+  },
+  "method": "unaltered previous AeroSandbox VLM+NeuralFoil+component buildup; same mesh2,3",
+  "auxiliary_W": 15,
+  "esc_efficiency": 0.97,
+  "loaded_voltage_checks": [
+    12.0,
+    14.4,
+    16.8
+  ],
+  "seller_noncruise_wh": 13.333333333333334,
+  "mission_allowance_kind": "seller13.333Wh budget questionable hover; separately30Wh previous planning allowance; neither validated",
+  "energy_policy": "10% reserve once; nominal50E energy only, no inferred measured discharge energy",
+  "wind_kmh": 0,
+  "battery_losses": "50E discharge curve not integrated; nominal energy optimistic assumption"
+}

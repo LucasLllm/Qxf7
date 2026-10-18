@@ -1,0 +1,819 @@
+{
+  "status": "PASS_COMPONENTS_AND_HARDWARE_BASELINE_ONLY",
+  "regression_controls_pass": true,
+  "exact_predicate_source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v1/surface-qualification/exact_screen.py",
+  "exact_predicate_source_sha256": "08162464cb7e78f7e065b2389cf15b0ea0d0129cf9dc659555bd365865805b68",
+  "components": [
+    {
+      "name": "F90_axisymmetric_local",
+      "obj_sha256": "70c4348b2b2dafdd36e55bc2881c5e5c1ab7d0531fcc1719f8d546a70b290878",
+      "step_sha256": "bf7db974e0900a21e1bfe80ef9078e3607d955bd95874cb86b3c97f6c911aa03",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.3784029553906408e-05,
+        "area_m2": 0.004251645047424242,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11739,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6217,
+          "empty_coplanar_clip": 2636,
+          "shared_edge_distinct_planes": 944,
+          "disjoint_plane_intervals": 1143,
+          "plane_separated": 799
+        },
+        "elapsed_s": 0.43658995628356934,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11739,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.0759416000000475e-05,
+      "cad_mesh_relative_volume_delta": 0.0016569576022294784
+    },
+    {
+      "name": "Avenger2812V5_axisymmetric_local",
+      "obj_sha256": "870b123dff79180a13d933261f42ab1da3e8fa9c472ad04338594bb43c4ec1b7",
+      "step_sha256": "806a7e4ff3969baf93004ee8cc08ba7eaabdc305ba58b01f16c24baac69d4fb6",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 2.087615288921714e-05,
+        "area_m2": 0.0052251937461248975,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11625,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6334,
+          "disjoint_plane_intervals": 1091,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2575,
+          "plane_separated": 681
+        },
+        "elapsed_s": 0.4421868324279785,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11625,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.1070184999999464e-05,
+      "cad_mesh_relative_volume_delta": 0.001656957593439645
+    },
+    {
+      "name": "F90_mount_053_CFD_APPROXIMATE",
+      "obj_sha256": "293b7ca38974e10f7020e0c77b1245d9dd0ff9fc2c47456ae3984073c44d4aa6",
+      "step_sha256": "e2ee78b832d4f48560ac43662cb01dd7521670b8913e7fdbb0cc5f5ea0df098d",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.3784029553906421e-05,
+        "area_m2": 0.004251645047424243,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11739,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6217,
+          "disjoint_plane_intervals": 1143,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2636,
+          "plane_separated": 799
+        },
+        "elapsed_s": 0.506962776184082,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11739,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.0759415999993536e-05,
+      "cad_mesh_relative_volume_delta": 0.00165695760222803
+    },
+    {
+      "name": "F90_mount_055_CFD_APPROXIMATE",
+      "obj_sha256": "f8049abfeeb13943846c2ec30a89c09873b2fd4cf4b30ab9a97ac26c20e1f652",
+      "step_sha256": "be0fa0ee8361b803aa1874e6f9e1204bf3bcfa61c616c5a49942ae90768cd1a7",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.3784029553906408e-05,
+        "area_m2": 0.004251645047424242,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11739,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6217,
+          "disjoint_plane_intervals": 1143,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2636,
+          "plane_separated": 799
+        },
+        "elapsed_s": 0.467850923538208,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11739,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.075941600002129e-05,
+      "cad_mesh_relative_volume_delta": 0.0016569576022289522
+    },
+    {
+      "name": "F90_mount_061_CFD_APPROXIMATE",
+      "obj_sha256": "ba654b9c48eba81015395b6a49cb246149d9bfa92d40551dd50aeacee22d533f",
+      "step_sha256": "22680c2f29243c6ccac57cd74e8f9cfb01808d3e0ff3d470168c6f4299f99b81",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.3784029553906411e-05,
+        "area_m2": 0.004251645047424244,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11739,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6217,
+          "disjoint_plane_intervals": 1143,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2636,
+          "plane_separated": 799
+        },
+        "elapsed_s": 0.509559154510498,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11739,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.0759415999993536e-05,
+      "cad_mesh_relative_volume_delta": 0.0016569576022286887
+    },
+    {
+      "name": "F90_mount_063_CFD_APPROXIMATE",
+      "obj_sha256": "dc523febdff1747cfc133c7febdeed3b9e31e638d177315aea950a40db90ee82",
+      "step_sha256": "5769ef723e68a2c35f9a544df4f0ca71b3ea21ca21609b904a08eae26c97dc6c",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.3784029553906416e-05,
+        "area_m2": 0.0042516450474242426,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11739,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6217,
+          "disjoint_plane_intervals": 1143,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2636,
+          "plane_separated": 799
+        },
+        "elapsed_s": 0.4850449562072754,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11739,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.075941600002129e-05,
+      "cad_mesh_relative_volume_delta": 0.0016569576022284252
+    },
+    {
+      "name": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "obj_sha256": "e8d041dc116b7a0355ad22f1faf0507a3c69e3d0d5fdf80ee0529be34e386b6c",
+      "step_sha256": "bdce52a88f8c5e4b093ed0b780d128c7c67e36f1bdad9e00fa7db487b2c176b3",
+      "topology": {
+        "vertices": 567,
+        "faces": 1130,
+        "edges": 1695,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 2.0876152889217096e-05,
+        "area_m2": 0.0052251937461248975,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 11625,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 6334,
+          "disjoint_plane_intervals": 1091,
+          "shared_edge_distinct_planes": 944,
+          "empty_coplanar_clip": 2575,
+          "plane_separated": 681
+        },
+        "elapsed_s": 0.43814969062805176,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 11625,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 2.1070184999999464e-05,
+      "cad_mesh_relative_volume_delta": 0.0016569575934426012
+    },
+    {
+      "name": "boom_R_bore8_open_ends_cable24x5",
+      "obj_sha256": "cdeb28612641a0c81d98e4cd645c04ca4e052e291f8d0aee1aaf1ff5086c3c9a",
+      "step_sha256": "2a3060545021114e13465399bb930ac49d3d2af44a5baadb304b0001fbbf5109",
+      "topology": {
+        "vertices": 168,
+        "faces": 340,
+        "edges": 510,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 2.475255684831675e-05,
+        "area_m2": 0.03251422810175879,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3538,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 2942,
+          "shared_edge_distinct_planes": 285,
+          "disjoint_plane_intervals": 307,
+          "plane_separated": 4
+        },
+        "elapsed_s": 0.14823174476623535,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3538,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.845324224651449e-14,
+      "cad_mesh_relative_volume_delta": 0.0015658270169057673
+    },
+    {
+      "name": "boom_R_bore6_open_ends_cable24x5",
+      "obj_sha256": "ba56ba85d3924f5ae500c924d7954f28fd43d804937c57e14229158b277e5dcf",
+      "step_sha256": "76ce08997948b91576596dd444c9c1a6f0fb1e93b5b2c455cdf814f9b036379d",
+      "topology": {
+        "vertices": 180,
+        "faces": 364,
+        "edges": 546,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 3.5596210333622246e-05,
+        "area_m2": 0.029487065333543873,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3790,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 3154,
+          "shared_edge_distinct_planes": 315,
+          "disjoint_plane_intervals": 317,
+          "plane_separated": 4
+        },
+        "elapsed_s": 0.15672588348388672,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3790,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.845324224651449e-14,
+      "cad_mesh_relative_volume_delta": 0.0005929594733430242
+    },
+    {
+      "name": "boom_R_bore9_open_ends_cable24x5",
+      "obj_sha256": "c3cfacbdac3217245fb93316914d1330423925e61246af46459c6b60bd9e8ec8",
+      "step_sha256": "09a89157eff0b334efe2a067e8df33ebc45083e896f121081aca5e45e445b2a2",
+      "topology": {
+        "vertices": 164,
+        "faces": 332,
+        "edges": 498,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.815465360216244e-05,
+        "area_m2": 0.03402477132581245,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3476,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 2879,
+          "shared_edge_distinct_planes": 279,
+          "disjoint_plane_intervals": 310,
+          "plane_separated": 8
+        },
+        "elapsed_s": 0.15762996673583984,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3476,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.845324224651449e-14,
+      "cad_mesh_relative_volume_delta": 0.002900801601616019
+    },
+    {
+      "name": "boom_R_bore8_open_ends_taped_cable",
+      "obj_sha256": "d03809a993cfc2434c2d49e228c175f08c533e5bf60ca261fd3dd8855ef364af",
+      "step_sha256": "567093f551967fccb367709e08e79dea03f106ef816084641bf68703b5d32102",
+      "topology": {
+        "vertices": 134,
+        "faces": 268,
+        "edges": 402,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 0,
+        "surface_shell_count": 1,
+        "volume_m3": 2.49089026585879e-05,
+        "area_m2": 0.032660798796946285,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 2877,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "disjoint_plane_intervals": 303,
+          "shared_simplex_only": 2373,
+          "shared_edge_distinct_planes": 201
+        },
+        "elapsed_s": 0.1402418613433838,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 2877,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.845324224651449e-14,
+      "cad_mesh_relative_volume_delta": 0.0016746472828070077
+    },
+    {
+      "name": "boom_R_sealed_exterior_void_ignored",
+      "obj_sha256": "2736a5d5d801997e3faf9f1ec5395cc6b7b1dfc6be484153e19e26b3ebc19c03",
+      "step_sha256": "a1a3d2f189089573ad4ecf0f13bd2cc5f4e19d1aae4971cd8d9b2055a10da25c",
+      "topology": {
+        "vertices": 8,
+        "faces": 12,
+        "edges": 18,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 4.999999999999978e-05,
+        "area_m2": 0.020199999999999954,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 54,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 36,
+          "shared_edge_distinct_planes": 12,
+          "disjoint_plane_intervals": 6
+        },
+        "elapsed_s": 0.0017690658569335938,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 54,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.845324224651449e-14,
+      "cad_mesh_relative_volume_delta": 4.956382326784228e-13
+    },
+    {
+      "name": "boom_L_bore8_open_ends_cable24x5",
+      "obj_sha256": "c09e0a057d588dc7138a6a982a20471a1e50525f236ec553384c8467307dbbfd",
+      "step_sha256": "c2faed26529390635bb2b7050b658b884aefce339c5571003ba25e651f8ad0e7",
+      "topology": {
+        "vertices": 168,
+        "faces": 340,
+        "edges": 510,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 2.475255684831703e-05,
+        "area_m2": 0.032514228101758844,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3538,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 2942,
+          "shared_edge_distinct_planes": 285,
+          "disjoint_plane_intervals": 307,
+          "plane_separated": 4
+        },
+        "elapsed_s": 0.16602706909179688,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3538,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.365499711196264e-15,
+      "cad_mesh_relative_volume_delta": 0.001565827016916955
+    },
+    {
+      "name": "boom_L_bore6_open_ends_cable24x5",
+      "obj_sha256": "9a69b7c64bc2f1dadf4963bc600977037f2b05ec4625074e5d32bf0bda3a8bb0",
+      "step_sha256": "405d6b1b6e3daa2ade464a13704dba15bc68aaad434380c4882e72e88a80b9d3",
+      "topology": {
+        "vertices": 180,
+        "faces": 364,
+        "edges": 546,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 3.559621033362252e-05,
+        "area_m2": 0.029487065333543925,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3790,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 3154,
+          "shared_edge_distinct_planes": 315,
+          "disjoint_plane_intervals": 317,
+          "plane_separated": 4
+        },
+        "elapsed_s": 0.15752387046813965,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3790,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.365499711196264e-15,
+      "cad_mesh_relative_volume_delta": 0.0005929594733503869
+    },
+    {
+      "name": "boom_L_bore9_open_ends_cable24x5",
+      "obj_sha256": "182e051ebe9a34951ffcc8a20d074913b299406c89074981d837ace4e1c0b702",
+      "step_sha256": "778c33ae8471e0a4b0ff4fcdf88c661e614e0416bf9dd2b4235c063ece6e37ae",
+      "topology": {
+        "vertices": 164,
+        "faces": 332,
+        "edges": 498,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": -2,
+        "surface_shell_count": 1,
+        "volume_m3": 1.8154653602162707e-05,
+        "area_m2": 0.0340247713258125,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 3476,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 2879,
+          "shared_edge_distinct_planes": 279,
+          "disjoint_plane_intervals": 310,
+          "plane_separated": 8
+        },
+        "elapsed_s": 0.156019926071167,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 3476,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.365499711196264e-15,
+      "cad_mesh_relative_volume_delta": 0.002900801601630891
+    },
+    {
+      "name": "boom_L_bore8_open_ends_taped_cable",
+      "obj_sha256": "2e6094765a1bd50eb9b6a2275febf8d8011dbb20642ce81221688edcaa0c368c",
+      "step_sha256": "c1da994441be593d27b1a4157c36e0e33cc5f5300e0451f668b3b86288d46f35",
+      "topology": {
+        "vertices": 134,
+        "faces": 268,
+        "edges": 402,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 0,
+        "surface_shell_count": 1,
+        "volume_m3": 2.4908902658588174e-05,
+        "area_m2": 0.03266079879694635,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 2877,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "disjoint_plane_intervals": 303,
+          "shared_simplex_only": 2373,
+          "shared_edge_distinct_planes": 201
+        },
+        "elapsed_s": 0.13420701026916504,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 2877,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.365499711196264e-15,
+      "cad_mesh_relative_volume_delta": 0.00167464728281798
+    },
+    {
+      "name": "boom_L_sealed_exterior_void_ignored",
+      "obj_sha256": "27f966cfbdd0b69b67b9c2d6e3c4d121fe08f7a285b188dd716b43d775b92158",
+      "step_sha256": "b1039d120846cf7f921d2269eda126292e4de5ed4569c6328cdfe9ebd3223cb4",
+      "topology": {
+        "vertices": 8,
+        "faces": 12,
+        "edges": 18,
+        "edge_incidence_two": true,
+        "winding_consistent": true,
+        "bad_vertex_link_ids": [],
+        "euler_number": 2,
+        "surface_shell_count": 1,
+        "volume_m3": 5.0000000000000057e-05,
+        "area_m2": 0.02020000000000001,
+        "zero_area_faces": 0
+      },
+      "exact_triangle_intersections": {
+        "aabb_candidate_pairs": 54,
+        "forbidden_pairs": [],
+        "classification_counts": {
+          "shared_simplex_only": 36,
+          "shared_edge_distinct_planes": 12,
+          "disjoint_plane_intervals": 6
+        },
+        "elapsed_s": 0.0013740062713623047,
+        "scope": "ALL_TRIANGLES",
+        "exact_predicates": true,
+        "independent_bruteforce_candidate_count": 54,
+        "passes": true
+      },
+      "step_valid": true,
+      "step_solid_count": 1,
+      "cad_mesh_bounds_max_delta_m": 5.365499711196264e-15,
+      "cad_mesh_relative_volume_delta": 5.01167960465205e-13
+    }
+  ],
+  "installed_baseline": {
+    "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE-m.obj",
+    "obj_sha256": "bb62e38bef674a69b14b8cfebe76ec86b65b1763f3952a7be81f537a357341da",
+    "obj_units": "m",
+    "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE.step",
+    "step_sha256": "2bf57d5b847ba1487761b48478e8b9b7a85b461e1033bb53b515ea6aec49b057",
+    "step_units": "mm",
+    "installed_names": [
+      "F90_mount_053_CFD_APPROXIMATE",
+      "F90_mount_055_CFD_APPROXIMATE",
+      "F90_mount_061_CFD_APPROXIMATE",
+      "F90_mount_063_CFD_APPROXIMATE",
+      "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "boom_R_bore8_open_ends_cable24x5",
+      "boom_L_bore8_open_ends_cable24x5"
+    ],
+    "topology": {
+      "vertices": 3171,
+      "faces": 6330,
+      "edges": 9495,
+      "edge_incidence_two": true,
+      "winding_consistent": true,
+      "bad_vertex_link_ids": [],
+      "euler_number": 6,
+      "surface_shell_count": 7,
+      "volume_m3": 0.00012551738480147647,
+      "area_m2": 0.08726023013933948,
+      "zero_area_faces": 0
+    },
+    "exact_triangle_intersections": {
+      "aabb_candidate_pairs": 65657,
+      "forbidden_pairs": [],
+      "classification_counts": {
+        "empty_coplanar_clip": 13119,
+        "shared_simplex_only": 37086,
+        "disjoint_plane_intervals": 6277,
+        "shared_edge_distinct_planes": 5290,
+        "plane_separated": 3885
+      },
+      "elapsed_s": 2.401646137237549,
+      "scope": "ALL_TRIANGLES",
+      "exact_predicates": true,
+      "independent_bruteforce_candidate_count": 65657,
+      "passes": true
+    },
+    "scope": "7 hardware bodies ONLY; no parent airframe or props",
+    "step_valid": true,
+    "step_solid_count": 7
+  },
+  "independent_CAD_baseline_pairs": [
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_055_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_061_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_053_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "F90_mount_061_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_055_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "F90_mount_063_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_061_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "F90_mount_063_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "b": "boom_R_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    },
+    {
+      "a": "boom_R_bore8_open_ends_cable24x5",
+      "b": "boom_L_bore8_open_ends_cable24x5",
+      "common_volume_mm3": 0.0,
+      "common_faces": 0
+    }
+  ],
+  "source_preserved": true,
+  "limits": "Exact triangle predicates bind serialized float64 metre OBJ; shared simplex allowed. Native CAD Boolean checks use OCC tolerance. No complete printed-airframe contact or fluid/solver release."
+}

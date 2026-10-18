@@ -1,0 +1,29 @@
+{
+  "cases": 64152,
+  "central_optima": {
+    "smooth_aligned": {
+      "speed": 54.0,
+      "range_km": 39.48443583215091,
+      "power_w": 165.75645218338866
+    },
+    "smooth_crossflow": {
+      "speed": 50.0,
+      "range_km": 29.557853634160296,
+      "power_w": 205.02165262082494
+    },
+    "rough_aligned": {
+      "speed": 50.0,
+      "range_km": 27.751509520318876,
+      "power_w": 218.36649986780137
+    },
+    "rough_crossflow": {
+      "speed": 50.0,
+      "range_km": 21.384714561681683,
+      "power_w": 283.37998071101885
+    }
+  },
+  "still_air_sensitivity_range_km": [
+    13.284852014703269,
+    49.57322594904412
+  ]
+}

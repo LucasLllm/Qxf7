@@ -1,0 +1,19 @@
+E.
+======================================================================
+ERROR: test_actual_source_geometry_deliverable (__main__.ContourTests.test_actual_source_geometry_deliverable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py", line 27, in test_actual_source_geometry_deliverable
+    result=mod.main()
+           ^^^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/extract.py", line 201, in main
+    wetted=float(np.trapz([s['outer_convex_perimeter_m'] for s in sections],[s['x_m'] for s in sections]))
+                 ^^^^^^^^
+  File "/Users/lucasliu/.hermes/profiles/fumes/research-venv/lib/python3.11/site-packages/numpy/__init__.py", line 792, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {attr!r}")
+AttributeError: module 'numpy' has no attribute 'trapz'
+
+----------------------------------------------------------------------
+Ran 2 tests in 58.814s
+
+FAILED (errors=1)

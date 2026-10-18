@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.flightony.com/",
+    "status": 200,
+    "file": "seller_0.txt",
+    "sha256_html": "f1449b0deb23c78a57947ab0ebddea59fea6faa50d0355c1479bcff2e768f5e6",
+    "links": [
+      {
+        "text": "Skip to main content",
+        "url": "https://www.flightony.com/#main-content"
+      },
+      {
+        "text": "Overview",
+        "url": "https://www.flightony.com/#specs"
+      },
+      {
+        "text": "Specifications",
+        "url": "https://www.flightony.com/#specs-table"
+      },
+      {
+        "text": "Explore the platform \u2192",
+        "url": "https://www.flightony.com/#deep-dive"
+      },
+      {
+        "text": "Configure Stork VTOL",
+        "url": "https://www.flightony.com/configure"
+      },
+      {
+        "text": "View Pricing",
+        "url": "https://www.flightony.com/pricing"
+      }
+    ]
+  },
+  {
+    "url": "https://www.flightony.com/stork-vtol/specs",
+    "status": 200,
+    "file": "seller_1.txt",
+    "sha256_html": "d724c7f36c88bcde662b27b009c9eaaf3e494ed81e5c4112dc2f229d600f54f5",
+    "links": [
+      {
+        "text": "Skip to main content",
+        "url": "https://www.flightony.com/stork-vtol/specs#main-content"
+      },
+      {
+        "text": "View Pricing",
+        "url": "https://www.flightony.com/store"
+      }
+    ]
+  },
+  {
+    "url": "https://www.flightony.com/stork-vtol/performance",
+    "status": 200,
+    "file": "seller_2.txt",
+    "sha256_html": "c1fa70a7f4468ab2d99298e69e2d642aca721bdb3b1181b0a85a9acfca457109",
+    "links": [
+      {
+        "text": "Skip to main content",
+        "url": "https://www.flightony.com/stork-vtol/performance#main-content"
+      },
+      {
+        "text": "Order Now",
+        "url": "https://www.flightony.com/store"
+      }
+    ]
+  },
+  {
+    "url": "https://www.flightony.com/configure/extended-range",
+    "status": 200,
+    "file": "seller_3.txt",
+    "sha256_html": "f900ee51d939ab3ebfbd26e09e158657e023a9a1d79e4d759aa88947f1f4647e",
+    "links": [
+      {
+        "text": "Skip to main content",
+        "url": "https://www.flightony.com/configure/extended-range#main-content"
+      },
+      {
+        "text": "Order Operator \u2014 $7,495",
+        "url": "https://www.flightony.com/store"
+      },
+      {
+        "text": "Compare Payload Options",
+        "url": "https://www.flightony.com/configure/payload"
+      }
+    ]
+  },
+  {
+    "url": "https://www.flightony.com/configure/standard",
+    "status": 200,
+    "file": "seller_4.txt",
+    "sha256_html": "351e9e241d28f2d522d509c1bc3ad6e13245cb593f37796812db64d16d171b48",
+    "links": [
+      {
+        "text": "Skip to main content",
+        "url": "https://www.flightony.com/configure/standard#main-content"
+      },
+      {
+        "text": "Order Explorer \u2014 $4,995",
+        "url": "https://www.flightony.com/store"
+      },
+      {
+        "text": "Compare Operator",
+        "url": "https://www.flightony.com/configure/extended-range"
+      }
+    ]
+  }
+]

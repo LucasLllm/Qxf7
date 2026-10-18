@@ -1,0 +1,1 @@
+Flightony check executed. Primary results REPORT.md,COMPARISON.png,SUMMARY.json;220aero rows,3960motor cases,12951accounting assertions. Inputs hashed unchanged. CFD remains paused. Main discrepancy unvalidated gear/mount drag.300Whover problematic at2.9kg. Fresh two-point mesh refinement not full aero acceptance. Nominal50E energy not measured discharge integration.

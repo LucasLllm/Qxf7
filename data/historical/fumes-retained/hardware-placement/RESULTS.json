@@ -1,0 +1,1738 @@
+{
+  "configuration": "original standard 1.62m Stork; CFD APPROXIMATE hardware, not enlarged mission",
+  "status": "PASS_COMPONENTS_AND_HARDWARE_BASELINE_ONLY",
+  "axes": {
+    "+X": "forward",
+    "+Y": "left",
+    "+Z": "up"
+  },
+  "components": [
+    {
+      "name": "F90_axisymmetric_local",
+      "role": "LOCAL_DEFINITION_DO_NOT_INSTALL",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_axisymmetric_local-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_axisymmetric_local.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "70c4348b2b2dafdd36e55bc2881c5e5c1ab7d0531fcc1719f8d546a70b290878",
+      "step_sha256": "bf7db974e0900a21e1bfe80ef9078e3607d955bd95874cb86b3c97f6c911aa03",
+      "bounds_m": [
+        [
+          -0.016679240584,
+          -0.016694809339,
+          0.0
+        ],
+        [
+          0.0167,
+          0.016694809339,
+          0.0347
+        ]
+      ],
+      "cad_volume_mm3": 13806.907013445441,
+      "mesh_volume_m3": 1.3784029553906408e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "coordinate_frame": "local_mm_before_OBJ_conversion",
+      "profile_r_z_mm": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          6.2
+        ],
+        [
+          16.7,
+          6.2
+        ],
+        [
+          16.7,
+          18.2
+        ],
+        [
+          14.5,
+          19.7
+        ],
+        [
+          2.5,
+          19.7
+        ],
+        [
+          2.5,
+          34.7
+        ],
+        [
+          0,
+          34.7
+        ]
+      ],
+      "omitted": "vent openings, stator fins, winding roughness, wires, mounting bores, screws, nut, thread helix, rear shaft clip",
+      "documented_dimensions": "maximum diameter, seat-to-tip, prop-side shoulder and M5 smooth shaft; Avenger rear bell offset6.45",
+      "assumed_dimensions": "base diameter/height, neck diameter/height, taper dimensions; F90 bell rear offset6.2"
+    },
+    {
+      "name": "Avenger2812V5_axisymmetric_local",
+      "role": "LOCAL_DEFINITION_DO_NOT_INSTALL",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_axisymmetric_local-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_axisymmetric_local.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "870b123dff79180a13d933261f42ab1da3e8fa9c472ad04338594bb43c4ec1b7",
+      "step_sha256": "806a7e4ff3969baf93004ee8cc08ba7eaabdc305ba58b01f16c24baac69d4fb6",
+      "bounds_m": [
+        [
+          -0.016928929815,
+          -0.016944731635,
+          0.0
+        ],
+        [
+          0.01695,
+          0.016944731635,
+          0.04405
+        ]
+      ],
+      "cad_volume_mm3": 20910.801200050664,
+      "mesh_volume_m3": 2.087615288921714e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "coordinate_frame": "local_mm_before_OBJ_conversion",
+      "profile_r_z_mm": [
+        [
+          0,
+          0
+        ],
+        [
+          12.5,
+          0
+        ],
+        [
+          12.5,
+          3.4
+        ],
+        [
+          7,
+          3.4
+        ],
+        [
+          7,
+          6.45
+        ],
+        [
+          16.95,
+          6.45
+        ],
+        [
+          16.95,
+          25.5
+        ],
+        [
+          15,
+          27.05
+        ],
+        [
+          2.5,
+          27.05
+        ],
+        [
+          2.5,
+          44.05
+        ],
+        [
+          0,
+          44.05
+        ]
+      ],
+      "omitted": "vent openings, stator fins, winding roughness, wires, mounting bores, screws, nut, thread helix, rear shaft clip",
+      "documented_dimensions": "maximum diameter, seat-to-tip, prop-side shoulder and M5 smooth shaft; Avenger rear bell offset6.45",
+      "assumed_dimensions": "base diameter/height, neck diameter/height, taper dimensions; F90 bell rear offset6.2"
+    },
+    {
+      "name": "F90_mount_053_CFD_APPROXIMATE",
+      "role": "BASELINE_INSTALLED_MOTOR",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_053_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_053_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "293b7ca38974e10f7020e0c77b1245d9dd0ff9fc2c47456ae3984073c44d4aa6",
+      "step_sha256": "e2ee78b832d4f48560ac43662cb01dd7521670b8913e7fdbb0cc5f5ea0df098d",
+      "bounds_m": [
+        [
+          -0.356679240584,
+          -0.27685176447575843,
+          -0.05275914554846533
+        ],
+        [
+          -0.32330000000000003,
+          -0.24346214579775843,
+          -0.01805914554846532
+        ]
+      ],
+      "cad_volume_mm3": 13806.90701344544,
+      "mesh_volume_m3": 1.3784029553906421e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "mount_instance_index": 53,
+      "seat_center_mm": [
+        -340.0,
+        -260.1569551367584,
+        -18.05914554846532
+      ],
+      "shaft_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motor_roll": "axisymmetric approximation; roll unobservable",
+      "source_transform": "unchanged retained v1 RESULTS and readiness-release gates",
+      "physical_fit_released": false,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -340.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.34
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "F90_mount_055_CFD_APPROXIMATE",
+      "role": "BASELINE_INSTALLED_MOTOR",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_055_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_055_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "f8049abfeeb13943846c2ec30a89c09873b2fd4cf4b30ab9a97ac26c20e1f652",
+      "step_sha256": "be0fa0ee8361b803aa1874e6f9e1204bf3bcfa61c616c5a49942ae90768cd1a7",
+      "bounds_m": [
+        [
+          0.19332075941600005,
+          -0.2768517642022416,
+          -0.05275914554846533
+        ],
+        [
+          0.22670000000000004,
+          -0.2434621455242416,
+          -0.01805914554846532
+        ]
+      ],
+      "cad_volume_mm3": 13806.90701344544,
+      "mesh_volume_m3": 1.3784029553906408e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "mount_instance_index": 55,
+      "seat_center_mm": [
+        210.00000000000006,
+        -260.1569548632416,
+        -18.05914554846532
+      ],
+      "shaft_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motor_roll": "axisymmetric approximation; roll unobservable",
+      "source_transform": "unchanged retained v1 RESULTS and readiness-release gates",
+      "physical_fit_released": false,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          210.00000000000006
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -260.1569548632416
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.21000000000000005
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.2601569548632416
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "F90_mount_061_CFD_APPROXIMATE",
+      "role": "BASELINE_INSTALLED_MOTOR",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_061_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_061_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "ba654b9c48eba81015395b6a49cb246149d9bfa92d40551dd50aeacee22d533f",
+      "step_sha256": "22680c2f29243c6ccac57cd74e8f9cfb01808d3e0ff3d470168c6f4299f99b81",
+      "bounds_m": [
+        [
+          -0.356679240584,
+          0.24346214552424156,
+          -0.05275914554846533
+        ],
+        [
+          -0.32330000000000003,
+          0.27685176420224156,
+          -0.01805914554846532
+        ]
+      ],
+      "cad_volume_mm3": 13806.90701344544,
+      "mesh_volume_m3": 1.3784029553906411e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "mount_instance_index": 61,
+      "seat_center_mm": [
+        -340.0,
+        260.15695486324154,
+        -18.05914554846532
+      ],
+      "shaft_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motor_roll": "axisymmetric approximation; roll unobservable",
+      "source_transform": "unchanged retained v1 RESULTS and readiness-release gates",
+      "physical_fit_released": false,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -340.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.34
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "F90_mount_063_CFD_APPROXIMATE",
+      "role": "BASELINE_INSTALLED_MOTOR",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_063_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/F90_mount_063_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "dc523febdff1747cfc133c7febdeed3b9e31e638d177315aea950a40db90ee82",
+      "step_sha256": "5769ef723e68a2c35f9a544df4f0ca71b3ea21ca21609b904a08eae26c97dc6c",
+      "bounds_m": [
+        [
+          0.19332075941600005,
+          0.24346214579775838,
+          -0.05275914554846533
+        ],
+        [
+          0.22670000000000004,
+          0.2768517644757584,
+          -0.01805914554846532
+        ]
+      ],
+      "cad_volume_mm3": 13806.90701344544,
+      "mesh_volume_m3": 1.3784029553906416e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "mount_instance_index": 63,
+      "seat_center_mm": [
+        210.00000000000006,
+        260.15695513675837,
+        -18.05914554846532
+      ],
+      "shaft_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motor_roll": "axisymmetric approximation; roll unobservable",
+      "source_transform": "unchanged retained v1 RESULTS and readiness-release gates",
+      "physical_fit_released": false,
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          210.00000000000006
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          260.15695513675837
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -18.05914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.21000000000000005
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.26015695513675835
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.01805914554846532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "role": "BASELINE_INSTALLED_MOTOR",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_mount_011_CFD_APPROXIMATE-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/Avenger2812V5_mount_011_CFD_APPROXIMATE.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "e8d041dc116b7a0355ad22f1faf0507a3c69e3d0d5fdf80ee0529be34e386b6c",
+      "step_sha256": "bdce52a88f8c5e4b093ed0b780d128c7c67e36f1bdad9e00fa7db487b2c176b3",
+      "bounds_m": [
+        [
+          -0.7077991136436045,
+          -0.016928929815,
+          -0.041944731634999996
+        ],
+        [
+          -0.6637491136436044,
+          0.01695,
+          -0.008055268365
+        ]
+      ],
+      "cad_volume_mm3": 20910.80120005064,
+      "mesh_volume_m3": 2.0876152889217096e-05,
+      "triangles": 1130,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.558109225343088e-10,
+      "mount_instance_index": 11,
+      "seat_center_mm": [
+        -663.7491136436045,
+        0.0,
+        -25.0
+      ],
+      "shaft_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "motor_roll": "axisymmetric approximation; roll unobservable",
+      "source_transform": "unchanged retained v1 RESULTS and readiness-release gates",
+      "physical_fit_released": false,
+      "local_to_aircraft_mm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -663.7491136436045
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -25.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.6637491136436044
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_R_bore8_open_ends_cable24x5",
+      "role": "BASELINE_INSTALLED_BOOM",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "cdeb28612641a0c81d98e4cd645c04ca4e052e291f8d0aee1aaf1ff5086c3c9a",
+      "step_sha256": "2a3060545021114e13465399bb930ac49d3d2af44a5baadb304b0001fbbf5109",
+      "bounds_m": [
+        [
+          -0.315,
+          -0.2651569551367584,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          -0.25515695513675846,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 24713.85921988144,
+      "mesh_volume_m3": 2.475255684831675e-05,
+      "triangles": 340,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.832042674780484e-10,
+      "side": "R",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 8,
+      "minimum_side_wall_mm": 1.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_R_bore6_open_ends_cable24x5",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore6_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore6_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "ba56ba85d3924f5ae500c924d7954f28fd43d804937c57e14229158b277e5dcf",
+      "step_sha256": "76ce08997948b91576596dd444c9c1a6f0fb1e93b5b2c455cdf814f9b036379d",
+      "bounds_m": [
+        [
+          -0.315,
+          -0.2651569551367584,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          -0.25515695513675846,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 35575.115731757534,
+      "mesh_volume_m3": 3.5596210333622246e-05,
+      "triangles": 364,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.288762449642454e-10,
+      "side": "R",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 6,
+      "minimum_side_wall_mm": 2.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_R_bore9_open_ends_cable24x5",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore9_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore9_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "c3cfacbdac3217245fb93316914d1330423925e61246af46459c6b60bd9e8ec8",
+      "step_sha256": "09a89157eff0b334efe2a067e8df33ebc45083e896f121081aca5e45e445b2a2",
+      "bounds_m": [
+        [
+          -0.315,
+          -0.2651569551367584,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          -0.25515695513675846,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 18102.142877134895,
+      "mesh_volume_m3": 1.815465360216244e-05,
+      "triangles": 332,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.802660505338551e-10,
+      "side": "R",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 9,
+      "minimum_side_wall_mm": 0.5,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_R_bore8_open_ends_taped_cable",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_taped_cable-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_bore8_open_ends_taped_cable.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "d03809a993cfc2434c2d49e228c175f08c533e5bf60ca261fd3dd8855ef364af",
+      "step_sha256": "567093f551967fccb367709e08e79dea03f106ef816084641bf68703b5d32102",
+      "bounds_m": [
+        [
+          -0.315,
+          -0.2651569551367584,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          -0.25515695513675846,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 24867.258771281668,
+      "mesh_volume_m3": 2.49089026585879e-05,
+      "triangles": 268,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.832042674780484e-10,
+      "side": "R",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 8,
+      "minimum_side_wall_mm": 1.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": null,
+      "cable_policy": "assumed tape/epoxy flush closure",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_R_sealed_exterior_void_ignored",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_sealed_exterior_void_ignored-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_R_sealed_exterior_void_ignored.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "2736a5d5d801997e3faf9f1ec5395cc6b7b1dfc6be484153e19e26b3ebc19c03",
+      "step_sha256": "a1a3d2f189089573ad4ecf0f13bd2cc5f4e19d1aae4971cd8d9b2055a10da25c",
+      "bounds_m": [
+        [
+          -0.315,
+          -0.2651569551367584,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          -0.25515695513675846,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 50000.0,
+      "mesh_volume_m3": 4.999999999999978e-05,
+      "triangles": 12,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 0.0,
+      "side": "R",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": null,
+      "minimum_side_wall_mm": null,
+      "end_policy": "assumed sealed square exterior; enclosed fluid cavity ignored, not a physical solid carbon tube",
+      "cable_opening_mm": null,
+      "cable_policy": "assumed tape/epoxy flush closure",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -260.1569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2601569551367584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_L_bore8_open_ends_cable24x5",
+      "role": "BASELINE_INSTALLED_BOOM",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "c09e0a057d588dc7138a6a982a20471a1e50525f236ec553384c8467307dbbfd",
+      "step_sha256": "c2faed26529390635bb2b7050b658b884aefce339c5571003ba25e651f8ad0e7",
+      "bounds_m": [
+        [
+          -0.315,
+          0.2551569548632415,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          0.26515695486324153,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 24713.859219881444,
+      "mesh_volume_m3": 2.475255684831703e-05,
+      "triangles": 340,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.832042674780484e-10,
+      "side": "L",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 8,
+      "minimum_side_wall_mm": 1.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_L_bore6_open_ends_cable24x5",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore6_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore6_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "9a69b7c64bc2f1dadf4963bc600977037f2b05ec4625074e5d32bf0bda3a8bb0",
+      "step_sha256": "405d6b1b6e3daa2ade464a13704dba15bc68aaad434380c4882e72e88a80b9d3",
+      "bounds_m": [
+        [
+          -0.315,
+          0.2551569548632415,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          0.26515695486324153,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 35575.115731757534,
+      "mesh_volume_m3": 3.559621033362252e-05,
+      "triangles": 364,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.288762449642454e-10,
+      "side": "L",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 6,
+      "minimum_side_wall_mm": 2.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_L_bore9_open_ends_cable24x5",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore9_open_ends_cable24x5-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore9_open_ends_cable24x5.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "182e051ebe9a34951ffcc8a20d074913b299406c89074981d837ace4e1c0b702",
+      "step_sha256": "778c33ae8471e0a4b0ff4fcdf88c661e614e0416bf9dd2b4235c063ece6e37ae",
+      "bounds_m": [
+        [
+          -0.315,
+          0.2551569548632415,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          0.26515695486324153,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 18102.14287713489,
+      "mesh_volume_m3": 1.8154653602162707e-05,
+      "triangles": 332,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.802660505338551e-10,
+      "side": "L",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 9,
+      "minimum_side_wall_mm": 0.5,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": {
+        "center_x": -112.46047687230816,
+        "length_x": 24,
+        "width_y": 5,
+        "side": "-Z underside",
+        "depth": "single underside wall to bore"
+      },
+      "cable_policy": "assumed unsealed rectangular underside opening",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_L_bore8_open_ends_taped_cable",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_taped_cable-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_bore8_open_ends_taped_cable.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "2e6094765a1bd50eb9b6a2275febf8d8011dbb20642ce81221688edcaa0c368c",
+      "step_sha256": "c1da994441be593d27b1a4157c36e0e33cc5f5300e0451f668b3b86288d46f35",
+      "bounds_m": [
+        [
+          -0.315,
+          0.2551569548632415,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          0.26515695486324153,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 24867.25877128166,
+      "mesh_volume_m3": 2.4908902658588174e-05,
+      "triangles": 268,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 6.832042674780484e-10,
+      "side": "L",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": 8,
+      "minimum_side_wall_mm": 1.0,
+      "end_policy": "open annular end faces (material closed; fluid bore connected)",
+      "cable_opening_mm": null,
+      "cable_policy": "assumed tape/epoxy flush closure",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    },
+    {
+      "name": "boom_L_sealed_exterior_void_ignored",
+      "role": "ALTERNATIVE_NOT_ADDITIVE",
+      "exact_vendor_CAD": false,
+      "approximation_authorized": true,
+      "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_sealed_exterior_void_ignored-m.obj",
+      "obj_units": "m",
+      "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/components/boom_L_sealed_exterior_void_ignored.step",
+      "step_units": "mm",
+      "step_origin": "native OpenCascade approximation, NOT recovered manufacturer CAD",
+      "obj_sha256": "27f966cfbdd0b69b67b9c2d6e3c4d121fe08f7a285b188dd716b43d775b92158",
+      "step_sha256": "b1039d120846cf7f921d2269eda126292e4de5ed4569c6328cdfe9ebd3223cb4",
+      "bounds_m": [
+        [
+          -0.315,
+          0.2551569548632415,
+          -0.014059145548465365
+        ],
+        [
+          0.185,
+          0.26515695486324153,
+          -0.004059145548465364
+        ]
+      ],
+      "cad_volume_mm3": 50000.0,
+      "mesh_volume_m3": 5.0000000000000057e-05,
+      "triangles": 12,
+      "mesh_canonicalization_mm_grid": 1e-09,
+      "max_canonicalization_displacement_mm": 0.0,
+      "side": "L",
+      "outer_mm": [
+        10,
+        10,
+        500
+      ],
+      "bore_diameter_mm": null,
+      "minimum_side_wall_mm": null,
+      "end_policy": "assumed sealed square exterior; enclosed fluid cavity ignored, not a physical solid carbon tube",
+      "cable_opening_mm": null,
+      "cable_policy": "assumed tape/epoxy flush closure",
+      "cut_source": "p36 requires underside single-wall cable cut; size/center assumed near guide-station midpoint, NOT measured",
+      "bore_source": "retained p10 recommends circular inner profile; diameter assumed; nominal1mm min side wall not measured",
+      "local_to_aircraft_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          260.15695486324154
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -9.059145548465365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_to_aircraft_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.26015695486324153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.009059145548465364
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transform_already_applied": true
+    }
+  ],
+  "baseline_installed_names": [
+    "F90_mount_053_CFD_APPROXIMATE",
+    "F90_mount_055_CFD_APPROXIMATE",
+    "F90_mount_061_CFD_APPROXIMATE",
+    "F90_mount_063_CFD_APPROXIMATE",
+    "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+    "boom_R_bore8_open_ends_cable24x5",
+    "boom_L_bore8_open_ends_cable24x5"
+  ],
+  "baseline_count": 7,
+  "source_preserved": true,
+  "native_vendor_CAD_recovered": false,
+  "approximation_limits": [
+    "No exact motor vent/open stator topology; axisymmetric closed motor replacement excludes cooling flow",
+    "Motor base/neck/tapers assumed; nominal drawing dimensions and shaft directions preserved",
+    "Boom bore6/8/9 variants, cable cut and end sealing assumed; pick exactly one variant per side",
+    "No propellers, shaft nuts, exposed wires or ancillary fasteners; no exact physical installed fit",
+    "No whole-parent-airframe exact intersection/CFD release; parent remains unchanged"
+  ],
+  "motor_sensitivity_recommendations": {
+    "F90_base_diameter_mm": [
+      22,
+      24,
+      28
+    ],
+    "F90_bell_rear_offset_mm": [
+      4.5,
+      6.2,
+      8
+    ],
+    "Avenger_base_diameter_mm": [
+      22,
+      25,
+      28
+    ],
+    "note": "suggested future parameters, not all exported; documented max diameter/shoulder/total lengths must remain fixed"
+  },
+  "installed_baseline": {
+    "obj": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE-m.obj",
+    "obj_sha256": "bb62e38bef674a69b14b8cfebe76ec86b65b1763f3952a7be81f537a357341da",
+    "obj_units": "m",
+    "step": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/Stork-standard-installed-motors-booms-CFD-APPROXIMATE.step",
+    "step_sha256": "2bf57d5b847ba1487761b48478e8b9b7a85b461e1033bb53b515ea6aec49b057",
+    "step_units": "mm",
+    "installed_names": [
+      "F90_mount_053_CFD_APPROXIMATE",
+      "F90_mount_055_CFD_APPROXIMATE",
+      "F90_mount_061_CFD_APPROXIMATE",
+      "F90_mount_063_CFD_APPROXIMATE",
+      "Avenger2812V5_mount_011_CFD_APPROXIMATE",
+      "boom_R_bore8_open_ends_cable24x5",
+      "boom_L_bore8_open_ends_cable24x5"
+    ],
+    "topology": {
+      "vertices": 3171,
+      "faces": 6330,
+      "edges": 9495,
+      "edge_incidence_two": true,
+      "winding_consistent": true,
+      "bad_vertex_link_ids": [],
+      "euler_number": 6,
+      "surface_shell_count": 7,
+      "volume_m3": 0.00012551738480147647,
+      "area_m2": 0.08726023013933948,
+      "zero_area_faces": 0
+    },
+    "exact_triangle_intersections": {
+      "aabb_candidate_pairs": 65657,
+      "forbidden_pairs": [],
+      "classification_counts": {
+        "empty_coplanar_clip": 13119,
+        "shared_simplex_only": 37086,
+        "disjoint_plane_intervals": 6277,
+        "shared_edge_distinct_planes": 5290,
+        "plane_separated": 3885
+      },
+      "elapsed_s": 2.401646137237549,
+      "scope": "ALL_TRIANGLES",
+      "exact_predicates": true,
+      "independent_bruteforce_candidate_count": 65657,
+      "passes": true
+    },
+    "scope": "7 hardware bodies ONLY; no parent airframe or props",
+    "step_valid": true,
+    "step_solid_count": 7
+  }
+}

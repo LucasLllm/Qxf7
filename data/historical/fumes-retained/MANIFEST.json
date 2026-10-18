@@ -1,0 +1,2079 @@
+{
+ "imported_utc": "2026-10-18T18:10:00+00:00",
+ "authority": "Lucas, 2026-10-18: import retained evidence; Fumes workspace read-only",
+ "publication": "LOCAL ONLY. Contains vendor-derived data/images; review before any upload.",
+ "files": [
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_AERO.csv",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_AERO.csv",
+   "sha256_original": "8e24d7763b1e8063bf533c20f12593434a6a376e289940c5598e1c71a8d2b87d",
+   "bytes_original": 33553,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_AERO.json",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_AERO.json",
+   "sha256_original": "a779b5aecfa49a4ad9b14923ea266c196ff34337e1e451ac21935eb4d5c82b05",
+   "bytes_original": 83085,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_AERO_BEFORE_F90_CORRECTION.json",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_AERO_BEFORE_F90_CORRECTION.json",
+   "sha256_original": "a6105dc06668d9c268576ef90c2cfa2ad49c0f6ccda23058112cd7af142848b7",
+   "bytes_original": 78966,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_AERO_METADATA.json",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_AERO_METADATA.json",
+   "sha256_original": "2db9df43a87688bb526b9c80456ae44acba333b4bd72ae9e6fbe7cf17ff8657b",
+   "bytes_original": 1370,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_CONVERGENCE.json",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_CONVERGENCE.json",
+   "sha256_original": "eeed285324153d3df08f2050c939ec5ab4105bd56ca89e42856066a30fcdef6a",
+   "bytes_original": 5265,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_RUN.log",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_RUN.log",
+   "sha256_original": "58c782f9749e796b13a255addaf7565af26461819d46587684945fec5f278022",
+   "bytes_original": 2670,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/ASSEMBLED_SECTION_AUDIT.png",
+   "dest": "data/historical/fumes-retained/prior-model/ASSEMBLED_SECTION_AUDIT.png",
+   "sha256_original": "9451d19f10b533214e0eecc8e84a7043210391bdc0d8e25ec898edd40b9b52d3",
+   "bytes_original": 82590,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/CHECKPOINT.md",
+   "dest": "data/historical/fumes-retained/prior-model/CHECKPOINT.md",
+   "sha256_original": "5d84b2902917dbbf4591b8a840e1c97bdbe32b4d52fa8e6c9c9f6dea2ffd7f67",
+   "bytes_original": 1982,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/COMPONENT_REVISION.json",
+   "dest": "data/historical/fumes-retained/prior-model/COMPONENT_REVISION.json",
+   "sha256_original": "f88cac4a377eebf06013dcef7cc6893031e6efffd23912019f2e506bdfc0d25e",
+   "bytes_original": 1387,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/DRAG_BREAKDOWN.png",
+   "dest": "data/historical/fumes-retained/prior-model/DRAG_BREAKDOWN.png",
+   "sha256_original": "f7396a1a8c3cd90941caa04527fcff95f37d0c08f2fa4c77e32ea3738bc66ca1",
+   "bytes_original": 47921,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/FINAL_VERIFICATION.json",
+   "dest": "data/historical/fumes-retained/prior-model/FINAL_VERIFICATION.json",
+   "sha256_original": "bd4ffd66e91d6e3c06b29b332b4eab549ac4aa0d4293e0c9b2fc83447896126a",
+   "bytes_original": 1858,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/GEOMETRY_FINAL_TESTS.txt",
+   "dest": "data/historical/fumes-retained/prior-model/GEOMETRY_FINAL_TESTS.txt",
+   "sha256_original": "f3ce997f1fea8af76ada8e0ce3aecd0009a7d7d2e0c6c56d76ce78e10b3d7e0e",
+   "bytes_original": 933,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/IDEALIZED_SECTION_FIT.log",
+   "dest": "data/historical/fumes-retained/prior-model/IDEALIZED_SECTION_FIT.log",
+   "sha256_original": "83ce9fca472e99a1a585aaabc0d802aef11984daafbca74be8c2c5112f1e3fc9",
+   "bytes_original": 2982,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/LIFT_SANITY.json",
+   "dest": "data/historical/fumes-retained/prior-model/LIFT_SANITY.json",
+   "sha256_original": "0a5d98fbf5015d59abb829fd40b775c0ec57bf8beba39362c72f69c7ac55cbff",
+   "bytes_original": 650,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/MISSION_INPUTS.json",
+   "dest": "data/historical/fumes-retained/prior-model/MISSION_INPUTS.json",
+   "sha256_original": "a1e2c72b2d953d47369e39ce3262466e21b8defb898b88d867fc8f8255651fbf",
+   "bytes_original": 1695,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/MISSION_RUN.log",
+   "dest": "data/historical/fumes-retained/prior-model/MISSION_RUN.log",
+   "sha256_original": "7dfa40840bdd881adf19329cccbfc684727cd99584059784fc210f43b16ed499",
+   "bytes_original": 641,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/MISSION_SUMMARY.json",
+   "dest": "data/historical/fumes-retained/prior-model/MISSION_SUMMARY.json",
+   "sha256_original": "c8297e732c76d99ddffecaf9581ff7e8e3f254f5426afc6b570dd78f07bfcfcd",
+   "bytes_original": 10826,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/MISSION_SWEEP.csv",
+   "dest": "data/historical/fumes-retained/prior-model/MISSION_SWEEP.csv.gz",
+   "sha256_original": "cc3358e9e4d7fb07554fda7be0b7ae6754a8cf5705d5b5dc59049afd1260c62a",
+   "bytes_original": 23145141,
+   "gzipped": true,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/MISSION_TESTS.txt",
+   "dest": "data/historical/fumes-retained/prior-model/MISSION_TESTS.txt",
+   "sha256_original": "2686e1d479f0d00acf893455e4a99d72504d1968886ab701fe0ee7e3c28467dd",
+   "bytes_original": 841,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/PARENT_FINAL_TESTS.txt",
+   "dest": "data/historical/fumes-retained/prior-model/PARENT_FINAL_TESTS.txt",
+   "sha256_original": "0046b49e06bccb236ce2429e7dda7f93ebdb392e1009fbc237e974aeae1f9d7a",
+   "bytes_original": 1245,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/PARENT_TESTS.txt",
+   "dest": "data/historical/fumes-retained/prior-model/PARENT_TESTS.txt",
+   "sha256_original": "c11184a35cfef9446b2dfde5d52c445ebaf35fae5f0fc05875b9d35ef391f69c",
+   "bytes_original": 1244,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/PERFORMANCE_CURVES.png",
+   "dest": "data/historical/fumes-retained/prior-model/PERFORMANCE_CURVES.png",
+   "sha256_original": "102565f6962c5e72e3cc0f527961bc323925947cb5f00d6ba4e5350d9d93d193",
+   "bytes_original": 303687,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/PILOT.json",
+   "dest": "data/historical/fumes-retained/prior-model/PILOT.json",
+   "sha256_original": "7a385ef699f792814faa94e33996a6144cfdb9eb6d85becd5b2622ee2c49f199",
+   "bytes_original": 1648,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/REPORT.md",
+   "dest": "data/historical/fumes-retained/prior-model/REPORT.md",
+   "sha256_original": "46c597694d29e619ec11d316154df6ba2a92b402fac15fdea15341f5fd0fc381",
+   "bytes_original": 9448,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/SECTION_FIT_AUDIT.json",
+   "dest": "data/historical/fumes-retained/prior-model/SECTION_FIT_AUDIT.json",
+   "sha256_original": "0db4cd18e361859876f17929eab9e1816dfaca63ebd714ebad688d0f36b0b31a",
+   "bytes_original": 1367,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/SECTION_RECONSTRUCTION.log",
+   "dest": "data/historical/fumes-retained/prior-model/SECTION_RECONSTRUCTION.log",
+   "sha256_original": "d8efeea98a1990374f15d2472dc43c7ae71b6aaaa748773e3ed5247cee2e2066",
+   "bytes_original": 30574,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/SOLVER_API.txt",
+   "dest": "data/historical/fumes-retained/prior-model/SOLVER_API.txt",
+   "sha256_original": "bc4dadf43b69e791dd2480f9e25b93eca9c745dcd1bb43e7e2fa098ebecfcbdc",
+   "bytes_original": 2900,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/SOLVER_REQUIREMENTS.txt",
+   "dest": "data/historical/fumes-retained/prior-model/SOLVER_REQUIREMENTS.txt",
+   "sha256_original": "0d1373ba8ddea5f78a3059c42188cd6c7bd37ac8155c2802febc20e07f20d789",
+   "bytes_original": 333,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/SOLVER_SOURCES.json",
+   "dest": "data/historical/fumes-retained/prior-model/SOLVER_SOURCES.json",
+   "sha256_original": "3e3814e0877add21cada4883ebd738a531b440e63b357f8ad47911b5eefba240",
+   "bytes_original": 1054,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/UNSUPPORTED_CASES.json",
+   "dest": "data/historical/fumes-retained/prior-model/UNSUPPORTED_CASES.json",
+   "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "bytes_original": 2,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/VERIFIED_CONFIG.json",
+   "dest": "data/historical/fumes-retained/prior-model/VERIFIED_CONFIG.json",
+   "sha256_original": "700b44f591140a7d5d8e96fe02088156b983a26ef645c9ecca6f9202d5a3f446",
+   "bytes_original": 992,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-components.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-components.log",
+   "sha256_original": "3d7310a36d8d0e51954423b9fe1cd80d9a990b21c526eba5e9d915ce3511266a",
+   "bytes_original": 346,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-contour.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-contour.log",
+   "sha256_original": "9886b67ac7ab462fdd995b1ae7b15ce381c3a4a84d92814fdf7062df6c16f065",
+   "bytes_original": 199,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-fit.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-fit.log",
+   "sha256_original": "9a1972e17de9e88bf62613d62512f851c48baf30c187d86de6bf2446d75cf5e3",
+   "bytes_original": 510,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-full.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-full.log",
+   "sha256_original": "7ac11618eb35930409ada1cb44d4f49bad25bdb5a4f0162fe5bda6744427e566",
+   "bytes_original": 6006,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-geometry.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-geometry.log",
+   "sha256_original": "ddfda74ad23df5fdc1a6433caf3f987a20c5031e86837735a4b22ce396a38c49",
+   "bytes_original": 1420,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-pipeline.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-pipeline.log",
+   "sha256_original": "bb29053ab51598db47ed6638c898f065499614fff90dc323771cc48d13ef6eeb",
+   "bytes_original": 277,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/green-ready-attempt.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/green-ready-attempt.log",
+   "sha256_original": "f0d309b8384e4ceb56c019fdf524d762f86c02d2908169278d5514f54f5b934c",
+   "bytes_original": 4804,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/library-sources.txt",
+   "dest": "data/historical/fumes-retained/prior-model/aero/library-sources.txt",
+   "sha256_original": "920e4d233e17267e5c59a1dbb2a21a30ccaa13caacfd1c466e826b315463930a",
+   "bytes_original": 6452,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-components.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-components.log",
+   "sha256_original": "277a8822530fac72b9627507719686853040092ba356797d58e8167dac13ccff",
+   "bytes_original": 956,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-contour.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-contour.log",
+   "sha256_original": "792b06fffb4543b12d8238fe6f8952f3578d1694e92bbd9aded1b45359233d59",
+   "bytes_original": 854,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-curves.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-curves.log",
+   "sha256_original": "0920ebb682c5201afc4e6a0a0d1abe0fd73f1bd1c1e406cb746046628c34213a",
+   "bytes_original": 1059,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-execution.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-execution.log",
+   "sha256_original": "f3fd05c030da0ec6bb459423b9392f2b9c160603317f82d9af8321e50a73cd58",
+   "bytes_original": 1002,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-fit.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-fit.log",
+   "sha256_original": "9731713eb27d5160fd0f75473afb57f39ebcbf6e5724127433b966e6722b5bfa",
+   "bytes_original": 1014,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-geometry.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-geometry.log",
+   "sha256_original": "91aa71f454866aef6f580a0ad6ddb2c2ba5ce0d52c61349e7bede4d9e7ceef99",
+   "bytes_original": 1022,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-pipeline.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-pipeline.log",
+   "sha256_original": "64bc1858dafe9c5aa444ce6e84d9fd87a6bacaf2edc0df34dfa2b5734c4a1be0",
+   "bytes_original": 1045,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/red-trim.log",
+   "dest": "data/historical/fumes-retained/prior-model/aero/red-trim.log",
+   "sha256_original": "b6f5f73ecb9a34ca1076b04040348450169f38f2140de922c74f43edecf5e2f8",
+   "bytes_original": 951,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/solver.py",
+   "dest": "data/historical/fumes-retained/prior-model/aero/solver.py",
+   "sha256_original": "3c09ddd4fde1059bab30a7446714553998084adfca7397a879311563cd83da1f",
+   "bytes_original": 23038,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py",
+   "dest": "data/historical/fumes-retained/prior-model/aero/test_solver.py",
+   "sha256_original": "85dcacb1ab871806221b9e7c4a43501e14c4ce1b85323571fb655214cdb5948c",
+   "bytes_original": 5395,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aerosandbox-pypi.json",
+   "dest": "data/historical/fumes-retained/prior-model/aerosandbox-pypi.json",
+   "sha256_original": "26514dd2c2c0aa892b8637d6198211ef464314cf808ff2458e41058df03d13ea",
+   "bytes_original": 20876,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/SECTIONS.json",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/SECTIONS.json",
+   "sha256_original": "eee8f63e8a5469dd0d600acf23574a45c935ebad515d5e6063ef685e5e5d9bb2",
+   "bytes_original": 28029,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_-1_0.060.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_-1_0.060.dat",
+   "sha256_original": "fb4261df0699311333f9b501f02ead8c893c22dfe98927aa97b6885a85afafce",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_-1_0.120.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_-1_0.120.dat",
+   "sha256_original": "716f34d24de694eff23a6217273169861f37d507d894fa6ea3f5d7f6a7a14187",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_-1_0.180.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_-1_0.180.dat",
+   "sha256_original": "2ea1f81d4223840946584a5ee08037490b12d74450d99ba046ed83e5f706b708",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_-1_0.240.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_-1_0.240.dat",
+   "sha256_original": "ca0fe2595d99675ebcec8ad001ca773315a88f28e5b9be710ccffacf85cb4232",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_-1_0.280.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_-1_0.280.dat",
+   "sha256_original": "b4c6f5f22510800e90d96a9cb296090059a2f9b840c7cec594a015bd8fb5fcd5",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_1_0.060.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_1_0.060.dat",
+   "sha256_original": "34362c28a5ffd9f93e1bf3962a9583aa8f55c95a02d5f86dc43dec67d28ad612",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_1_0.120.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_1_0.120.dat",
+   "sha256_original": "443e8c448e5e508e16d57960d3c00a048ffb2ea313a8c82854738ae7055a1506",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_1_0.180.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_1_0.180.dat",
+   "sha256_original": "5086ad2feef467aaf256bcb6ac11d59907832aa2b8b8bbae3ece46b2c33c1c82",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_1_0.240.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_1_0.240.dat",
+   "sha256_original": "ea10bf22695cd6d8cfe8f5e24e76770693e7816c210b997c14aeb64d7127962d",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/tail_1_0.280.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/tail_1_0.280.dat",
+   "sha256_original": "73eeb6a239710f497eb428110edac783f4120c39bb86908b18f432641e233c29",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.100.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.100.dat",
+   "sha256_original": "621c6195ade036d23d43d5c8b95932f3eddd745287a4394b5e8519924829e5a7",
+   "bytes_original": 31840,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.200.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.200.dat",
+   "sha256_original": "5f1fe73a068b4c24dc4717f4163dde9b35612280684d27f974ed6539d0f6350b",
+   "bytes_original": 31840,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.280.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.280.dat",
+   "sha256_original": "46513ea1a0f12c0adb896e2e08d14be175ef497358d72402dcb2079995653bee",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.400.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.400.dat",
+   "sha256_original": "30cc5c8869af7cedd0c56be674c0fd0f85500eb1fbd8d14a50616b1f54db4716",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.500.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.500.dat",
+   "sha256_original": "d3485bbb2a98a013447da4ab0a5156d9d822903ed35a4bb6e8c48c08300b6a45",
+   "bytes_original": 31692,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.600.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.600.dat",
+   "sha256_original": "9b5511450b88e3fe90903e151b50e815354e1fc06291deae7f3fbe9c8d55a3a7",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.700.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.700.dat",
+   "sha256_original": "6d308d6ea22fa756ea204661cb1136bbc1b47c311a7b640ad72b9af081419aa1",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_-1_0.760.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_-1_0.760.dat",
+   "sha256_original": "cf6f777a147c75d9a3014d95314cefde89669196f241cce50c2bb2b749727123",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.100.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.100.dat",
+   "sha256_original": "eb7183f6e7c098ceb4885dc2159230edb688caa0588e2303b30cd4646d10f8b6",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.200.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.200.dat",
+   "sha256_original": "70261bfa44d370e349c9d5bbb392eff130bd2d520d280a78644e8bfdbba46ecc",
+   "bytes_original": 31839,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.280.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.280.dat",
+   "sha256_original": "939f63862ebb543865503b51b6da9f1d616e46e05613972f184689ecf5546d52",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.400.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.400.dat",
+   "sha256_original": "ad1dd335cf1981f1ebc5f3779bd91496379cf15c70501bf8175090c6d63af020",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.500.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.500.dat",
+   "sha256_original": "b6f1a181485885ff2e40fe4b8e7e216bfff73f8cf6e24a723224714bbf8a440b",
+   "bytes_original": 31691,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.600.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.600.dat",
+   "sha256_original": "c3f4dd3b1a29ca4f9124511f7e16cfc51d97c629cfb9079be0ff14881d0c9e24",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.700.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.700.dat",
+   "sha256_original": "d16cbf700023215641ac59ddeb59ba7148208396138725900728e1b092d28e8e",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled-sections/wing_1_0.760.dat",
+   "dest": "data/historical/fumes-retained/prior-model/assembled-sections/wing_1_0.760.dat",
+   "sha256_original": "168f2401dc925b1f8908d707e63b6ae6ebd5eecc982f36d772717da66f943019",
+   "bytes_original": 31838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/assembled_solver.py",
+   "dest": "data/historical/fumes-retained/prior-model/assembled_solver.py",
+   "sha256_original": "a79b92cd2a4156fd8ef3bb23873ad8f39837b44f97548d7e1d49be88a751af6c",
+   "bytes_original": 5724,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/couple.py",
+   "dest": "data/historical/fumes-retained/prior-model/couple.py",
+   "sha256_original": "8d109dd9e44c315504d30dd6463e770c28caf42b0d1286d37c8da6196fb4fc2f",
+   "bytes_original": 1701,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/finalize_report.py",
+   "dest": "data/historical/fumes-retained/prior-model/finalize_report.py",
+   "sha256_original": "848d8a2845a86ae3cd3578ead32ae39a400b4dc601169b7f472d1abaa6337751",
+   "bytes_original": 12106,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/GEOMETRY.json",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/GEOMETRY.json",
+   "sha256_original": "5a4356ca121c6a0cf37a898375ecb3f39a5fc64ef674fd2240a2163035e02cee",
+   "bytes_original": 1557570,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_060_041/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_060_041/airfoil.dat",
+   "sha256_original": "e189f18960b8ae1beef614b68270612aa5cfe9332dde166464b1a9e9a84296e5",
+   "bytes_original": 9432,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_060_046/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_060_046/airfoil.dat",
+   "sha256_original": "2df5ea1428bc1862d7cadeb70abdc51fe6e73745944f9317ab91cff8c00686db",
+   "bytes_original": 10573,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_120_041/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_120_041/airfoil.dat",
+   "sha256_original": "548efd16b01d7931b135aa7042611220ad580af9cf820f49227237487aa97137",
+   "bytes_original": 9405,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_120_046/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_120_046/airfoil.dat",
+   "sha256_original": "b5328ef617fa58a4918e176d9da7bd9171e14975a8e6e5c8b90ed80d3686e17e",
+   "bytes_original": 11465,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_180_042/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_180_042/airfoil.dat",
+   "sha256_original": "371b56fc17adfc0b13ff94c7365787cbc12a3880e044605eb25f7eca4fbb6e01",
+   "bytes_original": 4415,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_180_047/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_180_047/airfoil.dat",
+   "sha256_original": "982bb7ded123acbcb7b9420ec20e1e8117252283225525b7970696ac180237cb",
+   "bytes_original": 9751,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_240_042/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_240_042/airfoil.dat",
+   "sha256_original": "ba1f6a03bcd9aebaa0252a03b5416247f4e1ada49bc84c0a56c88ae43d469390",
+   "bytes_original": 4224,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_240_047/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_240_047/airfoil.dat",
+   "sha256_original": "d05e950f768cf3722fdf56d607e6ef4353f5c5ed555458e197730f55c916229f",
+   "bytes_original": 9751,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_L_280_048/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_L_280_048/airfoil.dat",
+   "sha256_original": "19bb42846f725c84d2cac523a584a42b97c24e85e5cd42a390c6c13d1eb7f827",
+   "bytes_original": 5838,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_060_036/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_060_036/airfoil.dat",
+   "sha256_original": "fff91cda5254e16a4e72f98c161e3dc58dfc9c61f8a7bb8a757a9d096c68e7e3",
+   "bytes_original": 9432,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_060_043/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_060_043/airfoil.dat",
+   "sha256_original": "9ef0a89c901a2f6acacf4812bb5ffb919b42d62ff38be520c4d5a114850d8c14",
+   "bytes_original": 10677,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_120_036/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_120_036/airfoil.dat",
+   "sha256_original": "89a5dad59c86a1430290200e86de563d16cb349623b84b3f9b8ea0e3edb6ee98",
+   "bytes_original": 9405,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_120_043/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_120_043/airfoil.dat",
+   "sha256_original": "0b096f7024ba0d1c168454e2859e8a520d3313f2d2c2a5be4ec06147cccfbb05",
+   "bytes_original": 11388,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_180_037/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_180_037/airfoil.dat",
+   "sha256_original": "b9140face52d419827ed17be84680bf311ca0f501b8e2c1d8999e8f96e84f261",
+   "bytes_original": 4415,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_180_044/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_180_044/airfoil.dat",
+   "sha256_original": "4766302c28254c4ba4f82ecad5d38ceaa2891cda7164f62efd3d829c8d01ed2c",
+   "bytes_original": 9777,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_240_037/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_240_037/airfoil.dat",
+   "sha256_original": "ed3c04077154f930a876c5f8229119d1901f2e7969d915206bea4bf8e50848c1",
+   "bytes_original": 4225,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_240_044/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_240_044/airfoil.dat",
+   "sha256_original": "490eb6b5afca73700c2823511138f68146ff71e28197888ddeb5493b4aa98250",
+   "bytes_original": 9777,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/tail_R_280_045/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/tail_R_280_045/airfoil.dat",
+   "sha256_original": "c645560eaa43a7d889e144c1c927eec76baa4d4158c9de3ee9d5dff78af23d1f",
+   "bytes_original": 5767,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_100_027/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_100_027/airfoil.dat",
+   "sha256_original": "0caacd072eb7cc8df6a4e655e4f715ac38e403c935565e16bb433f4509afb45c",
+   "bytes_original": 39757,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_200_027/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_200_027/airfoil.dat",
+   "sha256_original": "ff123b0c9d55780725913b3cfa234462e841e760c8be0cda28e30ff08d3aa245",
+   "bytes_original": 38221,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_280_028/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_280_028/airfoil.dat",
+   "sha256_original": "46160f59f02391cec6dd08704a6feb1fd26a4e401db227a86329701fa46238e9",
+   "bytes_original": 36974,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_400_031/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_400_031/airfoil.dat",
+   "sha256_original": "7989432e37436166753e5aa15e5092c74df3a7271b6d12090d753c3d1d119eb5",
+   "bytes_original": 6162,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_500_031/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_500_031/airfoil.dat",
+   "sha256_original": "ade7dcd4bb2f36cb699b65566a80916d76faea4b417df07eb1a60e85facd6f3e",
+   "bytes_original": 10093,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_500_039/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_500_039/airfoil.dat",
+   "sha256_original": "6beb02938a20f75f52591339a4f53cbaf68490a22f311a94fbd93ef5dba9aa0a",
+   "bytes_original": 10936,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_600_032/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_600_032/airfoil.dat",
+   "sha256_original": "edc814e97fc2bcb1642adf292776a09cedd7949d505b35a9e2257440e85f4102",
+   "bytes_original": 8702,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_600_040/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_600_040/airfoil.dat",
+   "sha256_original": "6ae2618bddeed40b4b738048a93130ed3edac63f1e44b75c7cbe5e102c557d66",
+   "bytes_original": 10224,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_700_032/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_700_032/airfoil.dat",
+   "sha256_original": "3305346d096b1ff6cc222799cb50afeaf7a0d4c2b0e093f1eb7bc16a4f494350",
+   "bytes_original": 8041,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_700_040/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_700_040/airfoil.dat",
+   "sha256_original": "2c1b58edd05d200f9a24a438ed34fe8d900c196d2b203d8bb1e9d7ba800c3e3a",
+   "bytes_original": 9538,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_L_760_038/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_L_760_038/airfoil.dat",
+   "sha256_original": "c8cb1e10ed4e80997c5aea5d1208a49918082e4e473e5eac958bd94a5a8f2a89",
+   "bytes_original": 5694,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_100_021/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_100_021/airfoil.dat",
+   "sha256_original": "bdf5afd4ab05be13a779bfbf1b1088e001b143a107a26a7d3a9bbfcb7e0c80b0",
+   "bytes_original": 39757,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_200_021/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_200_021/airfoil.dat",
+   "sha256_original": "34130786e6c102287340ed4e69639abadf738a2a3aeeb6989d65361f22c65845",
+   "bytes_original": 38221,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_280_022/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_280_022/airfoil.dat",
+   "sha256_original": "a40175911c98800dfffced3cbd05b0882108faa6a55e7d0e8cef1c3a2e77179a",
+   "bytes_original": 36974,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_400_029/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_400_029/airfoil.dat",
+   "sha256_original": "2b44a494a0cc88a49cbe507367150d649ed657930d779357edbd2f1975ab1c97",
+   "bytes_original": 6215,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_500_029/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_500_029/airfoil.dat",
+   "sha256_original": "dc8eed666b415a1591120cf5a085d91567fc2ffef78e4bbe37cabfcc9d5fe3e5",
+   "bytes_original": 10120,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_500_034/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_500_034/airfoil.dat",
+   "sha256_original": "bf946948f9a32c7adf77cfdad13a6476157fa4a76431e771042aaa8f450c8f02",
+   "bytes_original": 10936,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_600_030/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_600_030/airfoil.dat",
+   "sha256_original": "1b5b0f2cf601751f91e5d71506db634f8406b5da15345b02ae383f84ce6c6677",
+   "bytes_original": 8702,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_600_035/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_600_035/airfoil.dat",
+   "sha256_original": "f08fff1bbf4fcecc2e867060d1b328c6e075a8fbba3761983ea6d3c10f300ae1",
+   "bytes_original": 10224,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_700_030/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_700_030/airfoil.dat",
+   "sha256_original": "3c43efe55048c64112f464216ef9c5187e2eb5428c834c9b6d7039a79e0bded8",
+   "bytes_original": 8041,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_700_035/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_700_035/airfoil.dat",
+   "sha256_original": "1febb44a75f4f1add850579904e8688de2f60dc5256e9744d2666b41caba2467",
+   "bytes_original": 9538,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/airfoils/wing_R_760_033/airfoil.dat",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/airfoils/wing_R_760_033/airfoil.dat",
+   "sha256_original": "f19e2dc4cc7ec9940fe7c96df04acd561d06217c2e6cfc0ad6f13da869cabb82",
+   "bytes_original": 5694,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/extract.py",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/extract.py",
+   "sha256_original": "1402183f3816c1cd5f77a1a9304b378103979000baf37a93684848277320737e",
+   "bytes_original": 19288,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tdd-green-outer.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tdd-green-outer.log",
+   "sha256_original": "90180d88b0d518054d95036859715da9dafcff7799f066ef9c4449cf48a8a079",
+   "bytes_original": 98,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tdd-red-dat-order.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tdd-red-dat-order.log",
+   "sha256_original": "a01ee08ad4d0849174757486d5571eb247311d9e84e6ff19cccefc69f3137c0a",
+   "bytes_original": 865,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tdd-red-open-native.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tdd-red-open-native.log",
+   "sha256_original": "0602e4a752fc543560ffd15464d10484ed64a86ab573632784b5a895aec1e5ce",
+   "bytes_original": 932,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tdd-red-outer.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tdd-red-outer.log",
+   "sha256_original": "7d7fb6f88881d418b937697d9a0a3f2fa3428fb8c03eef68a62a6f6e9820f47e",
+   "bytes_original": 801,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tdd-red-source.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tdd-red-source.log",
+   "sha256_original": "426346c58b20c444993b463a4ac94345c1714e5b397c2fea44f881fe1f2e1d18",
+   "bytes_original": 771,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/test_extract.py",
+   "sha256_original": "7b27764d63acf0bbf23382d62a1cba240d200dccc68e244b53867cbab517fbef",
+   "bytes_original": 3834,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tests-green-source.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tests-green-source.log",
+   "sha256_original": "b224f0d3269aa1adc61b228ac1b72658b8e7eec71425288084ec0fe1dd2860f5",
+   "bytes_original": 401,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tests-initial-2.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tests-initial-2.log",
+   "sha256_original": "a84bfb3723ba9d8a44d259fc61c84945809baf62abfbbffc02a47d4a0223dfe5",
+   "bytes_original": 1251,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tests-initial-3.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tests-initial-3.log",
+   "sha256_original": "37f1f7d713437b9f40bd1a782f36d0a454cd21e48d34eb5b877b6d99de71ef85",
+   "bytes_original": 1092,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/tests-initial.log",
+   "dest": "data/historical/fumes-retained/prior-model/geometry/tests-initial.log",
+   "sha256_original": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes_original": 0,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealize_sections.py",
+   "dest": "data/historical/fumes-retained/prior-model/idealize_sections.py",
+   "sha256_original": "caa2b0dc95589c25539bf969210ad319c92a9f276ebbd8f64ce70fcfb79b1f70",
+   "bytes_original": 2294,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/SECTIONS.json",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/SECTIONS.json",
+   "sha256_original": "5ab33530da6604bc7c62c16dcdcc9c794ba7fe32b7a0a98d60e2d0adaa140b03",
+   "bytes_original": 35255,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_-1_0.060_tail_-1_0.06.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_-1_0.060_tail_-1_0.06.dat",
+   "sha256_original": "9fd8a1f4ce7ccba0e5773c482065db6627334ff594ff0ce4967f46499504274e",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_-1_0.120_tail_-1_0.12.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_-1_0.120_tail_-1_0.12.dat",
+   "sha256_original": "9436a24cc7b498b60e90fc39ff9f41c718a6b959eed6997880ac056671b2b9f2",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_-1_0.180_tail_-1_0.18.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_-1_0.180_tail_-1_0.18.dat",
+   "sha256_original": "3901891311f41a5e16f3a9315916abcc2ac6485801b8893a61cc559e8cb8d8f3",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_-1_0.240_tail_-1_0.24.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_-1_0.240_tail_-1_0.24.dat",
+   "sha256_original": "e6aa4b0968e3ea8cb89bc711512a8f1860c9e9a03d088b7813bd53c1cd5a03ec",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_-1_0.280_tail_-1_0.28.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_-1_0.280_tail_-1_0.28.dat",
+   "sha256_original": "ee8280fa193e4403372589a5ffc96f09776af80ab1c479f693958fad0d66a7dc",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_1_0.060_tail_1_0.06.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_1_0.060_tail_1_0.06.dat",
+   "sha256_original": "1405083cb363a41497f0a749bf15e09f9676531dd62d827ed9d52a579cb5f0c3",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_1_0.120_tail_1_0.12.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_1_0.120_tail_1_0.12.dat",
+   "sha256_original": "68b07409debb2c24067ab152e425edc3dc6c563fd544c7b531dde13deaaa858e",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_1_0.180_tail_1_0.18.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_1_0.180_tail_1_0.18.dat",
+   "sha256_original": "7b85bd9b983ebfb7342fe45efda33585e8845894f8a17f7dcd7be75b714717ae",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_1_0.240_tail_1_0.24.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_1_0.240_tail_1_0.24.dat",
+   "sha256_original": "1fe271e17d21183ecc6026b6f56ea64ffdee24709b3c2e363492c8f365fa6a38",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/tail_1_0.280_tail_1_0.28.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/tail_1_0.280_tail_1_0.28.dat",
+   "sha256_original": "f06d941203212877bf3263139dfdc0ff3f5f21fc0d5c76e2b25d44da18b06d36",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.100_wing_-1_0.1.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.100_wing_-1_0.1.dat",
+   "sha256_original": "b5bdcaced5747677dd69e7cfa55c6b7238eebca57425cc3130ee1916d45581ed",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.200_wing_-1_0.2.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.200_wing_-1_0.2.dat",
+   "sha256_original": "4d41bd3c955705d379918278e5941c333779f9c158ae0d520b7da1db06320701",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.280_wing_-1_0.28.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.280_wing_-1_0.28.dat",
+   "sha256_original": "66ea2a62b925fa57b9464e72972999a0bd7310e92a65548554f19fe1a0baf1a0",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.400_wing_-1_0.4.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.400_wing_-1_0.4.dat",
+   "sha256_original": "64400b0827d27fc38965507eafef542e3b04a7058e8cbd964cbd1cb6823d48af",
+   "bytes_original": 31851,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.500_wing_-1_0.5.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.500_wing_-1_0.5.dat",
+   "sha256_original": "a1d9a15bd139e5f9acb203f0ea5bb1f931304090a6f82515e83ed0bb72c364c4",
+   "bytes_original": 31851,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.600_wing_-1_0.6.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.600_wing_-1_0.6.dat",
+   "sha256_original": "aede387718617d98079280e611fc36bf233d6c9f89619ddebb2dc9f7c026d839",
+   "bytes_original": 31851,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.700_wing_-1_0.7000000000000001.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.700_wing_-1_0.7000000000000001.dat",
+   "sha256_original": "6ff2e8278999f16d73a984ba0e9fc80bc33c1b6249e89b0434fe72da5fd2e8e1",
+   "bytes_original": 31866,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_-1_0.760_wing_-1_0.76.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_-1_0.760_wing_-1_0.76.dat",
+   "sha256_original": "54ebc48726b96463afa7139ac8d8d15bda9dd4d4e5bff03e8aca99ef56bbbd1a",
+   "bytes_original": 31852,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.100_wing_1_0.1.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.100_wing_1_0.1.dat",
+   "sha256_original": "b5083be8ee2dbd85fd63453c54debba04d23a664cb7b49610263c36baa116999",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.200_wing_1_0.2.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.200_wing_1_0.2.dat",
+   "sha256_original": "0ff9e598185a8f8b8e99b15066ad418bc72b19d39fc314ef85e4e3dd33841c68",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.280_wing_1_0.28.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.280_wing_1_0.28.dat",
+   "sha256_original": "42a426bc543b35502d4bca6b3b08fefeaed00a0f4a61170d3eabe43e2309d7d6",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.400_wing_1_0.4.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.400_wing_1_0.4.dat",
+   "sha256_original": "13224e77bf7c73210c58ff21150fba05cd4721cbacdc26e6eff1e8d5b2c91aa2",
+   "bytes_original": 31849,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.500_wing_1_0.5.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.500_wing_1_0.5.dat",
+   "sha256_original": "5580fa0bb4244882c08bbdb61a61c7250baca1b539084991ca051d660130521c",
+   "bytes_original": 31849,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.600_wing_1_0.6.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.600_wing_1_0.6.dat",
+   "sha256_original": "385c09891f2b4deb1bfdb72049c7319b3400dac1b8864c143fe7839aaa70c34b",
+   "bytes_original": 31849,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.700_wing_1_0.7000000000000001.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.700_wing_1_0.7000000000000001.dat",
+   "sha256_original": "45b205a6173a000e38ef97cc12eaa17d0dd3587cbab62e38142fbb19963fb115",
+   "bytes_original": 31864,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/idealized-sections/wing_1_0.760_wing_1_0.76.dat",
+   "dest": "data/historical/fumes-retained/prior-model/idealized-sections/wing_1_0.760_wing_1_0.76.dat",
+   "sha256_original": "91e7e48b5da11f2ba9dbadad5c36095906f0a8bbff73fa14dbac7c3e18705b3f",
+   "bytes_original": 31850,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/inspect_section_fit.py",
+   "dest": "data/historical/fumes-retained/prior-model/inspect_section_fit.py",
+   "sha256_original": "aa61d416637ab67ed0344f40ccbe8c4cead968f5b5fdbf46a2fdae81536c664b",
+   "bytes_original": 872,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/mission.py",
+   "dest": "data/historical/fumes-retained/prior-model/mission.py",
+   "sha256_original": "db23b61a8c44d1480d9935c8589938d5010cd52b5012674bc8a81c9178008760",
+   "bytes_original": 1039,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/neuralfoil-pypi.json",
+   "dest": "data/historical/fumes-retained/prior-model/neuralfoil-pypi.json",
+   "sha256_original": "12be054d791371882a01c74997db64a010b1de6b742e68155c4903c8cad633f6",
+   "bytes_original": 35518,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/EXECUTION.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/EXECUTION.log",
+   "sha256_original": "070a9156ce9c5dc86b3af39ccea68e84dcbcf7c75e3d28714375d9991a502246",
+   "bytes_original": 2035,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/PROPULSION.json",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/PROPULSION.json",
+   "sha256_original": "c92e31a8d94df451b58b4bddf18b2bd31a78c402e08c8663f49196df19bb8e82",
+   "bytes_original": 44459,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/SOURCES.json",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/SOURCES.json",
+   "sha256_original": "d71efa153da8f8348fc7ba52c2038665ed5b319fd2f5da7911f02b81b81ce3a0",
+   "bytes_original": 1706,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_1.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_1.log",
+   "sha256_original": "c346f1228fe88f4ab3cb336ffa610dc3a34ec7c7bb7d05df7a1c222f2d928881",
+   "bytes_original": 98,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_2.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_2.log",
+   "sha256_original": "839af7f7626f66edefaef54d6d5234af6a2c3ac1a4ab39fdede6e10c24373aa4",
+   "bytes_original": 1016,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_2_FIXED_DOMAIN.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_2_FIXED_DOMAIN.log",
+   "sha256_original": "24adda79e21044fef19cdc7f0606a9cd7770fc9a99c705a8622ee923c13bce5d",
+   "bytes_original": 100,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_3.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_3.log",
+   "sha256_original": "5279d1fc9a1ced44f9c96da1414ef59e4676f963fbad52e7a1a2903538819b0d",
+   "bytes_original": 101,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_4.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_4.log",
+   "sha256_original": "e3adcea0f0598fb9b437edbf1240beed88313af1a081f905a7f2c2f78f842ea9",
+   "bytes_original": 783,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_GREEN_5.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_GREEN_5.log",
+   "sha256_original": "591abb377c0dd121bad3e6a79048cdeb556fb29d04875597fb476555d4ca777d",
+   "bytes_original": 104,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_1.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_1.log",
+   "sha256_original": "1172766ed57e1283e885a88dd0e56cc189eefea45a2d7fb163fb3ff759e24175",
+   "bytes_original": 740,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_2.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_2.log",
+   "sha256_original": "3700f8f5a98e6ae576262f31bce64042484c666bc35bfa3197e141567bcca4e7",
+   "bytes_original": 761,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_3.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_3.log",
+   "sha256_original": "bcc2cfdc2ae7ecec79833d4fb358dc5e68a2d47f395f45249194ffedcfffdb8b",
+   "bytes_original": 820,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_4.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_4.log",
+   "sha256_original": "b4de03e8796702f600fd8186e84e7f3baea382b36f8fca62f0203452365186af",
+   "bytes_original": 1470,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_5.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_5.log",
+   "sha256_original": "41dfb7d9f190ba8b7e226590957b24de6cc9722f38614aa0f648516115456fd0",
+   "bytes_original": 752,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/TDD_RED_6_IDLE_REFERENCE.log",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/TDD_RED_6_IDLE_REFERENCE.log",
+   "sha256_original": "c28dc5824b580287101ef491bfb2e2bcf773a0543a7e053f48da9b435edef5e7",
+   "bytes_original": 819,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/build.py",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/build.py",
+   "sha256_original": "e2b0875074d26881466ee693fcd086f81f4934caa6a9a1b948c2e64002fc90f6",
+   "bytes_original": 7962,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/fetch_sources.py",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/fetch_sources.py",
+   "sha256_original": "bbfc45be95928f2ca62eca848229d5b37cf144576b6c8d6116596876f9c681c8",
+   "bytes_original": 1264,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/model.py",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/model.py",
+   "sha256_original": "a3e0d5bf7af720c12af7cbf3c7c24f794472d12cfa8f2b1ac7226484e0df1deb",
+   "bytes_original": 6137,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/test_model.py",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/test_model.py",
+   "sha256_original": "533122e121e77a284d0ce1f90ae3ccb2da23de539ede181958dff305bc44a92d",
+   "bytes_original": 5181,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/reconstruct_sections.py",
+   "dest": "data/historical/fumes-retained/prior-model/reconstruct_sections.py",
+   "sha256_original": "062cb76115088684f783ffa1ffaef98aa8edd04542f96b59a2880bd947273262",
+   "bytes_original": 3927,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/run_mission.py",
+   "dest": "data/historical/fumes-retained/prior-model/run_mission.py",
+   "sha256_original": "e9d48da2baaa62a3d2fff25b64581f1f26c0a6e132e5db2f46197c76f7c373ed",
+   "bytes_original": 6065,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/test_assembled.py",
+   "dest": "data/historical/fumes-retained/prior-model/test_assembled.py",
+   "sha256_original": "b83fd361e9b14a8d66e07449c89a9bbe804e0f5c7d2be7c2a5510e177bbb8433",
+   "bytes_original": 485,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/test_couple.py",
+   "dest": "data/historical/fumes-retained/prior-model/test_couple.py",
+   "sha256_original": "f8fb4158fc8fb9730bb83b96892d61b699af66b4a9f1075d146168366a085e1e",
+   "bytes_original": 1156,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/test_mission.py",
+   "dest": "data/historical/fumes-retained/prior-model/test_mission.py",
+   "sha256_original": "604188168705f07c5de968e5f7d27f7de1904a01def23d00bae6c6e494c6cc4f",
+   "bytes_original": 1606,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/test_reconstruction.py",
+   "dest": "data/historical/fumes-retained/prior-model/test_reconstruction.py",
+   "sha256_original": "5938013cbf7093a4e7887abfdc3f76d3a272e683a73192c816a2d0bf40a64375",
+   "bytes_original": 1060,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/update_component_drag.py",
+   "dest": "data/historical/fumes-retained/prior-model/update_component_drag.py",
+   "sha256_original": "41dfb4c39769b9605222599c31c8eea61b808fcc6e9a597caaf13836c956038f",
+   "bytes_original": 2055,
+   "gzipped": false,
+   "provenance": "model (prior Fumes AeroSandbox/NeuralFoil + mission model, 2026-10-09); historical, not validated"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/REPORT.md",
+   "dest": "data/historical/fumes-retained/prior-model/parent/REPORT.md",
+   "sha256_original": "db5ca93a0c7a269648d0f30ef51082559891638cd170739039a96cea7501147d",
+   "bytes_original": 5290,
+   "gzipped": false,
+   "provenance": "model (parent original-manual-range report)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/RESULTS.json",
+   "dest": "data/historical/fumes-retained/prior-model/parent/RESULTS.json",
+   "sha256_original": "c30a942da3a9fb9b76b7f7b71a7be5b463b117a4975af259de84e209f2ccd428",
+   "bytes_original": 20945,
+   "gzipped": false,
+   "provenance": "model (parent original-manual-range results)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/benchmark-v1/BENCHMARK.json",
+   "dest": "data/historical/fumes-retained/benchmark-v1/BENCHMARK.json",
+   "sha256_original": "46aebae19b83ca19821e2392ef4ca64861181fee628d62ee6915fbe9d6f52bd5",
+   "bytes_original": 19769,
+   "gzipped": false,
+   "provenance": "documentary benchmark freeze (third-party Flightony claims + official manual)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/benchmark-v1/BENCHMARK_FREEZE.md",
+   "dest": "data/historical/fumes-retained/benchmark-v1/BENCHMARK_FREEZE.md",
+   "sha256_original": "462d9d33c73c1c8739aa3f53d19ecd3a3fe15ee3702036a4a7a3db8cc767c2eb",
+   "bytes_original": 15174,
+   "gzipped": false,
+   "provenance": "documentary benchmark freeze (third-party Flightony claims + official manual)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/benchmark-v1/SOURCE_MANIFEST.json",
+   "dest": "data/historical/fumes-retained/benchmark-v1/SOURCE_MANIFEST.json",
+   "sha256_original": "3ff82e063283d5d212639a180c1e135d4ff44b446fc45442143ff9c6169b1522",
+   "bytes_original": 33636,
+   "gzipped": false,
+   "provenance": "documentary benchmark freeze (third-party Flightony claims + official manual)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/benchmark-v1/VERIFICATION.json",
+   "dest": "data/historical/fumes-retained/benchmark-v1/VERIFICATION.json",
+   "sha256_original": "ffd168e45e7105b0141d13a64a4fc2047463ef09681c2db7865c9f01f6454aab",
+   "bytes_original": 39422,
+   "gzipped": false,
+   "provenance": "documentary benchmark freeze (third-party Flightony claims + official manual)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/AERO.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/AERO.json",
+   "sha256_original": "4a6a1f3ea606c37d462779dde9a34d3b03342a97c8b8605a3dfc3a27d811e6c3",
+   "bytes_original": 396828,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/BATTERY_HOVER_AUDIT.md",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/BATTERY_HOVER_AUDIT.md",
+   "sha256_original": "42bef92902f426a88cbe0c91eeee67208a70b528db01e0eec88c4b0cdc395165",
+   "bytes_original": 9568,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/CHECKPOINT.md",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/CHECKPOINT.md",
+   "sha256_original": "2dabfe0abbf8c98f6424e201ef5463e2116d72e53438949b86181f489ac52123",
+   "bytes_original": 370,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/CONVERGENCE.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/CONVERGENCE.json",
+   "sha256_original": "e471543cefb362da72701cbec8d41b4391416f8d9b6cfbfe624bb66a8507d0e8",
+   "bytes_original": 10698,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/DIAGNOSTICS.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/DIAGNOSTICS.json",
+   "sha256_original": "e48f8c5b9d789a5ea2e177a1a8ce673b6e3f0230bd9cae9c10a22e3e10059495",
+   "bytes_original": 2442,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/INPUTS.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/INPUTS.json",
+   "sha256_original": "9e1289e7575fe3198c4815074c67e9d478b33dc4ba40b743e7adee1a9a3bf3fe",
+   "bytes_original": 3151,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/MANIFEST.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/MANIFEST.json",
+   "sha256_original": "912c452ec5cbeacecf238e47ff1b51771fd9ac252dcbbd7b8b7c79676efe5fb9",
+   "bytes_original": 3081,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/REPORT.md",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/REPORT.md",
+   "sha256_original": "e0b3abd1d655e2273193861d8aca5d0d7ac0b582511d55898d0fbc84bff5cbe4",
+   "bytes_original": 10946,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/RESULTS.csv",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/RESULTS.csv",
+   "sha256_original": "8d92a8f9f22b07919d3bc5b12f364a3a979863e89a982e7e668017946f296ceb",
+   "bytes_original": 1505902,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/RESULTS.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/RESULTS.json",
+   "sha256_original": "6d4d396ef64634782d205f9a7120198d92e64a9e0a88bf65aadbeebf30b89c9c",
+   "bytes_original": 4224295,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/RUN.log",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/RUN.log",
+   "sha256_original": "04960ec8a0363d7c9dd2e016f7afd29289ce7abc614bb5ac0dceddebe796f637",
+   "bytes_original": 6078,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/SELLER_SOURCES.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/SELLER_SOURCES.json",
+   "sha256_original": "4a3966dfd0355a5a94510c545657d91b818f9db1b98779367bbf43f471fe5d8f",
+   "bytes_original": 2945,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/SUMMARY.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/SUMMARY.json",
+   "sha256_original": "95d0696bb49f3b62d129091fdab56b30bffb66d63639f6082331f5551f252128",
+   "bytes_original": 100396,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/TESTS.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/TESTS.txt",
+   "sha256_original": "eab430a83c0e7160c7529a5619b011aeda68e539932707ad59d51fdd437966b3",
+   "bytes_original": 477,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/UNSUPPORTED.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/UNSUPPORTED.json",
+   "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "bytes_original": 2,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/VERIFICATION.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/VERIFICATION.json",
+   "sha256_original": "d33f543e88f98b37b4e2e4afd2ffa2c7ad5ca1100f0adece58f483b28da91e31",
+   "bytes_original": 359,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/accounting.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/accounting.py",
+   "sha256_original": "043077127c2f92515e49fec8bf8f5b95e8d0cbf246147bb5db724e9c6425e53f",
+   "bytes_original": 1161,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_calculations.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_calculations.json",
+   "sha256_original": "443308b79d5aff733a362348d45e0c4aacb577b0bf6b1ce12eee649e5df359d8",
+   "bytes_original": 2394,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_calculations.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_calculations.py",
+   "sha256_original": "cf3017ebcd7c5ecd258342adde99794bda07a5fbad2a956ca978b6432039dcfc",
+   "bytes_original": 1469,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_flightony_home.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_flightony_home.txt",
+   "sha256_original": "6ce90f97aebcd936f4595eb44d64cd46ea3070173324fc97bd6da7ba2b01eb99",
+   "bytes_original": 4660,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_flightony_performance.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_flightony_performance.txt",
+   "sha256_original": "679ac2ba3ed4141edabf9b6f6253f529142e9c5f05d9f66afb5abf35238c37ee",
+   "bytes_original": 1938,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_flightony_specs.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_flightony_specs.txt",
+   "sha256_original": "2cad453d9171d4a1082fcf6ae825780aa0b8284598ff04517ff7031a6cca70de",
+   "bytes_original": 2720,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_imr_listing.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_imr_listing.txt",
+   "sha256_original": "3ae1a4fd93dc6fef5a418896e99feea6152c5705a090cbc33993d4ec1001a089",
+   "bytes_original": 18988,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_samsung_50e.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_samsung_50e.txt",
+   "sha256_original": "05a37d94331890994fb887dacb1410a02e37165f08c7134e0fde9b755e37c5d2",
+   "bytes_original": 29088,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/battery_sources.json",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/battery_sources.json",
+   "sha256_original": "5d58cf2b3d3fc5bff7de67c49541ea43d30f8674288cc627727e803f93f1f6f4",
+   "bytes_original": 1587,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/fetch_seller.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/fetch_seller.py",
+   "sha256_original": "6da298630fd6fd7fbbd4506a06ff70debff35aa07a89bdc7fc7f5bbde323ea1f",
+   "bytes_original": 1331,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/finalize.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/finalize.py",
+   "sha256_original": "58648fb6e0bafe13902f7fc571a2bd5907936dc671a9d42401a8d5d7bea28fc6",
+   "bytes_original": 13127,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/run_comparison.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/run_comparison.py",
+   "sha256_original": "f4847a6ff15c57b6249a44258e4695076136f4443c92c69e488cb35ecc22b994",
+   "bytes_original": 8766,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/seller_0.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/seller_0.txt",
+   "sha256_original": "81166cd2a18ae8042c79aff90eec841453ef77a4f00792bb6be2b8c92da40df4",
+   "bytes_original": 3951,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/seller_1.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/seller_1.txt",
+   "sha256_original": "28a4798170b58a7aaf932396b51d19ff17e51412e480953d491d6fa2a554187d",
+   "bytes_original": 1855,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/seller_2.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/seller_2.txt",
+   "sha256_original": "e66aeb75386b64927de523ea6703109accd38d3ea0ba1e01f79dccc909dc0972",
+   "bytes_original": 1076,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/seller_3.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/seller_3.txt",
+   "sha256_original": "5e698f1717fae921299ca888f7862efb1fa934e108f306de7fa4b321e0bf5c2e",
+   "bytes_original": 906,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/seller_4.txt",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/seller_4.txt",
+   "sha256_original": "0569458262d64ac01471e95e9261b696f173ed7f579e538dd851584ffd790934",
+   "bytes_original": 893,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/flightony-independent-check/test_accounting.py",
+   "dest": "data/historical/fumes-retained/flightony-independent-check/test_accounting.py",
+   "sha256_original": "87092c3cf0504b5303f43cae12768b29226c7cde573d18434047d4c8c003e82e",
+   "bytes_original": 950,
+   "gzipped": false,
+   "provenance": "model (prior independent accounting of Flightony claims)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/CAD_BASELINE_INTERSECTIONS.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/CAD_BASELINE_INTERSECTIONS.json",
+   "sha256_original": "d9762811d441cea97a8e84768c84ea3c6146c5f100377f422e07ecc1340d6dc5",
+   "bytes_original": 3598,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/CAD_MOUNT_INTERSECTIONS.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/CAD_MOUNT_INTERSECTIONS.json",
+   "sha256_original": "b7612b91a0f09d4cd86689ef28bb9806fe299e69131b65edb03152c14077b69d",
+   "bytes_original": 15263,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/FINAL_RECEIPT.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/FINAL_RECEIPT.json",
+   "sha256_original": "2ddb68df94665c2f4744c466054e7017f7d2d6bd648d60c3f74382e847b3eb09",
+   "bytes_original": 13395,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/INPUT_BASELINE.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/INPUT_BASELINE.json",
+   "sha256_original": "40f2f9d6863fa2d263842eb847aee8a2a27f37423fda00b55331fb22018562da",
+   "bytes_original": 2325,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/PLACEMENT_AND_SUBSTITUTIONS.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/PLACEMENT_AND_SUBSTITUTIONS.json",
+   "sha256_original": "77c0500e59dcc866a3bc0e9345de9f8162f00bfb00c44fe8de8908d2c1a64a53",
+   "bytes_original": 13417,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/REPORT.md",
+   "dest": "data/historical/fumes-retained/hardware-placement/REPORT.md",
+   "sha256_original": "60d2ab3214ace575d5ee7580db3f2c4209d7fcd9a40eba794c40f5286fba560d",
+   "bytes_original": 10386,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/RESEARCH_RECEIPTS.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/RESEARCH_RECEIPTS.json",
+   "sha256_original": "3217105caa2a4099fab1cd9b318b652a3af8ab5260973c44de2db6a2ff240373",
+   "bytes_original": 156438,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/RESULTS.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/RESULTS.json",
+   "sha256_original": "fcdc7f86e0b7833c4324653fb0e0758bb36ca70d12a1a3d0b0b61094b6731a75",
+   "bytes_original": 49022,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/SOURCE_AND_APPROXIMATION.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/SOURCE_AND_APPROXIMATION.json",
+   "sha256_original": "86362b0daf07395499ebf9d8ce7b5fcee1f1d57b5064b3711eba825c709636fd",
+   "bytes_original": 5132,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/VERIFICATION.json",
+   "dest": "data/historical/fumes-retained/hardware-placement/VERIFICATION.json",
+   "sha256_original": "6d0c1eac19d78f04e8258620db72bd5c803dce95748aa6be0a7e52198a924519",
+   "bytes_original": 28383,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/build.py",
+   "dest": "data/historical/fumes-retained/hardware-placement/build.py",
+   "sha256_original": "cf705c1c0016453768d1f87f6904360ddb7448cc41b826e865cee1d37b581c19",
+   "bytes_original": 9709,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/research.py",
+   "dest": "data/historical/fumes-retained/hardware-placement/research.py",
+   "sha256_original": "34beeb8f63b4df81c14384949cc03f4d5f323e0aadce34cbaad03da13a2185dc",
+   "bytes_original": 3297,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/research_fallback.py",
+   "dest": "data/historical/fumes-retained/hardware-placement/research_fallback.py",
+   "sha256_original": "d989583cedea6ffcb1944abfdd2e65512e600a64617f8e79c3e60eca0a52f57a",
+   "bytes_original": 1572,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/seal_delivery.py",
+   "dest": "data/historical/fumes-retained/hardware-placement/seal_delivery.py",
+   "sha256_original": "fc5f8f336383b9b0c0930a892b1f23be44aac2ddaee0d755a35a726c2ddcab2d",
+   "bytes_original": 5304,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/verify.py",
+   "dest": "data/historical/fumes-retained/hardware-placement/verify.py",
+   "sha256_original": "73f9a3bc8c92f73bf95051fb74e65a37cce9a8914a3ecc6374856028cb81d76f",
+   "bytes_original": 5897,
+   "gzipped": false,
+   "provenance": "model (approximate installed motor/boom placement; +X fwd, +Y left, +Z up, metres)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-with-hatches/results.json",
+   "dest": "data/historical/fumes-retained/fuselage-dense/results.json",
+   "sha256_original": "6ad96c416f18942149744c2593b49370da372896ca1d51e2239761f554a1c49d",
+   "bytes_original": 24182,
+   "gzipped": false,
+   "provenance": "model (dense 419-station fuselage envelope result)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stork-aero-geometry/fuselage-with-hatches/envelope_loft.npz",
+   "dest": "data/historical/fumes-retained/fuselage-dense/envelope_loft.npz",
+   "sha256_original": "7877b8d03dbdf236b33497d30d9496492aefb96f2b1d3407c63712981bafe2eb",
+   "bytes_original": 1492571,
+   "gzipped": false,
+   "provenance": "model (dense envelope loft arrays)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/PER3_10x6E.DOM.dat",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/PER3_10x6E.DOM.dat",
+   "sha256_original": "d72712e0b9c917b3f6837a40b47a11c272712be90fef9298971f84d09eca0a90",
+   "bytes_original": 144076,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/PER3_10x6E.dat",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/PER3_10x6E.dat",
+   "sha256_original": "85480c5b45897a33b4fecbd907e8b89634a730e900a69cc093c827fb545b427c",
+   "bytes_original": 1084,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-forward.csv",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/apc-forward.csv",
+   "sha256_original": "16889973e612a6fb01d42c4bbc7f45af899a39461738e2a7aeeb1b2e538d03af",
+   "bytes_original": 20459,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-index.txt",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/apc-index.txt",
+   "sha256_original": "dac0a9bf68a19446e53ee5495a4f925eb598ef8feb0918f2ab802069ce053ea6",
+   "bytes_original": 33,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-product.DOM.txt",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/apc-product.DOM.txt",
+   "sha256_original": "9f1832da2006bcee39c10ba0e4d304bd0ac2430fb4736c540c0c06e586bfa49e",
+   "bytes_original": 1649,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-product.txt",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/apc-product.txt",
+   "sha256_original": "dac0a9bf68a19446e53ee5495a4f925eb598ef8feb0918f2ab802069ce053ea6",
+   "bytes_original": 33,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/apc-rpm.cached.txt",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/apc-rpm.cached.txt",
+   "sha256_original": "295b7b777820b800fba32a72e0ae24ab7e6f4bb6d7cbf855a8f2bb8feb04cf09",
+   "bytes_original": 4463,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/bench-loss-consistency.json",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/bench-loss-consistency.json",
+   "sha256_original": "c44fd4193478e1c3a93a604b7ab0ac99a1fa5efe1c67e21a0dc0f96d5bf7651e",
+   "bytes_original": 12974,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/bh2812-bench.json",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/bh2812-bench.json",
+   "sha256_original": "d809a812740093bab064357e4728fdb74d6e478521808f430338fbeceab41549",
+   "bytes_original": 2291,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/bh2812-test.jpg",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/bh2812-test.jpg",
+   "sha256_original": "df9837a407df975f47a344dfe86cdf791c1d06e4e2a42f64f546512eeff82f52",
+   "bytes_original": 903749,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/p50b-1C-digitized.csv",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/p50b-1C-digitized.csv",
+   "sha256_original": "7501bbea37675789ead79cbc11201bc3771d14082cd080106cb78b854795a24b",
+   "bytes_original": 65035,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/p50b-1C.png",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/p50b-1C.png",
+   "sha256_original": "c99d843d858670036e1afae89d0b3c4087078b2555f7a9ac9520fe359f29d15c",
+   "bytes_original": 60807,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/p50b-product.txt",
+   "dest": "data/historical/fumes-retained/prior-model/propulsion/data/p50b-product.txt",
+   "sha256_original": "8f96c17e4eedc83111f90af8e30c3a413d4fd13f80c7fb3900884aecdc6ebf4b",
+   "bytes_original": 3591,
+   "gzipped": false,
+   "provenance": "APC = manufacturer-computed map (not measured); BH2812 = vendor bench sheet; P50B = manufacturer chart + prior digitization (test-condition labels conflict)"
+  }
+ ]
+}

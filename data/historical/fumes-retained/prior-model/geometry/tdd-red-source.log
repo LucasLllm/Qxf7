@@ -1,0 +1,13 @@
+F.
+======================================================================
+FAIL: test_actual_source_geometry_deliverable (__main__.ContourTests.test_actual_source_geometry_deliverable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py", line 26, in test_actual_source_geometry_deliverable
+    self.assertTrue(hasattr(mod,'main'),'missing actual-source extraction')
+AssertionError: False is not true : missing actual-source extraction
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.007s
+
+FAILED (failures=1)

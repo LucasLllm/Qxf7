@@ -1,0 +1,14 @@
+test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence) ... FAIL
+
+======================================================================
+FAIL: test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 25, in test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence
+    self.assertTrue(hasattr(solver,'contour_diagnostics'),'contour diagnostics missing')
+AssertionError: False is not true : contour diagnostics missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

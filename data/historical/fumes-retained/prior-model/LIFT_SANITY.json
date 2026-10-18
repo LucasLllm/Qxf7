@@ -1,0 +1,23 @@
+{
+  "status": "sanity check using manual reference area and reference chord, not solved geometry polar",
+  "atmosphere": "standard sea-level",
+  "rho": 1.2249991558877558,
+  "mu": 1.7893802780775357e-05,
+  "rows": [
+    {
+      "kmh": 50,
+      "required_CL_reference_area_0_31": 0.7988648913323164,
+      "Re_reference_chord_0_20m": 190165.0238750479
+    },
+    {
+      "kmh": 60,
+      "required_CL_reference_area_0_31": 0.554767285647442,
+      "Re_reference_chord_0_20m": 228198.02865005744
+    },
+    {
+      "kmh": 70,
+      "required_CL_reference_area_0_31": 0.4075841282307738,
+      "Re_reference_chord_0_20m": 266231.03342506697
+    }
+  ]
+}

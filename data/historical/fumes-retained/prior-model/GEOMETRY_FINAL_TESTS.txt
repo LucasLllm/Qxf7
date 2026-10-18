@@ -1,0 +1,10 @@
+test_actual_source_geometry_deliverable (test_extract.ContourTests.test_actual_source_geometry_deliverable) ... {"wing": 1.6205406494140626, "wing_area": 0.27121840608205844, "tail_area": 0.0733246722756804, "tail_cant": 35.10688872248428, "foils": 40, "missing": 0, "fuselage": [0.9938015479879455, 0.1760000141826574, 0.17920405026823788], "wetted_envelope": 0.3640577981513995, "seconds": 56.614372968673706}
+ok
+test_airfoil_similarity_area_order_and_documented_motor (test_extract.ContourTests.test_airfoil_similarity_area_order_and_documented_motor) ... ok
+test_no_internal_only_profile_when_native_outer_is_open (test_extract.ContourTests.test_no_internal_only_profile_when_native_outer_is_open) ... ok
+test_outer_excludes_nested_internal_contours (test_extract.ContourTests.test_outer_excludes_nested_internal_contours) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 59.071s
+
+OK

@@ -1,0 +1,98 @@
+[
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 4.7,
+    "rpm": 6753,
+    "thrust_gf": 770,
+    "input_W": 118.44,
+    "static_gf_per_W": 6.5,
+    "throttle_percent": 30,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 8.5,
+    "rpm": 8336,
+    "thrust_gf": 1220,
+    "input_W": 214.2,
+    "static_gf_per_W": 5.7,
+    "throttle_percent": 40,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 12.9,
+    "rpm": 9657,
+    "thrust_gf": 1583,
+    "input_W": 325.08,
+    "static_gf_per_W": 4.87,
+    "throttle_percent": 50,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 20.2,
+    "rpm": 10882,
+    "thrust_gf": 2057,
+    "input_W": 509.04,
+    "static_gf_per_W": 4.04,
+    "throttle_percent": 60,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 29.1,
+    "rpm": 12283,
+    "thrust_gf": 2618,
+    "input_W": 733.32,
+    "static_gf_per_W": 3.57,
+    "throttle_percent": 70,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 39.5,
+    "rpm": 13751,
+    "thrust_gf": 3235,
+    "input_W": 995.4,
+    "static_gf_per_W": 3.25,
+    "throttle_percent": 80,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 44.5,
+    "rpm": 14242,
+    "thrust_gf": 3487,
+    "input_W": 1121.4,
+    "static_gf_per_W": 3.11,
+    "throttle_percent": 90,
+    "source": "captures/bh-e505d65920.jpg"
+  },
+  {
+    "prop_source_label": "Folding 9453F Triblade",
+    "blades": 3,
+    "voltage_V": 25.2,
+    "current_A": 50.78,
+    "rpm": 14724,
+    "thrust_gf": 3788,
+    "input_W": 1279.66,
+    "static_gf_per_W": 2.96,
+    "throttle_percent": 100,
+    "source": "captures/bh-e505d65920.jpg"
+  }
+]

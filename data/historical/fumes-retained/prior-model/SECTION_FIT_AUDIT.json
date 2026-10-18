@@ -1,0 +1,36 @@
+[
+  {
+    "point_count": 302,
+    "fit_rms_chord": 0.007893850078957432,
+    "fit_max_chord": 0.018756426435504243,
+    "max_thickness_chord": 0.13312352619842338,
+    "confidence": 1.2550349632612562e-05,
+    "confidence_condition": {
+      "alpha_deg": 2.0,
+      "Re": 200000.0,
+      "n_crit": 9.0
+    },
+    "kulfan_weights_per_side": 8,
+    "metric": "nearest source point to dense fitted contour; chord-normalized",
+    "valid_fit": false,
+    "source_dat": "geometry/airfoils/wing_R_700_030/airfoil.dat",
+    "meaning": "A closed physical print-part contour is not necessarily a complete aerodynamic airfoil; split fixed/aileron sections need interference/hinge modeling."
+  },
+  {
+    "point_count": 359,
+    "fit_rms_chord": 0.0020021226298372013,
+    "fit_max_chord": 0.009457426220139488,
+    "max_thickness_chord": 0.18155364595069096,
+    "confidence": 0.9805119123572986,
+    "confidence_condition": {
+      "alpha_deg": 2.0,
+      "Re": 200000.0,
+      "n_crit": 9.0
+    },
+    "kulfan_weights_per_side": 8,
+    "metric": "nearest source point to dense fitted contour; chord-normalized",
+    "valid_fit": false,
+    "source_dat": "geometry/airfoils/wing_R_700_035/airfoil.dat",
+    "meaning": "A closed physical print-part contour is not necessarily a complete aerodynamic airfoil; split fixed/aileron sections need interference/hinge modeling."
+  }
+]

@@ -1,0 +1,50 @@
+test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence (test_solver.SourceBoundary.test_actual_DAT_fit_has_error_metrics_and_neuralfoil_confidence) ... ok
+test_component_drag_is_dimensional_and_speed_dependent (test_solver.SourceBoundary.test_component_drag_is_dimensional_and_speed_dependent) ... ok
+test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis) ... FAIL
+test_level_trim_returns_drag_closure_and_residuals (test_solver.SourceBoundary.test_level_trim_returns_drag_closure_and_residuals) ... ERROR
+test_missing_geometry_produces_explicit_blocked_artifact_without_curves (test_solver.SourceBoundary.test_missing_geometry_produces_explicit_blocked_artifact_without_curves) ... ok
+test_no_generic_airfoil_fallback (test_solver.SourceBoundary.test_no_generic_airfoil_fallback) ... ok
+test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only) ... ERROR
+
+======================================================================
+ERROR: test_level_trim_returns_drag_closure_and_residuals (test_solver.SourceBoundary.test_level_trim_returns_drag_closure_and_residuals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 51, in test_level_trim_returns_drag_closure_and_residuals
+    g=json.loads((root/'GEOMETRY.json').read_text())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/GEOMETRY.json'
+
+======================================================================
+ERROR: test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only (test_solver.SourceBoundary.test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 75, in test_ready_geometry_batch_executes_real_solver_and_reuses_orientation_only
+    g=json.loads((root/'GEOMETRY.json').read_text())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucasliu/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/GEOMETRY.json'
+
+======================================================================
+FAIL: test_geometry_conversion_preserves_actual_contour_chord_and_axis (test_solver.SourceBoundary.test_geometry_conversion_preserves_actual_contour_chord_and_axis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/aero/test_solver.py", line 38, in test_geometry_conversion_preserves_actual_contour_chord_and_axis
+    self.assertTrue((root/'GEOMETRY.json').exists(),'geometry child not ready')
+AssertionError: False is not true : geometry child not ready
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.035s
+
+FAILED (failures=1, errors=2)

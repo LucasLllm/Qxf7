@@ -1,0 +1,3874 @@
+{
+  "bounded_search_queries": [
+    "T-Motor F90 motor STEP CAD dimension drawing",
+    "BrotherHobby Avenger 2812 V5 STEP CAD model"
+  ],
+  "records": [
+    {
+      "requested_url": "https://www.brotherhobby.com/avenger-2812-v5-910kv-motorcw-p00234p1.html",
+      "retrieved_utc": "2026-10-12T22:00:57.673262+00:00",
+      "status": 200,
+      "final_url": "https://www.brotherhobby.com/avenger-2812-v5-910kv-motorcw-p00234p1.html",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/37d8421f6c28b99c.html",
+      "bytes": 52160,
+      "sha256": "6d11fad958b05936796a94cdaacc860b9fd5ef0b7c08a0adb9d55fb06d064047",
+      "content_type": "text/html; charset=utf-8",
+      "title": "BrotherHobby Avenger 2812 V5 910KV Motor(CW)",
+      "links": [
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Motor",
+          "url": "javascript:;"
+        },
+        {
+          "text": "BACK",
+          "url": "javascript:;"
+        },
+        {
+          "text": "FPV Motor",
+          "url": "https://www.brotherhobby.com/c/fpv-motor_0072"
+        },
+        {
+          "text": "Returner Series",
+          "url": "https://www.brotherhobby.com/c/returner-series_0073"
+        },
+        {
+          "text": "Tornado Series",
+          "url": "https://www.brotherhobby.com/c/tornado-series_0074"
+        },
+        {
+          "text": "Avenger Series",
+          "url": "https://www.brotherhobby.com/c/avenger-series_0089"
+        },
+        {
+          "text": "Venom Series",
+          "url": "https://www.brotherhobby.com/c/venom-series_0090"
+        },
+        {
+          "text": "EngineerX Series",
+          "url": "https://www.brotherhobby.com/c/engineerx-series_0091"
+        },
+        {
+          "text": "Speed Shield series",
+          "url": "https://www.brotherhobby.com/c/speed-shield-series_0075"
+        },
+        {
+          "text": "SE series",
+          "url": "https://www.brotherhobby.com/c/se-series_0142"
+        },
+        {
+          "text": "UC Series",
+          "url": "https://www.brotherhobby.com/c/uc-series_0096"
+        },
+        {
+          "text": "VY Series",
+          "url": "https://www.brotherhobby.com/c/vy-series_0098"
+        },
+        {
+          "text": "DXA Series",
+          "url": "https://www.brotherhobby.com/c/dxa-series_0107"
+        },
+        {
+          "text": "LPD Series",
+          "url": "https://www.brotherhobby.com/c/lpd-series_0108"
+        },
+        {
+          "text": "GOM Series",
+          "url": "https://www.brotherhobby.com/c/gom-series_0109"
+        },
+        {
+          "text": "VS Series",
+          "url": "https://www.brotherhobby.com/c/vs-series_0110"
+        },
+        {
+          "text": "Camera Drone Motor",
+          "url": "https://www.brotherhobby.com/c/camera-drone-motor_0118"
+        },
+        {
+          "text": "F Series",
+          "url": "https://www.brotherhobby.com/c/f-series_0120"
+        },
+        {
+          "text": "Glider Motor",
+          "url": "https://www.brotherhobby.com/c/glider-motor_0117"
+        },
+        {
+          "text": "Nipple Series",
+          "url": "https://www.brotherhobby.com/c/nipple-series_0119"
+        },
+        {
+          "text": "Fixed Wing Motor",
+          "url": "https://www.brotherhobby.com/c/fixed-wing-motor_0094"
+        },
+        {
+          "text": "Nipple Series",
+          "url": "https://www.brotherhobby.com/c/nipple-series_0150"
+        },
+        {
+          "text": "Reunion Series",
+          "url": "https://www.brotherhobby.com/c/reunion-series_0095"
+        },
+        {
+          "text": "Multirotor Motor",
+          "url": "https://www.brotherhobby.com/c/multirotor-motor_0092"
+        },
+        {
+          "text": "Max Series",
+          "url": "https://www.brotherhobby.com/c/max-series_0093"
+        },
+        {
+          "text": "Drone",
+          "url": "javascript:;"
+        },
+        {
+          "text": "BACK",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Electronics",
+          "url": "https://www.brotherhobby.com/c/electronics_0141"
+        },
+        {
+          "text": "Filter Board",
+          "url": "https://www.brotherhobby.com/c/filter-board_0149"
+        },
+        {
+          "text": "Short Circuit Protector",
+          "url": "https://www.brotherhobby.com/c/short-circuit-protector_0148"
+        },
+        {
+          "text": "Camera",
+          "url": "https://www.brotherhobby.com/c/camera_0147"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.brotherhobby.com/c/vtx_0146"
+        },
+        {
+          "text": "RX",
+          "url": "https://www.brotherhobby.com/c/rx_0144"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.brotherhobby.com/c/esc_0138"
+        },
+        {
+          "text": "FC",
+          "url": "https://www.brotherhobby.com/c/fc_0137"
+        },
+        {
+          "text": "Skateboard",
+          "url": "javascript:;"
+        },
+        {
+          "text": "BACK",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Store",
+          "url": "http://www.brotherhobbystore.com/"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.brotherhobby.com/art/contact-us-9.html"
+        },
+        {
+          "text": "Distributor",
+          "url": "https://www.brotherhobby.com/distributor/"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.brotherhobby.com/c/motor_0023"
+        },
+        {
+          "text": "Electronics",
+          "url": "https://www.brotherhobby.com/c/electronics_0099"
+        },
+        {
+          "text": "Store",
+          "url": "http://www.brotherhobbystore.com/"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.brotherhobby.com/art/-9.html"
+        },
+        {
+          "text": "Distributor",
+          "url": "https://www.brotherhobby.com/distributor/"
+        },
+        {
+          "text": "FPV Motor",
+          "url": "https://www.brotherhobby.com/c/fpv-motor_0072"
+        },
+        {
+          "text": "Multirotor Motor",
+          "url": "https://www.brotherhobby.com/c/multirotor-motor_0092"
+        },
+        {
+          "text": "Fixed Wing Motor",
+          "url": "https://www.brotherhobby.com/c/fixed-wing-motor_0094"
+        },
+        {
+          "text": "Glider Motor",
+          "url": "https://www.brotherhobby.com/c/glider-motor_0117"
+        },
+        {
+          "text": "Camera Drone Motor",
+          "url": "https://www.brotherhobby.com/c/camera-drone-motor_0118"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/returner-series_0073"
+        },
+        {
+          "text": "Returner Series",
+          "url": "https://www.brotherhobby.com/c/returner-series_0073"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/tornado-series_0074"
+        },
+        {
+          "text": "Tornado Series",
+          "url": "https://www.brotherhobby.com/c/tornado-series_0074"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/avenger-series_0089"
+        },
+        {
+          "text": "Avenger Series",
+          "url": "https://www.brotherhobby.com/c/avenger-series_0089"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/venom-series_0090"
+        },
+        {
+          "text": "Venom Series",
+          "url": "https://www.brotherhobby.com/c/venom-series_0090"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/engineerx-series_0091"
+        },
+        {
+          "text": "EngineerX Series",
+          "url": "https://www.brotherhobby.com/c/engineerx-series_0091"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/speed-shield-series_0075"
+        },
+        {
+          "text": "Speed Shield series",
+          "url": "https://www.brotherhobby.com/c/speed-shield-series_0075"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/se-series_0142"
+        },
+        {
+          "text": "SE series",
+          "url": "https://www.brotherhobby.com/c/se-series_0142"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/uc-series_0096"
+        },
+        {
+          "text": "UC Series",
+          "url": "https://www.brotherhobby.com/c/uc-series_0096"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/vy-series_0098"
+        },
+        {
+          "text": "VY Series",
+          "url": "https://www.brotherhobby.com/c/vy-series_0098"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/dxa-series_0107"
+        },
+        {
+          "text": "DXA Series",
+          "url": "https://www.brotherhobby.com/c/dxa-series_0107"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/lpd-series_0108"
+        },
+        {
+          "text": "LPD Series",
+          "url": "https://www.brotherhobby.com/c/lpd-series_0108"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/gom-series_0109"
+        },
+        {
+          "text": "GOM Series",
+          "url": "https://www.brotherhobby.com/c/gom-series_0109"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/max-series_0093"
+        },
+        {
+          "text": "Max Series",
+          "url": "https://www.brotherhobby.com/c/max-series_0093"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/reunion-series_0095"
+        },
+        {
+          "text": "Reunion Series",
+          "url": "https://www.brotherhobby.com/c/reunion-series_0095"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/nipple-series_0119"
+        },
+        {
+          "text": "Nipple Series",
+          "url": "https://www.brotherhobby.com/c/nipple-series_0119"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/f-series_0120"
+        },
+        {
+          "text": "F Series",
+          "url": "https://www.brotherhobby.com/c/f-series_0120"
+        },
+        {
+          "text": "Electronics",
+          "url": "https://www.brotherhobby.com/c/electronics_0141"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/filter-board_0149"
+        },
+        {
+          "text": "Filter Board",
+          "url": "https://www.brotherhobby.com/c/filter-board_0149"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/short-circuit-protector_0148"
+        },
+        {
+          "text": "Short Circuit Protector",
+          "url": "https://www.brotherhobby.com/c/short-circuit-protector_0148"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/camera_0147"
+        },
+        {
+          "text": "Camera",
+          "url": "https://www.brotherhobby.com/c/camera_0147"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/vtx_0146"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.brotherhobby.com/c/vtx_0146"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/rx_0144"
+        },
+        {
+          "text": "RX",
+          "url": "https://www.brotherhobby.com/c/rx_0144"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/esc_0138"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.brotherhobby.com/c/esc_0138"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/c/fc_0137"
+        },
+        {
+          "text": "FC",
+          "url": "https://www.brotherhobby.com/c/fc_0137"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobbystore.com/collections/electronics"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.brotherhobby.com/"
+        },
+        {
+          "text": "\\ Motor",
+          "url": "https://www.brotherhobby.com/products/"
+        },
+        {
+          "text": "FPV Motor",
+          "url": "https://www.brotherhobby.com/c/fpv-motor_0072"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.brotherhobby.com/c/motor_0023"
+        },
+        {
+          "text": "Avenger Series",
+          "url": "https://www.brotherhobby.com/c/avenger-series_0089"
+        },
+        {
+          "text": "\\ Avenger 2812 V5 910KV Motor(CW)",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Buy Now",
+          "url": "https://www.brotherhobbystore.com/products/brotherhobby-avenger-2812-v5-910kv-motorcw-178"
+        },
+        {
+          "text": "",
+          "url": "https://www.brotherhobby.com/"
+        },
+        {
+          "text": "info@brotherhobby.com",
+          "url": "mailto:info@brotherhobby.com"
+        },
+        {
+          "text": "Products",
+          "url": "https://www.brotherhobby.com/c/motor_0023"
+        },
+        {
+          "text": "Store",
+          "url": "https://www.brotherhobbystore.com/"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.brotherhobby.com/art/-9.html"
+        },
+        {
+          "text": "Distributor",
+          "url": "https://www.brotherhobby.com/distributor/"
+        },
+        {
+          "text": "",
+          "url": "https://www.facebook.com/brotherhobby/"
+        },
+        {
+          "text": "",
+          "url": "https://twitter.com/brotherhobby"
+        },
+        {
+          "text": "",
+          "url": "https://www.youtube.com/channel/UC3Ycmlch7Ih8YMB6znbCjfg"
+        },
+        {
+          "text": "Email",
+          "url": "mailto:info@brotherhobby.com"
+        },
+        {
+          "text": "Skype",
+          "url": "skype:davisdeng88?chat"
+        },
+        {
+          "text": "WhatsApp",
+          "url": "https://api.whatsapp.com/send?phone=8613859512482"
+        },
+        {
+          "text": "QQ",
+          "url": "https://wpa.qq.com/msgrd?v=3&uin=506781770&menu=yes"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        }
+      ],
+      "images": [
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/b104d1d3c3.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/810b614eb4.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/8d75202ad1.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/22bb6cad0c.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/7c1215de40.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/1a909472da.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2406/photo/217d761dac.png",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1907/photo/6b07100808.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2001/photo/6fb1e398c6.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2009/photo/dde5af36c9.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2011/photo/bbba3cf663.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2011/photo/5e5662992c.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/1906/photo/95d95d65be.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2010/photo/abfa4fffb5.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2304/photo/8cd129c53c.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2304/photo/3177643b5e.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2504/photo/8149d4fe73.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2504/photo/403fba43d5.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2503/photo/94a66a2ede.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2501/photo/8abb764a6a.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2407/photo/b59d5c5c2a.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2403/photo/85c53b2558.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2403/photo/6309eee59c.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2409/products/19/8405e941fe.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/c036696cc8.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/5ab9b97363.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/485c64bffd.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/913747b78f.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/ec5f441d53.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/4a264dbcc2.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/4eed654bcf.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/e4849f8d29.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/e6ce8d4b59.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/daeffe874f.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/0a5eb42ac2.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/13915313cd.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/d92fe20edf.jpg",
+        "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2210/photo/2a2ba2096c.png"
+      ],
+      "cad_links": []
+    },
+    {
+      "requested_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+      "retrieved_utc": "2026-10-12T22:00:57.673485+00:00",
+      "status": 200,
+      "final_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/d51517ac2944c065.html",
+      "bytes": 61234,
+      "sha256": "3440c6ff1930b4387d073b7d987723eb7782ec98a9f831c65e5f0f22a33bebab",
+      "content_type": "text/html; charset=utf-8",
+      "title": "T-Motor F90 Brushless Long Range Motors | HobbyRC UK",
+      "links": [
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/"
+        },
+        {
+          "text": "Fixed Wing",
+          "url": "https://www.hobbyrc.co.uk/fixed-wing"
+        },
+        {
+          "text": "Model Planes",
+          "url": "https://www.hobbyrc.co.uk/fpv-models"
+        },
+        {
+          "text": "VolantexRC Spares",
+          "url": "https://www.hobbyrc.co.uk/volantexrc-spares"
+        },
+        {
+          "text": "ZOHD Spares",
+          "url": "https://www.hobbyrc.co.uk/zohd-spares"
+        },
+        {
+          "text": "Hee Wing Spares",
+          "url": "https://www.hobbyrc.co.uk/hee-wing-spares"
+        },
+        {
+          "text": "RTF / ARF Quads",
+          "url": "https://www.hobbyrc.co.uk/ready-built"
+        },
+        {
+          "text": "5\"+ Quads",
+          "url": "https://www.hobbyrc.co.uk/5-quads"
+        },
+        {
+          "text": "Small Quads",
+          "url": "https://www.hobbyrc.co.uk/small-quad"
+        },
+        {
+          "text": "Whoops",
+          "url": "https://www.hobbyrc.co.uk/whoops"
+        },
+        {
+          "text": "Flywoo Spares",
+          "url": "https://www.hobbyrc.co.uk/flywoo-spares"
+        },
+        {
+          "text": "Cars / Boats / Helis",
+          "url": "https://www.hobbyrc.co.uk/cars"
+        },
+        {
+          "text": "1/76th Scale",
+          "url": "https://www.hobbyrc.co.uk/176th-scale"
+        },
+        {
+          "text": "Helis",
+          "url": "https://www.hobbyrc.co.uk/helis"
+        },
+        {
+          "text": "RC Vehicles",
+          "url": "https://www.hobbyrc.co.uk/rc-vehnicles"
+        },
+        {
+          "text": "Boats",
+          "url": "https://www.hobbyrc.co.uk/boats"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.hobbyrc.co.uk/accessories-6"
+        },
+        {
+          "text": "OMPHobby Spares",
+          "url": "https://www.hobbyrc.co.uk/omphobby-spares"
+        },
+        {
+          "text": "Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/frames"
+        },
+        {
+          "text": "2 Inch Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/2-inch-quad-frames"
+        },
+        {
+          "text": "3 Inch, 4 inch Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/3-inch-4-inch-quad-frames"
+        },
+        {
+          "text": "5 Inch Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/5-inch-quad-frames-2"
+        },
+        {
+          "text": "6 inch, 7 inch, 10 inch Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/6-inch-7-inch-quad-frames"
+        },
+        {
+          "text": "Armattan Frame Spares",
+          "url": "https://www.hobbyrc.co.uk/armattan-frame-spares"
+        },
+        {
+          "text": "ImpulseRC Frame Spares",
+          "url": "https://www.hobbyrc.co.uk/impulserc-frame-spares"
+        },
+        {
+          "text": "TBS Frame Spares",
+          "url": "https://www.hobbyrc.co.uk/tbs-oblivion-spares"
+        },
+        {
+          "text": "Ummagawd Frame Spares",
+          "url": "https://www.hobbyrc.co.uk/ummagawd-frame-spares"
+        },
+        {
+          "text": "KD Drones",
+          "url": "https://www.hobbyrc.co.uk/kd-drones-3"
+        },
+        {
+          "text": "FPV",
+          "url": "https://www.hobbyrc.co.uk/fpv"
+        },
+        {
+          "text": "Screens & Goggles",
+          "url": "https://www.hobbyrc.co.uk/screens-goggles"
+        },
+        {
+          "text": "Antennae",
+          "url": "https://www.hobbyrc.co.uk/antennae"
+        },
+        {
+          "text": "Analogue Cameras",
+          "url": "https://www.hobbyrc.co.uk/cameras"
+        },
+        {
+          "text": "Analogue VTX",
+          "url": "https://www.hobbyrc.co.uk/video-transmitters"
+        },
+        {
+          "text": "Analogue Receivers",
+          "url": "https://www.hobbyrc.co.uk/receivers-3"
+        },
+        {
+          "text": "Digital Cameras",
+          "url": "https://www.hobbyrc.co.uk/digital-cameras"
+        },
+        {
+          "text": "Digital VTX",
+          "url": "https://www.hobbyrc.co.uk/digital-video-transmitters"
+        },
+        {
+          "text": "Digital Receivers",
+          "url": "https://www.hobbyrc.co.uk/digital-receivers"
+        },
+        {
+          "text": "Cables & Accessories",
+          "url": "https://www.hobbyrc.co.uk/cables-accessories"
+        },
+        {
+          "text": "ND Filters",
+          "url": "https://www.hobbyrc.co.uk/nd-filters"
+        },
+        {
+          "text": "TX / RX",
+          "url": "https://www.hobbyrc.co.uk/tx-rx"
+        },
+        {
+          "text": "Radio Transmitters",
+          "url": "https://www.hobbyrc.co.uk/radio-transmitters"
+        },
+        {
+          "text": "Radio TX Modules",
+          "url": "https://www.hobbyrc.co.uk/radio-tx-modules"
+        },
+        {
+          "text": "Radio Receivers",
+          "url": "https://www.hobbyrc.co.uk/radio-receivers"
+        },
+        {
+          "text": "Radio Accessories",
+          "url": "https://www.hobbyrc.co.uk/radio-accessories"
+        },
+        {
+          "text": "Flight Controllers",
+          "url": "https://www.hobbyrc.co.uk/flight-controllers"
+        },
+        {
+          "text": "Flight Controllers",
+          "url": "https://www.hobbyrc.co.uk/flight-controllers-2"
+        },
+        {
+          "text": "GPS Modules",
+          "url": "https://www.hobbyrc.co.uk/gps-modules"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.hobbyrc.co.uk/flight-controller-accessories"
+        },
+        {
+          "text": "Power Distribution",
+          "url": "https://www.hobbyrc.co.uk/power-distribution"
+        },
+        {
+          "text": "ESCs",
+          "url": "https://www.hobbyrc.co.uk/escs"
+        },
+        {
+          "text": "Motors",
+          "url": "https://www.hobbyrc.co.uk/motors"
+        },
+        {
+          "text": "Quad Motors",
+          "url": "https://www.hobbyrc.co.uk/quad-motors"
+        },
+        {
+          "text": "Fixed Wing Motors",
+          "url": "https://www.hobbyrc.co.uk/fixed-wing-motors"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.hobbyrc.co.uk/propellors"
+        },
+        {
+          "text": "1 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/1-inch-props"
+        },
+        {
+          "text": "2 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/2-inch-props"
+        },
+        {
+          "text": "3 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/3-inch-props"
+        },
+        {
+          "text": "4 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/4-inch-props"
+        },
+        {
+          "text": "5 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/5-inch-props"
+        },
+        {
+          "text": "6 Inch Props",
+          "url": "https://www.hobbyrc.co.uk/6-inch-props"
+        },
+        {
+          "text": "Larger Props",
+          "url": "https://www.hobbyrc.co.uk/larger-props"
+        },
+        {
+          "text": "Fixed Wing",
+          "url": "https://www.hobbyrc.co.uk/fixed-wing-props"
+        },
+        {
+          "text": "Batteries & Chargers",
+          "url": "https://www.hobbyrc.co.uk/batteries"
+        },
+        {
+          "text": "1S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/1s-lipo"
+        },
+        {
+          "text": "2S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/2s-lipo"
+        },
+        {
+          "text": "3S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/3s-lipo"
+        },
+        {
+          "text": "4S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/4s-lipo"
+        },
+        {
+          "text": "5S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/5s-lipo"
+        },
+        {
+          "text": "6S LiPo Battery",
+          "url": "https://www.hobbyrc.co.uk/6s-lipo-battery"
+        },
+        {
+          "text": "8S Lipo Battery",
+          "url": "https://www.hobbyrc.co.uk/8s-lipo-battery"
+        },
+        {
+          "text": "Li-ion cells",
+          "url": "https://www.hobbyrc.co.uk/18650-li-ion-cells"
+        },
+        {
+          "text": "Battery Accessories",
+          "url": "https://www.hobbyrc.co.uk/battery-accessories"
+        },
+        {
+          "text": "Chargers",
+          "url": "https://www.hobbyrc.co.uk/chargers"
+        },
+        {
+          "text": "Fixings & Fasteners",
+          "url": "https://www.hobbyrc.co.uk/fixings-fasteners"
+        },
+        {
+          "text": "Connectors & Wire",
+          "url": "https://www.hobbyrc.co.uk/connectors-wire"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.hobbyrc.co.uk/accessories-2"
+        },
+        {
+          "text": "Merchandise",
+          "url": "https://www.hobbyrc.co.uk/merchandise"
+        },
+        {
+          "text": "Clothing",
+          "url": "https://www.hobbyrc.co.uk/clothing"
+        },
+        {
+          "text": "Backpacks",
+          "url": "https://www.hobbyrc.co.uk/backpacks"
+        },
+        {
+          "text": "Race Gates",
+          "url": "https://www.hobbyrc.co.uk/race-gates"
+        },
+        {
+          "text": "Other",
+          "url": "https://www.hobbyrc.co.uk/other"
+        },
+        {
+          "text": "Special Offers",
+          "url": "https://www.hobbyrc.co.uk/clearance"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.hobbyrc.co.uk/"
+        },
+        {
+          "text": "New Products",
+          "url": "https://www.hobbyrc.co.uk/newproducts"
+        },
+        {
+          "text": "Latest News",
+          "url": "https://blog.hobbyrc.co.uk"
+        },
+        {
+          "text": "Why Buy From Us?",
+          "url": "https://www.hobbyrc.co.uk/About-Us"
+        },
+        {
+          "text": "Contact us",
+          "url": "https://www.hobbyrc.co.uk/contactus"
+        },
+        {
+          "text": "0345 004 9333",
+          "url": "https://www.hobbyrc.co.uk/contactus"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/cart"
+        },
+        {
+          "text": "Wishlist (0)",
+          "url": "https://www.hobbyrc.co.uk/wishlist"
+        },
+        {
+          "text": "Register",
+          "url": "https://www.hobbyrc.co.uk/register?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+        },
+        {
+          "text": "Log in",
+          "url": "https://www.hobbyrc.co.uk/login?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+        },
+        {
+          "text": "Register",
+          "url": "https://www.hobbyrc.co.uk/register?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+        },
+        {
+          "text": "Log in",
+          "url": "https://www.hobbyrc.co.uk/login?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+        },
+        {
+          "text": "Wishlist (0)",
+          "url": "https://www.hobbyrc.co.uk/wishlist"
+        },
+        {
+          "text": "Shopping Cart (0)",
+          "url": "https://www.hobbyrc.co.uk/cart"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.hobbyrc.co.uk/"
+        },
+        {
+          "text": "New Products",
+          "url": "https://www.hobbyrc.co.uk/newproducts"
+        },
+        {
+          "text": "Latest News",
+          "url": "https://blog.hobbyrc.co.uk"
+        },
+        {
+          "text": "Why buy from us?",
+          "url": "https://www.hobbyrc.co.uk/About-Us"
+        },
+        {
+          "text": "Contact us",
+          "url": "https://www.hobbyrc.co.uk/contactus"
+        },
+        {
+          "text": "0345 004 9333",
+          "url": "https://www.hobbyrc.co.uk/contactus"
+        },
+        {
+          "text": "Fixed Wing",
+          "url": "https://www.hobbyrc.co.uk/fixed-wing"
+        },
+        {
+          "text": "RTF / ARF Quads",
+          "url": "https://www.hobbyrc.co.uk/ready-built"
+        },
+        {
+          "text": "Cars / Boats / Helis",
+          "url": "https://www.hobbyrc.co.uk/cars"
+        },
+        {
+          "text": "Quad Frames",
+          "url": "https://www.hobbyrc.co.uk/frames"
+        },
+        {
+          "text": "FPV",
+          "url": "https://www.hobbyrc.co.uk/fpv"
+        },
+        {
+          "text": "TX / RX",
+          "url": "https://www.hobbyrc.co.uk/tx-rx"
+        },
+        {
+          "text": "Flight Controllers",
+          "url": "https://www.hobbyrc.co.uk/flight-controllers"
+        },
+        {
+          "text": "ESCs",
+          "url": "https://www.hobbyrc.co.uk/escs"
+        },
+        {
+          "text": "Motors",
+          "url": "https://www.hobbyrc.co.uk/motors"
+        },
+        {
+          "text": "Quad Motors",
+          "url": "https://www.hobbyrc.co.uk/quad-motors"
+        },
+        {
+          "text": "Fixed Wing Motors",
+          "url": "https://www.hobbyrc.co.uk/fixed-wing-motors"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.hobbyrc.co.uk/propellors"
+        },
+        {
+          "text": "Batteries & Chargers",
+          "url": "https://www.hobbyrc.co.uk/batteries"
+        },
+        {
+          "text": "Fixings & Fasteners",
+          "url": "https://www.hobbyrc.co.uk/fixings-fasteners"
+        },
+        {
+          "text": "Connectors & Wire",
+          "url": "https://www.hobbyrc.co.uk/connectors-wire"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.hobbyrc.co.uk/accessories-2"
+        },
+        {
+          "text": "Merchandise",
+          "url": "https://www.hobbyrc.co.uk/merchandise"
+        },
+        {
+          "text": "Special Offers",
+          "url": "https://www.hobbyrc.co.uk/clearance"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.hobbyrc.co.uk/"
+        },
+        {
+          "text": "Motors",
+          "url": "https://www.hobbyrc.co.uk/motors"
+        },
+        {
+          "text": "Quad Motors",
+          "url": "https://www.hobbyrc.co.uk/quad-motors"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors.jpeg"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors.jpeg"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/images/thumbs/0023798_t-motor-f90-brushless-long-range-motors.jpeg"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/images/thumbs/0023799_t-motor-f90-brushless-long-range-motors.jpeg"
+        },
+        {
+          "text": "T-Motor",
+          "url": "https://www.hobbyrc.co.uk/t-motor"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-4069"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-4070"
+        },
+        {
+          "text": "",
+          "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-9355"
+        },
+        {
+          "text": "About Us",
+          "url": "https://www.hobbyrc.co.uk/about-us"
+        },
+        {
+          "text": "Shipping & Returns",
+          "url": "https://www.hobbyrc.co.uk/shipping-returns"
+        },
+        {
+          "text": "Sale Of Goods Contract",
+          "url": "https://www.hobbyrc.co.uk/sale-of-goods-contract"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "https://www.hobbyrc.co.uk/privacy-policy"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "https://www.hobbyrc.co.uk/conditions-of-use"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.hobbyrc.co.uk/contactus"
+        },
+        {
+          "text": "Search",
+          "url": "https://www.hobbyrc.co.uk/search"
+        },
+        {
+          "text": "New Products",
+          "url": "https://www.hobbyrc.co.uk/newproducts"
+        },
+        {
+          "text": "My Account",
+          "url": "https://www.hobbyrc.co.uk/customer/info"
+        },
+        {
+          "text": "Orders",
+          "url": "https://www.hobbyrc.co.uk/order/history"
+        },
+        {
+          "text": "Addresses",
+          "url": "https://www.hobbyrc.co.uk/customer/addresses"
+        },
+        {
+          "text": "Shopping Cart",
+          "url": "https://www.hobbyrc.co.uk/cart"
+        },
+        {
+          "text": "Wishlist",
+          "url": "https://www.hobbyrc.co.uk/wishlist"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/HobbyRC.co.uk/"
+        },
+        {
+          "text": "Twitter",
+          "url": "https://twitter.com/hobbyrccouk"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://www.youtube.com/user/hobbyrccouk"
+        }
+      ],
+      "images": [
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/logo.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/menu-icon-lines-grey.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/search.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/account.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/shopping-cart.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/same_day_dispatch.png",
+        "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/payment-methods.png",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors_550.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors_100.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023798_t-motor-f90-brushless-long-range-motors_100.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023799_t-motor-f90-brushless-long-range-motors_100.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023800_t-motor-f90-1500kv-brushless-motor_220.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0008435_t-motor-f90-1300kv-motor_220.jpeg",
+        "https://www.hobbyrc.co.uk/images/thumbs/0023929_t-motor-f90-1500kv-brushless-motor-return_220.jpeg"
+      ],
+      "cad_links": []
+    },
+    {
+      "requested_url": "https://www.google.com/search?q=T-Motor%20F90%20motor%20STEP%20CAD%20dimension%20drawing",
+      "retrieved_utc": "2026-10-12T22:00:57.673575+00:00",
+      "status": 200,
+      "final_url": "https://www.google.com/search?q=T-Motor%20F90%20motor%20STEP%20CAD%20dimension%20drawing",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/020a69360fd81063.html",
+      "bytes": 93360,
+      "sha256": "d92f05d0f4304f254ca8d7d130069465d83d0365211ece759504bd7d284efc2c",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Google Search",
+      "links": [
+        {
+          "text": "here",
+          "url": "https://www.google.com/httpservice/retry/enablejs?sei=mVjNapyRNuqp0PEPqJud6Ao"
+        },
+        {
+          "text": "click here",
+          "url": "https://www.google.com/search?q=T-Motor+F90+motor+STEP+CAD+dimension+drawing&sca_esv=aafd06183b936b5d&sxsrf=APpeQns-uAxGBL_ZCU0iBbZ60L9ZUGcxUw:1791842457893&emsg=SG_REL&sei=mVjNapyRNuqp0PEPqJud6Ao"
+        },
+        {
+          "text": "feedback",
+          "url": "https://support.google.com/websearch"
+        }
+      ],
+      "images": [],
+      "cad_links": [
+        {
+          "text": "click here",
+          "url": "https://www.google.com/search?q=T-Motor+F90+motor+STEP+CAD+dimension+drawing&sca_esv=aafd06183b936b5d&sxsrf=APpeQns-uAxGBL_ZCU0iBbZ60L9ZUGcxUw:1791842457893&emsg=SG_REL&sei=mVjNapyRNuqp0PEPqJud6Ao"
+        }
+      ]
+    },
+    {
+      "requested_url": "https://www.google.com/search?q=BrotherHobby%20Avenger%202812%20V5%20STEP%20CAD%20model",
+      "retrieved_utc": "2026-10-12T22:00:57.673783+00:00",
+      "status": 200,
+      "final_url": "https://www.google.com/search?q=BrotherHobby%20Avenger%202812%20V5%20STEP%20CAD%20model",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/4bb898d52e93d25a.html",
+      "bytes": 93311,
+      "sha256": "1aa9b3197edb8fb5ec0e7cd42ed662a1621e9e6f70e0ec700c6d8dad948b654a",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Google Search",
+      "links": [
+        {
+          "text": "here",
+          "url": "https://www.google.com/httpservice/retry/enablejs?sei=mVjNaq3eNbKc0PEP1erE0Qg"
+        },
+        {
+          "text": "click here",
+          "url": "https://www.google.com/search?q=BrotherHobby+Avenger+2812+V5+STEP+CAD+model&sca_esv=aafd06183b936b5d&sxsrf=APpeQnvwfi5riO0eqDdU441-s3J6k2dCTA:1791842457886&emsg=SG_REL&sei=mVjNaq3eNbKc0PEP1erE0Qg"
+        },
+        {
+          "text": "feedback",
+          "url": "https://support.google.com/websearch"
+        }
+      ],
+      "images": [],
+      "cad_links": [
+        {
+          "text": "click here",
+          "url": "https://www.google.com/search?q=BrotherHobby+Avenger+2812+V5+STEP+CAD+model&sca_esv=aafd06183b936b5d&sxsrf=APpeQnvwfi5riO0eqDdU441-s3J6k2dCTA:1791842457886&emsg=SG_REL&sei=mVjNaq3eNbKc0PEP1erE0Qg"
+        }
+      ]
+    },
+    {
+      "requested_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+      "retrieved_utc": "2026-10-12T22:00:58.901790+00:00",
+      "status": 200,
+      "final_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/1e390cc44e8d1bf7.html",
+      "bytes": 93606,
+      "sha256": "7fff7b7182d206e92cf5d66c4092c671eab1ad07ff835c05c043500714af35ac",
+      "content_type": "text/html; charset=utf-8",
+      "title": "T-MOTORHOBBY F90 2806.5 Long Range Motor - 1300KV/1500KV/1950KV_Motor_F Series Racing Power_FPV Drone Parts_Tmotorhobby Store-Tmotorobby drone motor,ESC,Propeller  ",
+      "links": [
+        {
+          "text": "Chinese",
+          "url": "https://www.tmotorhobby.com/index.php?lang=cn"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/rctigermotor/"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://www.instagram.com/tmotorfpv/"
+        },
+        {
+          "text": "Youtube",
+          "url": "https://www.youtube.com/channel/UCG_D8tpRhOI5TE2Ud_31Q5w"
+        },
+        {
+          "text": "Tmotorhobby Official store",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category-203-b0-FPV+Drone+Parts.html"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category-178-b0-F+Series+Racing+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-179-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-180-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-182-b0-Flight+Controller.html"
+        },
+        {
+          "text": "Stack",
+          "url": "https://www.tmotorhobby.com/category-183-b0-Stack.html"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.tmotorhobby.com/category-184-b0-VTX.html"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category-269-b0-AIO.html"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.tmotorhobby.com/category-181-b0-Propellers.html"
+        },
+        {
+          "text": "P Series Freestyle Power",
+          "url": "https://www.tmotorhobby.com/category-185-b0-P+Series+Freestyle+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-202-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-187-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-188-b0-Flight+Controller.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-189-b0-Propeller.html"
+        },
+        {
+          "text": "V Series Budget & Beginner Power",
+          "url": "https://www.tmotorhobby.com/category-190-b0-V+Series+Budget++Beginner+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-191-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-192-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-193-b0-Flight+Controller.html"
+        },
+        {
+          "text": "STACK",
+          "url": "https://www.tmotorhobby.com/category-260-b0-STACK.html"
+        },
+        {
+          "text": "Cinematic Power",
+          "url": "https://www.tmotorhobby.com/category-194-b0-Cinematic+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-195-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-196-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-197-b0-Propeller.html"
+        },
+        {
+          "text": "Micro Power",
+          "url": "https://www.tmotorhobby.com/category-198-b0-Micro+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-199-b0-Motor.html"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category-262-b0-AIO.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-261-b0-Propeller.html"
+        },
+        {
+          "text": "Champion Co-brand",
+          "url": "https://www.tmotorhobby.com/category-200-b0-Champion+Co-brand.html"
+        },
+        {
+          "text": "BLACK BIRD V2.0",
+          "url": "https://www.tmotorhobby.com/goods-1024-T-Motor+BLACK+BIRD+V20.html"
+        },
+        {
+          "text": "BMS RAPTOR V2",
+          "url": "https://www.tmotorhobby.com/goods-1152-T-Motor+BMS+RAPTOR+V2+23065+Brushless+Racing+Motor-2000KV.html"
+        },
+        {
+          "text": "Limited Version",
+          "url": "https://www.tmotorhobby.com/category-201-b0-Limited+Version.html"
+        },
+        {
+          "text": "Black Friday 2207 1950KV",
+          "url": "https://www.tmotorhobby.com/goods-1218-TMOTOR+Black+Friday+2207+1950KV.html"
+        },
+        {
+          "text": "Christmas Edition 2207.5 1950KV",
+          "url": "https://www.tmotorhobby.com/goods-1228-TMOTOR+2022+Christmas+Edition+22075+1950KV+FPV+Freestyle+Drone+Motor.html"
+        },
+        {
+          "text": "Fixed Wing Model",
+          "url": "https://www.tmotorhobby.com/category-204-b0-Fixed+Wing+Model.html"
+        },
+        {
+          "text": "F3P Indoor Aerobatics",
+          "url": "https://www.tmotorhobby.com/category-205-b0-F3P+Indoor+Aerobatics.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-209-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-210-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-211-b0-Propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-212-b0-Combo.html"
+        },
+        {
+          "text": "3D Freestyle Flight",
+          "url": "https://www.tmotorhobby.com/category-206-b0-3D+Freestyle+Flight.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-213-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-214-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-215-b0-Propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-216-b0-Combo.html"
+        },
+        {
+          "text": "For Training",
+          "url": "https://www.tmotorhobby.com/category-207-b0-For+Training.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-217-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-218-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-219-b0-Propeller.html"
+        },
+        {
+          "text": "Rc Glider Flight",
+          "url": "https://www.tmotorhobby.com/category-208-b0-Rc+Glider+Flight.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-220-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-221-b0-ESC.html"
+        },
+        {
+          "text": "Fixed Wing UAV Power",
+          "url": "https://www.tmotorhobby.com/category-222-b0-Fixed+Wing+UAV+Power.html"
+        },
+        {
+          "text": "AT Series Motor",
+          "url": "https://www.tmotorhobby.com/category-226-b0-AT+Series+Motor.html"
+        },
+        {
+          "text": "AT2814",
+          "url": "https://www.tmotorhobby.com/goods-791-T-Motor+AT2814+3D+F3A+fixed+wing+long+shaft+Brushless+Motor+-900KV1050KV1200KV.html"
+        },
+        {
+          "text": "AT4120",
+          "url": "https://www.tmotorhobby.com/goods-826-T-Motor+AT4120+3D+Fixed+Wing+Airplane+Long+Shaft+Brushless+Motor+-250KV500KV560KV.html"
+        },
+        {
+          "text": "AT8030",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-Motor+AT8030+85CC+Airplane+Fixed+Wing+Long+Shaft+Brushless+Motor+-160KV190KV.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-226-b0-AT+Series+Motor.html"
+        },
+        {
+          "text": "AT Series ESC",
+          "url": "https://www.tmotorhobby.com/category-227-b0-AT+Series+ESC.html"
+        },
+        {
+          "text": "AT30A 2-3S",
+          "url": "https://www.tmotorhobby.com/goods-901-T-Motor+AT30A+2-3S+Fixed+Wing+ESC.html"
+        },
+        {
+          "text": "AT55A 2-6S",
+          "url": "https://www.tmotorhobby.com/goods-903-T-Motor+AT55A+2-6S+fixed+wing+ESC.html"
+        },
+        {
+          "text": "AT195A",
+          "url": "https://www.tmotorhobby.com/goods-1305-AT195A.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-227-b0-AT+Series+ESC.html"
+        },
+        {
+          "text": "T Series Polymer Straight CF",
+          "url": "https://www.tmotorhobby.com/category-229-b0-T+Series+Polymer+Straight+CF.html"
+        },
+        {
+          "text": "TS12*6 Black",
+          "url": "https://www.tmotorhobby.com/goods-1177-T-Motor+TS12%2A6+black+CW+propeller+for+outdoor+plane.html"
+        },
+        {
+          "text": "TS13*6.5 Black",
+          "url": "https://www.tmotorhobby.com/category-273-b0-TS13%2A65+Black.html"
+        },
+        {
+          "text": "TS16*8 black",
+          "url": "https://www.tmotorhobby.com/goods-1182-T-Motor+TS16%2A8+black+propeller+for+outdoor+plane.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-229-b0-T+Series+Polymer+Straight+CF.html"
+        },
+        {
+          "text": "TF Series Polymer Folding CF",
+          "url": "https://www.tmotorhobby.com/category-228-b0-TF+Series+Polymer+Folding+CF.html"
+        },
+        {
+          "text": "TF15*8 Glider&UAV",
+          "url": "https://www.tmotorhobby.com/goods-1112-TMOTOR+TF15%2A8+GliderUAV.html"
+        },
+        {
+          "text": "TF16*8 Glider&UAV",
+          "url": "https://www.tmotorhobby.com/goods-1113-T-Motor+TF16%2A8+GliderUAV+propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-149-b0-Combo.html"
+        },
+        {
+          "text": "FPV Power combo",
+          "url": "https://www.tmotorhobby.com/category-274-b0-FPV+Power+combo.html"
+        },
+        {
+          "text": "5 Inch Freestyle Power System",
+          "url": "https://www.tmotorhobby.com/goods-1390-TMOTOR+Velox+5+Inch+Freestyle+Power+System.html"
+        },
+        {
+          "text": "F3P Combo",
+          "url": "https://www.tmotorhobby.com/category-157-b0-F3P+Combo.html"
+        },
+        {
+          "text": "AM20 Pro Combo",
+          "url": "https://www.tmotorhobby.com/goods-1164-TMOTOR+AM20+Pro+Combo.html"
+        },
+        {
+          "text": "AM30 combo",
+          "url": "https://www.tmotorhobby.com/goods-1195-TMOTOR+BPP-4D+contest+AM30+combo+F3P+indoor+set+1450KV1750KV.html"
+        },
+        {
+          "text": "BPP-4D AM40 Combo",
+          "url": "https://www.tmotorhobby.com/goods-1104-TMOTOR+BPP-4D+AM40+Combo++F3P+Indoor+Set+1500KV1800KV.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-157-b0-F3P+Combo.html"
+        },
+        {
+          "text": "3D Combo",
+          "url": "https://www.tmotorhobby.com/category-158-b0-3D+Combo.html"
+        },
+        {
+          "text": "AM480 combo",
+          "url": "https://www.tmotorhobby.com/goods-1141-T-Motor+AM480+combo+3D+outdoor+set+600KV650KV900KV.html"
+        },
+        {
+          "text": "AM600 Combo",
+          "url": "https://www.tmotorhobby.com/goods-1226-TMOTOR+AM600+COMBO.html"
+        },
+        {
+          "text": "AM670 COMBO",
+          "url": "https://www.tmotorhobby.com/goods-1245-TMOTOR+AM670+COMBO.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-158-b0-3D+Combo.html"
+        },
+        {
+          "text": "Glider Combo",
+          "url": "https://www.tmotorhobby.com/category-163-b0-Glider+Combo.html"
+        },
+        {
+          "text": "P5B Combo",
+          "url": "https://www.tmotorhobby.com/goods-1158-TMOTOR+P5B+Combo%EF%BC%88AM83AM53%EF%BC%89.html"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.tmotorhobby.com/category-142-b0-Accessories.html"
+        },
+        {
+          "text": "For FPV",
+          "url": "https://www.tmotorhobby.com/category-143-b0-For+FPV.html"
+        },
+        {
+          "text": "F60PROV-LV Bell",
+          "url": "https://www.tmotorhobby.com/goods-1210-TMOTOR+F60PROV-LV+Bell.html"
+        },
+        {
+          "text": "P2207 V3 Bell",
+          "url": "https://www.tmotorhobby.com/goods-1207-TMOTOR+P2207+V3+Bell.html"
+        },
+        {
+          "text": "V2207.5 V2.0 Bell",
+          "url": "https://www.tmotorhobby.com/goods-1147-TMOTOR+V22075+V20+Bell.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-143-b0-For+FPV.html"
+        },
+        {
+          "text": "For Fixed Wing",
+          "url": "https://www.tmotorhobby.com/category-144-b0-For+Fixed+Wing.html"
+        },
+        {
+          "text": "AT28/35 Series Reverse Thread propeller adapter",
+          "url": "https://www.tmotorhobby.com/goods-1115-TMOTOR+AT2835+Series+Reverse+Thread+propeller+adapter.html"
+        },
+        {
+          "text": "AT41 Series Reverse Thread propeller adapter",
+          "url": "https://www.tmotorhobby.com/goods-1116-TMOTOR+AT41+Series+Reverse+Thread+propeller+adapter.html"
+        },
+        {
+          "text": "4D Apapter for AM40",
+          "url": "https://www.tmotorhobby.com/goods-1088-TMOTOR+4D+Apapter+for+AM40.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-144-b0-For+Fixed+Wing.html"
+        },
+        {
+          "text": "Others",
+          "url": "https://www.tmotorhobby.com/category-225-b0-Others.html"
+        },
+        {
+          "text": "FPV Others",
+          "url": "https://www.tmotorhobby.com/category-258-b0-FPV+Others.html"
+        },
+        {
+          "text": "T-MOTORHOBBY White Hat",
+          "url": "https://www.tmotorhobby.com/goods-1153-T-MOTOR+White+Hat.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Hat",
+          "url": "https://www.tmotorhobby.com/goods-1268-TMOTOR%C2%A0Hobby%C2%A0Hat.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Battery Strap",
+          "url": "https://www.tmotorhobby.com/goods-1211-TMOTOR+Battery+Strap.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-258-b0-FPV+Others.html"
+        },
+        {
+          "text": "Fixed Wing Others",
+          "url": "https://www.tmotorhobby.com/category-259-b0-Fixed+Wing+Others.html"
+        },
+        {
+          "text": "FixedWing White T-shirt",
+          "url": "https://www.tmotorhobby.com/goods-1269-TMOTOR%C2%A0FixedWing+White%C2%A0T-shirt.html"
+        },
+        {
+          "text": "FixedWing Green T-shirt",
+          "url": "https://www.tmotorhobby.com/goods-1270-TMOTOR%C2%A0FixedWing+Green%C2%A0T-shirt.html"
+        },
+        {
+          "text": "FixedWing Facemask",
+          "url": "https://www.tmotorhobby.com/goods-1275-TMOTOR%C2%A0FixedWing+Facemask.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-259-b0-Fixed+Wing+Others.html"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category-203-b0-FPV+Drone+Parts.html"
+        },
+        {
+          "text": "Others",
+          "url": "https://www.tmotorhobby.com/category.php?id=225"
+        },
+        {
+          "text": "Fixed Wing Model",
+          "url": "https://www.tmotorhobby.com/category.php?id=204"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category.php?id=203"
+        },
+        {
+          "text": "Fixed Wing UAV Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=222"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category.php?id=149"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.tmotorhobby.com/category.php?id=142"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category-178-b0-F+Series+Racing+Power.html"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=178"
+        },
+        {
+          "text": "P Series Freestyle Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=185"
+        },
+        {
+          "text": "V Series Budget & Beginner Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=190"
+        },
+        {
+          "text": "Cinematic Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=194"
+        },
+        {
+          "text": "Micro Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=198"
+        },
+        {
+          "text": "Champion Co-brand",
+          "url": "https://www.tmotorhobby.com/category.php?id=200"
+        },
+        {
+          "text": "Limited Version",
+          "url": "https://www.tmotorhobby.com/category.php?id=201"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-179-b0-Motor.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category.php?id=179"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category.php?id=180"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.tmotorhobby.com/category.php?id=181"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category.php?id=182"
+        },
+        {
+          "text": "Stack",
+          "url": "https://www.tmotorhobby.com/category.php?id=183"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.tmotorhobby.com/category.php?id=184"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category.php?id=269"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202008/source_img/1057_P_1597914763037.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202008/source_img/1057_P_1597914763037.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202008/source_img/1057_P_1597914783852.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202008/source_img/1057_P_1597914804762.jpg"
+        },
+        {
+          "text": "Collect (2)",
+          "url": "javascript:collect(1057)"
+        },
+        {
+          "text": "Facebook",
+          "url": "http://www.facebook.com/sharer.php?u=https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html&t=T-MOTORHOBBY F90 2806.5 Long Range Motor - 1300KV/1500KV/1950KV"
+        },
+        {
+          "text": "Twitter",
+          "url": "http://twitter.com/home?status=https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html T-MOTORHOBBY F90 2806.5 Long Range Motor - 1300KV/1500KV/1950KV"
+        },
+        {
+          "text": "Recommend To Friends",
+          "url": "https://www.tmotorhobby.com/user.php?act=affiliate&goodsid=1057"
+        },
+        {
+          "text": "KV1300",
+          "url": "javascript:"
+        },
+        {
+          "text": "KV1500",
+          "url": "javascript:"
+        },
+        {
+          "text": "KV1950",
+          "url": "javascript:"
+        },
+        {
+          "text": "\uff0b",
+          "url": "javascript:;"
+        },
+        {
+          "text": "\uff0d",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Add to Cart",
+          "url": "javascript:addToCart(1057)"
+        },
+        {
+          "text": "Buy Now",
+          "url": "javascript:addToCart(1057,0,1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1052-T-MOTORHOBBY+F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 Analog+F55A Pro II 3...",
+          "url": "https://www.tmotorhobby.com/goods-1052-T-MOTORHOBBY+F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$129.9 Add to Cart",
+          "url": "javascript:addToCart(1052,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-946-T-MOTORHOBBY+F7+HDF55A+Pro+II+30x30+Stack+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 HD+F55A Pro II 30x30...",
+          "url": "https://www.tmotorhobby.com/goods-946-T-MOTORHOBBY+F7+HDF55A+Pro+II+30x30+Stack+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$137.9 Add to Cart",
+          "url": "javascript:addToCart(946,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-916-T-MOTORHOBBY+F7+305X305+FPV+Drones+Flight+Controller.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 30.5X30.5 FPV Drones...",
+          "url": "https://www.tmotorhobby.com/goods-916-T-MOTORHOBBY+F7+305X305+FPV+Drones+Flight+Controller.html"
+        },
+        {
+          "text": "$62.9 Add to Cart",
+          "url": "javascript:addToCart(916,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-935-T-MOTORHOBBY+F7+HD+305x305+2-6S+Flight+Controller+for+DJI+VTX+System.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 HD 30.5x30.5 2-6S Fl...",
+          "url": "https://www.tmotorhobby.com/goods-935-T-MOTORHOBBY+F7+HD+305x305+2-6S+Flight+Controller+for+DJI+VTX+System.html"
+        },
+        {
+          "text": "$62.9 Add to Cart",
+          "url": "javascript:addToCart(935,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1087-F90+28065+Motor+Bell+%28without+lasered+KV%29.html"
+        },
+        {
+          "text": "F90 2806.5 Motor Bell (without laser...",
+          "url": "https://www.tmotorhobby.com/goods-1087-F90+28065+Motor+Bell+%28without+lasered+KV%29.html"
+        },
+        {
+          "text": "$14.9 Add to Cart",
+          "url": "javascript:addToCart(1087,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1420-F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "F7 Analog+F55A Pro II 30x30 Stack/Co...",
+          "url": "https://www.tmotorhobby.com/goods-1420-F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$117.9 Add to Cart",
+          "url": "javascript:addToCart(1420,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1174-T-MOTORHOBBY+F7+Pro+Full+Function+30x30+Flight+Controller+with+Wifi++Bluetooth.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 Pro Full Function 30...",
+          "url": "https://www.tmotorhobby.com/goods-1174-T-MOTORHOBBY+F7+Pro+Full+Function+30x30+Flight+Controller+with+Wifi++Bluetooth.html"
+        },
+        {
+          "text": "$49.9 Add to Cart",
+          "url": "javascript:addToCart(1174,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1183-T-MOTORHOBBY+F60+Pro+V+22075+Brushless+Racing+Motor+-+1750KV1950KV2020KV2550KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F60 Pro V 2207.5 Brushless Racing Motor - 1750",
+          "url": "https://www.tmotorhobby.com/goods-1183-T-MOTORHOBBY+F60+Pro+V+22075+Brushless+Racing+Motor+-+1750KV1950KV2020KV2550KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1199-T-MOTORHOBBY+VELOX+V2808+Drone+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY VELOX V2808 Drone Motor",
+          "url": "https://www.tmotorhobby.com/goods-1199-T-MOTORHOBBY+VELOX+V2808+Drone+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-789-T-MOTORHOBBY+AT2317+3D+Trainer+Glider+Long+Shaft+Brushless+Motor+-+880KV1250KV1400KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT2317 3D Trainer Glider Long Shaft Brushless Motor - 880",
+          "url": "https://www.tmotorhobby.com/goods-789-T-MOTORHOBBY+AT2317+3D+Trainer+Glider+Long+Shaft+Brushless+Motor+-+880KV1250KV1400KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1157-T-MOTORHOBBY+Cine66+2812+Professional+Cinematic+FPV+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Cine66 2812 Professional Cinematic FPV Motor",
+          "url": "https://www.tmotorhobby.com/goods-1157-T-MOTORHOBBY+Cine66+2812+Professional+Cinematic+FPV+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1181-T-MOTORHOBBY+P2207+V3.html"
+        },
+        {
+          "text": "T-MOTORHOBBY P2207 V3",
+          "url": "https://www.tmotorhobby.com/goods-1181-T-MOTORHOBBY+P2207+V3.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1254-T-MOTORHOBBY+AT8020+55CC+Airplane+Fixed+Wing++Brushless+Motor+-180KV210KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT8020 55CC Airplane Fixed Wing  Brushless Motor -180",
+          "url": "https://www.tmotorhobby.com/goods-1254-T-MOTORHOBBY+AT8020+55CC+Airplane+Fixed+Wing++Brushless+Motor+-180KV210KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-MOTORHOBBY+AT8030+85CC+Airplane+Fixed+Wing++Brushless+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT8030 85CC Airplane Fixed Wing  Brushless Motor",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-MOTORHOBBY+AT8030+85CC+Airplane+Fixed+Wing++Brushless+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html"
+        },
+        {
+          "text": "M0802",
+          "url": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1251-T-MOTORHOBBY+P60A+V2+ESC.html"
+        },
+        {
+          "text": "T-MOTORHOBBY P60A V2 ESC",
+          "url": "https://www.tmotorhobby.com/goods-1251-T-MOTORHOBBY+P60A+V2+ESC.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1226-T-MOTORHOBBY+AM600+COMBO.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AM600 COMBO",
+          "url": "https://www.tmotorhobby.com/goods-1226-T-MOTORHOBBY+AM600+COMBO.html"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign In",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign Up",
+          "url": "https://www.tmotorhobby.com/register.php"
+        },
+        {
+          "text": "Shopping Cart",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Let\u00b4s Go And Have a Look",
+          "url": "https://www.tmotorhobby.com/category.php?id=11"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/user.php?act=collection_list"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/mobile/"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sharon",
+          "url": "skype:sales3rctiger?call"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Shopping Cart",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Let\u00b4s Go And Have a Look",
+          "url": "https://www.tmotorhobby.com/category.php?id=11"
+        },
+        {
+          "text": "Browsing History",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:closeDiv1()"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign Up",
+          "url": "https://www.tmotorhobby.com/register.php"
+        },
+        {
+          "text": "Forgot Password?",
+          "url": "https://www.tmotorhobby.com/findPwd.php"
+        },
+        {
+          "text": "About us",
+          "url": "https://www.tmotorhobby.com/article.php?id=153"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.tmotorhobby.com/article.php?id=265"
+        },
+        {
+          "text": "News",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=23"
+        },
+        {
+          "text": "After-sale Service",
+          "url": "https://www.tmotorhobby.com/article.php?id=203"
+        },
+        {
+          "text": "FAQs",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=120"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=113"
+        },
+        {
+          "text": "Refund Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=114"
+        },
+        {
+          "text": "Return & Exchange Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=115"
+        },
+        {
+          "text": "Terms Of Service",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=116"
+        },
+        {
+          "text": "Shipping Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=117"
+        },
+        {
+          "text": "Order information",
+          "url": "https://www.tmotorhobby.com/article.php?id=210"
+        },
+        {
+          "text": "Payments",
+          "url": "https://www.tmotorhobby.com/article.php?id=204"
+        },
+        {
+          "text": "Warranty Policy",
+          "url": "https://www.tmotorhobby.com/article.php?id=207"
+        },
+        {
+          "text": "Miaa@tmotor.com",
+          "url": "mailto:miaa@tmotor.com"
+        },
+        {
+          "text": "Sharon@tmotor.com",
+          "url": "mailto:sharon@tmotor.com"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/thobbyfpv/"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://www.instagram.com/thobbyfpv/"
+        },
+        {
+          "text": "Youtube",
+          "url": "https://www.youtube.com/@thobbyfpv/videos"
+        },
+        {
+          "text": "TikTok",
+          "url": "https://www.tiktok.com/@tmotorfpv"
+        },
+        {
+          "text": "tmotorhobby Privacy Policy",
+          "url": "http://www.tmotorhobby.com/article.php?id=206"
+        },
+        {
+          "text": "English",
+          "url": "https://www.tmotorhobby.com/index.php?lang=en"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "OK",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Cancel",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Close",
+          "url": "javascript:;"
+        }
+      ],
+      "images": [
+        "https://www.tmotorhobby.com/themes/tmotor/images/logo.png",
+        "https://www.tmotorhobby.com/data/category_img/1697780289742202616.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780297122298827.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780315433629519.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780324049670162.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780331578205543.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698396431179569247.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780338597136816.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780379831556095.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780386048614978.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780394023554414.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780402025472344.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780449045723487.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780457795387473.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780467037045486.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698310831900357556.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780508758641372.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780529461452982.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780539800844132.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781081222942519.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698396118531975137.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698386654225276213.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781145806764896.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781201775199050.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781284176793066.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781323858687749.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780787001750258.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780795371648480.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780802393107068.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780812817856332.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780847900902081.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780857436310044.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780869572443540.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780878129205872.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780912907319592.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780923919352033.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780933722396866.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780993826253525.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781003984283219.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781657463704635.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781696945324812.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781730297009169.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781814397459173.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781846002068686.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781901802673671.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1715926871080741672.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1715926967617361391.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782136615078187.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781992530140186.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782029546480305.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1733386570442831405.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782379900368734.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782425032335947.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782865135313538.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783341359709016.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783369748706969.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783402680766863.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783475755072893.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783614940501184.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783652849230271.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783686750080383.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784465978439737.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784568387992675.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784606937022570.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395900700496066.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395835764172613.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395956826520568.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395578631332176.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395493301668878.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395749465872753.jpg",
+        "https://www.tmotorhobby.com/images/202008/goods_img/1057_P_1597914763334.jpg",
+        "https://www.tmotorhobby.com/images/202008/thumb_img/1057_thumb_P_1597914763377.jpg",
+        "https://www.tmotorhobby.com/images/202008/thumb_img/1057_thumb_P_1597914783230.jpg",
+        "https://www.tmotorhobby.com/images/202008/thumb_img/1057_thumb_P_1597914804404.jpg",
+        "https://www.tmotorhobby.com/erweima_png.php?id=1057",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1052_thumb_G_1682216601821.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/946_thumb_G_1682216614266.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/916_thumb_G_1682215826281.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/935_thumb_G_1682216114478.jpg",
+        "https://www.tmotorhobby.com/images/202011/thumb_img/1087_thumb_G_1606717476232.jpg",
+        "https://www.tmotorhobby.com/images/202412/thumb_img/1420_thumb_G_1734677759301.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1174_thumb_G_1682216154876.jpg",
+        "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916016913208.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916022631927.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916027991026.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916032619059.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063182693.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063814426.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063718430.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063443613.jpg",
+        "https://www.tmotorhobby.com/images/20211129/1638150063929979.jpg",
+        "https://www.tmotorhobby.com/images/202204/thumb_img/1183_thumb_G_1649660569549.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1199_thumb_G_1682212588870.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/789_thumb_G_1682222028670.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1157_thumb_G_1682213881462.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1181_thumb_G_1682069866898.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1254_thumb_G_1681465248883.jpg",
+        "https://www.tmotorhobby.com/images/202410/thumb_img/1255_thumb_G_1729043610644.jpg",
+        "https://www.tmotorhobby.com/images/202312/thumb_img/1335_thumb_G_1701745741383.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1251_thumb_G_1682214763451.jpg",
+        "https://www.tmotorhobby.com/images/202305/thumb_img/1226_thumb_G_1684813277629.jpg",
+        "https://www.tmotorhobby.com/themes/tmotor/images/people.gif",
+        "https://www.tmotorhobby.com/themes/tmotor/images/weixin.jpg",
+        "https://www.tmotorhobby.com/themes/tmotor/images/pay.png"
+      ],
+      "cad_links": []
+    },
+    {
+      "requested_url": "https://www.tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html",
+      "retrieved_utc": "2026-10-12T22:01:00.662597+00:00",
+      "status": 200,
+      "final_url": "https://www.tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/188ef85f3436be08.html",
+      "bytes": 98603,
+      "sha256": "24d907e5bccec508f92dc8e0eceb44421f52beea1dadf6a04f5e30a0a323d5a6",
+      "content_type": "text/html; charset=utf-8",
+      "title": "T-MOTORHOBBY F100 2810 Long Range Cinematic Brushless Motor - 1100KV/1350KV_Motor_F Series Racing Power_FPV Drone Parts_Tmotorhobby Store-Tmotorobby drone motor,ESC,Propeller  ",
+      "links": [
+        {
+          "text": "Chinese",
+          "url": "https://www.tmotorhobby.com/index.php?lang=cn"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/rctigermotor/"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://www.instagram.com/tmotorfpv/"
+        },
+        {
+          "text": "Youtube",
+          "url": "https://www.youtube.com/channel/UCG_D8tpRhOI5TE2Ud_31Q5w"
+        },
+        {
+          "text": "Tmotorhobby Official store",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category-203-b0-FPV+Drone+Parts.html"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category-178-b0-F+Series+Racing+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-179-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-180-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-182-b0-Flight+Controller.html"
+        },
+        {
+          "text": "Stack",
+          "url": "https://www.tmotorhobby.com/category-183-b0-Stack.html"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.tmotorhobby.com/category-184-b0-VTX.html"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category-269-b0-AIO.html"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.tmotorhobby.com/category-181-b0-Propellers.html"
+        },
+        {
+          "text": "P Series Freestyle Power",
+          "url": "https://www.tmotorhobby.com/category-185-b0-P+Series+Freestyle+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-202-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-187-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-188-b0-Flight+Controller.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-189-b0-Propeller.html"
+        },
+        {
+          "text": "V Series Budget & Beginner Power",
+          "url": "https://www.tmotorhobby.com/category-190-b0-V+Series+Budget++Beginner+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-191-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-192-b0-ESC.html"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category-193-b0-Flight+Controller.html"
+        },
+        {
+          "text": "STACK",
+          "url": "https://www.tmotorhobby.com/category-260-b0-STACK.html"
+        },
+        {
+          "text": "Cinematic Power",
+          "url": "https://www.tmotorhobby.com/category-194-b0-Cinematic+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-195-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-196-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-197-b0-Propeller.html"
+        },
+        {
+          "text": "Micro Power",
+          "url": "https://www.tmotorhobby.com/category-198-b0-Micro+Power.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-199-b0-Motor.html"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category-262-b0-AIO.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-261-b0-Propeller.html"
+        },
+        {
+          "text": "Champion Co-brand",
+          "url": "https://www.tmotorhobby.com/category-200-b0-Champion+Co-brand.html"
+        },
+        {
+          "text": "BLACK BIRD V2.0",
+          "url": "https://www.tmotorhobby.com/goods-1024-T-Motor+BLACK+BIRD+V20.html"
+        },
+        {
+          "text": "BMS RAPTOR V2",
+          "url": "https://www.tmotorhobby.com/goods-1152-T-Motor+BMS+RAPTOR+V2+23065+Brushless+Racing+Motor-2000KV.html"
+        },
+        {
+          "text": "Limited Version",
+          "url": "https://www.tmotorhobby.com/category-201-b0-Limited+Version.html"
+        },
+        {
+          "text": "Black Friday 2207 1950KV",
+          "url": "https://www.tmotorhobby.com/goods-1218-TMOTOR+Black+Friday+2207+1950KV.html"
+        },
+        {
+          "text": "Christmas Edition 2207.5 1950KV",
+          "url": "https://www.tmotorhobby.com/goods-1228-TMOTOR+2022+Christmas+Edition+22075+1950KV+FPV+Freestyle+Drone+Motor.html"
+        },
+        {
+          "text": "Fixed Wing Model",
+          "url": "https://www.tmotorhobby.com/category-204-b0-Fixed+Wing+Model.html"
+        },
+        {
+          "text": "F3P Indoor Aerobatics",
+          "url": "https://www.tmotorhobby.com/category-205-b0-F3P+Indoor+Aerobatics.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-209-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-210-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-211-b0-Propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-212-b0-Combo.html"
+        },
+        {
+          "text": "3D Freestyle Flight",
+          "url": "https://www.tmotorhobby.com/category-206-b0-3D+Freestyle+Flight.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-213-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-214-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-215-b0-Propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-216-b0-Combo.html"
+        },
+        {
+          "text": "For Training",
+          "url": "https://www.tmotorhobby.com/category-207-b0-For+Training.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-217-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-218-b0-ESC.html"
+        },
+        {
+          "text": "Propeller",
+          "url": "https://www.tmotorhobby.com/category-219-b0-Propeller.html"
+        },
+        {
+          "text": "Rc Glider Flight",
+          "url": "https://www.tmotorhobby.com/category-208-b0-Rc+Glider+Flight.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-220-b0-Motor.html"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category-221-b0-ESC.html"
+        },
+        {
+          "text": "Fixed Wing UAV Power",
+          "url": "https://www.tmotorhobby.com/category-222-b0-Fixed+Wing+UAV+Power.html"
+        },
+        {
+          "text": "AT Series Motor",
+          "url": "https://www.tmotorhobby.com/category-226-b0-AT+Series+Motor.html"
+        },
+        {
+          "text": "AT2814",
+          "url": "https://www.tmotorhobby.com/goods-791-T-Motor+AT2814+3D+F3A+fixed+wing+long+shaft+Brushless+Motor+-900KV1050KV1200KV.html"
+        },
+        {
+          "text": "AT4120",
+          "url": "https://www.tmotorhobby.com/goods-826-T-Motor+AT4120+3D+Fixed+Wing+Airplane+Long+Shaft+Brushless+Motor+-250KV500KV560KV.html"
+        },
+        {
+          "text": "AT8030",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-Motor+AT8030+85CC+Airplane+Fixed+Wing+Long+Shaft+Brushless+Motor+-160KV190KV.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-226-b0-AT+Series+Motor.html"
+        },
+        {
+          "text": "AT Series ESC",
+          "url": "https://www.tmotorhobby.com/category-227-b0-AT+Series+ESC.html"
+        },
+        {
+          "text": "AT30A 2-3S",
+          "url": "https://www.tmotorhobby.com/goods-901-T-Motor+AT30A+2-3S+Fixed+Wing+ESC.html"
+        },
+        {
+          "text": "AT55A 2-6S",
+          "url": "https://www.tmotorhobby.com/goods-903-T-Motor+AT55A+2-6S+fixed+wing+ESC.html"
+        },
+        {
+          "text": "AT195A",
+          "url": "https://www.tmotorhobby.com/goods-1305-AT195A.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-227-b0-AT+Series+ESC.html"
+        },
+        {
+          "text": "T Series Polymer Straight CF",
+          "url": "https://www.tmotorhobby.com/category-229-b0-T+Series+Polymer+Straight+CF.html"
+        },
+        {
+          "text": "TS12*6 Black",
+          "url": "https://www.tmotorhobby.com/goods-1177-T-Motor+TS12%2A6+black+CW+propeller+for+outdoor+plane.html"
+        },
+        {
+          "text": "TS13*6.5 Black",
+          "url": "https://www.tmotorhobby.com/category-273-b0-TS13%2A65+Black.html"
+        },
+        {
+          "text": "TS16*8 black",
+          "url": "https://www.tmotorhobby.com/goods-1182-T-Motor+TS16%2A8+black+propeller+for+outdoor+plane.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-229-b0-T+Series+Polymer+Straight+CF.html"
+        },
+        {
+          "text": "TF Series Polymer Folding CF",
+          "url": "https://www.tmotorhobby.com/category-228-b0-TF+Series+Polymer+Folding+CF.html"
+        },
+        {
+          "text": "TF15*8 Glider&UAV",
+          "url": "https://www.tmotorhobby.com/goods-1112-TMOTOR+TF15%2A8+GliderUAV.html"
+        },
+        {
+          "text": "TF16*8 Glider&UAV",
+          "url": "https://www.tmotorhobby.com/goods-1113-T-Motor+TF16%2A8+GliderUAV+propeller.html"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category-149-b0-Combo.html"
+        },
+        {
+          "text": "FPV Power combo",
+          "url": "https://www.tmotorhobby.com/category-274-b0-FPV+Power+combo.html"
+        },
+        {
+          "text": "5 Inch Freestyle Power System",
+          "url": "https://www.tmotorhobby.com/goods-1390-TMOTOR+Velox+5+Inch+Freestyle+Power+System.html"
+        },
+        {
+          "text": "F3P Combo",
+          "url": "https://www.tmotorhobby.com/category-157-b0-F3P+Combo.html"
+        },
+        {
+          "text": "AM20 Pro Combo",
+          "url": "https://www.tmotorhobby.com/goods-1164-TMOTOR+AM20+Pro+Combo.html"
+        },
+        {
+          "text": "AM30 combo",
+          "url": "https://www.tmotorhobby.com/goods-1195-TMOTOR+BPP-4D+contest+AM30+combo+F3P+indoor+set+1450KV1750KV.html"
+        },
+        {
+          "text": "BPP-4D AM40 Combo",
+          "url": "https://www.tmotorhobby.com/goods-1104-TMOTOR+BPP-4D+AM40+Combo++F3P+Indoor+Set+1500KV1800KV.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-157-b0-F3P+Combo.html"
+        },
+        {
+          "text": "3D Combo",
+          "url": "https://www.tmotorhobby.com/category-158-b0-3D+Combo.html"
+        },
+        {
+          "text": "AM480 combo",
+          "url": "https://www.tmotorhobby.com/goods-1141-T-Motor+AM480+combo+3D+outdoor+set+600KV650KV900KV.html"
+        },
+        {
+          "text": "AM600 Combo",
+          "url": "https://www.tmotorhobby.com/goods-1226-TMOTOR+AM600+COMBO.html"
+        },
+        {
+          "text": "AM670 COMBO",
+          "url": "https://www.tmotorhobby.com/goods-1245-TMOTOR+AM670+COMBO.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-158-b0-3D+Combo.html"
+        },
+        {
+          "text": "Glider Combo",
+          "url": "https://www.tmotorhobby.com/category-163-b0-Glider+Combo.html"
+        },
+        {
+          "text": "P5B Combo",
+          "url": "https://www.tmotorhobby.com/goods-1158-TMOTOR+P5B+Combo%EF%BC%88AM83AM53%EF%BC%89.html"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.tmotorhobby.com/category-142-b0-Accessories.html"
+        },
+        {
+          "text": "For FPV",
+          "url": "https://www.tmotorhobby.com/category-143-b0-For+FPV.html"
+        },
+        {
+          "text": "F60PROV-LV Bell",
+          "url": "https://www.tmotorhobby.com/goods-1210-TMOTOR+F60PROV-LV+Bell.html"
+        },
+        {
+          "text": "P2207 V3 Bell",
+          "url": "https://www.tmotorhobby.com/goods-1207-TMOTOR+P2207+V3+Bell.html"
+        },
+        {
+          "text": "V2207.5 V2.0 Bell",
+          "url": "https://www.tmotorhobby.com/goods-1147-TMOTOR+V22075+V20+Bell.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-143-b0-For+FPV.html"
+        },
+        {
+          "text": "For Fixed Wing",
+          "url": "https://www.tmotorhobby.com/category-144-b0-For+Fixed+Wing.html"
+        },
+        {
+          "text": "AT28/35 Series Reverse Thread propeller adapter",
+          "url": "https://www.tmotorhobby.com/goods-1115-TMOTOR+AT2835+Series+Reverse+Thread+propeller+adapter.html"
+        },
+        {
+          "text": "AT41 Series Reverse Thread propeller adapter",
+          "url": "https://www.tmotorhobby.com/goods-1116-TMOTOR+AT41+Series+Reverse+Thread+propeller+adapter.html"
+        },
+        {
+          "text": "4D Apapter for AM40",
+          "url": "https://www.tmotorhobby.com/goods-1088-TMOTOR+4D+Apapter+for+AM40.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-144-b0-For+Fixed+Wing.html"
+        },
+        {
+          "text": "Others",
+          "url": "https://www.tmotorhobby.com/category-225-b0-Others.html"
+        },
+        {
+          "text": "FPV Others",
+          "url": "https://www.tmotorhobby.com/category-258-b0-FPV+Others.html"
+        },
+        {
+          "text": "T-MOTORHOBBY White Hat",
+          "url": "https://www.tmotorhobby.com/goods-1153-T-MOTOR+White+Hat.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Hat",
+          "url": "https://www.tmotorhobby.com/goods-1268-TMOTOR%C2%A0Hobby%C2%A0Hat.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Battery Strap",
+          "url": "https://www.tmotorhobby.com/goods-1211-TMOTOR+Battery+Strap.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-258-b0-FPV+Others.html"
+        },
+        {
+          "text": "Fixed Wing Others",
+          "url": "https://www.tmotorhobby.com/category-259-b0-Fixed+Wing+Others.html"
+        },
+        {
+          "text": "FixedWing White T-shirt",
+          "url": "https://www.tmotorhobby.com/goods-1269-TMOTOR%C2%A0FixedWing+White%C2%A0T-shirt.html"
+        },
+        {
+          "text": "FixedWing Green T-shirt",
+          "url": "https://www.tmotorhobby.com/goods-1270-TMOTOR%C2%A0FixedWing+Green%C2%A0T-shirt.html"
+        },
+        {
+          "text": "FixedWing Facemask",
+          "url": "https://www.tmotorhobby.com/goods-1275-TMOTOR%C2%A0FixedWing+Facemask.html"
+        },
+        {
+          "text": "All Product",
+          "url": "https://www.tmotorhobby.com/category-259-b0-Fixed+Wing+Others.html"
+        },
+        {
+          "text": "Home",
+          "url": "https://www.tmotorhobby.com/"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category-203-b0-FPV+Drone+Parts.html"
+        },
+        {
+          "text": "Others",
+          "url": "https://www.tmotorhobby.com/category.php?id=225"
+        },
+        {
+          "text": "Fixed Wing Model",
+          "url": "https://www.tmotorhobby.com/category.php?id=204"
+        },
+        {
+          "text": "FPV Drone Parts",
+          "url": "https://www.tmotorhobby.com/category.php?id=203"
+        },
+        {
+          "text": "Fixed Wing UAV Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=222"
+        },
+        {
+          "text": "Combo",
+          "url": "https://www.tmotorhobby.com/category.php?id=149"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.tmotorhobby.com/category.php?id=142"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category-178-b0-F+Series+Racing+Power.html"
+        },
+        {
+          "text": "F Series Racing Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=178"
+        },
+        {
+          "text": "P Series Freestyle Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=185"
+        },
+        {
+          "text": "V Series Budget & Beginner Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=190"
+        },
+        {
+          "text": "Cinematic Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=194"
+        },
+        {
+          "text": "Micro Power",
+          "url": "https://www.tmotorhobby.com/category.php?id=198"
+        },
+        {
+          "text": "Champion Co-brand",
+          "url": "https://www.tmotorhobby.com/category.php?id=200"
+        },
+        {
+          "text": "Limited Version",
+          "url": "https://www.tmotorhobby.com/category.php?id=201"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category-179-b0-Motor.html"
+        },
+        {
+          "text": "Motor",
+          "url": "https://www.tmotorhobby.com/category.php?id=179"
+        },
+        {
+          "text": "ESC",
+          "url": "https://www.tmotorhobby.com/category.php?id=180"
+        },
+        {
+          "text": "Propellers",
+          "url": "https://www.tmotorhobby.com/category.php?id=181"
+        },
+        {
+          "text": "Flight Controller",
+          "url": "https://www.tmotorhobby.com/category.php?id=182"
+        },
+        {
+          "text": "Stack",
+          "url": "https://www.tmotorhobby.com/category.php?id=183"
+        },
+        {
+          "text": "VTX",
+          "url": "https://www.tmotorhobby.com/category.php?id=184"
+        },
+        {
+          "text": "AIO",
+          "url": "https://www.tmotorhobby.com/category.php?id=269"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202108/source_img/1150_P_1627953063202.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202108/source_img/1150_P_1627953063202.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202108/source_img/1150_P_1627953063069.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202108/source_img/1150_P_1627953063130.jpg"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/images/202108/source_img/1150_P_1627953064604.jpg"
+        },
+        {
+          "text": "Collect (0)",
+          "url": "javascript:collect(1150)"
+        },
+        {
+          "text": "Facebook",
+          "url": "http://www.facebook.com/sharer.php?u=https://tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html&t=T-MOTORHOBBY F100 2810 Long Range Cinematic Brushless Motor - 1100KV/1350KV"
+        },
+        {
+          "text": "Twitter",
+          "url": "http://twitter.com/home?status=https://tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html T-MOTORHOBBY F100 2810 Long Range Cinematic Brushless Motor - 1100KV/1350KV"
+        },
+        {
+          "text": "Recommend To Friends",
+          "url": "https://www.tmotorhobby.com/user.php?act=affiliate&goodsid=1150"
+        },
+        {
+          "text": "KV1100",
+          "url": "javascript:"
+        },
+        {
+          "text": "KV1350",
+          "url": "javascript:"
+        },
+        {
+          "text": "\uff0b",
+          "url": "javascript:;"
+        },
+        {
+          "text": "\uff0d",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Add to Cart",
+          "url": "javascript:addToCart(1150)"
+        },
+        {
+          "text": "Buy Now",
+          "url": "javascript:addToCart(1150,0,1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1052-T-MOTORHOBBY+F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 Analog+F55A Pro II 3...",
+          "url": "https://www.tmotorhobby.com/goods-1052-T-MOTORHOBBY+F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$129.9 Add to Cart",
+          "url": "javascript:addToCart(1052,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-946-T-MOTORHOBBY+F7+HDF55A+Pro+II+30x30+Stack+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 HD+F55A Pro II 30x30...",
+          "url": "https://www.tmotorhobby.com/goods-946-T-MOTORHOBBY+F7+HDF55A+Pro+II+30x30+Stack+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$137.9 Add to Cart",
+          "url": "javascript:addToCart(946,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-916-T-MOTORHOBBY+F7+305X305+FPV+Drones+Flight+Controller.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 30.5X30.5 FPV Drones...",
+          "url": "https://www.tmotorhobby.com/goods-916-T-MOTORHOBBY+F7+305X305+FPV+Drones+Flight+Controller.html"
+        },
+        {
+          "text": "$62.9 Add to Cart",
+          "url": "javascript:addToCart(916,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-935-T-MOTORHOBBY+F7+HD+305x305+2-6S+Flight+Controller+for+DJI+VTX+System.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 HD 30.5x30.5 2-6S Fl...",
+          "url": "https://www.tmotorhobby.com/goods-935-T-MOTORHOBBY+F7+HD+305x305+2-6S+Flight+Controller+for+DJI+VTX+System.html"
+        },
+        {
+          "text": "$62.9 Add to Cart",
+          "url": "javascript:addToCart(935,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1420-F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "F7 Analog+F55A Pro II 30x30 Stack/Co...",
+          "url": "https://www.tmotorhobby.com/goods-1420-F7+AnalogF55A+Pro+II+30x30+StackCombo+3-6S+4-in-1+ESC+Combo.html"
+        },
+        {
+          "text": "$117.9 Add to Cart",
+          "url": "javascript:addToCart(1420,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1174-T-MOTORHOBBY+F7+Pro+Full+Function+30x30+Flight+Controller+with+Wifi++Bluetooth.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F7 Pro Full Function 30...",
+          "url": "https://www.tmotorhobby.com/goods-1174-T-MOTORHOBBY+F7+Pro+Full+Function+30x30+Flight+Controller+with+Wifi++Bluetooth.html"
+        },
+        {
+          "text": "$49.9 Add to Cart",
+          "url": "javascript:addToCart(1174,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1313-T-MOTORHOBBY+F55A+PRO+%E2%85%A2+6-8S+4IN1+ESC.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F55A PRO \u2162 6-8S 4IN1 ES...",
+          "url": "https://www.tmotorhobby.com/goods-1313-T-MOTORHOBBY+F55A+PRO+%E2%85%A2+6-8S+4IN1+ESC.html"
+        },
+        {
+          "text": "$119.9 Add to Cart",
+          "url": "javascript:addToCart(1313,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1421-F55A+PRO+%E2%85%A2.html"
+        },
+        {
+          "text": "F55A PRO \u2162",
+          "url": "https://www.tmotorhobby.com/goods-1421-F55A+PRO+%E2%85%A2.html"
+        },
+        {
+          "text": "$119.9 Add to Cart",
+          "url": "javascript:addToCart(1421,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1236-T-MOTORHOBBY+C75x46+Professional+Cinematic+FPV+Propeller+%EF%BC%882pcs%EF%BC%89.html"
+        },
+        {
+          "text": "T-MOTORHOBBY C7.5x4.6 Professional C...",
+          "url": "https://www.tmotorhobby.com/goods-1236-T-MOTORHOBBY+C75x46+Professional+Cinematic+FPV+Propeller+%EF%BC%882pcs%EF%BC%89.html"
+        },
+        {
+          "text": "$9.9 Add to Cart",
+          "url": "javascript:addToCart(1236,'','','', 1)"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1183-T-MOTORHOBBY+F60+Pro+V+22075+Brushless+Racing+Motor+-+1750KV1950KV2020KV2550KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY F60 Pro V 2207.5 Brushless Racing Motor - 1750",
+          "url": "https://www.tmotorhobby.com/goods-1183-T-MOTORHOBBY+F60+Pro+V+22075+Brushless+Racing+Motor+-+1750KV1950KV2020KV2550KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1199-T-MOTORHOBBY+VELOX+V2808+Drone+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY VELOX V2808 Drone Motor",
+          "url": "https://www.tmotorhobby.com/goods-1199-T-MOTORHOBBY+VELOX+V2808+Drone+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-789-T-MOTORHOBBY+AT2317+3D+Trainer+Glider+Long+Shaft+Brushless+Motor+-+880KV1250KV1400KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT2317 3D Trainer Glider Long Shaft Brushless Motor - 880",
+          "url": "https://www.tmotorhobby.com/goods-789-T-MOTORHOBBY+AT2317+3D+Trainer+Glider+Long+Shaft+Brushless+Motor+-+880KV1250KV1400KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1157-T-MOTORHOBBY+Cine66+2812+Professional+Cinematic+FPV+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY Cine66 2812 Professional Cinematic FPV Motor",
+          "url": "https://www.tmotorhobby.com/goods-1157-T-MOTORHOBBY+Cine66+2812+Professional+Cinematic+FPV+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1181-T-MOTORHOBBY+P2207+V3.html"
+        },
+        {
+          "text": "T-MOTORHOBBY P2207 V3",
+          "url": "https://www.tmotorhobby.com/goods-1181-T-MOTORHOBBY+P2207+V3.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1254-T-MOTORHOBBY+AT8020+55CC+Airplane+Fixed+Wing++Brushless+Motor+-180KV210KV.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT8020 55CC Airplane Fixed Wing  Brushless Motor -180",
+          "url": "https://www.tmotorhobby.com/goods-1254-T-MOTORHOBBY+AT8020+55CC+Airplane+Fixed+Wing++Brushless+Motor+-180KV210KV.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-MOTORHOBBY+AT8030+85CC+Airplane+Fixed+Wing++Brushless+Motor.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AT8030 85CC Airplane Fixed Wing  Brushless Motor",
+          "url": "https://www.tmotorhobby.com/goods-1255-T-MOTORHOBBY+AT8030+85CC+Airplane+Fixed+Wing++Brushless+Motor.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html"
+        },
+        {
+          "text": "M0802",
+          "url": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1251-T-MOTORHOBBY+P60A+V2+ESC.html"
+        },
+        {
+          "text": "T-MOTORHOBBY P60A V2 ESC",
+          "url": "https://www.tmotorhobby.com/goods-1251-T-MOTORHOBBY+P60A+V2+ESC.html"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/goods-1226-T-MOTORHOBBY+AM600+COMBO.html"
+        },
+        {
+          "text": "T-MOTORHOBBY AM600 COMBO",
+          "url": "https://www.tmotorhobby.com/goods-1226-T-MOTORHOBBY+AM600+COMBO.html"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign In",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign Up",
+          "url": "https://www.tmotorhobby.com/register.php"
+        },
+        {
+          "text": "Shopping Cart",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Let\u00b4s Go And Have a Look",
+          "url": "https://www.tmotorhobby.com/category.php?id=11"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/user.php?act=collection_list"
+        },
+        {
+          "text": "",
+          "url": "https://www.tmotorhobby.com/mobile/"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sharon",
+          "url": "skype:sales3rctiger?call"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Shopping Cart",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Let\u00b4s Go And Have a Look",
+          "url": "https://www.tmotorhobby.com/category.php?id=11"
+        },
+        {
+          "text": "Browsing History",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:closeDiv1()"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Sign Up",
+          "url": "https://www.tmotorhobby.com/register.php"
+        },
+        {
+          "text": "Forgot Password?",
+          "url": "https://www.tmotorhobby.com/findPwd.php"
+        },
+        {
+          "text": "About us",
+          "url": "https://www.tmotorhobby.com/article.php?id=153"
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://www.tmotorhobby.com/article.php?id=265"
+        },
+        {
+          "text": "News",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=23"
+        },
+        {
+          "text": "After-sale Service",
+          "url": "https://www.tmotorhobby.com/article.php?id=203"
+        },
+        {
+          "text": "FAQs",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=120"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=113"
+        },
+        {
+          "text": "Refund Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=114"
+        },
+        {
+          "text": "Return & Exchange Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=115"
+        },
+        {
+          "text": "Terms Of Service",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=116"
+        },
+        {
+          "text": "Shipping Policy",
+          "url": "https://www.tmotorhobby.com/article_cat.php?id=117"
+        },
+        {
+          "text": "Order information",
+          "url": "https://www.tmotorhobby.com/article.php?id=210"
+        },
+        {
+          "text": "Payments",
+          "url": "https://www.tmotorhobby.com/article.php?id=204"
+        },
+        {
+          "text": "Warranty Policy",
+          "url": "https://www.tmotorhobby.com/article.php?id=207"
+        },
+        {
+          "text": "Miaa@tmotor.com",
+          "url": "mailto:miaa@tmotor.com"
+        },
+        {
+          "text": "Sharon@tmotor.com",
+          "url": "mailto:sharon@tmotor.com"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/thobbyfpv/"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://www.instagram.com/thobbyfpv/"
+        },
+        {
+          "text": "Youtube",
+          "url": "https://www.youtube.com/@thobbyfpv/videos"
+        },
+        {
+          "text": "TikTok",
+          "url": "https://www.tiktok.com/@tmotorfpv"
+        },
+        {
+          "text": "tmotorhobby Privacy Policy",
+          "url": "http://www.tmotorhobby.com/article.php?id=206"
+        },
+        {
+          "text": "English",
+          "url": "https://www.tmotorhobby.com/index.php?lang=en"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "OK",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Cancel",
+          "url": "javascript:;"
+        },
+        {
+          "text": "",
+          "url": "javascript:;"
+        },
+        {
+          "text": "Close",
+          "url": "javascript:;"
+        }
+      ],
+      "images": [
+        "https://www.tmotorhobby.com/themes/tmotor/images/logo.png",
+        "https://www.tmotorhobby.com/data/category_img/1697780289742202616.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780297122298827.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780315433629519.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780324049670162.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780331578205543.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698396431179569247.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780338597136816.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780379831556095.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780386048614978.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780394023554414.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780402025472344.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780449045723487.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780457795387473.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780467037045486.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698310831900357556.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780508758641372.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780529461452982.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780539800844132.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781081222942519.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698396118531975137.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698386654225276213.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781145806764896.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781201775199050.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781284176793066.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781323858687749.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780787001750258.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780795371648480.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780802393107068.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780812817856332.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780847900902081.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780857436310044.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780869572443540.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780878129205872.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780912907319592.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780923919352033.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780933722396866.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697780993826253525.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781003984283219.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781657463704635.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781696945324812.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781730297009169.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781814397459173.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781846002068686.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781901802673671.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1715926871080741672.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1715926967617361391.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782136615078187.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697781992530140186.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782029546480305.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1733386570442831405.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782379900368734.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782425032335947.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697782865135313538.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783341359709016.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783369748706969.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783402680766863.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783475755072893.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783614940501184.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783652849230271.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697783686750080383.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784465978439737.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784568387992675.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1697784606937022570.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395900700496066.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395835764172613.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395956826520568.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395578631332176.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395493301668878.jpg",
+        "https://www.tmotorhobby.com/data/category_img/1698395749465872753.jpg",
+        "https://www.tmotorhobby.com/images/202108/goods_img/1150_P_1627953063672.jpg",
+        "https://www.tmotorhobby.com/images/202108/thumb_img/1150_thumb_P_1627953063060.jpg",
+        "https://www.tmotorhobby.com/images/202108/thumb_img/1150_thumb_P_1627953063987.jpg",
+        "https://www.tmotorhobby.com/images/202108/thumb_img/1150_thumb_P_1627953063607.jpg",
+        "https://www.tmotorhobby.com/images/202108/thumb_img/1150_thumb_P_1627953064511.jpg",
+        "https://www.tmotorhobby.com/erweima_png.php?id=1150",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1052_thumb_G_1682216601821.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/946_thumb_G_1682216614266.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/916_thumb_G_1682215826281.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/935_thumb_G_1682216114478.jpg",
+        "https://www.tmotorhobby.com/images/202412/thumb_img/1420_thumb_G_1734677759301.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1174_thumb_G_1682216154876.jpg",
+        "https://www.tmotorhobby.com/images/202309/thumb_img/1313_thumb_G_1694759331824.jpg",
+        "https://www.tmotorhobby.com/images/202609/thumb_img/1421_thumb_G_1789435823830.png",
+        "https://www.tmotorhobby.com/images/202302/thumb_img/1236_thumb_G_1675664878375.jpg",
+        "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978391284.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978923772.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978802509.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978464856.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959979821414.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988852886.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988339748.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989147203.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989109524.jpg",
+        "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989623623.jpg",
+        "https://www.tmotorhobby.com/images/202204/thumb_img/1183_thumb_G_1649660569549.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1199_thumb_G_1682212588870.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/789_thumb_G_1682222028670.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1157_thumb_G_1682213881462.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1181_thumb_G_1682069866898.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1254_thumb_G_1681465248883.jpg",
+        "https://www.tmotorhobby.com/images/202410/thumb_img/1255_thumb_G_1729043610644.jpg",
+        "https://www.tmotorhobby.com/images/202312/thumb_img/1335_thumb_G_1701745741383.jpg",
+        "https://www.tmotorhobby.com/images/202304/thumb_img/1251_thumb_G_1682214763451.jpg",
+        "https://www.tmotorhobby.com/images/202305/thumb_img/1226_thumb_G_1684813277629.jpg",
+        "https://www.tmotorhobby.com/themes/tmotor/images/people.gif",
+        "https://www.tmotorhobby.com/themes/tmotor/images/weixin.jpg",
+        "https://www.tmotorhobby.com/themes/tmotor/images/pay.png"
+      ],
+      "cad_links": []
+    },
+    {
+      "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+      "retrieved_utc": "2026-10-12T22:01:02.115091+00:00",
+      "status": 200,
+      "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/31d71a48c98f5f47.jpg",
+      "bytes": 79015,
+      "sha256": "b9424e07933ec3a7177e640343fa63c177425b58cf7118eb52a51e047be5ce84",
+      "content_type": "image/jpeg"
+    },
+    {
+      "requested_url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/913747b78f.jpg",
+      "retrieved_utc": "2026-10-12T22:01:03.876631+00:00",
+      "status": 200,
+      "final_url": "https://ueeshop.ly200-cdn.com/u_file/UPAI/UPAI594/2410/photo/913747b78f.jpg",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/9d880e95f6a531bd.jpg",
+      "bytes": 159082,
+      "sha256": "0e403c6036c9bbc3454f64a595ee90fd871ecf2a1f519279d534ca1cdeabe30b",
+      "content_type": "image/jpg"
+    },
+    {
+      "requested_url": "https://www.bing.com/search?q=T-Motor%20F90%20CAD%20STEP",
+      "retrieved_utc": "2026-10-12T22:01:52.702377+00:00",
+      "status": 200,
+      "final_url": "https://www.bing.com/search?q=T-Motor%20F90%20CAD%20STEP",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/03588b5c857caa66.html",
+      "sha256": "da9d21e635a6ecf09e7c899922702c1483425ee2bb91e4db426f59b09d75b545",
+      "bytes": 118696,
+      "links": [
+        {
+          "text": "Skip to content",
+          "url": "https://www.bing.com/search?q=T-Motor%20F90%20CAD%20STEP"
+        },
+        {
+          "text": "Accessibility Feedback",
+          "url": "https://www.bing.com/search?q=T-Motor%20F90%20CAD%20STEP"
+        },
+        {
+          "text": "",
+          "url": "https://www.bing.com/?FORM=Z9FD1"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "Fran\u00e7ais",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&setlang=fr&sid=37ECE042C31F6C7C0040F7B2C2986DFE"
+        },
+        {
+          "text": "All",
+          "url": "https://www.bing.com/?scope=web&FORM=HDRSC1"
+        },
+        {
+          "text": "AI Mode",
+          "url": "https://www.bing.com/copilotsearch?q=T-Motor+F90+CAD+STEP&FORM=CSSCOP"
+        },
+        {
+          "text": "Images",
+          "url": "https://www.bing.com/ck/a?!&&p=cf0163854176acebe6678bbd8bd7f568f8c2eb463e92dde4d4580849b7363ba0JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L2ltYWdlcy9zZWFyY2g_cT1ULU1vdG9yK0Y5MCtDQUQrU1RFUCZGT1JNPUhEUlNDMg&ntb=1"
+        },
+        {
+          "text": "Videos",
+          "url": "https://www.bing.com/ck/a?!&&p=053391ecc678c2ce6228a19448b2825c53405a181a1719a864494e39d4e4d13cJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L3ZpZGVvcy9zZWFyY2g_cT1ULU1vdG9yK0Y5MCtDQUQrU1RFUCZGT1JNPUhEUlNDMw&ntb=1"
+        },
+        {
+          "text": "Maps",
+          "url": "https://www.bing.com/ck/a?!&&p=aa4719e2f8fc0e9060bd60f233e9e7a9efa7ef75aab8e72c77a675ad08bb0e9fJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L21hcHM_cT1ULU1vdG9yK0Y5MCtDQUQrU1RFUCZGT1JNPUhEUlNDNA&ntb=1"
+        },
+        {
+          "text": "News",
+          "url": "https://www.bing.com/ck/a?!&&p=e9980b5d0508f103b022e7cb19f18165f23066eadfeb88e6e84a347aa7473168JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L25ld3Mvc2VhcmNoP3E9VC1Nb3RvcitGOTArQ0FEK1NURVAmRk9STT1IRFJTQzY&ntb=1"
+        },
+        {
+          "text": "More",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Shopping",
+          "url": "https://www.bing.com/ck/a?!&&p=f3138f947078db578437b9bcaa50e4956686ac1bcc8fc2b56b95fedcbe2336a1JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L3Nob3AvdG9waWNzP3E9VC1Nb3RvcitGOTArQ0FEK1NURVAmRk9STT1TSE9QVEI&ntb=1"
+        },
+        {
+          "text": "Flights",
+          "url": "https://www.bing.com/ck/a?!&&p=0031827581d01a27653dbb3a866bbeba1428f1501bf8eeb17d10e5a542e4dd2bJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1L3RyYXZlbC9zZWFyY2g_cT1ULU1vdG9yK0Y5MCtDQUQrU1RFUCZtPWZsaWdodHMmRk9STT1GQlNDT1A&ntb=1"
+        },
+        {
+          "text": "Tools",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "Date",
+          "url": "javascript:"
+        },
+        {
+          "text": "tiktok.com https:// t .tiktok.com",
+          "url": "https://www.bing.com/ck/a?!&&p=5c07f6c4c097bf84925897c5456fa425b73fb0168a096168f7db4c9eb3d2e1dcJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly90LnRpa3Rvay5jb20v&ntb=1"
+        },
+        {
+          "text": "TikTok - Make Your Day",
+          "url": "https://www.bing.com/ck/a?!&&p=5c07f6c4c097bf84925897c5456fa425b73fb0168a096168f7db4c9eb3d2e1dcJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly90LnRpa3Rvay5jb20v&ntb=1"
+        },
+        {
+          "text": "wikipedia.org https:// en.wikipedia.org \u203a wiki \u203a T",
+          "url": "https://www.bing.com/ck/a?!&&p=da68257ae710af500f2453fc316654f4b3b3b197b27d55ba3a661b8e1ae498d2JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVA&ntb=1"
+        },
+        {
+          "text": "T - Wikipedia",
+          "url": "https://www.bing.com/ck/a?!&&p=da68257ae710af500f2453fc316654f4b3b3b197b27d55ba3a661b8e1ae498d2JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVA&ntb=1"
+        },
+        {
+          "text": "smartcanucks.ca https://flyers.smartcanucks.ca \u203a tt -supermarket-canada",
+          "url": "https://www.bing.com/ck/a?!&&p=1d703d5d4be56d917517306ca80f8339c6238351c023e7214e7e908061cdf00bJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9mbHllcnMuc21hcnRjYW51Y2tzLmNhL3R0LXN1cGVybWFya2V0LWNhbmFkYQ&ntb=1"
+        },
+        {
+          "text": "T&T Supermarket Canada Flyers",
+          "url": "https://www.bing.com/ck/a?!&&p=1d703d5d4be56d917517306ca80f8339c6238351c023e7214e7e908061cdf00bJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9mbHllcnMuc21hcnRjYW51Y2tzLmNhL3R0LXN1cGVybWFya2V0LWNhbmFkYQ&ntb=1"
+        },
+        {
+          "text": "tntsupermarket.com https://www.tntsupermarket.com",
+          "url": "https://www.bing.com/ck/a?!&&p=a75446e5f49aed96b9fce9290b8d5c6355d35e715e7f7f392130413233d49349JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cudG50c3VwZXJtYXJrZXQuY29tLw&ntb=1"
+        },
+        {
+          "text": "\u52a0\u62ff\u5927\u9023\u9396\u83ef\u4eba\u8d85\u5e02 | \u7db2\u4e0a\u8cfc\u7269\u5e73\u53f0 | T & T Supermarket",
+          "url": "https://www.bing.com/ck/a?!&&p=a75446e5f49aed96b9fce9290b8d5c6355d35e715e7f7f392130413233d49349JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cudG50c3VwZXJtYXJrZXQuY29tLw&ntb=1"
+        },
+        {
+          "text": "youtube.com https:// www.youtube.com \u203a watch",
+          "url": "https://www.bing.com/ck/a?!&&p=e61fdde90fa0dd67ce77c55ab89af6b3ad2fef20a9caae5d1af18ceca240f8e1JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1ISEVxT0xaMGhyNA&ntb=1"
+        },
+        {
+          "text": "The Letter T Song - Learn the Alphabet - YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=e61fdde90fa0dd67ce77c55ab89af6b3ad2fef20a9caae5d1af18ceca240f8e1JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1ISEVxT0xaMGhyNA&ntb=1"
+        },
+        {
+          "text": "wikipedia.org https:// en.wikipedia.org \u203a wiki \u203a T&T_Supermarket",
+          "url": "https://www.bing.com/ck/a?!&&p=54adbc8a04888b083f7bf79c13a0a9f5b1f4f03a3d3edc2689613c7f583920ceJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVCUyNlRfU3VwZXJtYXJrZXQ&ntb=1"
+        },
+        {
+          "text": "T & T Supermarket - Wikipedia",
+          "url": "https://www.bing.com/ck/a?!&&p=54adbc8a04888b083f7bf79c13a0a9f5b1f4f03a3d3edc2689613c7f583920ceJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVCUyNlRfU3VwZXJtYXJrZXQ&ntb=1"
+        },
+        {
+          "text": "t.me https:// t .me \u203a telegram",
+          "url": "https://www.bing.com/ck/a?!&&p=5adea941e9275e26bcf28086b03fb7e48184632956b70ab1ff69435eed5e7b53JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly90Lm1lL3RlbGVncmFt&ntb=1"
+        },
+        {
+          "text": "Telegram : View @ telegram",
+          "url": "https://www.bing.com/ck/a?!&&p=5adea941e9275e26bcf28086b03fb7e48184632956b70ab1ff69435eed5e7b53JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly90Lm1lL3RlbGVncmFt&ntb=1"
+        },
+        {
+          "text": "youtube.com https:// www.youtube.com \u203a watch",
+          "url": "https://www.bing.com/ck/a?!&&p=94bae94a209635d3ecce9ae24457aa9fd0386c83db2b43db068f843964749475JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1LbE43dzkwdXRobw&ntb=1"
+        },
+        {
+          "text": "Alphabet Songs - The Letter T - YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=94bae94a209635d3ecce9ae24457aa9fd0386c83db2b43db068f843964749475JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1LbE43dzkwdXRobw&ntb=1"
+        },
+        {
+          "text": "wikipedia.org https:// simple.wikipedia.org \u203a wiki \u203a T",
+          "url": "https://www.bing.com/ck/a?!&&p=946cdfae4afe5012d0a41fa5662d669dd2fca406a2dfc38d213278e8fb148d6cJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9zaW1wbGUud2lraXBlZGlhLm9yZy93aWtpL1Q&ntb=1"
+        },
+        {
+          "text": "T - Simple English Wikipedia, the free encyclopedia",
+          "url": "https://www.bing.com/ck/a?!&&p=946cdfae4afe5012d0a41fa5662d669dd2fca406a2dfc38d213278e8fb148d6cJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9zaW1wbGUud2lraXBlZGlhLm9yZy93aWtpL1Q&ntb=1"
+        },
+        {
+          "text": "youtube.com https:// www.youtube.com \u203a watch",
+          "url": "https://www.bing.com/ck/a?!&&p=a29b70c7e49a9d20aab71a795c742758847b8d858848f0a6dc0b186d90bb30a7JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj0xeWw5cC0tZ0VsVQ&ntb=1"
+        },
+        {
+          "text": "Learn The Letter T | Let's Learn About The Alphabet - YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=a29b70c7e49a9d20aab71a795c742758847b8d858848f0a6dc0b186d90bb30a7JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj0xeWw5cC0tZ0VsVQ&ntb=1"
+        },
+        {
+          "text": "Some results have been removed",
+          "url": "https://www.bing.com/ck/a?!&&p=2a4962ba1015264c9a28fd28273a78f3f944b10dffedc234fc3bb7ee56e076cfJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1"
+        },
+        {
+          "text": "2",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&FPIG=986703C1C41F42539787FC18FCC2EDA0&first=11&FORM=PERE"
+        },
+        {
+          "text": "3",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&FPIG=986703C1C41F42539787FC18FCC2EDA0&first=21&FORM=PERE1"
+        },
+        {
+          "text": "Next",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&FPIG=986703C1C41F42539787FC18FCC2EDA0&first=11&FORM=PORE"
+        },
+        {
+          "text": "Privacy",
+          "url": "https://www.bing.com/ck/a?!&&p=cbf618b310c42c18c744156c1031470068df54bd63d9ee7ac2fd4af8f54d4698JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1"
+        },
+        {
+          "text": "Terms",
+          "url": "https://www.bing.com/ck/a?!&&p=7e04a977ffe8be218c7dbfe440c5d3097fe04758dd3c085aa239c0a1139e9344JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1"
+        },
+        {
+          "text": "Learn more",
+          "url": "https://www.bing.com/ck/a?!&&p=e3a494a358cb2ea5f6af252c7c2f434bcd8a72efbb948b7152f0547b841f4107JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=192aeb59-40ed-6361-054d-fca9416a62ea&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vdG9waWMvaG93LWJpbmctZGVsaXZlcnMtc2VhcmNoLXJlc3VsdHMtZDE4ZmM4MTUtYWMzNy00NzIzLWJjNjctOTIyOWNlM2ViNmEzPw&ntb=1"
+        },
+        {
+          "text": "",
+          "url": "https://www.bing.com/copilotsearch?q=T-Motor F90 CAD STEP&form=CSBSBX"
+        },
+        {
+          "text": "All",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&FORM=000017&qpvt=T-Motor+F90+CAD+STEP"
+        },
+        {
+          "text": "Past 24 hours",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&filters=ex1%3a%22ez1%22&FORM=000017"
+        },
+        {
+          "text": "Past week",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&filters=ex1%3a%22ez2%22&FORM=000017"
+        },
+        {
+          "text": "Past month",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&filters=ex1%3a%22ez3%22&FORM=000017"
+        },
+        {
+          "text": "Past year",
+          "url": "https://www.bing.com/search?q=T-Motor+F90+CAD+STEP&filters=ex1%3a%22ez5_20373_20738%22&FORM=000017"
+        }
+      ]
+    },
+    {
+      "requested_url": "https://www.bing.com/search?q=BrotherHobby%20Avenger%202812%20V5%20CAD%20STEP",
+      "retrieved_utc": "2026-10-12T22:01:53.057543+00:00",
+      "status": 200,
+      "final_url": "https://www.bing.com/search?q=BrotherHobby%20Avenger%202812%20V5%20CAD%20STEP",
+      "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/cfd-exterior-v2/hardware-research-motors/sources/88054a4c90af1796.html",
+      "sha256": "948cd1661ea177532a688bca2c4a0ae598dab62f82e34367ec29f8497437e205",
+      "bytes": 120585,
+      "links": [
+        {
+          "text": "Skip to content",
+          "url": "https://www.bing.com/search?q=BrotherHobby%20Avenger%202812%20V5%20CAD%20STEP"
+        },
+        {
+          "text": "Accessibility Feedback",
+          "url": "https://www.bing.com/search?q=BrotherHobby%20Avenger%202812%20V5%20CAD%20STEP"
+        },
+        {
+          "text": "",
+          "url": "https://www.bing.com/?FORM=Z9FD1"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "Fran\u00e7ais",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&setlang=fr&sid=207F9CEF81456BE72C8F8B1F808B6AF2"
+        },
+        {
+          "text": "All",
+          "url": "https://www.bing.com/?scope=web&FORM=HDRSC1"
+        },
+        {
+          "text": "AI Mode",
+          "url": "https://www.bing.com/copilotsearch?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&FORM=CSSCOP"
+        },
+        {
+          "text": "Images",
+          "url": "https://www.bing.com/ck/a?!&&p=2a5f4ce0afc801bbdb8351c6fdcaba03cd5777e93848bc8646070ca93fa890e2JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L2ltYWdlcy9zZWFyY2g_cT1Ccm90aGVySG9iYnkrQXZlbmdlcisyODEyK1Y1K0NBRCtTVEVQJkZPUk09SERSU0My&ntb=1"
+        },
+        {
+          "text": "Videos",
+          "url": "https://www.bing.com/ck/a?!&&p=4bba059a0ce08ec3fc22b0070157a03e47525ea5190f589f55e490ddb8bd9c26JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Ccm90aGVySG9iYnkrQXZlbmdlcisyODEyK1Y1K0NBRCtTVEVQJkZPUk09SERSU0Mz&ntb=1"
+        },
+        {
+          "text": "Maps",
+          "url": "https://www.bing.com/ck/a?!&&p=c2dedbbc4c1fc111b30a78eda9d8aca1cdd7addcff28fe323e343e264cb4ee7dJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L21hcHM_cT1Ccm90aGVySG9iYnkrQXZlbmdlcisyODEyK1Y1K0NBRCtTVEVQJkZPUk09SERSU0M0&ntb=1"
+        },
+        {
+          "text": "News",
+          "url": "https://www.bing.com/ck/a?!&&p=95c53e76863463176bf695ebbb7a1c73ead2636d397a2db99d6ec2501ecc5c2aJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L25ld3Mvc2VhcmNoP3E9QnJvdGhlckhvYmJ5K0F2ZW5nZXIrMjgxMitWNStDQUQrU1RFUCZGT1JNPUhEUlNDNg&ntb=1"
+        },
+        {
+          "text": "More",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Shopping",
+          "url": "https://www.bing.com/ck/a?!&&p=e6210b12549e0a6b02e4d5c31020975c663b1d8c107c8fdda9a804da0d3db962JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L3Nob3AvdG9waWNzP3E9QnJvdGhlckhvYmJ5K0F2ZW5nZXIrMjgxMitWNStDQUQrU1RFUCZGT1JNPVNIT1BUQg&ntb=1"
+        },
+        {
+          "text": "Flights",
+          "url": "https://www.bing.com/ck/a?!&&p=fb9b7eb3a863dfdaf55cd031aaddbbda7fc2230ab1d2dfcb674370ec9bc76479JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1L3RyYXZlbC9zZWFyY2g_cT1Ccm90aGVySG9iYnkrQXZlbmdlcisyODEyK1Y1K0NBRCtTVEVQJm09ZmxpZ2h0cyZGT1JNPUZCU0NPUA&ntb=1"
+        },
+        {
+          "text": "Tools",
+          "url": "javascript:void(0)"
+        },
+        {
+          "text": "Date",
+          "url": "javascript:"
+        },
+        {
+          "text": "watertankcalculator.com https:// water tankcalculator.com \u203a calculators \u203a weight \u203a water -weight-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=0c3512afe2c15baf464178f437fcef69fa9f16d7b185f57377faef68fb79262dJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93YXRlcnRhbmtjYWxjdWxhdG9yLmNvbS9jYWxjdWxhdG9ycy93ZWlnaHQvd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3I&ntb=1"
+        },
+        {
+          "text": "Water Weight Calculator \u2013 kg, lbs & Tonnes by Volume",
+          "url": "https://www.bing.com/ck/a?!&&p=0c3512afe2c15baf464178f437fcef69fa9f16d7b185f57377faef68fb79262dJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93YXRlcnRhbmtjYWxjdWxhdG9yLmNvbS9jYWxjdWxhdG9ycy93ZWlnaHQvd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3I&ntb=1"
+        },
+        {
+          "text": "calculatorsoup.app https://calculatorsoup.app \u203a water -weight-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=546b4b3bbe6399c5c889ea730a66b6f3ce6d5eb2d5ed7acf45e4b4f573c8c28fJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9jYWxjdWxhdG9yc291cC5hcHAvd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "Water Weight Calculator | Volume to Weight",
+          "url": "https://www.bing.com/ck/a?!&&p=546b4b3bbe6399c5c889ea730a66b6f3ce6d5eb2d5ed7acf45e4b4f573c8c28fJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9jYWxjdWxhdG9yc291cC5hcHAvd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "calculatevolume.org https://www.calculatevolume.org \u203a volume-to-weight-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=ce28e1d870ef48e32b0c952222f1c3b101f7a02370e019f12adfacc687ae3a19JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuY2FsY3VsYXRldm9sdW1lLm9yZy92b2x1bWUtdG8td2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "Volume to Weight Calculator \u2014 Any Material by Density",
+          "url": "https://www.bing.com/ck/a?!&&p=ce28e1d870ef48e32b0c952222f1c3b101f7a02370e019f12adfacc687ae3a19JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuY2FsY3VsYXRldm9sdW1lLm9yZy92b2x1bWUtdG8td2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "calculator.net https:// www.calculator.net \u203a density -",
+          "url": "https://www.bing.com/ck/a?!&&p=6f401144d424166c96d1c705e9e55b7f71e982ef4dd98da07c16252b4d76cc75JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuY2FsY3VsYXRvci5uZXQvZGVuc2l0eS1jYWxjdWxhdG9yLmh0bWw&ntb=1"
+        },
+        {
+          "text": "Density Calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=6f401144d424166c96d1c705e9e55b7f71e982ef4dd98da07c16252b4d76cc75JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuY2FsY3VsYXRvci5uZXQvZGVuc2l0eS1jYWxjdWxhdG9yLmh0bWw&ntb=1"
+        },
+        {
+          "text": "calculator.academy https://calculator.academy \u203a liquid- density -calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=2e6a624908fbf685b99cfbcfc7c59dc3eb8e3b885d99f5a6ff531b3f5835ee47JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9jYWxjdWxhdG9yLmFjYWRlbXkvbGlxdWlkLWRlbnNpdHktY2FsY3VsYXRvci8&ntb=1"
+        },
+        {
+          "text": "Liquid Density Calculator - Mass, Volume, Specific Gravity - Calculator ...",
+          "url": "https://www.bing.com/ck/a?!&&p=2e6a624908fbf685b99cfbcfc7c59dc3eb8e3b885d99f5a6ff531b3f5835ee47JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9jYWxjdWxhdG9yLmFjYWRlbXkvbGlxdWlkLWRlbnNpdHktY2FsY3VsYXRvci8&ntb=1"
+        },
+        {
+          "text": "whycalculator.com https://whycalculator.com \u203a water -mass-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=8c0031c04da0e76e9b08be3be23f77d5d73aaca4ce66260946c5a88f5cf619cdJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93aHljYWxjdWxhdG9yLmNvbS93YXRlci1tYXNzLWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "Water Mass Calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=8c0031c04da0e76e9b08be3be23f77d5d73aaca4ce66260946c5a88f5cf619cdJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93aHljYWxjdWxhdG9yLmNvbS93YXRlci1tYXNzLWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "gymcreek.com https://gymcreek.com \u203a water -weight-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=b3559ebe1e438f683137c75e06254e2944065716e59d8734fa07d5126abd6a5eJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9neW1jcmVlay5jb20vd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "Water Weight Calculator ( Gallons to Pounds ) - GymCreek",
+          "url": "https://www.bing.com/ck/a?!&&p=b3559ebe1e438f683137c75e06254e2944065716e59d8734fa07d5126abd6a5eJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9neW1jcmVlay5jb20vd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3Iv&ntb=1"
+        },
+        {
+          "text": "volume-calculator.com https://www.volume-calculator.com \u203a to-weight",
+          "url": "https://www.bing.com/ck/a?!&&p=1b563867749623b672528e52708eb7dc982a6a069c32b2f070cb45e70407e163JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cudm9sdW1lLWNhbGN1bGF0b3IuY29tL3RvLXdlaWdodC8&ntb=1"
+        },
+        {
+          "text": "Volume to Weight Calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=1b563867749623b672528e52708eb7dc982a6a069c32b2f070cb45e70407e163JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cudm9sdW1lLWNhbGN1bGF0b3IuY29tL3RvLXdlaWdodC8&ntb=1"
+        },
+        {
+          "text": "vivacalculator.com https://www.vivacalculator.com \u203a conversion \u203a water -weight-calculator",
+          "url": "https://www.bing.com/ck/a?!&&p=f7fe1a9d4071bc79702adde527f81e0884f797a7fe9a1cb8392e7d38264cfedcJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cudml2YWNhbGN1bGF0b3IuY29tL2NvbnZlcnNpb24vd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3I&ntb=1"
+        },
+        {
+          "text": "Water Weight Calculator - Convert Volume to Weight by Temperature",
+          "url": "https://www.bing.com/ck/a?!&&p=f7fe1a9d4071bc79702adde527f81e0884f797a7fe9a1cb8392e7d38264cfedcJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cudml2YWNhbGN1bGF0b3IuY29tL2NvbnZlcnNpb24vd2F0ZXItd2VpZ2h0LWNhbGN1bGF0b3I&ntb=1"
+        },
+        {
+          "text": "engineeringtoolbox.com https:// www.engineeringtoolbox.com",
+          "url": "https://www.bing.com/ck/a?!&&p=b5b6405b6f1f65a5a2e3f5e80b559240dd5965c806099f467c96eae6209761dfJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuZW5naW5lZXJpbmd0b29sYm94LmNvbS93YXRlci1kZW5zaXR5LXNwZWNpZmljLXdlaWdodC1kXzU5NS5odG1s&ntb=1"
+        },
+        {
+          "text": "Water Density, Specific Weight and Thermal Expansion Coefficients ...",
+          "url": "https://www.bing.com/ck/a?!&&p=b5b6405b6f1f65a5a2e3f5e80b559240dd5965c806099f467c96eae6209761dfJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly93d3cuZW5naW5lZXJpbmd0b29sYm94LmNvbS93YXRlci1kZW5zaXR5LXNwZWNpZmljLXdlaWdodC1kXzU5NS5odG1s&ntb=1"
+        },
+        {
+          "text": "Some results have been removed",
+          "url": "https://www.bing.com/ck/a?!&&p=87af7ab3e50b757466ecdf4e20c102c1d03ed4f52763dee13db92d099f30edb7JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1"
+        },
+        {
+          "text": "2",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&FPIG=E028F4F691024C408E4409A5EC7EB3A9&first=11&FORM=PERE"
+        },
+        {
+          "text": "3",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&FPIG=E028F4F691024C408E4409A5EC7EB3A9&first=21&FORM=PERE1"
+        },
+        {
+          "text": "Next",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&FPIG=E028F4F691024C408E4409A5EC7EB3A9&first=11&FORM=PORE"
+        },
+        {
+          "text": "Privacy",
+          "url": "https://www.bing.com/ck/a?!&&p=179c880165b4aa6fb9ab964732e2071888fc34d9fbfd395bb6e87fdde3a84f7cJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1"
+        },
+        {
+          "text": "Terms",
+          "url": "https://www.bing.com/ck/a?!&&p=c3cd26c04be62a0c218bb358ca4d4dc92e2a6b21ca3af85366f6b7c7f7cf74e9JmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1"
+        },
+        {
+          "text": "Learn more",
+          "url": "https://www.bing.com/ck/a?!&&p=607ebfe85dcce545577e87faac48f3862a917cf92c8a88dbfc224432b16c294eJmltdHM9MTc5MTc2MzIwMA&ptn=3&ver=2&hsh=4&fclid=3d8268c0-9249-6104-1840-7f30938760e1&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vdG9waWMvaG93LWJpbmctZGVsaXZlcnMtc2VhcmNoLXJlc3VsdHMtZDE4ZmM4MTUtYWMzNy00NzIzLWJjNjctOTIyOWNlM2ViNmEzPw&ntb=1"
+        },
+        {
+          "text": "",
+          "url": "https://www.bing.com/copilotsearch?q=BrotherHobby Avenger 2812 V5 CAD STEP&form=CSBSBX"
+        },
+        {
+          "text": "All",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&FORM=000017&qpvt=BrotherHobby+Avenger+2812+V5+CAD+STEP"
+        },
+        {
+          "text": "Past 24 hours",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&filters=ex1%3a%22ez1%22&FORM=000017"
+        },
+        {
+          "text": "Past week",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&filters=ex1%3a%22ez2%22&FORM=000017"
+        },
+        {
+          "text": "Past month",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&filters=ex1%3a%22ez3%22&FORM=000017"
+        },
+        {
+          "text": "Past year",
+          "url": "https://www.bing.com/search?q=BrotherHobby+Avenger+2812+V5+CAD+STEP&filters=ex1%3a%22ez5_20373_20738%22&FORM=000017"
+        }
+      ]
+    }
+  ],
+  "retained_drawing_provenance": "cfd-corrections-v1/hardware/EVIDENCE.json and f90-spec-assets.json; refreshed actual assets",
+  "cad_found": null,
+  "search_limitations": "Google HTTP200 search interstitials; Bing fallback results retained. Product pages had no CAD links. No login/private CAD/vendor contact attempted."
+}

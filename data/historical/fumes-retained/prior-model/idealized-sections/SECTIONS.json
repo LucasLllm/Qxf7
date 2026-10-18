@@ -1,0 +1,1368 @@
+[
+  {
+    "chord_mm": 162.12779,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.04430207485313079,
+    "LE_local_xz_m": [
+      -0.49874099,
+      -0.01586214
+    ],
+    "TE_local_xz_m": [
+      -0.66086878,
+      -0.0159875
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": -1,
+    "station_m": 0.06,
+    "chord_m": 0.16212779,
+    "file": "idealized-sections/tail_-1_0.060_tail_-1_0.06.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDEER 1 R",
+      "V TAIL 1 R"
+    ],
+    "fit_rms_chord": 0.00045918811509523095,
+    "fit_max_chord": 0.0030020850246466756,
+    "analysis_confidence": 0.9684922774061343,
+    "max_thickness_chord": 0.10188659405876294,
+    "source_assembled_dat": "assembled-sections/tail_-1_0.060.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 151.38349000000005,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.10561122754193675,
+    "LE_local_xz_m": [
+      -0.52163105,
+      -0.015642490000000002
+    ],
+    "TE_local_xz_m": [
+      -0.67301454,
+      -0.01592153
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": -1,
+    "station_m": 0.12,
+    "chord_m": 0.15138349000000006,
+    "file": "idealized-sections/tail_-1_0.120_tail_-1_0.12.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDEER 1 R",
+      "V TAIL 1 R"
+    ],
+    "fit_rms_chord": 0.00048009546289948344,
+    "fit_max_chord": 0.0032482879299156643,
+    "analysis_confidence": 0.9675901792424676,
+    "max_thickness_chord": 0.10205783525413967,
+    "source_assembled_dat": "assembled-sections/tail_-1_0.120.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 140.63882,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.17625959040186484,
+    "LE_local_xz_m": [
+      -0.5445210899999999,
+      -0.015422840000000002
+    ],
+    "TE_local_xz_m": [
+      -0.68515991,
+      -0.01585549
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": -1,
+    "station_m": 0.18,
+    "chord_m": 0.14063882,
+    "file": "idealized-sections/tail_-1_0.180_tail_-1_0.18.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDDER 2 R",
+      "V TAIL 2 R"
+    ],
+    "fit_rms_chord": 0.000505573389707685,
+    "fit_max_chord": 0.003536080840879307,
+    "analysis_confidence": 0.9662540402881771,
+    "max_thickness_chord": 0.10226840209709157,
+    "source_assembled_dat": "assembled-sections/tail_-1_0.180.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 129.89455999999996,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.25862078670014044,
+    "LE_local_xz_m": [
+      -0.56741111,
+      -0.015203200000000002
+    ],
+    "TE_local_xz_m": [
+      -0.69730567,
+      -0.01578952
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": -1,
+    "station_m": 0.24,
+    "chord_m": 0.12989455999999996,
+    "file": "idealized-sections/tail_-1_0.240_tail_-1_0.24.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDDER 2 R",
+      "V TAIL 2 R"
+    ],
+    "fit_rms_chord": 0.0005359908373664566,
+    "fit_max_chord": 0.003831616800732302,
+    "analysis_confidence": 0.9643077444584881,
+    "max_thickness_chord": 0.10249981734784944,
+    "source_assembled_dat": "assembled-sections/tail_-1_0.240.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 107.94363999999996,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": -0.6162380745916257,
+    "LE_local_xz_m": [
+      -0.5973056,
+      -0.0157209
+    ],
+    "TE_local_xz_m": [
+      -0.70524924,
+      -0.01455988
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": -1,
+    "station_m": 0.28,
+    "chord_m": 0.10794363999999997,
+    "file": "idealized-sections/tail_-1_0.280_tail_-1_0.28.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "V TAIL 3 R"
+    ],
+    "fit_rms_chord": 0.0004568181855452194,
+    "fit_max_chord": 0.003988134449856742,
+    "analysis_confidence": 0.9666337251578387,
+    "max_thickness_chord": 0.09274800100280309,
+    "source_assembled_dat": "assembled-sections/tail_-1_0.280.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 162.12779,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.04430207485313079,
+    "LE_local_xz_m": [
+      -0.49874099,
+      -0.01586214
+    ],
+    "TE_local_xz_m": [
+      -0.66086878,
+      -0.0159875
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": 1,
+    "station_m": 0.06,
+    "chord_m": 0.16212779,
+    "file": "idealized-sections/tail_1_0.060_tail_1_0.06.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        -0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDEER 1 L",
+      "V TAIL 1 L"
+    ],
+    "fit_rms_chord": 0.0004591318460709783,
+    "fit_max_chord": 0.0030027531470469796,
+    "analysis_confidence": 0.9684898699549399,
+    "max_thickness_chord": 0.10187746476963949,
+    "source_assembled_dat": "assembled-sections/tail_1_0.060.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 151.38349000000005,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.10561122754193675,
+    "LE_local_xz_m": [
+      -0.52163105,
+      -0.015642490000000002
+    ],
+    "TE_local_xz_m": [
+      -0.67301454,
+      -0.01592153
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": 1,
+    "station_m": 0.12,
+    "chord_m": 0.15138349000000006,
+    "file": "idealized-sections/tail_1_0.120_tail_1_0.12.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        -0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDEER 1 L",
+      "V TAIL 1 L"
+    ],
+    "fit_rms_chord": 0.0004800567689786372,
+    "fit_max_chord": 0.0032491260452713446,
+    "analysis_confidence": 0.9675864068705134,
+    "max_thickness_chord": 0.10205171687397033,
+    "source_assembled_dat": "assembled-sections/tail_1_0.120.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 140.63880999999992,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.1762596029345704,
+    "LE_local_xz_m": [
+      -0.5445211000000001,
+      -0.015422840000000002
+    ],
+    "TE_local_xz_m": [
+      -0.68515991,
+      -0.01585549
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": 1,
+    "station_m": 0.18,
+    "chord_m": 0.14063880999999992,
+    "file": "idealized-sections/tail_1_0.180_tail_1_0.18.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        -0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDDER 2 L",
+      "V TAIL 2 L"
+    ],
+    "fit_rms_chord": 0.0005047250243549585,
+    "fit_max_chord": 0.0035333551755379867,
+    "analysis_confidence": 0.966232882829666,
+    "max_thickness_chord": 0.10225875088828218,
+    "source_assembled_dat": "assembled-sections/tail_1_0.180.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 129.89455999999996,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.25862078670014044,
+    "LE_local_xz_m": [
+      -0.56741111,
+      -0.015203200000000002
+    ],
+    "TE_local_xz_m": [
+      -0.69730567,
+      -0.01578952
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": 1,
+    "station_m": 0.24,
+    "chord_m": 0.12989455999999996,
+    "file": "idealized-sections/tail_1_0.240_tail_1_0.24.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        -0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "RUDDER 2 L",
+      "V TAIL 2 L"
+    ],
+    "fit_rms_chord": 0.0005364564816559173,
+    "fit_max_chord": 0.003829083668702454,
+    "analysis_confidence": 0.9643384160664954,
+    "max_thickness_chord": 0.10249082647074044,
+    "source_assembled_dat": "assembled-sections/tail_1_0.240.dat",
+    "idealization_masks_chord": [
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 107.94362000000001,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": -0.6162328814388629,
+    "LE_local_xz_m": [
+      -0.59730562,
+      -0.01572089
+    ],
+    "TE_local_xz_m": [
+      -0.70524924,
+      -0.01455988
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "tail",
+    "side": 1,
+    "station_m": 0.28,
+    "chord_m": 0.10794362,
+    "file": "idealized-sections/tail_1_0.280_tail_1_0.28.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8180805781194154,
+        0.5751036147545964
+      ],
+      [
+        0.0,
+        -0.5751036147545964,
+        0.8180805781194154
+      ]
+    ],
+    "parts": [
+      "V TAIL 3 L"
+    ],
+    "fit_rms_chord": 0.00045684017125482783,
+    "fit_max_chord": 0.003987941106132303,
+    "analysis_confidence": 0.9666333451185013,
+    "max_thickness_chord": 0.09274785914257469,
+    "source_assembled_dat": "assembled-sections/tail_1_0.280.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 159.88645000000002,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 0.4692634333568375,
+    "LE_local_xz_m": [
+      -0.04267385,
+      0.00435776
+    ],
+    "TE_local_xz_m": [
+      -0.20256030000000003,
+      0.0030482300000000003
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.76,
+    "chord_m": 0.15988645,
+    "file": "idealized-sections/wing_-1_0.760_wing_-1_0.76.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WINGTIP 3 R"
+    ],
+    "fit_rms_chord": 0.00041326814399377676,
+    "fit_max_chord": 0.003293856359656738,
+    "analysis_confidence": 0.9764688001598304,
+    "max_thickness_chord": 0.08835588915490691,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.760.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 169.5063,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.5675232096208387,
+    "LE_local_xz_m": [
+      -0.034568060000000005,
+      -0.00010678
+    ],
+    "TE_local_xz_m": [
+      -0.20407436,
+      -0.00178582
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.7000000000000001,
+    "chord_m": 0.1695063,
+    "file": "idealized-sections/wing_-1_0.700_wing_-1_0.7000000000000001.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 3 R",
+      "AILERON 2 R"
+    ],
+    "fit_rms_chord": 0.00036452720935127824,
+    "fit_max_chord": 0.0027230426160965203,
+    "analysis_confidence": 0.980628332218798,
+    "max_thickness_chord": 0.09809548058474149,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.700.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 178.14856999999998,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.9175522666351537,
+    "LE_local_xz_m": [
+      -0.02962996,
+      -8.452e-05
+    ],
+    "TE_local_xz_m": [
+      -0.20777853,
+      -0.00293769
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.6,
+    "chord_m": 0.17814856999999998,
+    "file": "idealized-sections/wing_-1_0.600_wing_-1_0.6.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 3 R",
+      "AILERON 2 R"
+    ],
+    "fit_rms_chord": 0.0003383142950933705,
+    "fit_max_chord": 0.002328814854768738,
+    "analysis_confidence": 0.9812394392122723,
+    "max_thickness_chord": 0.09793727347360295,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.600.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 186.78991000000002,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 1.2334498933467222,
+    "LE_local_xz_m": [
+      -0.02469203,
+      -7.811e-05
+    ],
+    "TE_local_xz_m": [
+      -0.21148194,
+      -0.0040999
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.5,
+    "chord_m": 0.18678991000000003,
+    "file": "idealized-sections/wing_-1_0.500_wing_-1_0.5.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 2 R",
+      "AIILERON 1 R"
+    ],
+    "fit_rms_chord": 0.0004149799720100961,
+    "fit_max_chord": 0.0017787895692533112,
+    "analysis_confidence": 0.9798433630874408,
+    "max_thickness_chord": 0.09656112144793223,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.500.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ],
+      [
+        0.245,
+        0.55
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 195.43222,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.6971256393864902,
+    "LE_local_xz_m": [
+      -0.01975297,
+      -6.730999999999999e-05
+    ],
+    "TE_local_xz_m": [
+      -0.21518519,
+      -0.00585779
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.4,
+    "chord_m": 0.19543222,
+    "file": "idealized-sections/wing_-1_0.400_wing_-1_0.4.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 2 R"
+    ],
+    "fit_rms_chord": 0.000374016076641476,
+    "fit_max_chord": 0.0026619378534568625,
+    "analysis_confidence": 0.983607081939453,
+    "max_thickness_chord": 0.09778372333932603,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.400.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 205.79321,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.9345782056517111,
+    "LE_local_xz_m": [
+      -0.01383642,
+      -0.00018384
+    ],
+    "TE_local_xz_m": [
+      -0.21962963,
+      -0.0071350400000000005
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.28,
+    "chord_m": 0.20579320999999998,
+    "file": "idealized-sections/wing_-1_0.280_wing_-1_0.28.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.2 R VTOL"
+    ],
+    "fit_rms_chord": 0.0002561164221333095,
+    "fit_max_chord": 0.0005154570264754405,
+    "analysis_confidence": 0.9832349235924426,
+    "max_thickness_chord": 0.09765353043520067,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.280.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 212.70557,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.8876359905383937,
+    "LE_local_xz_m": [
+      -0.00988702,
+      2.369e-05
+    ],
+    "TE_local_xz_m": [
+      -0.22259259,
+      -0.00698653
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.2,
+    "chord_m": 0.21270556999999998,
+    "file": "idealized-sections/wing_-1_0.200_wing_-1_0.2.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.1 R VTOL"
+    ],
+    "fit_rms_chord": 0.0002595654992526283,
+    "fit_max_chord": 0.0005230764297870356,
+    "analysis_confidence": 0.9832299042606849,
+    "max_thickness_chord": 0.09759475580792425,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.200.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 221.34855,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 2.029722607243781,
+    "LE_local_xz_m": [
+      -0.00494775,
+      -0.00020626
+    ],
+    "TE_local_xz_m": [
+      -0.2262963,
+      -0.008050890000000002
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": -1,
+    "station_m": -0.1,
+    "chord_m": 0.22134854999999998,
+    "file": "idealized-sections/wing_-1_0.100_wing_-1_0.1.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.1 R VTOL"
+    ],
+    "fit_rms_chord": 0.0002575144997861763,
+    "fit_max_chord": 0.0005166729885671711,
+    "analysis_confidence": 0.9832013066455698,
+    "max_thickness_chord": 0.09751448570106114,
+    "source_assembled_dat": "assembled-sections/wing_-1_0.100.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 221.34855,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 2.029722607243781,
+    "LE_local_xz_m": [
+      -0.00494775,
+      -0.00020626
+    ],
+    "TE_local_xz_m": [
+      -0.2262963,
+      -0.008050890000000002
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.1,
+    "chord_m": 0.22134854999999998,
+    "file": "idealized-sections/wing_1_0.100_wing_1_0.1.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.1 L VTOL"
+    ],
+    "fit_rms_chord": 0.0002575144997861763,
+    "fit_max_chord": 0.0005166729885671711,
+    "analysis_confidence": 0.9832013066455698,
+    "max_thickness_chord": 0.09751448570106114,
+    "source_assembled_dat": "assembled-sections/wing_1_0.100.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 212.70557,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.8876359905383937,
+    "LE_local_xz_m": [
+      -0.00988702,
+      2.369e-05
+    ],
+    "TE_local_xz_m": [
+      -0.22259259,
+      -0.00698653
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.2,
+    "chord_m": 0.21270556999999998,
+    "file": "idealized-sections/wing_1_0.200_wing_1_0.2.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.1 L VTOL"
+    ],
+    "fit_rms_chord": 0.0002595654992526283,
+    "fit_max_chord": 0.0005230764297870356,
+    "analysis_confidence": 0.9832299042606849,
+    "max_thickness_chord": 0.09759475580792425,
+    "source_assembled_dat": "assembled-sections/wing_1_0.200.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 205.79321,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.9345782056517111,
+    "LE_local_xz_m": [
+      -0.01383642,
+      -0.00018384
+    ],
+    "TE_local_xz_m": [
+      -0.21962963,
+      -0.0071350400000000005
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.28,
+    "chord_m": 0.20579320999999998,
+    "file": "idealized-sections/wing_1_0.280_wing_1_0.28.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 1.2 L VTOL"
+    ],
+    "fit_rms_chord": 0.0002561164221333095,
+    "fit_max_chord": 0.0005154570264754405,
+    "analysis_confidence": 0.9832349235924426,
+    "max_thickness_chord": 0.09765353043520067,
+    "source_assembled_dat": "assembled-sections/wing_1_0.280.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 195.43222,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 1.6971256393864902,
+    "LE_local_xz_m": [
+      -0.01975297,
+      -6.730999999999999e-05
+    ],
+    "TE_local_xz_m": [
+      -0.21518519,
+      -0.00585779
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.4,
+    "chord_m": 0.19543222,
+    "file": "idealized-sections/wing_1_0.400_wing_1_0.4.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 2 L"
+    ],
+    "fit_rms_chord": 0.0003379178525670613,
+    "fit_max_chord": 0.0021500838670439736,
+    "analysis_confidence": 0.9836982744447419,
+    "max_thickness_chord": 0.09776343680752053,
+    "source_assembled_dat": "assembled-sections/wing_1_0.400.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 186.78991000000002,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 1.2334498933467222,
+    "LE_local_xz_m": [
+      -0.02469203,
+      -7.811e-05
+    ],
+    "TE_local_xz_m": [
+      -0.21148194,
+      -0.0040999
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.5,
+    "chord_m": 0.18678991000000003,
+    "file": "idealized-sections/wing_1_0.500_wing_1_0.5.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 2 L",
+      "AIILERON 1 L"
+    ],
+    "fit_rms_chord": 0.0004148321576216149,
+    "fit_max_chord": 0.0017699816345771782,
+    "analysis_confidence": 0.9798306894651222,
+    "max_thickness_chord": 0.09651938983946291,
+    "source_assembled_dat": "assembled-sections/wing_1_0.500.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ],
+      [
+        0.245,
+        0.55
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 178.14856999999998,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.9175522666351537,
+    "LE_local_xz_m": [
+      -0.02962996,
+      -8.452e-05
+    ],
+    "TE_local_xz_m": [
+      -0.20777853,
+      -0.00293769
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.6,
+    "chord_m": 0.17814856999999998,
+    "file": "idealized-sections/wing_1_0.600_wing_1_0.6.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 3 L",
+      "AILERON 2 L"
+    ],
+    "fit_rms_chord": 0.00033847216533120715,
+    "fit_max_chord": 0.0023293663800200604,
+    "analysis_confidence": 0.9812470706407296,
+    "max_thickness_chord": 0.0979797158791483,
+    "source_assembled_dat": "assembled-sections/wing_1_0.600.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 169.5063,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": true,
+    "source_parts": 2,
+    "incidence_deg": 0.5675232096208387,
+    "LE_local_xz_m": [
+      -0.034568060000000005,
+      -0.00010678
+    ],
+    "TE_local_xz_m": [
+      -0.20407436,
+      -0.00178582
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.7000000000000001,
+    "chord_m": 0.1695063,
+    "file": "idealized-sections/wing_1_0.700_wing_1_0.7000000000000001.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WING 3 L",
+      "AILERON 2 L"
+    ],
+    "fit_rms_chord": 0.00036628325959428174,
+    "fit_max_chord": 0.0027169306440440184,
+    "analysis_confidence": 0.9806243511541268,
+    "max_thickness_chord": 0.09806886532825554,
+    "source_assembled_dat": "assembled-sections/wing_1_0.700.dat",
+    "idealization_masks_chord": [
+      [
+        0.65,
+        0.79
+      ]
+    ],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  },
+  {
+    "chord_mm": 159.88646,
+    "missing_x_fraction": 0.0,
+    "maximum_gap_fraction": 0.0,
+    "hinge_sealing_approximation": false,
+    "source_parts": 1,
+    "incidence_deg": 0.46925982071954997,
+    "LE_local_xz_m": [
+      -0.04267384,
+      0.0043577500000000005
+    ],
+    "TE_local_xz_m": [
+      -0.20256030000000003,
+      0.0030482300000000003
+    ],
+    "method": "original-coordinate outer upper/lower envelope; short hinge gaps linearly sealed; no internal ribs exported",
+    "family": "wing",
+    "side": 1,
+    "station_m": 0.76,
+    "chord_m": 0.15988646,
+    "file": "idealized-sections/wing_1_0.760_wing_1_0.76.dat",
+    "section_frame_rows": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "parts": [
+      "WINGTIP 3 L"
+    ],
+    "fit_rms_chord": 0.0004136079877331672,
+    "fit_max_chord": 0.003292308123398592,
+    "analysis_confidence": 0.9764628138216308,
+    "max_thickness_chord": 0.0883573918395732,
+    "source_assembled_dat": "assembled-sections/wing_1_0.760.dat",
+    "idealization_masks_chord": [],
+    "idealization": "linearly bridge observed servo-pocket/hinge interruptions; no underlying CAD modification; NOT as-built drag"
+  }
+]

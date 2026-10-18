@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "seller_4S4P",
+    "speed": 54,
+    "label": "remove_gear_mount_proxy_only",
+    "power_w": 117.43033569146876,
+    "range_km": 113.06107507759215,
+    "drag_n": 3.6224778004320295,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S4P",
+    "speed": 54,
+    "label": "lifting_surfaces_only",
+    "power_w": 86.12285129202539,
+    "range_km": 154.16117558603608,
+    "drag_n": 2.350104759450088,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S4P",
+    "speed": 60,
+    "label": "remove_gear_mount_proxy_only",
+    "power_w": 127.41724061190335,
+    "range_km": 115.77711092435841,
+    "drag_n": 3.6542688518558646,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S4P",
+    "speed": 60,
+    "label": "lifting_surfaces_only",
+    "power_w": 85.89569366689568,
+    "range_km": 171.7431849052689,
+    "drag_n": 2.0866029076225914,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S3P",
+    "speed": 54,
+    "label": "remove_gear_mount_proxy_only",
+    "power_w": 110.74726151103972,
+    "range_km": 88.28751037808127,
+    "drag_n": 3.376832757496378,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S3P",
+    "speed": 54,
+    "label": "lifting_surfaces_only",
+    "power_w": 80.25571473997097,
+    "range_km": 121.83057657239097,
+    "drag_n": 2.104459716514437,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S3P",
+    "speed": 60,
+    "label": "remove_gear_mount_proxy_only",
+    "power_w": 121.89616156287745,
+    "range_km": 89.12503774285007,
+    "drag_n": 3.454458142978807,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  },
+  {
+    "scenario": "seller_4S3P",
+    "speed": 60,
+    "label": "lifting_surfaces_only",
+    "power_w": 81.0488929504071,
+    "range_km": 134.04254647435542,
+    "drag_n": 1.8867921987455336,
+    "interpretation": "omission diagnostic, NOT an aircraft result or credible lower confidence bound"
+  }
+]

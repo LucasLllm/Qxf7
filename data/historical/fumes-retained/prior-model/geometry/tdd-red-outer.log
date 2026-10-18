@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_outer_excludes_nested_internal_contours (__main__.ContourTests.test_outer_excludes_nested_internal_contours)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/geometry/test_extract.py", line 11, in test_outer_excludes_nested_internal_contours
+    self.assertTrue((OUT/'extract.py').exists(), 'missing outer-contour implementation')
+AssertionError: False is not true : missing outer-contour implementation
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
