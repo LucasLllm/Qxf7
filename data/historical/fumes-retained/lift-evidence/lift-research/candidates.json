@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "retrieval_date_utc": "2026-10-09T17:29:48.467004+00:00",
+  "scope": "F90 exact1300KV plus3 alternatives only; fixed4+1 lift research",
+  "qualification": "no_candidate_is_installed_or_flight_qualified",
+  "global_limitations": [
+    "No installed ESC/wiring/battery compatibility, mount fit, rotor clearance, thrust reserve or coupled AUW closure established.",
+    "No -20 C qualification, minimum ambient operating temperature, winding-temperature ceiling or installed continuous-duty derating found.",
+    "Surface-temperature bench observations are not allowable thermal limits; unknown test airflow/density/instrument uncertainty remain.",
+    "Exact winding identity on manufacturer page is verified; formal engineering revision and serial/lot applicability are not specified.",
+    "Four identical lift drives required; cruise propulsor is separate and not sized here."
+  ],
+  "candidates": [
+    {
+      "id": "baseline-F90-1300KV",
+      "role": "baseline_closure",
+      "manufacturer": "T-MOTORHOBBY",
+      "model": "F90 2806.5",
+      "kv": 1300,
+      "revision": "page goods-1057; specification assets under 20211129; no formal revision stated",
+      "primary": {
+        "requested_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+        "final_url": "https://www.tmotorhobby.com/goods-1057-T-MOTORHOBBY+F90+28065+Long+Range+Motor+-+1300KV1500KV1950KV.html",
+        "sha256": "462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8",
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8.bin",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-09T17:25:33.968621+00:00"
+      },
+      "geometry": {
+        "diameter_mm": 33.4,
+        "overall_axial_mm": 34.7,
+        "shaft_mm": 4,
+        "mount": "4-M3, diameter19 pattern",
+        "prop_thread": "M5",
+        "drawing": {
+          "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+          "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063356533.jpg",
+          "sha256": "b9424e07933ec3a7177e640343fa63c177425b58cf7118eb52a51e047be5ce84",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b9424e07933ec3a7177e640343fa63c177425b58cf7118eb52a51e047be5ce84.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:27:15.923696+00:00"
+        }
+      },
+      "specifications": {
+        "mass_including_cable_g": 46.6,
+        "lead": "20AWG 230mm",
+        "resistance_mOhm": 76,
+        "configuration": "12N14P",
+        "rated_LiPo_S": "5-6",
+        "idle_A_at_10V": 0.95,
+        "label_peak_current_A": 45.1,
+        "label_peak_duration_s": 60,
+        "label_max_power_W": 1059,
+        "label_power_duration_s": 60,
+        "continuous_current_A": null,
+        "allowable_motor_temperature_C": null,
+        "evidence": {
+          "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063182693.jpg",
+          "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063182693.jpg",
+          "sha256": "a2252865996ba58762b4f9b2f82e1f17273b5d07ab8e20d9096559751ab6f01f",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/a2252865996ba58762b4f9b2f82e1f17273b5d07ab8e20d9096559751ab6f01f.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:27:15.923947+00:00"
+        }
+      },
+      "bench_drives": [
+        {
+          "prop_label_verbatim": "HQ 70403",
+          "rows": [
+            {
+              "throttle_percent": 30,
+              "thrust_g": 353.46,
+              "voltage_V": 24.24,
+              "current_A": 2.14,
+              "rpm": 8192,
+              "power_W": 51.97
+            },
+            {
+              "throttle_percent": 50,
+              "thrust_g": 947.57,
+              "voltage_V": 24.1,
+              "current_A": 8.83,
+              "rpm": 12801,
+              "power_W": 212.9
+            },
+            {
+              "throttle_percent": 70,
+              "thrust_g": 1585.74,
+              "voltage_V": 23.9,
+              "current_A": 20.64,
+              "rpm": 16402,
+              "power_W": 493.17
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 2360.61,
+              "voltage_V": 23.48,
+              "current_A": 45.11,
+              "rpm": 19617,
+              "power_W": 1059.16
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 96,
+          "ambient_C": 27,
+          "temperature_run_seconds": 60,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063814426.jpg",
+            "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063814426.jpg",
+            "sha256": "7d290a44d4397a54d1ac00341225164ce43c95b7cd3d772ae29ae9b104646fe1",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7d290a44d4397a54d1ac00341225164ce43c95b7cd3d772ae29ae9b104646fe1.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:27:15.924058+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        },
+        {
+          "prop_label_verbatim": "GF 7042",
+          "rows": [
+            {
+              "throttle_percent": 30,
+              "thrust_g": 319.66,
+              "voltage_V": 24.24,
+              "current_A": 1.78,
+              "rpm": 8506,
+              "power_W": 43.23
+            },
+            {
+              "throttle_percent": 50,
+              "thrust_g": 836.04,
+              "voltage_V": 24.14,
+              "current_A": 7.22,
+              "rpm": 13240,
+              "power_W": 174.32
+            },
+            {
+              "throttle_percent": 70,
+              "thrust_g": 1474.19,
+              "voltage_V": 23.95,
+              "current_A": 18.25,
+              "rpm": 17166,
+              "power_W": 437.12
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 2116.55,
+              "voltage_V": 23.54,
+              "current_A": 41.26,
+              "rpm": 21357,
+              "power_W": 971.16
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 93,
+          "ambient_C": 27,
+          "temperature_run_seconds": 60,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "https://www.tmotorhobby.com/images/20211129/1638150063814426.jpg",
+            "final_url": "https://www.tmotorhobby.com/images/20211129/1638150063814426.jpg",
+            "sha256": "7d290a44d4397a54d1ac00341225164ce43c95b7cd3d772ae29ae9b104646fe1",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7d290a44d4397a54d1ac00341225164ce43c95b7cd3d772ae29ae9b104646fe1.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:27:15.924058+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        }
+      ],
+      "closure": {
+        "exact_winding_datasheet": "located_primary",
+        "dimensioned_drawing": "located_primary",
+        "stock_7x3_7_matched_data": "not_located_in_inspected_primary_assets",
+        "4S_compatibility": "unclosed_conflict_with_context_base_manual_4S; manufacturer_5-6S",
+        "old_53_6A_1302W": "belongs_to_KV1950_in_same_manufacturer_spec_not_KV1300"
+      },
+      "limitations": [
+        "HQ70403 and GF7042 are not the stock 7x3.7 propeller; no substitution or interpolation accepted.",
+        "No exact 4S bench table or continuous-duty ceiling located."
+      ]
+    },
+    {
+      "id": "alternative-F100-1100KV",
+      "role": "alternative_1",
+      "manufacturer": "T-MOTORHOBBY",
+      "model": "F100 2810",
+      "kv": 1100,
+      "revision": "goods-1150; 20210803 assets; formal revision not stated",
+      "branch": "7-8inch_near_stock_analysis_not_approved_change",
+      "primary": {
+        "requested_url": "https://www.tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html",
+        "final_url": "https://www.tmotorhobby.com/goods-1150-T-MOTORHOBBY+F100+2810+Long+Range+Cinematic+Brushless+Motor+-+1100KV1350KV.html",
+        "sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9.bin",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-09T17:25:33.968951+00:00"
+      },
+      "geometry": {
+        "diameter_mm": 33.4,
+        "overall_axial_mm": 38.05,
+        "shaft_mm": 4,
+        "mount": "4-M3, diameter19 pattern",
+        "prop_thread": "M5",
+        "drawing": {
+          "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988852886.jpg",
+          "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952988852886.jpg",
+          "sha256": "da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:26:10.607518+00:00"
+        }
+      },
+      "specifications": {
+        "mass_including_cable_g": 67,
+        "mass_excluding_cable_g": 58,
+        "lead": "18# 250mm",
+        "resistance_mOhm": 61,
+        "rated_LiPo_S": "6",
+        "label_peak_current_A": 45.59,
+        "label_peak_duration_s": 60,
+        "label_max_power_W": 1176,
+        "label_power_duration_s": 60,
+        "continuous_current_A": null,
+        "allowable_motor_temperature_C": null,
+        "evidence": {
+          "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988852886.jpg",
+          "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952988852886.jpg",
+          "sha256": "da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:26:10.607518+00:00"
+        }
+      },
+      "bench_drives": [
+        {
+          "prop_label_verbatim": "GF7040-3",
+          "rows": [
+            {
+              "throttle_percent": 30,
+              "thrust_g": 401.76,
+              "voltage_V": 25.16,
+              "current_A": 2.45,
+              "rpm": 9515,
+              "power_W": 61.66
+            },
+            {
+              "throttle_percent": 50,
+              "thrust_g": 714.03,
+              "voltage_V": 25.09,
+              "current_A": 5.95,
+              "rpm": 12541,
+              "power_W": 149.2
+            },
+            {
+              "throttle_percent": 70,
+              "thrust_g": 1104.05,
+              "voltage_V": 24.98,
+              "current_A": 11.35,
+              "rpm": 15622,
+              "power_W": 283.44
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 2033.89,
+              "voltage_V": 24.59,
+              "current_A": 28.47,
+              "rpm": 20433,
+              "power_W": 699.92
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 89,
+          "ambient_C": 26,
+          "temperature_run_seconds": 60,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988339748.jpg",
+            "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952988339748.jpg",
+            "sha256": "465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:26:11.575904+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        },
+        {
+          "prop_label_verbatim": "HQ8045-3",
+          "rows": [
+            {
+              "throttle_percent": 30,
+              "thrust_g": 517.08,
+              "voltage_V": 25.09,
+              "current_A": 3.05,
+              "rpm": 6880,
+              "power_W": 76.42
+            },
+            {
+              "throttle_percent": 50,
+              "thrust_g": 1093.76,
+              "voltage_V": 24.89,
+              "current_A": 10.65,
+              "rpm": 9944,
+              "power_W": 265.19
+            },
+            {
+              "throttle_percent": 70,
+              "thrust_g": 1786.01,
+              "voltage_V": 24.62,
+              "current_A": 22.42,
+              "rpm": 12737,
+              "power_W": 551.82
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 2597.38,
+              "voltage_V": 24.22,
+              "current_A": 48.59,
+              "rpm": 15087,
+              "power_W": 1176.78
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 98,
+          "ambient_C": 26,
+          "temperature_run_seconds": 60,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989147203.jpg",
+            "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952989147203.jpg",
+            "sha256": "3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:26:11.715278+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        }
+      ],
+      "continuation_evidence": {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989147203.jpg",
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952989147203.jpg",
+        "sha256": "3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2",
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.bin",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-09T17:26:11.715278+00:00"
+      },
+      "limitations": [
+        "GF7040-3 100% row is in continuation asset, not first table image.",
+        "Manufacturer peak-current label 45.59A conflicts with 48.59A HQ8045-3 100% table row; do not resolve by assuming either is safe.",
+        "Marketing 2467g maximum does not match this winding/table 2597.38g; retain table conditions, not marketing headline.",
+        "6S rated; no stock4S or stock7x3.7 matched evidence."
+      ]
+    },
+    {
+      "id": "alternative-MN3110-780KV",
+      "role": "alternative_2",
+      "manufacturer": "T-MOTOR",
+      "model": "MN3110 Navigator",
+      "kv": 780,
+      "revision": "current product page; drawing filename MN3110-draw-0603-v1 under202606, formal product revision unspecified",
+      "branch": "9-10inch_packaging_modification_analysis_not_approved_change",
+      "primary": {
+        "requested_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+        "final_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+        "sha256": "7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3",
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3.bin",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-09T17:25:13.698849+00:00"
+      },
+      "geometry": {
+        "diameter_mm": 37.7,
+        "body_dimension_spec_mm": 28.5,
+        "drawing_overall_axial_mm": 37.1,
+        "shaft_mm": 4,
+        "mount": "6-M3, alternative 16/19 and25 stations shown; exact selected interface must be checked",
+        "prop_interface": "top4-M3 on diameter12; accessory M6 adapters shown",
+        "drawing": {
+          "requested_url": "https://store.tmotor.com/images/202606/MN3110-draw-0603-v1.jpg",
+          "final_url": "https://store.tmotor.com/images/202606/MN3110-draw-0603-v1.jpg",
+          "sha256": "595f5aa3b46d068f4920034f046d67a4d1fb9259f1176f37c377145e4d1401fc",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/595f5aa3b46d068f4920034f046d67a4d1fb9259f1176f37c377145e4d1401fc.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:26:32.751747+00:00"
+        }
+      },
+      "specifications": {
+        "mass_excluding_cable_g": 80,
+        "mass_including_cable_g": 100,
+        "lead": "18# 600mm",
+        "resistance_mOhm": 71,
+        "rated_LiPo_S": "3-6",
+        "label_verbatim": "Max Continuous Current 180S",
+        "label_current_A": 26,
+        "label_duration_s": 180,
+        "label_max_power_W": 481,
+        "label_power_duration_s": 180,
+        "unrestricted_continuous_current_A": null,
+        "allowable_motor_temperature_C": null
+      },
+      "bench_drives": [
+        {
+          "prop_label_verbatim": "T-MOTO 9*3CF",
+          "rows": [
+            {
+              "throttle_percent": 50,
+              "thrust_g": 300,
+              "voltage_V": 14.8,
+              "current_A": 2.7,
+              "rpm": 6800,
+              "power_W": 39.96
+            },
+            {
+              "throttle_percent": 65,
+              "thrust_g": 380,
+              "voltage_V": 14.8,
+              "current_A": 3.6,
+              "rpm": 7500,
+              "power_W": 53.28
+            },
+            {
+              "throttle_percent": 75,
+              "thrust_g": 460,
+              "voltage_V": 14.8,
+              "current_A": 4.8,
+              "rpm": 8500,
+              "power_W": 71.04
+            },
+            {
+              "throttle_percent": 85,
+              "thrust_g": 590,
+              "voltage_V": 14.8,
+              "current_A": 6.6,
+              "rpm": 9200,
+              "power_W": 97.68
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 680,
+              "voltage_V": 14.8,
+              "current_A": 8,
+              "rpm": 10000,
+              "power_W": 118.4
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 41,
+          "ambient_C": null,
+          "temperature_run_seconds": 600,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+            "final_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+            "sha256": "7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:25:13.698849+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        },
+        {
+          "prop_label_verbatim": "T-MOTOR 10*3.3CF",
+          "rows": [
+            {
+              "throttle_percent": 50,
+              "thrust_g": 360,
+              "voltage_V": 14.8,
+              "current_A": 3.1,
+              "rpm": 6000,
+              "power_W": 45.88
+            },
+            {
+              "throttle_percent": 65,
+              "thrust_g": 530,
+              "voltage_V": 14.8,
+              "current_A": 4.8,
+              "rpm": 7000,
+              "power_W": 71.04
+            },
+            {
+              "throttle_percent": 75,
+              "thrust_g": 660,
+              "voltage_V": 14.8,
+              "current_A": 6.8,
+              "rpm": 8000,
+              "power_W": 100.64
+            },
+            {
+              "throttle_percent": 85,
+              "thrust_g": 850,
+              "voltage_V": 14.8,
+              "current_A": 9.2,
+              "rpm": 8800,
+              "power_W": 136.16
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 980,
+              "voltage_V": 14.8,
+              "current_A": 11,
+              "rpm": 9500,
+              "power_W": 162.8
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 42,
+          "ambient_C": null,
+          "temperature_run_seconds": 600,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+            "final_url": "https://store.tmotor.com/product/mn3110-motor-navigator-type.html",
+            "sha256": "7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:25:13.698849+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        }
+      ],
+      "limitations": [
+        "Published3-6S rating does not supply780KV 6S prop data; inspected780 table9/10inch is14.8V only.",
+        "600s surface-temperature bench run is a specific low-current configuration;180S current label is not indefinite continuous qualification.",
+        "28.5mm specification and37.1mm drawing use different/unclear axial boundaries; do not substitute one for full installed envelope.",
+        "11-15inch combinations elsewhere on page are larger-rotor analytical branches only and are not selected or approved.",
+        "Marketing recommended15x5 is not the near-stock9/10inch candidate drive."
+      ]
+    },
+    {
+      "id": "alternative-F80-PRO-1900KV",
+      "role": "alternative_3_screened_out_of_near_stock_admission",
+      "manufacturer": "T-MOTORHOBBY",
+      "model": "F80 PRO 2408 (not F80 PRO V)",
+      "kv": 1900,
+      "revision": "goods-748; specification20181011 and marketing20190228 assets; revision equivalence unclosed",
+      "branch": "screening_only_no_matching7-10inch_drive_evidence",
+      "primary": {
+        "requested_url": "https://www.tmotorhobby.com/goods-748-T-MOTORHOBBY+F80+PRO+2408+-+1900KV2200KV2500KV+Brushless+Motor.html",
+        "final_url": "https://www.tmotorhobby.com/goods-748-T-MOTORHOBBY+F80+PRO+2408+-+1900KV2200KV2500KV+Brushless+Motor.html",
+        "sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244.bin",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-09T17:25:33.969084+00:00"
+      },
+      "geometry": {
+        "diameter_mm": 29,
+        "spec_overall_axial_mm": 33.6,
+        "drawing_overall_axial_mm": 33.1,
+        "shaft_mm": 4,
+        "mount": "4-M3 diameter16 pattern",
+        "drawing": {
+          "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+          "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+          "sha256": "39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:26:17.610625+00:00"
+        }
+      },
+      "specifications": {
+        "mass_including_cable_g": 39.7,
+        "marketing_mass_g": 36.4,
+        "resistance_mOhm": 42,
+        "lead": "20AWG150mm",
+        "rated_LiPo_S": "3-6",
+        "label_peak_current_A": 49.2,
+        "label_peak_duration_s": 180,
+        "label_max_power_W": 1122,
+        "continuous_current_A": null,
+        "allowable_motor_temperature_C": null,
+        "evidence": {
+          "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+          "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+          "sha256": "263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758",
+          "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758.bin",
+          "http_status": 200,
+          "retrieved_at_utc": "2026-10-09T17:26:18.131108+00:00"
+        }
+      },
+      "bench_drives": [
+        {
+          "prop_label_verbatim": "5055 Tri-Blade",
+          "rows": [
+            {
+              "throttle_percent": 50,
+              "thrust_g": 790.04,
+              "voltage_V": 23.89,
+              "current_A": 11.11,
+              "rpm": 19932,
+              "power_W": 265.36
+            },
+            {
+              "throttle_percent": 70,
+              "thrust_g": 1323.01,
+              "voltage_V": 23.63,
+              "current_A": 23.04,
+              "rpm": 25353,
+              "power_W": 544.56
+            },
+            {
+              "throttle_percent": 100,
+              "thrust_g": 2114.78,
+              "voltage_V": 22.83,
+              "current_A": 49.16,
+              "rpm": 31924,
+              "power_W": 1122.32
+            }
+          ],
+          "surface_temperature_C_at_100_percent": 119,
+          "ambient_C": 31,
+          "temperature_run_seconds": 60,
+          "temperature_not_per_row": true,
+          "evidence": {
+            "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+            "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+            "sha256": "feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426",
+            "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426.bin",
+            "http_status": 200,
+            "retrieved_at_utc": "2026-10-09T17:26:18.949716+00:00"
+          },
+          "status": "manufacturer_bench_reference_not_installed_qualification"
+        }
+      ],
+      "thermal_marketing": "240C high-temperature-resistant silver winding in promotional image; not allowable motor operating temperature",
+      "limitations": [
+        "Exact1900KV inspected bench table uses5055 5inch propeller, not7-10inch; cannot transpose thrust/current/RPM to stock7x3.7.",
+        "Dimension33.1drawing versus33.6spec and36.4marketing mass versus39.7spec mass conflict; formal revision applicability missing.",
+        "119C surface at full throttle1min ambient31C is observation, not thermal allowance; 240C winding marketing is not installed duty qualification."
+      ]
+    }
+  ],
+  "coverage": {
+    "search": "Google returned JavaScript redirect shells; Bing query was broad and not exact-product evidence. Manufacturer official store search followed to exact product pages; hobby store alternate resolved F90/F100/F80.",
+    "assets": "Manufacturer linked drawings/specifications/bench tables captured as originals; visual transcriptions selected rows only, full sources preserved.",
+    "protocol": "requests+bs4 in specified research-venv, TLS verification retained; no install/contact/hardware/CAD operations.",
+    "context_sources": "User-provided baseline/manual voltage conflict and stock geometry context not independently reopened in this scoped directory-only task."
+  }
+}

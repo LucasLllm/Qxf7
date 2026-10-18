@@ -1,0 +1,70 @@
+Stork VTOL Performance — 100 km Range, 288 Wh Power System | Flightony
+Skip to main content
+Performance Data
+Real numbers from real flight testing — not marketing estimates.
+0
++
+km
+Autonomous Range
+0
+Wh
+Battery Energy
+0
+km/h
+Cruise Speed
+0
+g
+Max Payload
+<
+0
+kg
+All-Up Weight
+0
+km
+Video Range
+Energy Budget
+Power consumption and energy use across a complete 100 km mission profile.
+Phase
+Power
+Duration
+Energy
+VTOL Takeoff + Climb
+~300 W
+60 sec
+~5 Wh
+Transition to Cruise
+~200 W
+30 sec
+~1.7 Wh
+Cruise (100 km at 54 km/h)
+80–110 W
+111 min
+148–204 Wh
+Transition to VTOL
+~200 W
+30 sec
+~1.7 Wh
+VTOL Descent + Landing
+~300 W
+60 sec
+~5 Wh
+Range Scenarios
+Estimated range under different conditions with the 4S4P 288 Wh battery (259 Wh usable at 10% reserve).
+Scenario
+Wh/km
+Range
+VTOL, best case (low wind, optimized)
+2.0
+~130 km
+VTOL, realistic mid-case
+2.2
+~118 km
+VTOL, conservative (wind, heavier)
+2.5
+~104 km
+Pure fixed-wing, best case
+1.21
+~214 km
+Performance You Can Count On
+Every unit is flight-tested and verified against these benchmarks before delivery.
+Order Now

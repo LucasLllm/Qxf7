@@ -1,0 +1,1084 @@
+[
+  {
+    "parent_sha256": "462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8",
+    "discovered_url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916016913208.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916016913208.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.190444+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20200820/1597916016913208.jpg",
+        "sha256": "92421847fa95da8f084b11f355d5f7b5d105f1caf7067d974f9dc27155be025a",
+        "bytes": 339746,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/92421847fa95da8f084b11f355d5f7b5d105f1caf7067d974f9dc27155be025a.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "339746",
+          "Last-Modified": "Thu, 20 Aug 2020 01:33:36 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5f3dd2f0-52f22\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916016913208.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/92421847fa95da8f084b11f355d5f7b5d105f1caf7067d974f9dc27155be025a.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/92421847fa95da8f084b11f355d5f7b5d105f1caf7067d974f9dc27155be025a.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/92421847fa95da8f084b11f355d5f7b5d105f1caf7067d974f9dc27155be025a.jpg"
+  },
+  {
+    "parent_sha256": "462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916022631927.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916022631927.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.190704+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20200820/1597916022631927.jpg",
+        "sha256": "68dfca50b2d1e747d2cf9a27425370498e794329b9ce662fbc2b6a11303f838e",
+        "bytes": 202345,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/68dfca50b2d1e747d2cf9a27425370498e794329b9ce662fbc2b6a11303f838e.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "202345",
+          "Last-Modified": "Thu, 20 Aug 2020 01:33:42 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5f3dd2f6-31669\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916022631927.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/68dfca50b2d1e747d2cf9a27425370498e794329b9ce662fbc2b6a11303f838e.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/68dfca50b2d1e747d2cf9a27425370498e794329b9ce662fbc2b6a11303f838e.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/68dfca50b2d1e747d2cf9a27425370498e794329b9ce662fbc2b6a11303f838e.jpg"
+  },
+  {
+    "parent_sha256": "462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916027991026.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916027991026.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.190816+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20200820/1597916027991026.jpg",
+        "sha256": "410dd98da9c2e21a2bffd11d0992fcfd334e472cf21a97572fa4469949695f97",
+        "bytes": 233800,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410dd98da9c2e21a2bffd11d0992fcfd334e472cf21a97572fa4469949695f97.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "233800",
+          "Last-Modified": "Thu, 20 Aug 2020 01:33:46 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5f3dd2fa-39148\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916027991026.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410dd98da9c2e21a2bffd11d0992fcfd334e472cf21a97572fa4469949695f97.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410dd98da9c2e21a2bffd11d0992fcfd334e472cf21a97572fa4469949695f97.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410dd98da9c2e21a2bffd11d0992fcfd334e472cf21a97572fa4469949695f97.jpg"
+  },
+  {
+    "parent_sha256": "462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916032619059.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20200820/1597916032619059.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.190979+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20200820/1597916032619059.jpg",
+        "sha256": "93f5be603b36c2d65cb80c48086714f5bf2d5678c013be1b6ff77932900dc96e",
+        "bytes": 420716,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/93f5be603b36c2d65cb80c48086714f5bf2d5678c013be1b6ff77932900dc96e.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "420716",
+          "Last-Modified": "Thu, 20 Aug 2020 01:33:52 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5f3dd300-66b6c\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20200820/1597916032619059.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/93f5be603b36c2d65cb80c48086714f5bf2d5678c013be1b6ff77932900dc96e.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/93f5be603b36c2d65cb80c48086714f5bf2d5678c013be1b6ff77932900dc96e.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/93f5be603b36c2d65cb80c48086714f5bf2d5678c013be1b6ff77932900dc96e.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978391284.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978391284.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.191095+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627959978391284.jpg",
+        "sha256": "cac2bc7824bd74b70e8b66691a7122d8f1a836f9a6a4bd228389b4ed596e1374",
+        "bytes": 133043,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/cac2bc7824bd74b70e8b66691a7122d8f1a836f9a6a4bd228389b4ed596e1374.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "133043",
+          "Last-Modified": "Mon, 02 Aug 2021 19:06:18 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"6108422a-207b3\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978391284.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/cac2bc7824bd74b70e8b66691a7122d8f1a836f9a6a4bd228389b4ed596e1374.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/cac2bc7824bd74b70e8b66691a7122d8f1a836f9a6a4bd228389b4ed596e1374.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/cac2bc7824bd74b70e8b66691a7122d8f1a836f9a6a4bd228389b4ed596e1374.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978923772.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978923772.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.191165+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627959978923772.jpg",
+        "sha256": "60cdfb00c277bdb2e82b957ebd2761fdf59e99c0c943f07e4ce990562b5d1f7e",
+        "bytes": 159269,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/60cdfb00c277bdb2e82b957ebd2761fdf59e99c0c943f07e4ce990562b5d1f7e.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "159269",
+          "Last-Modified": "Mon, 02 Aug 2021 19:06:18 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"6108422a-26e25\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978923772.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/60cdfb00c277bdb2e82b957ebd2761fdf59e99c0c943f07e4ce990562b5d1f7e.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/60cdfb00c277bdb2e82b957ebd2761fdf59e99c0c943f07e4ce990562b5d1f7e.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/60cdfb00c277bdb2e82b957ebd2761fdf59e99c0c943f07e4ce990562b5d1f7e.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978802509.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978802509.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.191238+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627959978802509.jpg",
+        "sha256": "5b457415c9d8fb22414ee498ba54116a368bab21ce3ed036dbd1f7b5293f7343",
+        "bytes": 134680,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/5b457415c9d8fb22414ee498ba54116a368bab21ce3ed036dbd1f7b5293f7343.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "134680",
+          "Last-Modified": "Mon, 02 Aug 2021 19:06:18 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"6108422a-20e18\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978802509.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/5b457415c9d8fb22414ee498ba54116a368bab21ce3ed036dbd1f7b5293f7343.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/5b457415c9d8fb22414ee498ba54116a368bab21ce3ed036dbd1f7b5293f7343.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/5b457415c9d8fb22414ee498ba54116a368bab21ce3ed036dbd1f7b5293f7343.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978464856.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959978464856.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:07.191657+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627959978464856.jpg",
+        "sha256": "8d0a818419818a30ac751b29b34506da3ebcc1e5f8af610d02a41d9de6d466f8",
+        "bytes": 142928,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/8d0a818419818a30ac751b29b34506da3ebcc1e5f8af610d02a41d9de6d466f8.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:09 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "142928",
+          "Last-Modified": "Mon, 02 Aug 2021 19:06:18 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"6108422a-22e50\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:09 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959978464856.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/8d0a818419818a30ac751b29b34506da3ebcc1e5f8af610d02a41d9de6d466f8.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/8d0a818419818a30ac751b29b34506da3ebcc1e5f8af610d02a41d9de6d466f8.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/8d0a818419818a30ac751b29b34506da3ebcc1e5f8af610d02a41d9de6d466f8.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959979821414.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627959979821414.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:10.415355+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627959979821414.jpg",
+        "sha256": "15ba87a754dffaeaf5f34c569bd4668d9d8ab3c124fd9360c8c04c79a14ce764",
+        "bytes": 222188,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/15ba87a754dffaeaf5f34c569bd4668d9d8ab3c124fd9360c8c04c79a14ce764.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:11 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "222188",
+          "Last-Modified": "Mon, 02 Aug 2021 19:06:18 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"6108422a-363ec\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:11 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627959979821414.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/15ba87a754dffaeaf5f34c569bd4668d9d8ab3c124fd9360c8c04c79a14ce764.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/15ba87a754dffaeaf5f34c569bd4668d9d8ab3c124fd9360c8c04c79a14ce764.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/15ba87a754dffaeaf5f34c569bd4668d9d8ab3c124fd9360c8c04c79a14ce764.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988852886.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988852886.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:10.607518+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952988852886.jpg",
+        "sha256": "da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a",
+        "bytes": 143817,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:12 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "143817",
+          "Last-Modified": "Mon, 02 Aug 2021 17:09:48 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"610826dc-231c9\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:12 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627952988852886.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/da837f1d46671bbb372c052a3b6ce1b6de6e4715d199e8da0f716470f3a3606a.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988339748.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952988339748.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:11.575904+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952988339748.jpg",
+        "sha256": "465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c",
+        "bytes": 186232,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:13 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "186232",
+          "Last-Modified": "Mon, 02 Aug 2021 17:09:48 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"610826dc-2d778\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:13 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627952988339748.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/465d22e1d6fa1e31623a8730a8936e6b8d52d21c89b86ca3a4c7528e1754004c.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989147203.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989147203.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:11.715278+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952989147203.jpg",
+        "sha256": "3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2",
+        "bytes": 246786,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:13 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "246786",
+          "Last-Modified": "Mon, 02 Aug 2021 17:09:48 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"610826dc-3c402\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:13 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627952989147203.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/3a17fa0fe069a7f8b116c3ae98feb1fd2a3c5118806688f2d90cd4b0961a52d2.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989109524.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989109524.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:11.849274+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952989109524.jpg",
+        "sha256": "f70fbba302333dbcc96f6b442ec3de8f64491cad1933580462ec6ad68ddd8384",
+        "bytes": 183103,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/f70fbba302333dbcc96f6b442ec3de8f64491cad1933580462ec6ad68ddd8384.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:13 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "183103",
+          "Last-Modified": "Mon, 02 Aug 2021 17:09:48 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"610826dc-2cb3f\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:13 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627952989109524.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/f70fbba302333dbcc96f6b442ec3de8f64491cad1933580462ec6ad68ddd8384.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/f70fbba302333dbcc96f6b442ec3de8f64491cad1933580462ec6ad68ddd8384.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/f70fbba302333dbcc96f6b442ec3de8f64491cad1933580462ec6ad68ddd8384.jpg"
+  },
+  {
+    "parent_sha256": "b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989623623.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20210803/1627952989623623.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:13.676196+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20210803/1627952989623623.jpg",
+        "sha256": "84d324918a41d9f04281009481d7f151b221c5c232e148954375c616095ee206",
+        "bytes": 152769,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/84d324918a41d9f04281009481d7f151b221c5c232e148954375c616095ee206.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:17 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "152769",
+          "Last-Modified": "Mon, 02 Aug 2021 17:09:48 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"610826dc-254c1\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:17 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20210803/1627952989623623.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/84d324918a41d9f04281009481d7f151b221c5c232e148954375c616095ee206.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/84d324918a41d9f04281009481d7f151b221c5c232e148954375c616095ee206.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/84d324918a41d9f04281009481d7f151b221c5c232e148954375c616095ee206.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316515433907.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316515433907.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:13.701261+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316515433907.jpg",
+        "sha256": "85bfb5a14c4669a16ff46899e80a66cd909ad19a9c4966ea1a6309ade1e1e02d",
+        "bytes": 204976,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/85bfb5a14c4669a16ff46899e80a66cd909ad19a9c4966ea1a6309ade1e1e02d.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:17 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "204976",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-320b0\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:17 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316515433907.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/85bfb5a14c4669a16ff46899e80a66cd909ad19a9c4966ea1a6309ade1e1e02d.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/85bfb5a14c4669a16ff46899e80a66cd909ad19a9c4966ea1a6309ade1e1e02d.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/85bfb5a14c4669a16ff46899e80a66cd909ad19a9c4966ea1a6309ade1e1e02d.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316515924668.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316515924668.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:14.964841+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316515924668.jpg",
+        "sha256": "c428bbaec08f5f5adddbf37f0e20be8574d6fff779939850ab6055d712cee9c5",
+        "bytes": 198842,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/c428bbaec08f5f5adddbf37f0e20be8574d6fff779939850ab6055d712cee9c5.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:16 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "198842",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-308ba\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:16 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316515924668.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/c428bbaec08f5f5adddbf37f0e20be8574d6fff779939850ab6055d712cee9c5.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/c428bbaec08f5f5adddbf37f0e20be8574d6fff779939850ab6055d712cee9c5.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/c428bbaec08f5f5adddbf37f0e20be8574d6fff779939850ab6055d712cee9c5.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316516538898.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316516538898.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:14.984013+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316516538898.jpg",
+        "sha256": "410db36ea7d4a052153d14291cd83dc3d507f0db9a90edb7e9f709698ebd906e",
+        "bytes": 111960,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410db36ea7d4a052153d14291cd83dc3d507f0db9a90edb7e9f709698ebd906e.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:16 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "111960",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-1b558\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:16 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316516538898.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410db36ea7d4a052153d14291cd83dc3d507f0db9a90edb7e9f709698ebd906e.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410db36ea7d4a052153d14291cd83dc3d507f0db9a90edb7e9f709698ebd906e.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/410db36ea7d4a052153d14291cd83dc3d507f0db9a90edb7e9f709698ebd906e.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316516880649.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316516880649.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:15.147119+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316516880649.jpg",
+        "sha256": "7605bdd5e9fbf9db37e2de358f4ef3debbe78547c64429cee03b23cee81dce01",
+        "bytes": 92656,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7605bdd5e9fbf9db37e2de358f4ef3debbe78547c64429cee03b23cee81dce01.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:16 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "92656",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-169f0\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:16 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316516880649.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7605bdd5e9fbf9db37e2de358f4ef3debbe78547c64429cee03b23cee81dce01.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7605bdd5e9fbf9db37e2de358f4ef3debbe78547c64429cee03b23cee81dce01.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/7605bdd5e9fbf9db37e2de358f4ef3debbe78547c64429cee03b23cee81dce01.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316517252121.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316517252121.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:15.240949+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316517252121.jpg",
+        "sha256": "9d17628bf9e0c6e413914a1e81b8bc06ce8bfbd2fce4b9183c5d9c323f7df967",
+        "bytes": 196443,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/9d17628bf9e0c6e413914a1e81b8bc06ce8bfbd2fce4b9183c5d9c323f7df967.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:16 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "196443",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-2ff5b\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:16 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316517252121.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/9d17628bf9e0c6e413914a1e81b8bc06ce8bfbd2fce4b9183c5d9c323f7df967.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/9d17628bf9e0c6e413914a1e81b8bc06ce8bfbd2fce4b9183c5d9c323f7df967.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/9d17628bf9e0c6e413914a1e81b8bc06ce8bfbd2fce4b9183c5d9c323f7df967.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316518679136.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316518679136.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:15.399550+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316518679136.jpg",
+        "sha256": "bb45d6b1519ecd62bbcea4191dd8f3b0392d99ee81428e4ca7ecd4474b360e51",
+        "bytes": 98707,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/bb45d6b1519ecd62bbcea4191dd8f3b0392d99ee81428e4ca7ecd4474b360e51.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:17 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "98707",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-18193\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:17 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316518679136.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/bb45d6b1519ecd62bbcea4191dd8f3b0392d99ee81428e4ca7ecd4474b360e51.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/bb45d6b1519ecd62bbcea4191dd8f3b0392d99ee81428e4ca7ecd4474b360e51.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/bb45d6b1519ecd62bbcea4191dd8f3b0392d99ee81428e4ca7ecd4474b360e51.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316518469013.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://en.tmotorhobby.com/includes/ueditor/php/../../../bdimages/upload1/20190228/1551316518469013.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:15.654079+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://tmotorhobby.com/bdimages/upload1/20190228/1551316518469013.jpg",
+        "sha256": "e7c54654f6946e9a6e2f9ada875dd0635b6117ce5d6ef4c5b2efc430e4e6dc7b",
+        "bytes": 152086,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/e7c54654f6946e9a6e2f9ada875dd0635b6117ce5d6ef4c5b2efc430e4e6dc7b.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:17 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "152086",
+          "Last-Modified": "Wed, 27 Feb 2019 16:00:00 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"5c76b400-25216\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:17 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://en.tmotorhobby.com/bdimages/upload1/20190228/1551316518469013.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/e7c54654f6946e9a6e2f9ada875dd0635b6117ce5d6ef4c5b2efc430e4e6dc7b.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/e7c54654f6946e9a6e2f9ada875dd0635b6117ce5d6ef4c5b2efc430e4e6dc7b.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/e7c54654f6946e9a6e2f9ada875dd0635b6117ce5d6ef4c5b2efc430e4e6dc7b.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:17.610625+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+        "sha256": "39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62",
+        "bytes": 109535,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62.bin",
+        "content_type": "image/jpeg",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:19 GMT",
+          "Content-Type": "image/jpeg",
+          "Content-Length": "109535",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-1abdf\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:19 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281942707.jpg",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/39ab9eb8859ec49a5a40a5ca5b95901aa18da51c0d192f74da512ac597de8a62.jpg"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+        "retrieved_at_utc": "2026-10-09T17:26:18.131108+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+        "sha256": "263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758",
+        "bytes": 26877,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:19 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "26877",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-68fd\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:19 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281221178.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/263fe264aa47ca4ded3fd93ef4b4d0122d35016d55cc09a34171683391c36758.png"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281357110.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281357110.png",
+        "retrieved_at_utc": "2026-10-09T17:26:18.256872+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224281357110.png",
+        "sha256": "19991bd62373440456bd246eb4854d69d833b9b3a33784e3f22fb5fe17c1b8c1",
+        "bytes": 25386,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/19991bd62373440456bd246eb4854d69d833b9b3a33784e3f22fb5fe17c1b8c1.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:19 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "25386",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-632a\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:19 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224281357110.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/19991bd62373440456bd246eb4854d69d833b9b3a33784e3f22fb5fe17c1b8c1.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/19991bd62373440456bd246eb4854d69d833b9b3a33784e3f22fb5fe17c1b8c1.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/19991bd62373440456bd246eb4854d69d833b9b3a33784e3f22fb5fe17c1b8c1.png"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+        "retrieved_at_utc": "2026-10-09T17:26:18.949716+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+        "sha256": "feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426",
+        "bytes": 35505,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:20 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "35505",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-8ab1\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:20 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282768966.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/feece5fb2c345dd02fe833bd546528c0518a76e18edaf4f172f3d41cf23c8426.png"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282287029.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282287029.png",
+        "retrieved_at_utc": "2026-10-09T17:26:19.186049+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224282287029.png",
+        "sha256": "b232ebd9a9d546b62a677b37df14b81e90e5c52e57d45cda6638ea5fa29b4971",
+        "bytes": 38551,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b232ebd9a9d546b62a677b37df14b81e90e5c52e57d45cda6638ea5fa29b4971.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:20 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "38551",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-9697\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:20 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282287029.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b232ebd9a9d546b62a677b37df14b81e90e5c52e57d45cda6638ea5fa29b4971.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b232ebd9a9d546b62a677b37df14b81e90e5c52e57d45cda6638ea5fa29b4971.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/b232ebd9a9d546b62a677b37df14b81e90e5c52e57d45cda6638ea5fa29b4971.png"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282728986.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282728986.png",
+        "retrieved_at_utc": "2026-10-09T17:26:19.423667+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224282728986.png",
+        "sha256": "a0f1e4bcefd97f6aed54f0a178260e644ff1170c46c3827083bd72e78f2fb3ec",
+        "bytes": 35337,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/a0f1e4bcefd97f6aed54f0a178260e644ff1170c46c3827083bd72e78f2fb3ec.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:20 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "35337",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-8a09\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:20 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282728986.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/a0f1e4bcefd97f6aed54f0a178260e644ff1170c46c3827083bd72e78f2fb3ec.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/a0f1e4bcefd97f6aed54f0a178260e644ff1170c46c3827083bd72e78f2fb3ec.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/a0f1e4bcefd97f6aed54f0a178260e644ff1170c46c3827083bd72e78f2fb3ec.png"
+  },
+  {
+    "parent_sha256": "5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244",
+    "discovered_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282912899.png",
+    "attempts": [
+      {
+        "requested_url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282912899.png",
+        "retrieved_at_utc": "2026-10-09T17:26:19.439600+00:00",
+        "label": "manufacturer-linked-image",
+        "http_status": 200,
+        "final_url": "https://store.tmotor.com/bdimages/upload1/20181011/1539224282912899.png",
+        "sha256": "73f784338544f4cbfd05a3be469bbdb2159717edc34a0a31032602d79f2beaa6",
+        "bytes": 31671,
+        "path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/73f784338544f4cbfd05a3be469bbdb2159717edc34a0a31032602d79f2beaa6.bin",
+        "content_type": "image/png",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Fri, 09 Oct 2026 17:26:20 GMT",
+          "Content-Type": "image/png",
+          "Content-Length": "31671",
+          "Last-Modified": "Thu, 25 Jul 2024 07:06:41 GMT",
+          "Connection": "keep-alive",
+          "ETag": "\"66a1f981-7bb7\"",
+          "Expires": "Sun, 08 Nov 2026 17:26:20 GMT",
+          "Cache-Control": "max-age=2592000, public, max-age=2592000, immutable",
+          "Accept-Ranges": "bytes"
+        },
+        "redirect_chain": [
+          {
+            "url": "http://store.tmotor.com/bdimages/upload1/20181011/1539224282912899.png",
+            "status": 301
+          }
+        ],
+        "text_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/73f784338544f4cbfd05a3be469bbdb2159717edc34a0a31032602d79f2beaa6.txt",
+        "links_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/73f784338544f4cbfd05a3be469bbdb2159717edc34a0a31032602d79f2beaa6.links.json"
+      }
+    ],
+    "image_path": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/sources/73f784338544f4cbfd05a3be469bbdb2159717edc34a0a31032602d79f2beaa6.png"
+  },
+  {
+    "parent_sha256": "7181c80511b957f5411e98a739a8abf591da816f55ca3e449ae6f4a3b29e1ec3",
+    "discovered_url": "/images/202606/MN3110-draw-0603-v1.jpg",
+    "attempts": [
+      {
+        "requested_url": "/images/202606/MN3110-draw-0603-v1.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:20.006859+00:00",
+        "label": "manufacturer-linked-image",
+        "error": "MissingSchema(\"Invalid URL '/images/202606/MN3110-draw-0603-v1.jpg': No scheme supplied. Perhaps you meant https:///images/202606/MN3110-draw-0603-v1.jpg?\")"
+      },
+      {
+        "requested_url": "/images/202606/MN3110-draw-0603-v1.jpg",
+        "retrieved_at_utc": "2026-10-09T17:26:20.007444+00:00",
+        "label": "same-discovered-asset-https-retry",
+        "error": "MissingSchema(\"Invalid URL '/images/202606/MN3110-draw-0603-v1.jpg': No scheme supplied. Perhaps you meant https:///images/202606/MN3110-draw-0603-v1.jpg?\")"
+      }
+    ]
+  }
+]

@@ -40,6 +40,14 @@ GROUPS = [
      "model (dense 419-station fuselage envelope result)"),
     (SD / "stork-aero-geometry/fuselage-with-hatches/envelope_loft.npz", "fuselage-dense", None,
      "model (dense envelope loft arrays)"),
+    (SD / "performance-scenarios/range-first/worst-case/lift-research", "lift-evidence/lift-research",
+     {".md", ".json", ".jpg"},
+     "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"),
+    (SD / "performance-scenarios/range-first/source-refresh/f90.json", "lift-evidence", None,
+     "retailer listing capture (HobbyRC): 5-6S recommended"),
+    (SD / "stock-validation-methods/seller-specs.txt", "lift-evidence", None, "third-party vendor claim (Flightony)"),
+    (SD / "stock-validation-methods/seller-performance.txt", "lift-evidence", None,
+     "third-party vendor claim (Flightony)"),
 ]
 # The propulsion/data folder holds manufacturer/vendor source files; extensions widened for images.
 PROP_DATA = (PRIOR / "propulsion/data", "prior-model/propulsion/data",

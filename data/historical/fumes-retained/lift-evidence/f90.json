@@ -1,0 +1,688 @@
+{
+  "id": "f90",
+  "requested_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+  "retrieved_utc": "2026-10-09T13:40:45.851185+00:00",
+  "previous_specification": {
+    "name": "T-Motor F90 1300KV",
+    "mass_g": 46.6,
+    "source": {
+      "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+      "evidence_file": "evidence/d51517ac2944.json",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-07T16:03:54.589505+00:00"
+    },
+    "source_type": "retailer family specification explicitly listing 1300KV",
+    "motor_bare_mass_g": null,
+    "mass_boundary": "with approx230mm 20AWG wires; accessories unresolved",
+    "mount": "19x19mm M3 per retailer",
+    "voltage": "Retailer recommended5-6S; Stork manual reports4S lift use",
+    "max_current_A": null,
+    "test_data": null,
+    "limitations": [
+      "No exact 1300KV manufacturer product URL or matched 4S/6S prop table retrieved",
+      "Do not assign family peak53.6A/1302W to1300KV"
+    ]
+  },
+  "scope": "page capture only; numerical/image specifications require review",
+  "http_status": 200,
+  "resolved_url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors",
+  "response_sha256": "fc676a394261a7bc5a271b613d0d7ebc7150bc2bb9a253fab5b983963447ebf9",
+  "title": "T-Motor F90 Brushless Long Range Motors | HobbyRC UK",
+  "text": "T-Motor F90 Brushless Long Range Motors | HobbyRC UK\nMENU\n\u00d7\nFixed Wing\nModel Planes\nVolantexRC Spares\nZOHD Spares\nHee Wing Spares\nRTF / ARF Quads\n5\"+ Quads\nSmall Quads\nWhoops\nFlywoo Spares\nCars / Boats / Helis\n1/76th Scale\nHelis\nRC Vehicles\nBoats\nAccessories\nOMPHobby Spares\nQuad Frames\n2 Inch Quad Frames\n3 Inch, 4 inch Quad Frames\n5 Inch Quad Frames\n6 inch, 7 inch, 10 inch Quad Frames\nArmattan Frame Spares\nImpulseRC Frame Spares\nTBS Frame Spares\nUmmagawd Frame Spares\nKD Drones\nFPV\nScreens & Goggles\nAntennae\nAnalogue Cameras\nAnalogue VTX\nAnalogue Receivers\nDigital Cameras\nDigital VTX\nDigital Receivers\nCables & Accessories\nND Filters\nTX / RX\nRadio Transmitters\nRadio TX Modules\nRadio Receivers\nRadio Accessories\nFlight Controllers\nFlight Controllers\nGPS Modules\nAccessories\nPower Distribution\nESCs\nMotors\nQuad Motors\nFixed Wing Motors\nPropellers\n1 Inch Props\n2 Inch Props\n3 Inch Props\n4 Inch Props\n5 Inch Props\n6 Inch Props\nLarger Props\nFixed Wing\nBatteries & Chargers\n1S LiPo Battery\n2S LiPo Battery\n3S LiPo Battery\n4S LiPo Battery\n5S LiPo Battery\n6S LiPo Battery\n8S Lipo Battery\nLi-ion cells\nBattery Accessories\nChargers\nFixings & Fasteners\nConnectors & Wire\nAccessories\nMerchandise\nClothing\nBackpacks\nRace Gates\nOther\nSpecial Offers\nHome\nNew Products\nLatest News\nWhy Buy From Us?\nContact us\n0345 004 9333\nMY ACCOUNT\n\u00d7\nWishlist\n(0)\nRegister\nLog in\nRegister\nLog in\nWishlist\n(0)\nShopping Cart\n(0)\nYou have no items in your shopping cart.\nSEARCH\n\u00d7\nSearch\nSearch\nHome\nNew Products\nLatest News\nWhy buy from us?\nContact us\n0345 004 9333\nCategories\nFixed Wing\nRTF / ARF Quads\nCars / Boats / Helis\nQuad Frames\nFPV\nTX / RX\nFlight Controllers\nESCs\nMotors\nQuad Motors\nFixed Wing Motors\nPropellers\nBatteries & Chargers\nFixings & Fasteners\nConnectors & Wire\nAccessories\nMerchandise\nSpecial Offers\nPAYMENT METHODS\nHome\n/\nMotors\n/\nQuad Motors\n/\nT-Motor F90 Brushless Long Range Motors\n<\n>\nT-Motor F90 Brushless Long Range Motors\nT-Motor/T-Hobby F90 2806.5 Brushless Long Range Motors for larger 7\u20138\" propeller configurations.\nManufacturer:\nT-Motor\nView Available Models\nOverview:\nThe T-Motor F90 2806.5 is a high-torque brushless motor designed specifically for long-range, cinematic and heavy-duty FPV drone builds. With a large 2806.5 stator, it delivers strong torque and efficient power output, making it particularly well suited to drones using larger propellers where smooth throttle control and sustained efficiency are essential for extended flight times.\nDeveloped for modern long-range FPV platforms, the motor is capable of driving 6\u20138inch propellers efficiently while maintaining stable performance under load. The larger stator volume improves torque compared with smaller motors, allowing the F90 to spin larger propellers with lower RPM while maintaining strong thrust and efficiency. This makes it a popular choice for long-range cruisers, cinematic rigs and heavier freestyle builds where reliable power delivery is required.\nThe F90 series is available in three KV options - allowing builders to tailor the motor to their aircraft configuration and performance aim. Lower KV variants such as 1300KV are typically used on larger 7\u20138inch propeller setups for maximum efficiency and endurance, while higher KV options such as 1950KV provide faster throttle response and stronger thrust for smaller propellers or more aggressive flying styles.\nConstructed using precision machining and high-quality materials, the F90 combines durability with smooth motor performance. Its design prioritises stable operation, efficient energy use and strong thrust output, making it well-suited to pilots building reliable long-range or cinematic FPV drones.\nFeatures:\n- Designed for long-range, cinematic and heavy-lift FPV drones\n- Large 2806.5 stator size delivers strong torque for efficient propulsion\n- Suitable for 6inch to 8inch propeller builds, depending on KV and setup\n- Optimised for smooth throttle response and efficient cruising performance\n- High-power motor design capable of driving larger propellers with stable output\n- Durable construction designed for demanding long-range and freestyle applications\nSpecification:\n- Model: T-Motor F90 2806.5 Brushless Motors\n- Stator configuration: 12N14P\n- Motor dimensions: \u00d833.4x34.7mm\n- Recommended voltage: 5\u20136S LiPo\n- Shaft diameter: 4mm\n- Mounting pattern: 19x19mm (M3)\n- Lead wire: 20AWG, approx.230mm\n- Weight: approx.46.6g (with wires)\n- Performance data (depending on KV variant):\n- Peak current (60s): up to 53.6A\n- Maximum power (60s): up to 1302W\n- Idle current (10V): approx.0.95\u20131.5A\n- Internal resistance: approx.45\u201376m\u03a9\nAvailable versions (see below for purchase options):\n- T-Motor F90 1300KV Motor\n- T-Motor F90 1500KV Motor\nIncluded:\n- 1x T-Motor F90 Brushless Motor\n- Accessories\nT-Motor F90 1500KV Brushless Motor\nAvailability:\nOut of stock\nNotify me when available\n\u00a323.40 inc VAT\nQty:\nAdd to cart\nShip to\nSelect country\nUnited Kingdom\nChannel Islands\nUnited States\nCanada\nAlbania\nAndorra\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzech Republic\nDenmark\nEstonia\nFinland\nFrance\nGeorgia\nGermany\nGibraltar\nGreece\nGreenland\nHungary\nIceland\nIreland\nItaly\nKazakhstan\nLatvia\nLithuania\nLuxembourg\nMacedonia\nMalta\nMonaco\nMontenegro\nNetherlands\nNew Zealand\nNorway\nPoland\nPortugal\nRomania\nSerbia\nSlovakia (Slovak Republic)\nSlovenia\nSpain\nSweden\nSwitzerland\nTajikistan\nTurkey\n*\nOther\n*\nShipping Method\nName\nEstimated Delivery\nPrice\nNo shipping options\nApply\nAdd to wishlist\nT-Motor F90 1300KV Brushless Motor\nAvailability:\nIn stock\n\u00a323.40 inc VAT\nQty:\nAdd to cart\nShip to\nSelect country\nUnited Kingdom\nChannel Islands\nUnited States\nCanada\nAlbania\nAndorra\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzech Republic\nDenmark\nEstonia\nFinland\nFrance\nGeorgia\nGermany\nGibraltar\nGreece\nGreenland\nHungary\nIceland\nIreland\nItaly\nKazakhstan\nLatvia\nLithuania\nLuxembourg\nMacedonia\nMalta\nMonaco\nMontenegro\nNetherlands\nNew Zealand\nNorway\nPoland\nPortugal\nRomania\nSerbia\nSlovakia (Slovak Republic)\nSlovenia\nSpain\nSweden\nSwitzerland\nTajikistan\nTurkey\n*\nOther\n*\nShipping Method\nName\nEstimated Delivery\nPrice\nNo shipping options\nApply\nAdd to wishlist\nT-Motor F90 1500KV Brushless Motor (RETURN)\n** CUSTOMER RETURN, ITEM OPENED BUT UNUSED, ACCESSORY WIRE BRAID NOT PRESENT **\nAvailability:\nOut of stock\nNotify me when available\nOld price:\n\u00a323.40 inc VAT\nPrice:\n\u00a318.00 inc VAT\nQty:\nAdd to cart\nShip to\nSelect country\nUnited Kingdom\nChannel Islands\nUnited States\nCanada\nAlbania\nAndorra\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzech Republic\nDenmark\nEstonia\nFinland\nFrance\nGeorgia\nGermany\nGibraltar\nGreece\nGreenland\nHungary\nIceland\nIreland\nItaly\nKazakhstan\nLatvia\nLithuania\nLuxembourg\nMacedonia\nMalta\nMonaco\nMontenegro\nNetherlands\nNew Zealand\nNorway\nPoland\nPortugal\nRomania\nSerbia\nSlovakia (Slovak Republic)\nSlovenia\nSpain\nSweden\nSwitzerland\nTajikistan\nTurkey\n*\nOther\n*\nShipping Method\nName\nEstimated Delivery\nPrice\nNo shipping options\nApply\nAdd to wishlist\nInformation\nAbout Us\nShipping & Returns\nSale Of Goods Contract\nPrivacy Policy\nTerms & Conditions\nCustomer service\nContact Us\nSearch\nNew Products\nMy account\nMy Account\nOrders\nAddresses\nShopping Cart\nWishlist\nFollow us\nFacebook\nTwitter\nYouTube\nCopyright \u00a9 2026 HobbyRC. All rights reserved.",
+  "links": [
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/"
+    },
+    {
+      "text": "Fixed Wing",
+      "url": "https://www.hobbyrc.co.uk/fixed-wing"
+    },
+    {
+      "text": "Model Planes",
+      "url": "https://www.hobbyrc.co.uk/fpv-models"
+    },
+    {
+      "text": "VolantexRC Spares",
+      "url": "https://www.hobbyrc.co.uk/volantexrc-spares"
+    },
+    {
+      "text": "ZOHD Spares",
+      "url": "https://www.hobbyrc.co.uk/zohd-spares"
+    },
+    {
+      "text": "Hee Wing Spares",
+      "url": "https://www.hobbyrc.co.uk/hee-wing-spares"
+    },
+    {
+      "text": "RTF / ARF Quads",
+      "url": "https://www.hobbyrc.co.uk/ready-built"
+    },
+    {
+      "text": "5\"+ Quads",
+      "url": "https://www.hobbyrc.co.uk/5-quads"
+    },
+    {
+      "text": "Small Quads",
+      "url": "https://www.hobbyrc.co.uk/small-quad"
+    },
+    {
+      "text": "Whoops",
+      "url": "https://www.hobbyrc.co.uk/whoops"
+    },
+    {
+      "text": "Flywoo Spares",
+      "url": "https://www.hobbyrc.co.uk/flywoo-spares"
+    },
+    {
+      "text": "Cars / Boats / Helis",
+      "url": "https://www.hobbyrc.co.uk/cars"
+    },
+    {
+      "text": "1/76th Scale",
+      "url": "https://www.hobbyrc.co.uk/176th-scale"
+    },
+    {
+      "text": "Helis",
+      "url": "https://www.hobbyrc.co.uk/helis"
+    },
+    {
+      "text": "RC Vehicles",
+      "url": "https://www.hobbyrc.co.uk/rc-vehnicles"
+    },
+    {
+      "text": "Boats",
+      "url": "https://www.hobbyrc.co.uk/boats"
+    },
+    {
+      "text": "Accessories",
+      "url": "https://www.hobbyrc.co.uk/accessories-6"
+    },
+    {
+      "text": "OMPHobby Spares",
+      "url": "https://www.hobbyrc.co.uk/omphobby-spares"
+    },
+    {
+      "text": "Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/frames"
+    },
+    {
+      "text": "2 Inch Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/2-inch-quad-frames"
+    },
+    {
+      "text": "3 Inch, 4 inch Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/3-inch-4-inch-quad-frames"
+    },
+    {
+      "text": "5 Inch Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/5-inch-quad-frames-2"
+    },
+    {
+      "text": "6 inch, 7 inch, 10 inch Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/6-inch-7-inch-quad-frames"
+    },
+    {
+      "text": "Armattan Frame Spares",
+      "url": "https://www.hobbyrc.co.uk/armattan-frame-spares"
+    },
+    {
+      "text": "ImpulseRC Frame Spares",
+      "url": "https://www.hobbyrc.co.uk/impulserc-frame-spares"
+    },
+    {
+      "text": "TBS Frame Spares",
+      "url": "https://www.hobbyrc.co.uk/tbs-oblivion-spares"
+    },
+    {
+      "text": "Ummagawd Frame Spares",
+      "url": "https://www.hobbyrc.co.uk/ummagawd-frame-spares"
+    },
+    {
+      "text": "KD Drones",
+      "url": "https://www.hobbyrc.co.uk/kd-drones-3"
+    },
+    {
+      "text": "FPV",
+      "url": "https://www.hobbyrc.co.uk/fpv"
+    },
+    {
+      "text": "Screens & Goggles",
+      "url": "https://www.hobbyrc.co.uk/screens-goggles"
+    },
+    {
+      "text": "Antennae",
+      "url": "https://www.hobbyrc.co.uk/antennae"
+    },
+    {
+      "text": "Analogue Cameras",
+      "url": "https://www.hobbyrc.co.uk/cameras"
+    },
+    {
+      "text": "Analogue VTX",
+      "url": "https://www.hobbyrc.co.uk/video-transmitters"
+    },
+    {
+      "text": "Analogue Receivers",
+      "url": "https://www.hobbyrc.co.uk/receivers-3"
+    },
+    {
+      "text": "Digital Cameras",
+      "url": "https://www.hobbyrc.co.uk/digital-cameras"
+    },
+    {
+      "text": "Digital VTX",
+      "url": "https://www.hobbyrc.co.uk/digital-video-transmitters"
+    },
+    {
+      "text": "Digital Receivers",
+      "url": "https://www.hobbyrc.co.uk/digital-receivers"
+    },
+    {
+      "text": "Cables & Accessories",
+      "url": "https://www.hobbyrc.co.uk/cables-accessories"
+    },
+    {
+      "text": "ND Filters",
+      "url": "https://www.hobbyrc.co.uk/nd-filters"
+    },
+    {
+      "text": "TX / RX",
+      "url": "https://www.hobbyrc.co.uk/tx-rx"
+    },
+    {
+      "text": "Radio Transmitters",
+      "url": "https://www.hobbyrc.co.uk/radio-transmitters"
+    },
+    {
+      "text": "Radio TX Modules",
+      "url": "https://www.hobbyrc.co.uk/radio-tx-modules"
+    },
+    {
+      "text": "Radio Receivers",
+      "url": "https://www.hobbyrc.co.uk/radio-receivers"
+    },
+    {
+      "text": "Radio Accessories",
+      "url": "https://www.hobbyrc.co.uk/radio-accessories"
+    },
+    {
+      "text": "Flight Controllers",
+      "url": "https://www.hobbyrc.co.uk/flight-controllers"
+    },
+    {
+      "text": "Flight Controllers",
+      "url": "https://www.hobbyrc.co.uk/flight-controllers-2"
+    },
+    {
+      "text": "GPS Modules",
+      "url": "https://www.hobbyrc.co.uk/gps-modules"
+    },
+    {
+      "text": "Accessories",
+      "url": "https://www.hobbyrc.co.uk/flight-controller-accessories"
+    },
+    {
+      "text": "Power Distribution",
+      "url": "https://www.hobbyrc.co.uk/power-distribution"
+    },
+    {
+      "text": "ESCs",
+      "url": "https://www.hobbyrc.co.uk/escs"
+    },
+    {
+      "text": "Motors",
+      "url": "https://www.hobbyrc.co.uk/motors"
+    },
+    {
+      "text": "Quad Motors",
+      "url": "https://www.hobbyrc.co.uk/quad-motors"
+    },
+    {
+      "text": "Fixed Wing Motors",
+      "url": "https://www.hobbyrc.co.uk/fixed-wing-motors"
+    },
+    {
+      "text": "Propellers",
+      "url": "https://www.hobbyrc.co.uk/propellors"
+    },
+    {
+      "text": "1 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/1-inch-props"
+    },
+    {
+      "text": "2 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/2-inch-props"
+    },
+    {
+      "text": "3 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/3-inch-props"
+    },
+    {
+      "text": "4 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/4-inch-props"
+    },
+    {
+      "text": "5 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/5-inch-props"
+    },
+    {
+      "text": "6 Inch Props",
+      "url": "https://www.hobbyrc.co.uk/6-inch-props"
+    },
+    {
+      "text": "Larger Props",
+      "url": "https://www.hobbyrc.co.uk/larger-props"
+    },
+    {
+      "text": "Fixed Wing",
+      "url": "https://www.hobbyrc.co.uk/fixed-wing-props"
+    },
+    {
+      "text": "Batteries & Chargers",
+      "url": "https://www.hobbyrc.co.uk/batteries"
+    },
+    {
+      "text": "1S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/1s-lipo"
+    },
+    {
+      "text": "2S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/2s-lipo"
+    },
+    {
+      "text": "3S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/3s-lipo"
+    },
+    {
+      "text": "4S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/4s-lipo"
+    },
+    {
+      "text": "5S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/5s-lipo"
+    },
+    {
+      "text": "6S LiPo Battery",
+      "url": "https://www.hobbyrc.co.uk/6s-lipo-battery"
+    },
+    {
+      "text": "8S Lipo Battery",
+      "url": "https://www.hobbyrc.co.uk/8s-lipo-battery"
+    },
+    {
+      "text": "Li-ion cells",
+      "url": "https://www.hobbyrc.co.uk/18650-li-ion-cells"
+    },
+    {
+      "text": "Battery Accessories",
+      "url": "https://www.hobbyrc.co.uk/battery-accessories"
+    },
+    {
+      "text": "Chargers",
+      "url": "https://www.hobbyrc.co.uk/chargers"
+    },
+    {
+      "text": "Fixings & Fasteners",
+      "url": "https://www.hobbyrc.co.uk/fixings-fasteners"
+    },
+    {
+      "text": "Connectors & Wire",
+      "url": "https://www.hobbyrc.co.uk/connectors-wire"
+    },
+    {
+      "text": "Accessories",
+      "url": "https://www.hobbyrc.co.uk/accessories-2"
+    },
+    {
+      "text": "Merchandise",
+      "url": "https://www.hobbyrc.co.uk/merchandise"
+    },
+    {
+      "text": "Clothing",
+      "url": "https://www.hobbyrc.co.uk/clothing"
+    },
+    {
+      "text": "Backpacks",
+      "url": "https://www.hobbyrc.co.uk/backpacks"
+    },
+    {
+      "text": "Race Gates",
+      "url": "https://www.hobbyrc.co.uk/race-gates"
+    },
+    {
+      "text": "Other",
+      "url": "https://www.hobbyrc.co.uk/other"
+    },
+    {
+      "text": "Special Offers",
+      "url": "https://www.hobbyrc.co.uk/clearance"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.hobbyrc.co.uk/"
+    },
+    {
+      "text": "New Products",
+      "url": "https://www.hobbyrc.co.uk/newproducts"
+    },
+    {
+      "text": "Latest News",
+      "url": "https://blog.hobbyrc.co.uk"
+    },
+    {
+      "text": "Why Buy From Us?",
+      "url": "https://www.hobbyrc.co.uk/About-Us"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://www.hobbyrc.co.uk/contactus"
+    },
+    {
+      "text": "0345 004 9333",
+      "url": "https://www.hobbyrc.co.uk/contactus"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/cart"
+    },
+    {
+      "text": "Wishlist (0)",
+      "url": "https://www.hobbyrc.co.uk/wishlist"
+    },
+    {
+      "text": "Register",
+      "url": "https://www.hobbyrc.co.uk/register?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+    },
+    {
+      "text": "Log in",
+      "url": "https://www.hobbyrc.co.uk/login?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+    },
+    {
+      "text": "Register",
+      "url": "https://www.hobbyrc.co.uk/register?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+    },
+    {
+      "text": "Log in",
+      "url": "https://www.hobbyrc.co.uk/login?returnUrl=%2Ft-motor-f90-brushless-long-range-motors"
+    },
+    {
+      "text": "Wishlist (0)",
+      "url": "https://www.hobbyrc.co.uk/wishlist"
+    },
+    {
+      "text": "Shopping Cart (0)",
+      "url": "https://www.hobbyrc.co.uk/cart"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.hobbyrc.co.uk/"
+    },
+    {
+      "text": "New Products",
+      "url": "https://www.hobbyrc.co.uk/newproducts"
+    },
+    {
+      "text": "Latest News",
+      "url": "https://blog.hobbyrc.co.uk"
+    },
+    {
+      "text": "Why buy from us?",
+      "url": "https://www.hobbyrc.co.uk/About-Us"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://www.hobbyrc.co.uk/contactus"
+    },
+    {
+      "text": "0345 004 9333",
+      "url": "https://www.hobbyrc.co.uk/contactus"
+    },
+    {
+      "text": "Fixed Wing",
+      "url": "https://www.hobbyrc.co.uk/fixed-wing"
+    },
+    {
+      "text": "RTF / ARF Quads",
+      "url": "https://www.hobbyrc.co.uk/ready-built"
+    },
+    {
+      "text": "Cars / Boats / Helis",
+      "url": "https://www.hobbyrc.co.uk/cars"
+    },
+    {
+      "text": "Quad Frames",
+      "url": "https://www.hobbyrc.co.uk/frames"
+    },
+    {
+      "text": "FPV",
+      "url": "https://www.hobbyrc.co.uk/fpv"
+    },
+    {
+      "text": "TX / RX",
+      "url": "https://www.hobbyrc.co.uk/tx-rx"
+    },
+    {
+      "text": "Flight Controllers",
+      "url": "https://www.hobbyrc.co.uk/flight-controllers"
+    },
+    {
+      "text": "ESCs",
+      "url": "https://www.hobbyrc.co.uk/escs"
+    },
+    {
+      "text": "Motors",
+      "url": "https://www.hobbyrc.co.uk/motors"
+    },
+    {
+      "text": "Quad Motors",
+      "url": "https://www.hobbyrc.co.uk/quad-motors"
+    },
+    {
+      "text": "Fixed Wing Motors",
+      "url": "https://www.hobbyrc.co.uk/fixed-wing-motors"
+    },
+    {
+      "text": "Propellers",
+      "url": "https://www.hobbyrc.co.uk/propellors"
+    },
+    {
+      "text": "Batteries & Chargers",
+      "url": "https://www.hobbyrc.co.uk/batteries"
+    },
+    {
+      "text": "Fixings & Fasteners",
+      "url": "https://www.hobbyrc.co.uk/fixings-fasteners"
+    },
+    {
+      "text": "Connectors & Wire",
+      "url": "https://www.hobbyrc.co.uk/connectors-wire"
+    },
+    {
+      "text": "Accessories",
+      "url": "https://www.hobbyrc.co.uk/accessories-2"
+    },
+    {
+      "text": "Merchandise",
+      "url": "https://www.hobbyrc.co.uk/merchandise"
+    },
+    {
+      "text": "Special Offers",
+      "url": "https://www.hobbyrc.co.uk/clearance"
+    },
+    {
+      "text": "Home",
+      "url": "https://www.hobbyrc.co.uk/"
+    },
+    {
+      "text": "Motors",
+      "url": "https://www.hobbyrc.co.uk/motors"
+    },
+    {
+      "text": "Quad Motors",
+      "url": "https://www.hobbyrc.co.uk/quad-motors"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors.jpeg"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors.jpeg"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023798_t-motor-f90-brushless-long-range-motors.jpeg"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023799_t-motor-f90-brushless-long-range-motors.jpeg"
+    },
+    {
+      "text": "T-Motor",
+      "url": "https://www.hobbyrc.co.uk/t-motor"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-4069"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-4070"
+    },
+    {
+      "text": "",
+      "url": "https://www.hobbyrc.co.uk/t-motor-f90-brushless-long-range-motors#estimate-shipping-popup-9355"
+    },
+    {
+      "text": "About Us",
+      "url": "https://www.hobbyrc.co.uk/about-us"
+    },
+    {
+      "text": "Shipping & Returns",
+      "url": "https://www.hobbyrc.co.uk/shipping-returns"
+    },
+    {
+      "text": "Sale Of Goods Contract",
+      "url": "https://www.hobbyrc.co.uk/sale-of-goods-contract"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.hobbyrc.co.uk/privacy-policy"
+    },
+    {
+      "text": "Terms & Conditions",
+      "url": "https://www.hobbyrc.co.uk/conditions-of-use"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.hobbyrc.co.uk/contactus"
+    },
+    {
+      "text": "Search",
+      "url": "https://www.hobbyrc.co.uk/search"
+    },
+    {
+      "text": "New Products",
+      "url": "https://www.hobbyrc.co.uk/newproducts"
+    },
+    {
+      "text": "My Account",
+      "url": "https://www.hobbyrc.co.uk/customer/info"
+    },
+    {
+      "text": "Orders",
+      "url": "https://www.hobbyrc.co.uk/order/history"
+    },
+    {
+      "text": "Addresses",
+      "url": "https://www.hobbyrc.co.uk/customer/addresses"
+    },
+    {
+      "text": "Shopping Cart",
+      "url": "https://www.hobbyrc.co.uk/cart"
+    },
+    {
+      "text": "Wishlist",
+      "url": "https://www.hobbyrc.co.uk/wishlist"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/HobbyRC.co.uk/"
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/hobbyrccouk"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://www.youtube.com/user/hobbyrccouk"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/logo.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/menu-icon-lines-grey.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/search.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/logo.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/account.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/shopping-cart.png",
+      "alt": "HobbyRC"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/same_day_dispatch.png",
+      "alt": ""
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/Themes/HobbyRC/Content/images/payment-methods.png",
+      "alt": ""
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors_550.jpeg",
+      "alt": "Picture of T-Motor F90 Brushless Long Range Motors"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023797_t-motor-f90-brushless-long-range-motors_100.jpeg",
+      "alt": "Picture of T-Motor F90 Brushless Long Range Motors"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023798_t-motor-f90-brushless-long-range-motors_100.jpeg",
+      "alt": "Picture of T-Motor F90 Brushless Long Range Motors"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023799_t-motor-f90-brushless-long-range-motors_100.jpeg",
+      "alt": "Picture of T-Motor F90 Brushless Long Range Motors"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023800_t-motor-f90-1500kv-brushless-motor_220.jpeg",
+      "alt": "Picture of T-Motor F90 1500KV Brushless Motor"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0008435_t-motor-f90-1300kv-motor_220.jpeg",
+      "alt": "Picture of T-Motor F90 1300KV Brushless Motor"
+    },
+    {
+      "url": "https://www.hobbyrc.co.uk/images/thumbs/0023929_t-motor-f90-1500kv-brushless-motor-return_220.jpeg",
+      "alt": "Picture of T-Motor F90 1500KV Brushless Motor (RETURN)"
+    }
+  ]
+}

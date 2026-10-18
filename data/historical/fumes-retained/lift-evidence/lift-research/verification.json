@@ -1,0 +1,9 @@
+{
+  "verified_at_utc": "2026-10-09T17:29:48.481956+00:00",
+  "response_records_verified": 54,
+  "candidate_count": 4,
+  "alternatives": 3,
+  "all_original_response_sha256_and_lengths_match": true,
+  "evidence_references_exist": true,
+  "note": "Hashes refer to requests response.content decoded transfer/content encoding, not raw compressed wire bytes. Image previews/contact sheets are derived and not authoritative source hashes."
+}

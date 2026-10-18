@@ -1,0 +1,117 @@
+Stork VTOL Specifications — Full Technical Data | Flightony
+Skip to main content
+Full Specifications
+Every component, every measurement, every detail.
+Airframe
+Configuration
+High-wing pusher, V-tail, 4+1 QuadPlane
+Wingspan
+1,620 mm
+Length
+1,000 mm
+Wing Area
+31 dm²
+Airfoil
+Selig S3021
+Aspect Ratio
+8.3
+Material
+LW-PLA + Carbon Fiber Reinforcement
+AUW Range
+1,800–3,100 g
+Performance
+Cruise Speed
+54–60 km/h optimal
+Range (4S4P, best)
+130 km
+Range (4S4P, conservative)
+104 km
+Range (4S3P)
+70–85 km
+Efficiency (VTOL)
+2.0–2.5 Wh/km
+Cruise Power
+80–110 W
+VTOL Hover Power
+~300 W
+Battery System
+Cell
+Samsung INR21700-50E
+Configuration
+4S4P (16 cells)
+Nominal Voltage
+14.4 V
+Max Voltage
+16.8 V
+Capacity
+20,000 mAh
+Energy
+288 Wh
+Usable Energy (10% reserve)
+259 Wh
+Max Continuous Current
+39.2 A
+Pack Weight
+~1,200 g
+Avionics
+Flight Controller
+SpeedyBee F405 Wing
+GPS
+Matek M10Q
+Autopilot
+ArduPilot (ArduPlane, QuadPlane mode)
+Receiver
+Matek R24-D ELRS
+Servos
+EMAX ES08 MAII Metal Gear (×4)
+Camera System
+Camera System
+DJI O3 Air Unit
+Sensor
+1/1.7" CMOS
+Resolution
+4K at 60fps
+FOV
+155° ultra-wide
+Transmission Range
+10 km
+Stabilization
+RockSteady EIS
+Motors & Propulsion
+VTOL Lift Motors
+T-Motor F90 1300KV (×4)
+Pusher Motor
+BrotherHobby Avenger 2812 V5 910KV
+VTOL ESC
+Velox V50A 4-in-1
+Pusher ESC
+Lumenier 51A BLHeli32
+VTOL Props
+7" (2× CW, 2× CCW)
+Pusher Prop
+APC 10×6E
+Telemetry & Control
+Companion Computer
+Raspberry Pi Zero 2W
+LTE Modem
+Huawei E3372
+Protocol
+MAVLink over 4G LTE
+Ground Control
+QGroundControl / Mission Planner
+RC Transmitter
+RadioMaster TX16S MK II
+RC Link
+ELRS (ExpressLRS)
+Payload
+Capacity (4S4P)
+200 g
+Capacity (4S3P)
+500 g
+Compartment Size
+205 × 65 × 80 mm
+CAD Format
+STEP files (modifiable)
+See It All in Action
+Three configurations — Explorer, Operator, and Enterprise — built to these exact specs.
+View Pricing

@@ -1,5 +1,5 @@
 {
- "imported_utc": "2026-10-18T18:10:00+00:00",
+ "imported_utc": "2026-10-18T18:13:16+00:00",
  "authority": "Lucas, 2026-10-18: import retained evidence; Fumes workspace read-only",
  "publication": "LOCAL ONLY. Contains vendor-derived data/images; review before any upload.",
  "files": [
@@ -1970,6 +1970,150 @@
    "bytes_original": 1492571,
    "gzipped": false,
    "provenance": "model (dense envelope loft arrays)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/462d2eef-contact.jpg",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/462d2eef-contact.jpg",
+   "sha256_original": "c95951bf729400f0c3fa7058be25ccb82cd8fe14b43408523d933d177cb9fda3",
+   "bytes_original": 92423,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8.product-images.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/462d2eef88a9a60fb181a54be4a7c6de514be60c8192809027c8ddcf157003f8.product-images.json",
+   "sha256_original": "ae2940e772b46e7955bf34fc52c79f31a6aba2aab8f13e39eb07d8438eb9c053",
+   "bytes_original": 480,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/5164b8fd-contact.jpg",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/5164b8fd-contact.jpg",
+   "sha256_original": "a5793bc763049b3a2a80a24572157e9a1f3b8593a08d0b694b10f42e3cf4d39f",
+   "bytes_original": 278552,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244.product-images.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/5164b8fd025af2cdd604978ca7119bca4b1356fa56083420cac58abb977de244.product-images.json",
+   "sha256_original": "478c44a436e49a968d2500c44b966b74456888b93b390ebaac82ad49c29e07ed",
+   "bytes_original": 649,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/README.md",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/README.md",
+   "sha256_original": "1630244c17a174ed69bd94636304f2715b822e6fdf7c337164041538289929b8",
+   "bytes_original": 351,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/assets.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/assets.json",
+   "sha256_original": "d473688953bf0ea58e13bfbc9540e18850fdd75d3818d4d3c424d2684df66d65",
+   "bytes_original": 66154,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/b31518b8-contact.jpg",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/b31518b8-contact.jpg",
+   "sha256_original": "3a2629b5987eb51f6a26076c11f61c877b21a1e26fa16c8633fa3d40f98c4343",
+   "bytes_original": 202262,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9.product-images.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/b31518b850af9955c34b7a1717eb35ed4ece5297577c34569098e12a64a6e1a9.product-images.json",
+   "sha256_original": "588dbd353bd4aefee18b50331e59b8ac3eb29e7a154486a2555854b1c1abb9a4",
+   "bytes_original": 676,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/candidates.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/candidates.json",
+   "sha256_original": "601c290184ef202b296b0b87144bc70b8353bda26b3e4618b3d69647c1adc832",
+   "bytes_original": 29493,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/f2dbf7db66b98c0ab26b4f0bbc2f12629c851c991e02dbbdeecd9f6e9d4f1b2a.product-images.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/f2dbf7db66b98c0ab26b4f0bbc2f12629c851c991e02dbbdeecd9f6e9d4f1b2a.product-images.json",
+   "sha256_original": "e2467b5247d9c3d99439298c957208512861636dd7a7bfae2b704c4c7315ef53",
+   "bytes_original": 217,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/f90-spec-assets.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/f90-spec-assets.json",
+   "sha256_original": "92249a2064027042928574999c17e7e52805970ab756c703bed4989b32779760",
+   "bytes_original": 11212,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/f90-spec-contact.jpg",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/f90-spec-contact.jpg",
+   "sha256_original": "e35c2460240c0cf4d756eb0482ceb72c1992ec460083c93b67a28e98cccbffa8",
+   "bytes_original": 202364,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/findings.md",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/findings.md",
+   "sha256_original": "7e1edcf2ea9fdb37ca94557b3314e8c83b0c92037b7585a45f957fac00046a57",
+   "bytes_original": 4916,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/mn3110-drawing.jpg",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/mn3110-drawing.jpg",
+   "sha256_original": "c882dd91a5aabd72f1f1bbf3b5925dadfd0700c9e29ad977e5286be74be19154",
+   "bytes_original": 78601,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/worst-case/lift-research/verification.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/lift-research/verification.json",
+   "sha256_original": "3abb5b5c83598f1c1cfaeb8be4bf081297256cf0e67fb5ebc54bea814e3be0af",
+   "bytes_original": 434,
+   "gzipped": false,
+   "provenance": "manufacturer F90 spec/bench images (6S only) + prior notes; no 4S/7-inch matched test"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/range-first/source-refresh/f90.json",
+   "dest": "data/historical/fumes-retained/lift-evidence/f90.json",
+   "sha256_original": "b199f61f201f35d13581bfa13de702740ae0db4f91a83d98320b9166a5cebdf0",
+   "bytes_original": 26134,
+   "gzipped": false,
+   "provenance": "retailer listing capture (HobbyRC): 5-6S recommended"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/seller-specs.txt",
+   "dest": "data/historical/fumes-retained/lift-evidence/seller-specs.txt",
+   "sha256_original": "28a4798170b58a7aaf932396b51d19ff17e51412e480953d491d6fa2a554187d",
+   "bytes_original": 1855,
+   "gzipped": false,
+   "provenance": "third-party vendor claim (Flightony)"
+  },
+  {
+   "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/stock-validation-methods/seller-performance.txt",
+   "dest": "data/historical/fumes-retained/lift-evidence/seller-performance.txt",
+   "sha256_original": "e66aeb75386b64927de523ea6703109accd38d3ea0ba1e01f79dccc909dc0972",
+   "bytes_original": 1076,
+   "gzipped": false,
+   "provenance": "third-party vendor claim (Flightony)"
   },
   {
    "source": "/Users/lucasliu/.hermes/profiles/fumes/notes/stork-development/performance-scenarios/original-manual-range/aircraft-specific-analysis/propulsion/data/PER3_10x6E.DOM.dat",
